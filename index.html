@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa em Porches | Algarve - Férias de Sonho</title>
+    <meta name="description" content="Moradia com piscina privada no coração de Porches, Algarve. 3 quartos, junto às melhores praias e restaurantes. Reserve já!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Casa Porches</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about">A Casa</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#beaches">Praias</a></li>
+                <li><a href="#restaurants">Restaurantes</a></li>
+                <li><a href="#activities">Atividades</a></li>
+                <li><a href="#booking" class="nav-cta">Reservar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('images/house_0.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('images/house_3.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('images/living_1.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('images/suggestions_0.jpg')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-location">Porches &middot; Lagoa &middot; Algarve</p>
+            <h1>O Seu Refúgio no <span class="highlight">Algarve</span></h1>
+            <p class="hero-subtitle">Moradia com piscina privada no coração histórico de Porches, a minutos das praias mais bonitas de Portugal</p>
+            <div class="hero-badges">
+                <span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 4.81/5</span>
+                <span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Até 6 hóspedes</span>
+                <span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg> 3 quartos</span>
+            </div>
+            <a href="#booking" class="btn btn-primary btn-lg">Reservar Agora</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Explorar</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Highlights Bar -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlights-grid">
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 15a4 4 0 0 0 4 4h9a5 5 0 1 0-.1-9.999 5.002 5.002 0 1 0-9.78 2.096A4.003 4.003 0 0 0 3 15z"/></svg>
+                    </div>
+                    <h3>Piscina Privada</h3>
+                    <p>Piscina exclusiva com espreguiçadeiras</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    </div>
+                    <h3>Ar Condicionado</h3>
+                    <p>Em todas as divisões</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                    <h3>Praias a 4 min</h3>
+                    <p>Marinha, Benagil, N.ª Sr.ª da Rocha</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <h3>Wi-Fi Grátis</h3>
+                    <p>Internet de alta velocidade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Bem-vindo</span>
+                <h2>A Sua Casa no Algarve</h2>
+                <p class="section-desc">Moradia térrea situada no centro histórico da vila de Porches, em frente à Igreja Matriz. Um refúgio de tranquilidade com todo o conforto moderno.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/hero_0.jpg" alt="Vista da casa em Porches" loading="lazy">
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Interior</h4>
+                        <ul>
+                            <li>3 quartos de casal (todos com acesso ao exterior)</li>
+                            <li>Suite com cama 160x200, TV e AC</li>
+                            <li>2 casas de banho completas</li>
+                            <li>Ar condicionado em todas as divisões</li>
+                            <li>Cozinha totalmente equipada</li>
+                            <li>Máquina de loiça e Nespresso</li>
+                            <li>Mesa de jantar para 8/10 pessoas</li>
+                            <li>Wi-Fi gratuito</li>
+                        </ul>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Exterior</h4>
+                        <ul>
+                            <li>Piscina privada</li>
+                            <li>6 espreguiçadeiras</li>
+                            <li>Mesa exterior para 10 pessoas</li>
+                            <li>Grelhador / Barbecue</li>
+                            <li>Chapéu de sol com iluminação LED</li>
+                            <li>Jardim com acesso direto dos quartos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Galeria</span>
+                <h2>Descubra Cada Detalhe</h2>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Tudo</button>
+                <button class="filter-btn" data-filter="exterior">Exterior & Piscina</button>
+                <button class="filter-btn" data-filter="quartos">Quartos</button>
+                <button class="filter-btn" data-filter="social">Zona Social</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large" data-category="exterior">
+                    <img src="images/house_0.jpg" alt="Exterior da casa com piscina" loading="lazy">
+                    <div class="gallery-caption">Piscina & Jardim</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="images/house_1.jpg" alt="Vista da piscina" loading="lazy">
+                    <div class="gallery-caption">Zona de Lazer</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="images/house_2.jpg" alt="Exterior" loading="lazy">
+                    <div class="gallery-caption">Exterior</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="images/house_3.jpg" alt="Piscina" loading="lazy">
+                    <div class="gallery-caption">Piscina</div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="images/house_4.jpg" alt="Jardim" loading="lazy">
+                    <div class="gallery-caption">Jardim</div>
+                </div>
+                <div class="gallery-item large" data-category="quartos">
+                    <img src="images/suite_3.jpg" alt="Suite principal" loading="lazy">
+                    <div class="gallery-caption">Suite Principal</div>
+                </div>
+                <div class="gallery-item" data-category="quartos">
+                    <img src="images/suite_2.jpg" alt="Suite" loading="lazy">
+                    <div class="gallery-caption">Suite - Detalhe</div>
+                </div>
+                <div class="gallery-item" data-category="quartos">
+                    <img src="images/bedroom2_1.jpg" alt="Quarto 2" loading="lazy">
+                    <div class="gallery-caption">Quarto 2</div>
+                </div>
+                <div class="gallery-item" data-category="quartos">
+                    <img src="images/bedroom2_0.jpg" alt="Quarto 2 - detalhe" loading="lazy">
+                    <div class="gallery-caption">Quarto 2 - Detalhe</div>
+                </div>
+                <div class="gallery-item" data-category="quartos">
+                    <img src="images/bedroom3_1.jpg" alt="Quarto 3" loading="lazy">
+                    <div class="gallery-caption">Quarto 3</div>
+                </div>
+                <div class="gallery-item large" data-category="social">
+                    <img src="images/living_1.jpg" alt="Sala de estar" loading="lazy">
+                    <div class="gallery-caption">Sala de Estar</div>
+                </div>
+                <div class="gallery-item" data-category="social">
+                    <img src="images/living_0.jpg" alt="Zona de refeições" loading="lazy">
+                    <div class="gallery-caption">Zona de Refeições</div>
+                </div>
+                <div class="gallery-item" data-category="social">
+                    <img src="images/living_2.jpg" alt="Sala" loading="lazy">
+                    <div class="gallery-caption">Sala</div>
+                </div>
+                <div class="gallery-item" data-category="social">
+                    <img src="images/kitchen_0.jpg" alt="Cozinha" loading="lazy">
+                    <div class="gallery-caption">Cozinha Equipada</div>
+                </div>
+                <div class="gallery-item" data-category="social">
+                    <img src="images/kitchen_1.jpg" alt="Cozinha - detalhe" loading="lazy">
+                    <div class="gallery-caption">Cozinha - Detalhe</div>
+                </div>
+                <div class="gallery-item" data-category="quartos">
+                    <img src="images/bathroom_1.jpg" alt="Casa de banho" loading="lazy">
+                    <div class="gallery-caption">Casa de Banho</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beaches Section -->
+    <section class="beaches" id="beaches">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Paraíso à Porta</span>
+                <h2>Praias Deslumbrantes</h2>
+                <p class="section-desc">Algumas das praias mais bonitas do mundo estão a poucos minutos da casa. Falésias douradas, grutas secretas e águas cristalinas.</p>
+            </div>
+            <div class="beaches-grid">
+                <div class="beach-card featured">
+                    <div class="beach-image">
+                        <img src="images/beaches_0.jpg" alt="Praia da Marinha" loading="lazy">
+                        <span class="beach-distance">6 km</span>
+                    </div>
+                    <div class="beach-info">
+                        <h3>Praia da Marinha</h3>
+                        <p>Considerada pela CNN uma das melhores praias do mundo. Falésias espetaculares, águas cristalinas e formações rochosas únicas. Perfeita para snorkeling.</p>
+                        <div class="beach-tags">
+                            <span>Top Mundial</span>
+                            <span>Snorkeling</span>
+                            <span>Falésias</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beach-card">
+                    <div class="beach-image">
+                        <img src="images/beaches_1.jpg" alt="Praia da Senhora da Rocha" loading="lazy">
+                        <span class="beach-distance">4 km</span>
+                    </div>
+                    <div class="beach-info">
+                        <h3>Praia N.ª Sr.ª da Rocha</h3>
+                        <p>Capela pitoresca no topo da falésia com vistas panorâmicas. Praia abrigada e tranquila, ideal para famílias.</p>
+                        <div class="beach-tags">
+                            <span>Família</span>
+                            <span>Tranquila</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beach-card">
+                    <div class="beach-image">
+                        <img src="images/beaches_2.jpg" alt="Benagil" loading="lazy">
+                        <span class="beach-distance">7 km</span>
+                    </div>
+                    <div class="beach-info">
+                        <h3>Praia de Benagil</h3>
+                        <p>Famosa pela gruta do Algar de Benagil — uma catedral natural esculpida pelo mar. Passeios de barco disponíveis.</p>
+                        <div class="beach-tags">
+                            <span>Gruta Icónica</span>
+                            <span>Barco</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beach-card">
+                    <div class="beach-image">
+                        <img src="images/beaches_3.jpg" alt="Armação de Pêra" loading="lazy">
+                        <span class="beach-distance">5 km</span>
+                    </div>
+                    <div class="beach-info">
+                        <h3>Armação de Pêra</h3>
+                        <p>Praia extensa com passeio marítimo animado, restaurantes e cafés. Perfeita para longas caminhadas à beira-mar.</p>
+                        <div class="beach-tags">
+                            <span>Passeio Marítimo</span>
+                            <span>Restaurantes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="beach-card">
+                    <div class="beach-image">
+                        <img src="images/beaches_4.jpg" alt="Vale de Centeanes" loading="lazy">
+                        <span class="beach-distance">9 km</span>
+                    </div>
+                    <div class="beach-info">
+                        <h3>Praia do Vale de Centeanes</h3>
+                        <p>Pequena praia entre falésias, longe das multidões. Um segredo bem guardado do Algarve para quem procura sossego.</p>
+                        <div class="beach-tags">
+                            <span>Sossego</span>
+                            <span>Secreta</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tranquility Section -->
+    <section class="tranquility">
+        <div class="tranquility-bg" style="background-image: url('images/suggestions_0.jpg')"></div>
+        <div class="tranquility-overlay"></div>
+        <div class="tranquility-content">
+            <h2>Paz & Sossego</h2>
+            <p>Porches é uma vila tradicional algarvia onde o tempo parece parar. Longe do turismo de massas, aqui encontra a autenticidade do Algarve — ruas tranquilas, azulejos pintados à mão e o som das cigarras ao entardecer.</p>
+            <div class="tranquility-features">
+                <div class="t-feature">
+                    <span class="t-number">5 min</span>
+                    <span class="t-label">a pé até à Igreja Matriz</span>
+                </div>
+                <div class="t-feature">
+                    <span class="t-number">0</span>
+                    <span class="t-label">barulho de trânsito</span>
+                </div>
+                <div class="t-feature">
+                    <span class="t-number">100%</span>
+                    <span class="t-label">privacidade na piscina</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants" id="restaurants">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Gastronomia</span>
+                <h2>Sabores do Algarve</h2>
+                <p class="section-desc">De tascas tradicionais a restaurantes com estrela Michelin — a zona de Porches é um paraíso gastronómico.</p>
+            </div>
+            <div class="restaurants-grid">
+                <div class="restaurant-card premium">
+                    <div class="restaurant-badge">2 Estrelas Michelin</div>
+                    <h3>Ocean Restaurant</h3>
+                    <p class="restaurant-location">Vila Vita Parc, Porches</p>
+                    <p>Chef Hans Neuner. Cozinha de autor com ingredientes locais e marisco fresco da costa algarvia. Uma experiência gastronómica única.</p>
+                    <span class="restaurant-distance">A poucos minutos</span>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-badge local">Tasca Tradicional</div>
+                    <h3>Tasca 26</h3>
+                    <p class="restaurant-location">Porches</p>
+                    <p>Especialistas em carnes grelhadas. Ambiente autêntico e acolhedor, com os melhores sabores da cozinha algarvia tradicional.</p>
+                    <span class="restaurant-distance">Em Porches</span>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-badge local">Cozinha Algarvia</div>
+                    <h3>O Charneco</h3>
+                    <p class="restaurant-location">Estômbar</p>
+                    <p>Sem menu, preço fixo com vinho incluído. Culinária tradicional algarvia autêntica. Reserva obrigatória — vale cada momento.</p>
+                    <span class="restaurant-distance">10 min de carro</span>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-badge local">Peixe Fresco</div>
+                    <h3>O Ciclo</h3>
+                    <p class="restaurant-location">Lagoa</p>
+                    <p>Raia de caldo, açorda de lingueirão, xerém de berbigão. Peixe fresco e pratos tradicionais no centro de Lagoa.</p>
+                    <span class="restaurant-distance">8 min de carro</span>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-badge local">Junto ao Mar</div>
+                    <h3>Rei das Praias</h3>
+                    <p class="restaurant-location">Ferragudo</p>
+                    <p>Desde 1976 na Praia dos Caneiros. Peixe e marisco frescos com vista privilegiada para o mar. Uma referência algarvia.</p>
+                    <span class="restaurant-distance">15 min de carro</span>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-badge local">Vista Mar</div>
+                    <h3>Vista</h3>
+                    <p class="restaurant-location">Portimão</p>
+                    <p>Chef João Oliveira numa das mais belas praias do Algarve. Mais de 600 vinhos. Requinte tradicional e moderno.</p>
+                    <span class="restaurant-distance">20 min de carro</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities" id="activities">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Para Toda a Família</span>
+                <h2>O Que Fazer</h2>
+            </div>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/golf_0.jpg" alt="Golfe" loading="lazy">
+                    </div>
+                    <div class="activity-info">
+                        <h3>Golfe</h3>
+                        <p>Vale da Pinta (8 km) e Amendoeira Golf Resort (6 km) — dois campos de classe mundial à porta de casa.</p>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/waterparks_0.jpg" alt="Parques Aquáticos" loading="lazy">
+                    </div>
+                    <div class="activity-info">
+                        <h3>Aqualand</h3>
+                        <p>A apenas 3 km! Diversão garantida para miúdos e graúdos com escorregas e piscinas de ondas.</p>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/waterparks_2.jpg" alt="Slide & Splash" loading="lazy">
+                    </div>
+                    <div class="activity-info">
+                        <h3>Slide & Splash</h3>
+                        <p>Parque aquático a 6 km com atrações para todas as idades. Espetáculos com animais e muito mais.</p>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/zoomarine_0.jpg" alt="Zoomarine" loading="lazy">
+                    </div>
+                    <div class="activity-info">
+                        <h3>Zoomarine</h3>
+                        <p>A 10 km. Parque temático com golfinhos, aves tropicais, aquários e cinema 4D. Imperdível!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Localização</span>
+                <h2>No Coração do Algarve</h2>
+                <p class="section-desc">Porches situa-se na zona central do Algarve, entre Albufeira e Portimão, com fácil acesso a tudo.</p>
+            </div>
+            <div class="map-wrapper">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.5!2d-8.399062!3d37.125046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDA3JzMwLjIiTiA4wrAyMyc1Ni42Ilc!5e0!3m2!1spt-PT!2spt!4v1"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="distances-grid">
+                <div class="distance-item">
+                    <span class="distance-icon">&#9992;</span>
+                    <div>
+                        <strong>Aeroporto de Faro</strong>
+                        <span>55 min</span>
+                    </div>
+                </div>
+                <div class="distance-item">
+                    <span class="distance-icon">&#127958;</span>
+                    <div>
+                        <strong>Praia mais próxima</strong>
+                        <span>4 km</span>
+                    </div>
+                </div>
+                <div class="distance-item">
+                    <span class="distance-icon">&#127860;</span>
+                    <div>
+                        <strong>Restaurantes</strong>
+                        <span>A pé</span>
+                    </div>
+                </div>
+                <div class="distance-item">
+                    <span class="distance-icon">&#128722;</span>
+                    <div>
+                        <strong>Supermercado</strong>
+                        <span>2 min de carro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking CTA Section -->
+    <section class="booking" id="booking">
+        <div class="booking-bg" style="background-image: url('images/house_0.jpg')"></div>
+        <div class="booking-overlay"></div>
+        <div class="booking-content">
+            <h2>Reserve as Suas Férias de Sonho</h2>
+            <p>Escape à rotina e descubra o melhor do Algarve. A sua casa em Porches espera por si.</p>
+            <div class="booking-buttons">
+                <a href="https://www.airbnb.pt/rooms/1123085919462636254" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 18.275c-.457-.839-1.218-1.87-1.895-2.737-.799-1.024-1.672-2.057-2.361-3.199-.689-1.142-1.194-2.394-1.194-3.672 0-3.013 2.437-5.45 5.45-5.45s5.45 2.437 5.45 5.45c0 1.278-.505 2.53-1.194 3.672-.689 1.142-1.562 2.175-2.361 3.199-.677.867-1.438 1.898-1.895 2.737zM12.001 2.017c-3.563 0-6.65 2.887-6.65 6.65 0 1.578.605 3.03 1.394 4.272.789 1.242 1.762 2.375 2.561 3.399.799 1.024 1.562 2.057 1.895 2.837.1.2.3.4.5.6.1.1.2.1.3.1s.2 0 .3-.1c.2-.2.4-.4.5-.6.333-.78 1.096-1.813 1.895-2.837.799-1.024 1.772-2.157 2.561-3.399.789-1.242 1.394-2.694 1.394-4.272 0-3.763-3.087-6.65-6.65-6.65z"/><circle cx="12" cy="8.5" r="2.5"/></svg>
+                    Reservar no Airbnb
+                </a>
+            </div>
+            <p class="booking-note">Avaliação 4.81/5 &middot; 36 avaliações &middot; Gerido por HostWise</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Casa Porches</h3>
+                    <p>Porches, Lagoa, Algarve<br>Portugal</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">A Casa</a>
+                    <a href="#gallery">Galeria</a>
+                    <a href="#beaches">Praias</a>
+                    <a href="#restaurants">Restaurantes</a>
+                    <a href="#booking">Reservar</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Casa Porches &middot; Algarve, Portugal</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-prev">&lsaquo;</button>
+        <button class="lightbox-next">&rsaquo;</button>
+        <img class="lightbox-img" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
