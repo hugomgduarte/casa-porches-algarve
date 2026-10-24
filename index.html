@@ -8,7 +8,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
+    <style>
+    .nav-menu{margin-left:auto}
+    .lang-dd{position:relative;margin-left:20px}
+    .lang-btn{display:flex;align-items:center;gap:6px;background:rgba(26,35,50,.55);color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:7px 12px;font:600 .82rem 'Inter',sans-serif;cursor:pointer}
+    .navbar.scrolled .lang-btn{background:#fff;color:var(--navy);border-color:#e3dccd}
+    .lang-btn svg,.lang-menu svg{width:22px;height:15px;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);flex:none}
+    .lang-btn .car{font-size:.7rem;opacity:.8}
+    .lang-menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:#fff;border-radius:12px;box-shadow:0 12px 40px rgba(0,0,0,.18);padding:6px;min-width:170px;z-index:1100}
+    .lang-menu.open{display:block}
+    .lang-menu button{display:flex;align-items:center;gap:10px;width:100%;border:0;background:none;padding:9px 12px;border-radius:8px;font:500 .92rem 'Inter',sans-serif;color:var(--navy);cursor:pointer;text-align:left}
+    .lang-menu button:hover{background:var(--cream)}
+    .lang-menu button.on{background:#f3ece0;font-weight:600}
+    @media (max-width:1200px){.nav-menu{gap:20px}.nav-menu a{font-size:.85rem}}
+    @media (max-width:1024px){
+      .nav-menu{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--white);flex-direction:column;padding:24px;gap:16px;box-shadow:var(--shadow-lg)}
+      .nav-menu.active{display:flex}
+      .nav-menu a{color:var(--text) !important}
+      .nav-toggle{display:flex}
+      .lang-dd{margin-left:auto;margin-right:14px;order:2}
+      .nav-toggle{order:3}
+    }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -28,6 +50,10 @@
                 <li><a href="guia.html">Guia do Hóspede</a></li>
                 <li><a href="#booking" class="nav-cta">Reservar</a></li>
             </ul>
+            <div class="lang-dd" id="langDD">
+                <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"></button>
+                <div class="lang-menu" id="langMenu" role="menu"></div>
+            </div>
         </div>
     </nav>
 
@@ -524,5 +550,49 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="site-textos.js?v=1"></script>
+    <script>
+    (function(){
+      var FLAGS={
+        pt:'<svg viewBox="0 0 30 20"><rect width="12" height="20" fill="#046a38"/><rect x="12" width="18" height="20" fill="#da291c"/><circle cx="12" cy="10" r="4.2" fill="#ffe900"/><circle cx="12" cy="10" r="2.4" fill="#da291c"/></svg>',
+        en:'<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#012169"/><path d="M0,0 60,40M60,0 0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 60,40M60,0 0,40" stroke="#c8102e" stroke-width="3"/><path d="M30,0V40M0,20H60" stroke="#fff" stroke-width="12"/><path d="M30,0V40M0,20H60" stroke="#c8102e" stroke-width="7"/></svg>',
+        es:'<svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/></svg>',
+        fr:'<svg viewBox="0 0 30 20"><rect width="10" height="20" fill="#002654"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ce1126"/></svg>',
+        de:'<svg viewBox="0 0 30 20"><rect width="30" height="7" fill="#000"/><rect y="6.6" width="30" height="7" fill="#dd0000"/><rect y="13.3" width="30" height="6.7" fill="#ffce00"/></svg>',
+        it:'<svg viewBox="0 0 30 20"><rect width="10" height="20" fill="#009246"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ce2b37"/></svg>'
+      };
+      var NAMES={pt:'Português',en:'English',es:'Español',fr:'Français',de:'Deutsch',it:'Italiano'};
+      var TITLES={pt:'Casa em Porches | Algarve - Férias de Sonho',en:'House in Porches | Algarve – Dream Holidays',es:'Casa en Porches | Algarve – Vacaciones de ensueño',fr:'Maison à Porches | Algarve – Vacances de rêve',de:'Haus in Porches | Algarve – Traumurlaub',it:'Casa a Porches | Algarve – Vacanze da sogno'};
+      var L=SITE_LANGS, D={};
+      L.forEach(function(l,i){D[l]={};SITE_ROWS.forEach(function(r){D[l][r[0]]=r[i]})});
+      var nodes=[];
+      (function walk(n){
+        if(n.nodeType===3){var t=n.nodeValue.trim(); if(t && D.en[t]!==undefined) nodes.push({n:n,pt:t,pre:n.nodeValue.match(/^\s*/)[0],post:n.nodeValue.match(/\s*$/)[0]}); return}
+        if(n.nodeType===1 && /^(SCRIPT|STYLE)$/.test(n.tagName)) return;
+        if(n.id==='langDD') return;
+        for(var c=n.firstChild;c;c=c.nextSibling) walk(c);
+      })(document.body);
+      var btn=document.getElementById('langBtn'), menu=document.getElementById('langMenu');
+      L.forEach(function(l){var b=document.createElement('button');b.dataset.l=l;b.setAttribute('role','menuitem');b.innerHTML=FLAGS[l]+'<span>'+NAMES[l]+'</span>';b.onclick=function(){set(l);close()};menu.appendChild(b)});
+      function close(){menu.classList.remove('open');btn.setAttribute('aria-expanded','false')}
+      btn.onclick=function(e){e.stopPropagation();var o=menu.classList.toggle('open');btn.setAttribute('aria-expanded',o)};
+      document.addEventListener('click',function(e){if(!document.getElementById('langDD').contains(e.target))close()});
+      document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
+      function set(l){
+        if(L.indexOf(l)<0) l='pt';
+        nodes.forEach(function(x){x.n.nodeValue=x.pre+(D[l][x.pt]||x.pt)+x.post});
+        document.documentElement.lang=l; document.title=TITLES[l];
+        btn.innerHTML=FLAGS[l]+'<span>'+l.toUpperCase()+'</span><span class="car">▾</span>';
+        menu.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.l===l)});
+        document.querySelectorAll('a[href^="guia.html"]').forEach(function(a){var h=a.getAttribute('href').split('#');a.setAttribute('href','guia.html?lang='+l+(h[1]?'#'+h[1]:''))});
+        try{localStorage.setItem('guiaLang',l)}catch(e){}
+      }
+      var q=new URLSearchParams(location.search).get('lang'), saved=null;
+      try{saved=localStorage.getItem('guiaLang')}catch(e){}
+      var navs=(navigator.languages||[navigator.language||'pt']).map(function(x){return (x||'').slice(0,2).toLowerCase()});
+      var auto=navs.filter(function(c){return L.indexOf(c)>=0})[0];
+      set(L.indexOf(q)>=0?q:(saved||auto||'pt'));
+    })();
+    </script>
 </body>
 </html>
