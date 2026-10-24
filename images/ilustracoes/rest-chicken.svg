@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9452b"/><stop offset="1" stop-color="#a8301d"/></linearGradient>
+ <pattern id="az" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M12 2 L22 12 L12 22 L2 12Z" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1.5"/><circle cx="12" cy="12" r="2.2" fill="#fff" fill-opacity=".18"/></pattern>
+</defs>
+<rect width="600" height="300" fill="url(#bg)"/>
+<rect width="600" height="300" fill="url(#az)"/>
+<circle cx="520" cy="60" r="90" fill="#fff" fill-opacity=".10"/>
+<circle cx="70" cy="260" r="120" fill="#fff" fill-opacity=".08"/>
+
+<g>
+<ellipse cx="300" cy="225" rx="170" ry="24" fill="#fff"/>
+<path d="M200 210 Q190 150 260 140 Q330 130 360 170 Q385 205 340 215 Q280 222 200 210Z" fill="#c4622d"/>
+<path d="M215 195 Q240 160 300 158" stroke="#7a3214" stroke-width="5" fill="none"/>
+<path d="M360 170 L400 150 Q415 145 412 160 L370 190Z" fill="#c4622d"/>
+<circle cx="412" cy="153" r="10" fill="#f3ece0"/>
+<path transform="translate(140,140) rotate(-20)" d="M0 0 Q10 -30 4 -50 Q-6 -30 0 0Z" fill="#c0392b"/><path transform="translate(165,135) rotate(-5)" d="M0 0 Q10 -30 4 -50 Q-6 -30 0 0Z" fill="#c0392b"/><path transform="translate(450,120) rotate(15)" d="M0 0 Q10 -30 4 -50 Q-6 -30 0 0Z" fill="#c0392b"/>
+<path d="M470 200 h60" stroke="#fff" stroke-width="4"/>
+</g>
+</svg>
