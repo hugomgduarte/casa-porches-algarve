@@ -63,7 +63,12 @@ def main():
         return
 
     changed = 0
-    for f in FILES:
+    files = list(FILES)
+    for d, _, fs in os.walk(os.path.join(ROOT, "images")):
+        for n in fs:
+            if not n.startswith("_"):
+                files.append(os.path.relpath(os.path.join(d, n), ROOT).replace(os.sep, "/"))
+    for f in files:
         p = os.path.join(ROOT, f)
         if not os.path.exists(p):
             continue
