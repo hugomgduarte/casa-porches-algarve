@@ -56,6 +56,22 @@ ul.list li::before{content:"";position:absolute;left:4px;top:16px;width:8px;heig
 .time b{display:block;font-family:'Playfair Display',serif;font-size:1.7rem;color:var(--navy)}
 .time span{font-size:.85rem;color:var(--muted)}
 .cards{display:grid;gap:10px}
+.rchips{padding:0 0 4px !important;margin-bottom:12px;flex-wrap:nowrap !important;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.rchips button{flex:none}
+.rchips button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.card .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;font-size:.78rem}
+.card .meta span{background:var(--cream);border-radius:999px;padding:2px 9px;color:var(--gold-dark);font-weight:600}
+.card .meta span.near{background:#e8f3ec;color:#2e7d4f}
+.evwho{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.evwho>span{font-size:.82rem;color:var(--muted);flex:none}
+.evwho .rchips{margin:0}
+.rchips button.tag.on{background:var(--gold-dark);border-color:var(--gold-dark);color:#fff}
+.card .when{font-size:.86rem;font-weight:600;color:var(--navy);margin-top:4px}
+.badge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.badge.ok{background:#e8f3ec;color:#2e7d4f}
+.badge.live{background:#fdecea;color:#c0392b}
+.card .links{display:flex;gap:14px;flex-wrap:wrap}
+.card .loc{font-size:.82rem;color:var(--gold-dark);font-weight:500}
 .card{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
 .card .t{display:flex;justify-content:space-between;gap:10px;font-weight:600;color:var(--navy)}
 .card .t small{font-weight:500;color:var(--gold-dark);white-space:nowrap}
@@ -107,7 +123,7 @@ footer a{color:var(--muted)}
   <a href="#map" data-t="nav.map"></a>
   <a href="#beaches" data-t="nav.beaches"></a>
   <a href="#food" data-t="nav.food"></a>
-  <a href="#todo" data-t="nav.todo"></a>
+  <a href="#todo" data-ev="title"></a>
   <a href="#departure" data-t="nav.departure"></a>
 </div></nav>
 
@@ -175,12 +191,17 @@ footer a{color:var(--muted)}
 
 <section id="food">
   <h2><span class="ic">🍽️</span> <span data-t="foodTitle"></span></h2>
-  <div class="cards two" data-places="food"></div>
+  <div class="chips rchips" id="restChips"></div>
+  <div class="cards two" id="restList"></div>
+  <p class="note" id="restNote"></p>
 </section>
 
 <section id="todo">
-  <h2><span class="ic">☀️</span> <span data-t="todoTitle"></span></h2>
-  <div class="cards two" data-places="todo"></div>
+  <h2><span class="ic">🎉</span> <span data-ev="title"></span></h2>
+  <div class="chips rchips" id="evCats"></div>
+  <div class="evwho"><span id="evWhoLbl"></span><div class="chips rchips" id="evTags"></div></div>
+  <div class="cards two" id="evList"></div>
+  <p class="note" id="evNote"></p>
 </section>
 
 <section id="departure">
@@ -195,10 +216,9 @@ footer a{color:var(--muted)}
   <p><a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener" data-t="complaints"></a> · <a href="index.html" data-t="about"></a></p>
 </footer>
 
-<script src="textos.js?v=3"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-(function(){
+window.startGuide=function(){
   var HOME=[37.125046,-8.399062];
   var CATS={beach:{c:'#2a9fd6',i:'🏖️'},food:{c:'#d9822b',i:'🍽️'},fun:{c:'#7b5bd6',i:'🎢'},see:{c:'#3c9a5f',i:'📍'},help:{c:'#c0392b',i:'🏥'}};
   var codes=LANGS.map(function(l){return l.code});
@@ -261,6 +281,73 @@ footer a{color:var(--muted)}
     });
   }
 
+  var evCat='upcoming', evTag='';
+  function dt(s){var p=s.split('-');return new Date(+p[0],+p[1]-1,+p[2])}
+  function fmtD(d,o){try{return new Intl.DateTimeFormat(cur==='en'?'en-GB':cur,o).format(d)}catch(e){return d.toDateString()}}
+  function range(s,e){var a=dt(s),b=dt(e||s);
+    if(+a===+b) return fmtD(a,{weekday:'short',day:'numeric',month:'short',year:'numeric'});
+    if(a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()) return a.getDate()+'–'+fmtD(b,{day:'numeric',month:'short',year:'numeric'});
+    return fmtD(a,{day:'numeric',month:'short'})+' – '+fmtD(b,{day:'numeric',month:'short',year:'numeric'})}
+  function evRender(){
+    if(!window.EVENTS) return;
+    var l=cur, U=EV_UI;
+    document.querySelectorAll('[data-ev]').forEach(function(el){el.textContent=U[el.dataset.ev][l]});
+    var cats=document.getElementById('evCats'); cats.innerHTML='';
+    Object.keys(EV_CATS).forEach(function(k){var b=document.createElement('button');b.className=evCat===k?'on':'';b.textContent=EV_CATS[k][l];b.onclick=function(){evCat=k;evRender()};cats.appendChild(b)});
+    document.getElementById('evWhoLbl').textContent=U.forWho[l];
+    var tg=document.getElementById('evTags'); tg.innerHTML='';
+    [''].concat(Object.keys(EV_TAGS)).forEach(function(k){var b=document.createElement('button');b.className='tag'+(evTag===k?' on':'');b.textContent=k?EV_TAGS[k][l]:U.anyone[l];b.onclick=function(){evTag=k;evRender()};tg.appendChild(b)});
+    var today=new Date();today.setHours(0,0,0,0);
+    var items=[];
+    if(evCat==='upcoming'){
+      EVENTS.forEach(function(e){
+        if(e.sessions) e.sessions.forEach(function(s){items.push({e:e,start:s[0],end:s[1],sub:s[2]})});
+        else if(e.start) items.push({e:e,start:e.start,end:e.end});
+      });
+      items=items.filter(function(x){return dt(x.end||x.start)>=today}).sort(function(a,b){return dt(a.start)-dt(b.start)});
+    } else {
+      items=EVENTS.filter(function(e){return e.cat===evCat}).map(function(e){
+        var nx=null; if(e.sessions){nx=e.sessions.filter(function(s){return dt(s[1])>=today})[0]}
+        return {e:e,start:nx?nx[0]:e.start,end:nx?nx[1]:e.end,sub:nx?nx[2]:null};
+      });
+    }
+    if(evTag) items=items.filter(function(x){return (x.e.tags||[]).indexOf(evTag)>=0});
+    var html=items.map(function(x){
+      var e=x.e, T=TOWNS[e.town]||{}, when='', badge='';
+      if(x.start && !(x.start && dt(x.end||x.start)<today)){
+        when=range(x.start,x.end);
+        if(dt(x.start)<=today) badge='<span class="badge live">'+U.now[l]+'</span>';
+        else if(e.cat==='events'||e.sessions) badge='<span class="badge ok">'+U.confirmed[l]+'</span>';
+      } else if(e.usual){
+        when=U.usually[l]+': '+e.usual[l]+(e.last?' · '+U.last[l]+': '+range(e.last[0],e.last[1]):'');
+      } else if(e.season){ when=e.season[l] }
+      var dist=x.sub?'':T.km===0?U.inPorches[l]:(T.km?'≈ '+T.km+' km · '+T.min+' min '+U.fromHouse[l]:'');
+      var place=(x.sub?x.sub:(T.name||''));
+      var q=x.sub||(e.name+' '+(T.name||'Algarve'));
+      return '<div class="card"><div class="t"><span>'+esc(e.name)+badge+'</span></div>'
+        +(when?'<div class="when">'+esc(when)+'</div>':'')
+        +'<div class="loc">'+esc([place,dist].filter(Boolean).join(' · '))+'</div>'
+        +'<p>'+esc(e.d[l]||e.d.en)+(e.price?' <b>'+esc(e.price)+'</b>':'')+'</p>'
+        +'<div class="meta">'+(e.tags||[]).map(function(t){return '<span>'+esc(EV_TAGS[t][l])+'</span>'}).join('')+'</div>'
+        +'<div class="links"><a class="map" target="_blank" rel="noopener" href="'+gmaps(q)+'">Google Maps →</a>'+(e.url?'<a class="map" target="_blank" rel="noopener" href="'+esc(e.url)+'">'+U.website[l]+' →</a>':'')+'</div></div>';
+    }).join('');
+    document.getElementById('evList').innerHTML=html||'<p class="note">'+U.none[l]+'</p>';
+    document.getElementById('evNote').textContent=U.note[l];
+  }
+  var restFilter='near';
+  function renderRest(){
+    if(!window.RESTAURANTS) return;
+    var l=cur, chips=document.getElementById('restChips'), list=document.getElementById('restList');
+    var keys=['all','near'].concat(Object.keys(REST_CATS).filter(function(k){return k!=='near'}));
+    chips.innerHTML='';
+    keys.forEach(function(k){var b=document.createElement('button');b.className=(restFilter===k?'on':'');
+      b.textContent=k==='all'?REST_UI.all[l]:REST_CATS[k][l];b.onclick=function(){restFilter=k;renderRest()};chips.appendChild(b)});
+    var items=RESTAURANTS.filter(function(r){return restFilter==='all'||(restFilter==='near'?r.near:r.cat===restFilter)});
+    if(restFilter==='all') items=items.slice().sort(function(a,b){return (b.near?1:0)-(a.near?1:0)});
+    list.innerHTML=items.map(function(r){
+      return '<div class="card"><div class="t">'+esc(r.name)+'<small>'+esc(r.price)+'</small></div><div class="loc">'+esc(r.loc)+'</div><p>'+esc(r.d[l]||r.d.en)+'</p><div class="meta"><span>'+esc(REST_CATS[r.cat][l])+'</span>'+(r.near?'<span class="near">'+esc(REST_UI.near[l])+'</span>':'')+'</div><a class="map" target="_blank" rel="noopener" href="'+gmaps(r.q)+'">Google Maps →</a></div>'}).join('');
+    document.getElementById('restNote').textContent='€ <20 € · €€ 20–40 € · €€€ 40–80 € · €€€€ >80 € — '+REST_UI.price[l];
+  }
   function setLang(l){
     if(codes.indexOf(l)<0) l='en';
     cur=l; T=TXT[l]; document.documentElement.lang=l; document.title=T.title;
@@ -269,6 +356,8 @@ footer a{color:var(--muted)}
     document.querySelectorAll('[data-places]').forEach(function(box){
       box.innerHTML=PLACES.filter(function(p){return p.list===box.dataset.places}).map(function(p){
         return '<div class="card"><div class="t">'+esc(p.name)+(p.dist?'<small>'+esc(p.dist)+'</small>':'')+'</div><p>'+esc(p.d[l]||p.d.en)+'</p><a class="map" target="_blank" rel="noopener" href="'+gmaps(p.q)+'">Google Maps →</a></div>'}).join('')});
+    renderRest();
+    evRender();
     langBox.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.set===l)});
     try{localStorage.setItem('guiaLang',l)}catch(e){}
     try{var u=new URL(location.href);u.searchParams.set('lang',l);history.replaceState(null,'',u)}catch(e){}
@@ -289,7 +378,15 @@ footer a{color:var(--muted)}
   var navs=(navigator.languages||[navigator.language||'en']).map(function(x){return (x||'').slice(0,2).toLowerCase()});
   var auto=navs.filter(function(c){return codes.indexOf(c)>=0})[0];
   setLang(codes.indexOf(q)>=0?q:(saved||auto||'pt'));
-})();
+};
+/* Os conteúdos vêm de data/site.json (gerado a partir do Excel Conteudos_Site_Casa_Porches.xlsx) */
+fetch('data/site.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
+  for(var k in d) window[k]=d[k];
+  window.startGuide();
+}).catch(function(e){
+  document.querySelector('main').insertAdjacentHTML('afterbegin','<section><p>⚠️ Não foi possível carregar os conteúdos. Recarregue a página. / Could not load content, please reload.</p></section>');
+  console.error(e);
+});
 </script>
 </body>
 </html>
