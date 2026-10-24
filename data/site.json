@@ -105,7 +105,8 @@
     "food": "Restaurantes",
     "fun": "Atividades",
     "see": "Locais a visitar",
-    "help": "Saúde"
+    "help": "Saúde",
+    "fest": "Festas e eventos"
    },
    "beachesTitle": "Praias perto",
    "beachTip": "Dica: o Percurso dos Sete Vales Suspensos liga a Marinha a Benagil pelas falésias — melhor de manhã cedo ou ao fim da tarde.",
@@ -193,7 +194,8 @@
     "food": "Restaurants",
     "fun": "Activities",
     "see": "Places to visit",
-    "help": "Health"
+    "help": "Health",
+    "fest": "Festivals & events"
    },
    "beachesTitle": "Beaches nearby",
    "beachTip": "Tip: the Seven Hanging Valleys trail (Percurso dos Sete Vales Suspensos) links Marinha and Benagil along the clifftops — best early morning or late afternoon.",
@@ -281,7 +283,8 @@
     "food": "Restaurantes",
     "fun": "Actividades",
     "see": "Lugares que visitar",
-    "help": "Salud"
+    "help": "Salud",
+    "fest": "Fiestas y eventos"
    },
    "beachesTitle": "Playas cercanas",
    "beachTip": "Consejo: la ruta de los Siete Valles Colgantes (Percurso dos Sete Vales Suspensos) une Marinha y Benagil por los acantilados; mejor a primera hora o al final de la tarde.",
@@ -369,7 +372,8 @@
     "food": "Restaurants",
     "fun": "Activités",
     "see": "À visiter",
-    "help": "Santé"
+    "help": "Santé",
+    "fest": "Fêtes & événements"
    },
    "beachesTitle": "Plages à proximité",
    "beachTip": "Astuce : le sentier des Sept Vallées Suspendues (Percurso dos Sete Vales Suspensos) relie Marinha à Benagil par les falaises — idéal tôt le matin ou en fin d’après-midi.",
@@ -457,7 +461,8 @@
     "food": "Restaurants",
     "fun": "Aktivitäten",
     "see": "Sehenswürdigkeiten",
-    "help": "Gesundheit"
+    "help": "Gesundheit",
+    "fest": "Feste & Events"
    },
    "beachesTitle": "Strände in der Nähe",
    "beachTip": "Tipp: Der Wanderweg der Sieben Hängenden Täler (Percurso dos Sete Vales Suspensos) verbindet Marinha und Benagil entlang der Klippen – am schönsten früh morgens oder am späten Nachmittag.",
@@ -545,7 +550,8 @@
     "food": "Ristoranti",
     "fun": "Attività",
     "see": "Da visitare",
-    "help": "Salute"
+    "help": "Salute",
+    "fest": "Feste ed eventi"
    },
    "beachesTitle": "Spiagge vicine",
    "beachTip": "Consiglio: il sentiero delle Sette Valli Sospese (Percurso dos Sete Vales Suspensos) collega Marinha e Benagil lungo le scogliere — ideale al mattino presto o nel tardo pomeriggio.",
@@ -1112,24 +1118,6 @@
   {
    "cat": "food",
    "list": "food",
-   "name": "Tasca 26",
-   "dist": "Porches",
-   "lat": null,
-   "lng": null,
-   "q": "Tasca 26 Porches",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Tasca tradicional, carnes grelhadas.",
-    "en": "Traditional tavern, grilled meats.",
-    "es": "Taberna tradicional, carnes a la brasa.",
-    "fr": "Taverne traditionnelle, viandes grillées.",
-    "de": "Traditionelle Taverne, Grillfleisch.",
-    "it": "Taverna tradizionale, carni alla griglia."
-   }
-  },
-  {
-   "cat": "food",
-   "list": "food",
    "name": "O Charneco",
    "dist": "Estômbar · 10 min",
    "lat": 37.144,
@@ -1161,114 +1149,6 @@
     "fr": "Poisson frais et plats traditionnels au centre de Lagoa.",
     "de": "Frischer Fisch und traditionelle Gerichte im Zentrum von Lagoa.",
     "it": "Pesce fresco e piatti tradizionali nel centro di Lagoa."
-   }
-  },
-  {
-   "cat": "food",
-   "list": "food",
-   "name": "Rei das Praias",
-   "dist": "Ferragudo · 15 min",
-   "lat": 37.1045,
-   "lng": -8.5055,
-   "q": "Rei das Praias Ferragudo",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Peixe e marisco na Praia dos Caneiros, desde 1976.",
-    "en": "Fish and seafood on Caneiros beach, since 1976.",
-    "es": "Pescado y marisco en la playa de Caneiros, desde 1976.",
-    "fr": "Poissons et fruits de mer sur la plage de Caneiros, depuis 1976.",
-    "de": "Fisch und Meeresfrüchte am Strand von Caneiros, seit 1976.",
-    "it": "Pesce e frutti di mare sulla spiaggia di Caneiros, dal 1976."
-   }
-  },
-  {
-   "cat": "food",
-   "list": "food",
-   "name": "Vista",
-   "dist": "Portimão · 20 min",
-   "lat": 37.1188,
-   "lng": -8.533,
-   "q": "Vista Restaurante Portimão",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Alta cozinha junto ao mar, extensa carta de vinhos.",
-    "en": "Fine dining by the sea, large wine list.",
-    "es": "Alta cocina junto al mar, amplia carta de vinos.",
-    "fr": "Gastronomie en bord de mer, grande carte des vins.",
-    "de": "Gehobene Küche am Meer, große Weinkarte.",
-    "it": "Alta cucina sul mare, ampia carta dei vini."
-   }
-  },
-  {
-   "cat": "food",
-   "list": "food",
-   "name": "Ocean",
-   "dist": "Vila Vita Parc",
-   "lat": 37.096,
-   "lng": -8.392,
-   "q": "Ocean Restaurant Vila Vita Parc",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Restaurante com estrelas Michelin a poucos minutos. Reserve com antecedência.",
-    "en": "Michelin-starred fine dining a few minutes away. Book well in advance.",
-    "es": "Restaurante con estrellas Michelin a pocos minutos. Reserve con antelación.",
-    "fr": "Restaurant étoilé Michelin à quelques minutes. Réservez longtemps à l’avance.",
-    "de": "Michelin-Sterne-Restaurant wenige Minuten entfernt. Frühzeitig reservieren.",
-    "it": "Ristorante stellato Michelin a pochi minuti. Prenotate con largo anticipo."
-   }
-  },
-  {
-   "cat": "fun",
-   "list": "todo",
-   "name": "Aqualand",
-   "dist": "3 km",
-   "lat": 37.1375,
-   "lng": -8.3615,
-   "q": "Aqualand Algarve",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Parque aquático — escorregas e piscinas (época de verão).",
-    "en": "Water park — slides and pools for all ages (summer season).",
-    "es": "Parque acuático: toboganes y piscinas (temporada de verano).",
-    "fr": "Parc aquatique — toboggans et piscines (saison estivale).",
-    "de": "Wasserpark – Rutschen und Pools (Sommersaison).",
-    "it": "Parco acquatico: scivoli e piscine (stagione estiva)."
-   }
-  },
-  {
-   "cat": "fun",
-   "list": "todo",
-   "name": "Slide & Splash",
-   "dist": "6 km",
-   "lat": 37.131,
-   "lng": -8.4665,
-   "q": "Slide and Splash Lagoa",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Parque aquático em Lagoa (época de verão).",
-    "en": "Water park in Lagoa (summer season).",
-    "es": "Parque acuático en Lagoa (temporada de verano).",
-    "fr": "Parc aquatique à Lagoa (saison estivale).",
-    "de": "Wasserpark in Lagoa (Sommersaison).",
-    "it": "Parco acquatico a Lagoa (stagione estiva)."
-   }
-  },
-  {
-   "cat": "fun",
-   "list": "todo",
-   "name": "Zoomarine",
-   "dist": "10 km",
-   "lat": 37.128,
-   "lng": -8.318,
-   "q": "Zoomarine Algarve",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Parque temático com golfinhos, aves e aquários.",
-    "en": "Marine theme park with dolphins, birds and aquariums.",
-    "es": "Parque temático marino con delfines, aves y acuarios.",
-    "fr": "Parc à thème marin avec dauphins, oiseaux et aquariums.",
-    "de": "Meeres-Themenpark mit Delfinen, Vögeln und Aquarien.",
-    "it": "Parco tematico marino con delfini, uccelli e acquari."
    }
   },
   {
@@ -1362,24 +1242,6 @@
    }
   },
   {
-   "cat": "see",
-   "list": "",
-   "name": "Silves · Castelo",
-   "dist": "",
-   "lat": 37.1914,
-   "lng": -8.4386,
-   "q": "Castelo de Silves",
-   "img": "images/ilustracoes/ev-nature.svg",
-   "d": {
-    "pt": "Castelo medieval e centro histórico.",
-    "en": "Medieval castle and old town.",
-    "es": "Castillo medieval y casco histórico.",
-    "fr": "Château médiéval et vieille ville.",
-    "de": "Mittelalterliche Burg und Altstadt.",
-    "it": "Castello medievale e centro storico."
-   }
-  },
-  {
    "cat": "help",
    "list": "",
    "name": "Hospital de Portimão",
@@ -1400,6 +1262,8 @@
  ],
  "RESTAURANTS": [
   {
+   "lat": 37.10027,
+   "lng": -8.37852,
    "cat": "michelin",
    "name": "Ocean",
    "loc": "Vila Vita Parc, Porches",
@@ -1417,6 +1281,8 @@
    }
   },
   {
+   "lat": 37.08009,
+   "lng": -8.31376,
    "cat": "michelin",
    "name": "Vila Joya",
    "loc": "Galé, Albufeira",
@@ -1451,6 +1317,8 @@
    }
   },
   {
+   "lat": 37.11841,
+   "lng": -8.5377,
    "cat": "michelin",
    "name": "Vista",
    "loc": "Bela Vista Hotel, Praia da Rocha",
@@ -1468,6 +1336,8 @@
    }
   },
   {
+   "lat": 37.12597,
+   "lng": -8.39848,
    "cat": "fine",
    "name": "O Leão de Porches",
    "loc": "Porches",
@@ -1502,6 +1372,8 @@
    }
   },
   {
+   "lat": 37.10221,
+   "lng": -8.37644,
    "cat": "fine",
    "name": "Atlântico",
    "loc": "Vila Vita Parc, Porches",
@@ -1519,6 +1391,8 @@
    }
   },
   {
+   "lat": 37.08787,
+   "lng": -8.1666,
    "cat": "fine",
    "name": "Al Quimia",
    "loc": "Falésia, Albufeira",
@@ -1553,6 +1427,8 @@
    }
   },
   {
+   "lat": 37.12621,
+   "lng": -8.3974,
    "cat": "wine",
    "name": "Rolha Wine Bar",
    "loc": "Porches",
@@ -1587,6 +1463,8 @@
    }
   },
   {
+   "lat": 37.11115,
+   "lng": -8.49266,
    "cat": "wine",
    "name": "Hexagone",
    "loc": "Sesmarias, Carvoeiro",
@@ -1604,6 +1482,8 @@
    }
   },
   {
+   "lat": 37.11875,
+   "lng": -8.54074,
    "cat": "wine",
    "name": "Restaurante F",
    "loc": "Praia da Rocha",
@@ -1621,6 +1501,8 @@
    }
   },
   {
+   "lat": 37.16766,
+   "lng": -8.21743,
    "cat": "wine",
    "name": "Veneza",
    "loc": "Paderne",
@@ -1638,6 +1520,8 @@
    }
   },
   {
+   "lat": 37.09607,
+   "lng": -8.46647,
    "cat": "wine",
    "name": "Le Crô",
    "loc": "Carvoeiro",
@@ -1672,6 +1556,8 @@
    }
   },
   {
+   "lat": 37.09755,
+   "lng": -8.38564,
    "cat": "sea",
    "name": "Vilarinho",
    "loc": "Praia da Senhora da Rocha",
@@ -1689,6 +1575,8 @@
    }
   },
   {
+   "lat": 37.10272,
+   "lng": -8.36934,
    "cat": "sea",
    "name": "Olivalmar",
    "loc": "Praia do Vale do Olival, Armação de Pêra",
@@ -1706,6 +1594,8 @@
    }
   },
   {
+   "lat": 37.09976,
+   "lng": -8.35288,
    "cat": "sea",
    "name": "Arte Náutica",
    "loc": "Praia de Armação de Pêra",
@@ -1740,6 +1630,8 @@
    }
   },
   {
+   "lat": 37.10515,
+   "lng": -8.51341,
    "cat": "sea",
    "name": "Rei das Praias",
    "loc": "Praia dos Caneiros, Ferragudo",
@@ -1757,6 +1649,8 @@
    }
   },
   {
+   "lat": 37.18765,
+   "lng": -8.4399,
    "cat": "sea",
    "name": "Marisqueira Rui",
    "loc": "Silves",
@@ -1774,6 +1668,8 @@
    }
   },
   {
+   "lat": 37.12613,
+   "lng": -8.39826,
    "cat": "trad",
    "name": "Porches Velho",
    "loc": "Porches",
@@ -1791,6 +1687,8 @@
    }
   },
   {
+   "lat": 37.10429,
+   "lng": -8.38602,
    "cat": "trad",
    "name": "Quirinu's Wine & Grill",
    "loc": "Porches / Alporchinhos",
@@ -1842,6 +1740,8 @@
    }
   },
   {
+   "lat": 37.12635,
+   "lng": -8.40028,
    "cat": "trad",
    "name": "A Rampa",
    "loc": "Porches",
@@ -1859,6 +1759,8 @@
    }
   },
   {
+   "lat": 37.13524,
+   "lng": -8.37524,
    "cat": "trad",
    "name": "Ti Teresa",
    "loc": "Vale das Lousas, EN125 (Porches–Alcantarilha)",
@@ -1910,6 +1812,8 @@
    }
   },
   {
+   "lat": 37.1105,
+   "lng": -8.38927,
    "cat": "trad",
    "name": "Casa de Pasto A Paragem",
    "loc": "Porches",
@@ -1927,6 +1831,8 @@
    }
   },
   {
+   "lat": 37.12719,
+   "lng": -8.4014,
    "cat": "intl",
    "name": "Vila Vita Biergarten",
    "loc": "EN125, Porches",
@@ -1944,6 +1850,8 @@
    }
   },
   {
+   "lat": 37.1035,
+   "lng": -8.38454,
    "cat": "intl",
    "name": "Vila de Itália",
    "loc": "Alporchinhos, Porches",
@@ -1961,6 +1869,8 @@
    }
   },
   {
+   "lat": 37.09821,
+   "lng": -8.38526,
    "cat": "intl",
    "name": "Belmondo",
    "loc": "Praia da Senhora da Rocha",
@@ -1978,6 +1888,8 @@
    }
   },
   {
+   "lat": 37.10472,
+   "lng": -8.38393,
    "cat": "intl",
    "name": "Indian Curry House",
    "loc": "Alporchinhos, Porches",
@@ -2029,6 +1941,8 @@
    }
   },
   {
+   "lat": 37.12635,
+   "lng": -8.29926,
    "cat": "intl",
    "name": "Ramires",
    "loc": "Guia, Albufeira",
@@ -2082,6 +1996,8 @@
  ],
  "EVENTS": [
   {
+   "lat": 37.23036,
+   "lng": -8.62735,
    "cat": "events",
    "town": "aia",
    "name": "Fórmula 1 — Grande Prémio de Portugal",
@@ -2102,6 +2018,8 @@
    "url": "https://autodromodoalgarve.com"
   },
   {
+   "lat": 37.23036,
+   "lng": -8.62735,
    "cat": "events",
    "town": "aia",
    "name": "MotoGP — Grande Prémio de Portugal",
@@ -2123,6 +2041,8 @@
    "url": "https://autodromodoalgarve.com"
   },
   {
+   "lat": 37.23036,
+   "lng": -8.62735,
    "cat": "events",
    "town": "aia",
    "name": "Algarve Classic Festival",
@@ -2143,6 +2063,8 @@
    "end": "2026-11-01"
   },
   {
+   "lat": 37.13003,
+   "lng": -8.44825,
    "cat": "events",
    "town": "lagoa",
    "name": "FATACIL — Feira de Lagoa",
@@ -2280,6 +2202,8 @@
    "url": "https://vilavitabiergarten.com"
   },
   {
+   "lat": 37.18853,
+   "lng": -8.43654,
    "cat": "events",
    "town": "silves",
    "name": "Silves Beer Fest",
@@ -2361,6 +2285,8 @@
    "url": "https://festivaldasardinha.pt"
   },
   {
+   "lat": 37.19106,
+   "lng": -8.43836,
    "cat": "events",
    "town": "silves",
    "name": "Feira Medieval de Silves",
@@ -2390,6 +2316,8 @@
    }
   },
   {
+   "lat": 37.09604,
+   "lng": -8.47199,
    "cat": "events",
    "town": "carvoeiro",
    "name": "Carvoeiro Black & White Night",
@@ -2420,6 +2348,8 @@
    }
   },
   {
+   "lat": 37.13629,
+   "lng": -8.45408,
    "cat": "events",
    "town": "lagoa",
    "name": "Lagoa Wine Show",
@@ -2450,6 +2380,8 @@
    }
   },
   {
+   "lat": 37.13691,
+   "lng": -8.45362,
    "cat": "events",
    "town": "lagoa",
    "name": "Mercado de Culturas à Luz das Velas",
@@ -2480,6 +2412,8 @@
    }
   },
   {
+   "lat": 37.16193,
+   "lng": -8.48521,
    "cat": "events",
    "town": "estombar",
    "name": "Lagoa Jazz Fest",
@@ -2509,6 +2443,8 @@
    }
   },
   {
+   "lat": 37.13691,
+   "lng": -8.45362,
    "cat": "events",
    "town": "lagoa",
    "name": "Mostra do Doce Conventual de Lagoa",
@@ -2539,6 +2475,8 @@
    }
   },
   {
+   "lat": 37.18598,
+   "lng": -8.44648,
    "cat": "events",
    "town": "silves",
    "name": "Mostra Silves Capital da Laranja",
@@ -2681,6 +2619,8 @@
    }
   },
   {
+   "lat": 37.13681,
+   "lng": -8.01695,
    "cat": "events",
    "town": "loule",
    "name": "Carnaval de Loulé",
@@ -2828,6 +2768,8 @@
    ]
   },
   {
+   "lat": 37.13964,
+   "lng": -8.47505,
    "cat": "water",
    "town": "estombar",
    "name": "Slide & Splash",
@@ -2855,6 +2797,8 @@
    "url": "https://www.slidesplash.com"
   },
   {
+   "lat": 37.13607,
+   "lng": -8.36443,
    "cat": "water",
    "town": "alcantarilha",
    "name": "Aqualand Algarve",
@@ -2882,6 +2826,8 @@
    "url": "https://www.aqualand.pt"
   },
   {
+   "lat": 37.12498,
+   "lng": -8.31543,
    "cat": "water",
    "town": "guia",
    "name": "Zoomarine",
@@ -2908,6 +2854,8 @@
    "url": "https://www.zoomarine.pt"
   },
   {
+   "lat": 37.12498,
+   "lng": -8.31543,
    "cat": "water",
    "town": "guia",
    "name": "Halloween no Zoomarine",
@@ -2929,6 +2877,8 @@
    "end": "2026-10-31"
   },
   {
+   "lat": 37.09435,
+   "lng": -8.07247,
    "cat": "water",
    "town": "quarteira",
    "name": "Aquashow Outdoor",
@@ -2956,6 +2906,8 @@
    "url": "https://aquashowpark.com"
   },
   {
+   "lat": 37.09435,
+   "lng": -8.07247,
    "cat": "water",
    "town": "quarteira",
    "name": "Aquashow Indoor",
@@ -2984,6 +2936,8 @@
    "url": "https://aquashowpark.com"
   },
   {
+   "lat": 37.18235,
+   "lng": -8.28205,
    "cat": "water",
    "town": "algoz",
    "name": "Krazy World",
@@ -3010,6 +2964,8 @@
    "url": "https://krazyworld.com"
   },
   {
+   "lat": 37.12641,
+   "lng": -8.42409,
    "cat": "water",
    "town": "lagoa",
    "name": "Sand City",
@@ -3031,6 +2987,8 @@
    "url": "https://sandcity.pt"
   },
   {
+   "lat": 37.23327,
+   "lng": -8.63579,
    "cat": "water",
    "town": "aia",
    "name": "Kartódromo Internacional do Algarve",
@@ -3057,6 +3015,8 @@
    "url": "https://autodromodoalgarve.com"
   },
   {
+   "lat": 37.13314,
+   "lng": -8.45504,
    "cat": "indoor",
    "town": "lagoa",
    "name": "Piscinas Municipais de Lagoa",
@@ -3083,6 +3043,8 @@
    }
   },
   {
+   "lat": 37.18479,
+   "lng": -8.44344,
    "cat": "indoor",
    "town": "silves",
    "name": "Piscinas Municipais de Silves",
@@ -3133,6 +3095,8 @@
    }
   },
   {
+   "lat": 37.12524,
+   "lng": -8.5959,
    "cat": "indoor",
    "town": "alvor",
    "name": "Complexo Desportivo de Alvor",
@@ -3159,6 +3123,8 @@
    }
   },
   {
+   "lat": 37.09692,
+   "lng": -8.24097,
    "cat": "indoor",
    "town": "albufeira",
    "name": "Piscinas Municipais de Albufeira",
@@ -3184,6 +3150,8 @@
    }
   },
   {
+   "lat": 37.18893,
+   "lng": -8.4389,
    "cat": "indoor",
    "town": "silves",
    "name": "Museu Municipal de Arqueologia de Silves",
@@ -3236,6 +3204,8 @@
    }
   },
   {
+   "lat": 37.0872,
+   "lng": -8.42372,
    "cat": "nature",
    "town": "benagil",
    "name": "Gruta de Benagil",
@@ -3369,6 +3339,8 @@
    }
   },
   {
+   "lat": 37.16193,
+   "lng": -8.48521,
    "cat": "nature",
    "town": "estombar",
    "name": "Parque Municipal do Sítio das Fontes",
@@ -3395,6 +3367,8 @@
    }
   },
   {
+   "lat": 37.09408,
+   "lng": -8.33194,
    "cat": "nature",
    "town": "salgados",
    "name": "Lagoa dos Salgados",
@@ -3420,6 +3394,8 @@
    }
   },
   {
+   "lat": 37.12648,
+   "lng": -8.596,
    "cat": "nature",
    "town": "alvor",
    "name": "Passadiços de Alvor",
@@ -3446,6 +3422,8 @@
    }
   },
   {
+   "lat": 37.3156,
+   "lng": -8.59644,
    "cat": "nature",
    "town": "monchique",
    "name": "Serra de Monchique, Fóia e Caldas",
@@ -3473,6 +3451,8 @@
    }
   },
   {
+   "lat": 37.07919,
+   "lng": -8.66778,
    "cat": "nature",
    "town": "lagos",
    "name": "Ponta da Piedade",
@@ -3499,6 +3479,8 @@
    }
   },
   {
+   "lat": 37.19106,
+   "lng": -8.43836,
    "cat": "nature",
    "town": "silves",
    "name": "Castelo de Silves",
@@ -3779,6 +3761,8 @@
    }
   },
   {
+   "lat": 37.13824,
+   "lng": -8.02237,
    "cat": "markets",
    "town": "loule",
    "name": "Mercado Municipal de Loulé",
@@ -4858,5 +4842,5 @@
    "Valutazione 4,82/5 · 45 recensioni · Gestito da HostWise"
   ]
  ],
- "_gerado": "2026-10-24T23:20:05"
+ "_gerado": "2026-10-24T23:30:38"
 }
