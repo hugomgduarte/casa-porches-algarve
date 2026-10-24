@@ -17,13 +17,11 @@ html{scroll-behavior:smooth}
 body{font-family:'Inter',-apple-system,sans-serif;color:var(--text);background:var(--cream);line-height:1.55;font-size:16px}
 h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.2;color:var(--navy)}
 a{color:var(--gold-dark)}
-/* language switching */
-html[lang="pt"] [data-l="en"], html[lang="en"] [data-l="pt"]{display:none !important}
 header{position:relative;color:#fff;background:linear-gradient(rgba(26,35,50,.55),rgba(26,35,50,.75)),url('images/house_0.jpg') center/cover;padding:28px 16px 40px}
-.topbar{display:flex;justify-content:space-between;align-items:center;max-width:760px;margin:0 auto 36px}
+.topbar{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center;max-width:760px;margin:0 auto 36px}
 .brand{font-family:'Playfair Display',serif;font-size:1.15rem;color:#fff;text-decoration:none}
 .lang{display:flex;background:rgba(255,255,255,.15);border-radius:999px;padding:3px}
-.lang button{border:0;background:transparent;color:#fff;font:600 .85rem 'Inter';padding:6px 14px;border-radius:999px;cursor:pointer}
+.lang button{border:0;background:transparent;color:#fff;font:600 .8rem 'Inter';padding:6px 9px;border-radius:999px;cursor:pointer}
 .lang button.on{background:#fff;color:var(--navy)}
 .hero{max-width:760px;margin:0 auto}
 .hero h1{color:#fff;font-size:2rem;margin-bottom:8px}
@@ -85,329 +83,196 @@ footer a{color:var(--muted)}
 <header>
   <div class="topbar">
     <a class="brand" href="index.html">Casa Porches</a>
-    <div class="lang" role="group" aria-label="Language">
-      <button data-set="en">EN</button>
-      <button data-set="pt">PT</button>
-    </div>
+    <div class="lang" role="group" aria-label="Language" id="langs"></div>
   </div>
   <div class="hero">
-    <h1><span data-l="en">Welcome to Casa Porches</span><span data-l="pt">Bem-vindos à Casa Porches</span></h1>
-    <p data-l="en">Everything you need for your stay — Wi-Fi, house rules, beaches, restaurants and useful contacts.</p>
-    <p data-l="pt">Tudo o que precisa para a sua estadia — Wi-Fi, regras da casa, praias, restaurantes e contactos úteis.</p>
+    <h1 data-t="h1"></h1>
+    <p data-t="sub"></p>
   </div>
 </header>
 
 <nav class="jump"><div>
-  <a href="#wifi">Wi-Fi</a>
-  <a href="#arrival"><span data-l="en">Check-in</span><span data-l="pt">Chegada</span></a>
-  <a href="#rules"><span data-l="en">House rules</span><span data-l="pt">Regras</span></a>
-  <a href="#pool"><span data-l="en">Pool</span><span data-l="pt">Piscina</span></a>
-  <a href="#help"><span data-l="en">Help & emergency</span><span data-l="pt">Ajuda e emergência</span></a>
-  <a href="#map"><span data-l="en">Map</span><span data-l="pt">Mapa</span></a>
-  <a href="#beaches"><span data-l="en">Beaches</span><span data-l="pt">Praias</span></a>
-  <a href="#food"><span data-l="en">Restaurants</span><span data-l="pt">Restaurantes</span></a>
-  <a href="#todo"><span data-l="en">Things to do</span><span data-l="pt">O que fazer</span></a>
-  <a href="#departure"><span data-l="en">Departure</span><span data-l="pt">Saída</span></a>
+  <a href="#wifi" data-t="nav.wifi"></a>
+  <a href="#arrival" data-t="nav.arrival"></a>
+  <a href="#rules" data-t="nav.rules"></a>
+  <a href="#pool" data-t="nav.pool"></a>
+  <a href="#help" data-t="nav.help"></a>
+  <a href="#map" data-t="nav.map"></a>
+  <a href="#beaches" data-t="nav.beaches"></a>
+  <a href="#food" data-t="nav.food"></a>
+  <a href="#todo" data-t="nav.todo"></a>
+  <a href="#departure" data-t="nav.departure"></a>
 </div></nav>
 
 <main>
 
 <section id="wifi" class="wifi">
-  <h2><span class="ic">📶</span> Wi-Fi</h2>
+  <h2><span class="ic">📶</span> <span data-t="nav.wifi"></span></h2>
   <div class="row">
-    <div><div class="k"><span data-l="en">Network</span><span data-l="pt">Rede</span></div><div class="v" id="ssid">HDPORCHES_Guest</div></div>
-    <button data-copy="ssid"><span data-l="en">Copy</span><span data-l="pt">Copiar</span></button>
+    <div><div class="k" data-t="network"></div><div class="v" id="ssid"></div></div>
+    <button data-copy="ssid" data-t="copy"></button>
   </div>
   <div class="row">
-    <div><div class="k"><span data-l="en">Password</span><span data-l="pt">Palavra-passe</span></div><div class="v" id="pwd">CasaPorchesHD2023</div></div>
-    <button data-copy="pwd"><span data-l="en">Copy</span><span data-l="pt">Copiar</span></button>
+    <div><div class="k" data-t="password"></div><div class="v" id="pwd"></div></div>
+    <button data-copy="pwd" data-t="copy"></button>
   </div>
 </section>
 
 <section id="arrival">
-  <h2><span class="ic">🔑</span> <span data-l="en">Arrival</span><span data-l="pt">Chegada</span></h2>
+  <h2><span class="ic">🔑</span> <span data-t="arrivalTitle"></span></h2>
   <div class="times">
-    <div class="time"><b>15:00</b><span data-l="en">Check-in from</span><span data-l="pt">Check-in a partir das</span></div>
-    <div class="time"><b>11:00</b><span data-l="en">Check-out by</span><span data-l="pt">Check-out até às</span></div>
+    <div class="time"><b>15:00</b><span data-t="checkinFrom"></span></div>
+    <div class="time"><b>11:00</b><span data-t="checkoutBy"></span></div>
   </div>
-  <ul class="list" data-l="en">
-    <li>Self check-in: the keys are in the key safe. The code is sent by HostWise in your Airbnb messages.</li>
-    <li>The house is in the centre of Porches village, facing the parish church.</li>
-    <li>Free parking in the house garage.</li>
-    <li>Portuguese law requires every guest to be registered — please complete the registration form HostWise sends after booking.</li>
-    <li>Basic toiletries are provided for the first day.</li>
-  </ul>
-  <ul class="list" data-l="pt">
-    <li>Check-in autónomo: as chaves estão no cofre de chaves. O código é enviado pela HostWise nas mensagens do Airbnb.</li>
-    <li>A casa fica no centro da vila de Porches, em frente à Igreja Matriz.</li>
-    <li>Estacionamento gratuito na garagem da casa.</li>
-    <li>A lei portuguesa obriga ao registo de todos os hóspedes — preencha o formulário que a HostWise envia após a reserva.</li>
-    <li>São fornecidos produtos de higiene básicos para o primeiro dia.</li>
-  </ul>
+  <ul class="list" data-list="arrival"></ul>
 </section>
 
 <section id="rules">
-  <h2><span class="ic">🏡</span> <span data-l="en">House rules</span><span data-l="pt">Regras da casa</span></h2>
-  <ul class="list" data-l="en">
-    <li>Maximum 8 guests. Visitors are not allowed to stay overnight.</li>
-    <li>No parties or events.</li>
-    <li>No pets allowed.</li>
-    <li>Please respect the neighbours: keep noise down between 23:00 and 08:00, both inside and in the garden.</li>
-    <li>No smoking inside the house.</li>
-    <li>Keep windows and doors closed while the air conditioning is on, and switch it off when you go out.</li>
-    <li>Please separate your rubbish. Recycling bins (ecopontos) are located in the village.</li>
-    <li>Please report any breakage or problem to HostWise as soon as possible.</li>
-  </ul>
-  <ul class="list" data-l="pt">
-    <li>Máximo de 8 hóspedes. Não são permitidas visitas a pernoitar.</li>
-    <li>Não são permitidas festas nem eventos.</li>
-    <li>Não são aceites animais.</li>
-    <li>Respeite os vizinhos: silêncio entre as 23:00 e as 08:00, dentro de casa e no jardim.</li>
-    <li>Não é permitido fumar dentro de casa.</li>
-    <li>Mantenha portas e janelas fechadas com o ar condicionado ligado e desligue-o quando sair.</li>
-    <li>Separe o lixo. Há ecopontos na vila.</li>
-    <li>Comunique qualquer avaria ou dano à HostWise o mais depressa possível.</li>
-  </ul>
+  <h2><span class="ic">🏡</span> <span data-t="rulesTitle"></span></h2>
+  <ul class="list" data-list="rules"></ul>
 </section>
 
 <section id="pool">
-  <h2><span class="ic">🏊</span> <span data-l="en">Pool</span><span data-l="pt">Piscina</span></h2>
-  <ul class="list" data-l="en">
-    <li>There is no lifeguard. Children must be supervised by an adult at all times.</li>
-    <li>No glass around the pool — please use plastic cups.</li>
-    <li>Please rinse off sun cream before swimming.</li>
-    <li>Please do not dive into the pool.</li>
-  </ul>
-  <ul class="list" data-l="pt">
-    <li>Não há nadador-salvador. As crianças devem estar sempre acompanhadas por um adulto.</li>
-    <li>Não use copos ou garrafas de vidro junto à piscina.</li>
-    <li>Retire o protetor solar antes de entrar na água.</li>
-    <li>Não mergulhe de cabeça na piscina.</li>
-  </ul>
+  <h2><span class="ic">🏊</span> <span data-t="poolTitle"></span></h2>
+  <ul class="list" data-list="pool"></ul>
 </section>
 
 <section id="help" class="sos">
-  <h2><span class="ic">🆘</span> <span data-l="en">Help & emergency</span><span data-l="pt">Ajuda e emergência</span></h2>
+  <h2><span class="ic">🆘</span> <span data-t="helpTitle"></span></h2>
   <div class="cards">
-    <div class="card">
-      <div class="t"><span data-l="en">Emergency (police, fire, ambulance)</span><span data-l="pt">Emergência (polícia, bombeiros, ambulância)</span></div>
-      <a class="big" href="tel:112">112</a>
-    </div>
-    <div class="card">
-      <div class="t"><span data-l="en">SNS 24 – health helpline (24h)</span><span data-l="pt">SNS 24 – linha de saúde (24h)</span></div>
-      <a class="big" href="tel:+351808242424" style="font-size:1.2rem">808 24 24 24</a>
-      <p data-l="en">Medical advice by phone; they tell you where to go.</p>
-      <p data-l="pt">Aconselhamento médico por telefone; indicam onde se deve dirigir.</p>
-    </div>
-    <div class="card">
-      <div class="t"><span data-l="en">House problems, questions, extra services</span><span data-l="pt">Problemas na casa, dúvidas, serviços extra</span></div>
-      <p data-l="en">Contact HostWise through the Airbnb app (usually replies within an hour). Extra cleaning, extra bedding, late check-out or extra keys are available on request (extra cost).</p>
-      <p data-l="pt">Contacte a HostWise pela app do Airbnb (normalmente responde em menos de uma hora). Limpeza extra, roupa de cama extra, check-out tardio ou chaves adicionais disponíveis a pedido (custo extra).</p>
-    </div>
-    <div class="card">
-      <div class="t"><span data-l="en">Hospital (A&E)</span><span data-l="pt">Hospital (urgência)</span><small>~25 min</small></div>
-      <p>Unidade Hospitalar de Portimão</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hospital+de+Portim%C3%A3o">Google Maps →</a>
-    </div>
-    <div class="card">
-      <div class="t"><span data-l="en">Pharmacies</span><span data-l="pt">Farmácias</span></div>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=farm%C3%A1cia+Porches+Lagoa">Google Maps →</a>
-    </div>
-    <div class="card">
-      <div class="t"><span data-l="en">Supermarket</span><span data-l="pt">Supermercado</span><small data-l="en">2 min by car</small><small data-l="pt">2 min de carro</small></div>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=supermercado+Porches+Lagoa">Google Maps →</a>
-    </div>
+    <div class="card"><div class="t"><span data-t="emergency"></span></div><a class="big" href="tel:112">112</a></div>
+    <div class="card"><div class="t"><span data-t="sns"></span></div><a class="big" href="tel:+351808242424" style="font-size:1.2rem">808 24 24 24</a><p data-t="snsDesc"></p></div>
+    <div class="card"><div class="t"><span data-t="host"></span></div><p data-t="hostDesc"></p></div>
+    <div class="card"><div class="t"><span data-t="hospital"></span><small>~25 min</small></div><p>Unidade Hospitalar de Portimão</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hospital+de+Portim%C3%A3o">Google Maps →</a></div>
+    <div class="card"><div class="t"><span data-t="pharmacies"></span></div>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=farm%C3%A1cia+Porches+Lagoa">Google Maps →</a></div>
+    <div class="card"><div class="t"><span data-t="supermarket"></span><small>2 min <span data-t="byCar"></span></small></div>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=supermercado+Porches+Lagoa">Google Maps →</a></div>
   </div>
 </section>
 
 <section id="map" class="mapsec">
-  <h2><span class="ic">🗺️</span> <span data-l="en">Map</span><span data-l="pt">Mapa</span></h2>
+  <h2><span class="ic">🗺️</span> <span data-t="mapTitle"></span></h2>
   <div class="chips" id="chips"></div>
-  <div class="mapwrap"><div id="leafmap"></div><div class="maphint" id="maphint"><span data-l="en">Tap to use the map</span><span data-l="pt">Toque para usar o mapa</span></div></div>
-  <p class="note" style="padding-bottom:16px" data-l="en">Tap a pin for details and directions from the house.</p>
-  <p class="note" style="padding-bottom:16px" data-l="pt">Toque num ponto para ver detalhes e o caminho a partir da casa.</p>
+  <div class="mapwrap"><div id="leafmap"></div><div class="maphint" id="maphint"><span data-t="mapTap"></span></div></div>
+  <p class="note" style="padding-bottom:16px" data-t="mapNote"></p>
 </section>
 
 <section id="beaches">
-  <h2><span class="ic">🏖️</span> <span data-l="en">Beaches nearby</span><span data-l="pt">Praias perto</span></h2>
-  <div class="cards two">
-    <div class="card"><div class="t">Nossa Senhora da Rocha<small>4 km</small></div>
-      <p data-l="en">Sheltered beach with the clifftop chapel. Great for families.</p><p data-l="pt">Praia abrigada com a capela na falésia. Ideal para famílias.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+Nossa+Senhora+da+Rocha">Google Maps →</a></div>
-    <div class="card"><div class="t">Armação de Pêra<small>5 km</small></div>
-      <p data-l="en">Long sandy beach with a promenade, cafés and restaurants.</p><p data-l="pt">Praia extensa com passeio marítimo, cafés e restaurantes.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+de+Arma%C3%A7%C3%A3o+de+P%C3%AAra">Google Maps →</a></div>
-    <div class="card"><div class="t">Praia da Marinha<small>6 km</small></div>
-      <p data-l="en">One of the most famous beaches in Europe: cliffs, arches and clear water. Arrive early in summer — parking fills up.</p><p data-l="pt">Uma das praias mais famosas da Europa: falésias, arcos e água cristalina. No verão chegue cedo — o estacionamento enche.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+da+Marinha">Google Maps →</a></div>
-    <div class="card"><div class="t">Benagil<small>7 km</small></div>
-      <p data-l="en">Starting point for boat and kayak trips to the Benagil sea cave.</p><p data-l="pt">Ponto de partida para passeios de barco e kayak à gruta de Benagil.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+de+Benagil">Google Maps →</a></div>
-    <div class="card"><div class="t">Vale de Centeanes<small>9 km</small></div>
-      <p data-l="en">Small, quieter beach between cliffs.</p><p data-l="pt">Praia pequena e mais sossegada entre falésias.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+do+Vale+de+Centeanes">Google Maps →</a></div>
-  </div>
-  <p class="note" data-l="en">Tip: the Seven Hanging Valleys trail (Percurso dos Sete Vales Suspensos) links Marinha and Benagil along the clifftops — best early morning or late afternoon.</p>
-  <p class="note" data-l="pt">Dica: o Percurso dos Sete Vales Suspensos liga a Marinha a Benagil pelas falésias — melhor de manhã cedo ou ao fim da tarde.</p>
+  <h2><span class="ic">🏖️</span> <span data-t="beachesTitle"></span></h2>
+  <div class="cards two" data-places="beaches"></div>
+  <p class="note" data-t="beachTip"></p>
 </section>
 
 <section id="food">
-  <h2><span class="ic">🍽️</span> <span data-l="en">Restaurants</span><span data-l="pt">Restaurantes</span></h2>
-  <div class="cards two">
-    <div class="card"><div class="t">Tasca 26<small data-l="en">Porches</small><small data-l="pt">Porches</small></div>
-      <p data-l="en">Traditional tavern, grilled meats.</p><p data-l="pt">Tasca tradicional, carnes grelhadas.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Tasca+26+Porches">Google Maps →</a></div>
-    <div class="card"><div class="t">O Charneco<small>Estômbar · 10 min</small></div>
-      <p data-l="en">No menu, fixed price with wine. Authentic Algarve cooking. Booking essential.</p><p data-l="pt">Sem menu, preço fixo com vinho. Cozinha algarvia autêntica. Reserva obrigatória.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=O+Charneco+Est%C3%B4mbar">Google Maps →</a></div>
-    <div class="card"><div class="t">O Ciclo<small>Lagoa · 8 min</small></div>
-      <p data-l="en">Fresh fish and traditional dishes in the centre of Lagoa.</p><p data-l="pt">Peixe fresco e pratos tradicionais no centro de Lagoa.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=O+Ciclo+Lagoa">Google Maps →</a></div>
-    <div class="card"><div class="t">Rei das Praias<small>Ferragudo · 15 min</small></div>
-      <p data-l="en">Fish and seafood on Caneiros beach, since 1976.</p><p data-l="pt">Peixe e marisco na Praia dos Caneiros, desde 1976.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rei+das+Praias+Ferragudo">Google Maps →</a></div>
-    <div class="card"><div class="t">Vista<small>Portimão · 20 min</small></div>
-      <p data-l="en">Fine dining by the sea, large wine list.</p><p data-l="pt">Alta cozinha junto ao mar, extensa carta de vinhos.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Vista+Restaurante+Portim%C3%A3o">Google Maps →</a></div>
-    <div class="card"><div class="t">Ocean<small>Vila Vita Parc</small></div>
-      <p data-l="en">Michelin-starred fine dining a few minutes away. Book well in advance.</p><p data-l="pt">Restaurante com estrelas Michelin a poucos minutos. Reserve com antecedência.</p>
-      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ocean+Restaurant+Vila+Vita+Parc">Google Maps →</a></div>
-  </div>
+  <h2><span class="ic">🍽️</span> <span data-t="foodTitle"></span></h2>
+  <div class="cards two" data-places="food"></div>
 </section>
 
 <section id="todo">
-  <h2><span class="ic">☀️</span> <span data-l="en">Things to do</span><span data-l="pt">O que fazer</span></h2>
-  <div class="cards two">
-    <div class="card"><div class="t">Aqualand<small>3 km</small></div>
-      <p data-l="en">Water park — slides and pools for all ages (summer season).</p><p data-l="pt">Parque aquático — escorregas e piscinas (época de verão).</p></div>
-    <div class="card"><div class="t">Slide & Splash<small>6 km</small></div>
-      <p data-l="en">Water park in Lagoa (summer season).</p><p data-l="pt">Parque aquático em Lagoa (época de verão).</p></div>
-    <div class="card"><div class="t">Zoomarine<small>10 km</small></div>
-      <p data-l="en">Marine theme park with dolphins, birds and aquariums.</p><p data-l="pt">Parque temático com golfinhos, aves e aquários.</p></div>
-    <div class="card"><div class="t"><span data-l="en">Golf</span><span data-l="pt">Golfe</span><small>6–8 km</small></div>
-      <p>Vale da Pinta · Amendoeira Golf Resort</p></div>
-    <div class="card"><div class="t"><span data-l="en">Benagil cave by boat or kayak</span><span data-l="pt">Gruta de Benagil de barco ou kayak</span><small>7 km</small></div>
-      <p data-l="en">Tours leave from Benagil, Armação de Pêra and Portimão.</p><p data-l="pt">Passeios a partir de Benagil, Armação de Pêra e Portimão.</p></div>
-    <div class="card"><div class="t"><span data-l="en">Porches pottery</span><span data-l="pt">Olaria de Porches</span><small data-l="en">In the village</small><small data-l="pt">Na vila</small></div>
-      <p data-l="en">Porches is known for its hand-painted Algarve pottery.</p><p data-l="pt">Porches é conhecida pela sua olaria algarvia pintada à mão.</p></div>
-  </div>
+  <h2><span class="ic">☀️</span> <span data-t="todoTitle"></span></h2>
+  <div class="cards two" data-places="todo"></div>
 </section>
 
 <section id="departure">
-  <h2><span class="ic">👋</span> <span data-l="en">Before you leave</span><span data-l="pt">Antes de sair</span></h2>
-  <ul class="list" data-l="en">
-    <li>Check-out by 11:00 (late check-out on request through Airbnb).</li>
-    <li>Switch off the air conditioning and lights, and close windows and doors.</li>
-    <li>Put the rubbish in the village bins and load the dishwasher.</li>
-    <li>Return the keys to the key safe and scramble the code.</li>
-    <li>Thank you for staying with us — a review on Airbnb helps us a lot!</li>
-  </ul>
-  <ul class="list" data-l="pt">
-    <li>Check-out até às 11:00 (check-out tardio a pedido pelo Airbnb).</li>
-    <li>Desligue o ar condicionado e as luzes e feche janelas e portas.</li>
-    <li>Deixe o lixo nos contentores da vila e coloque a loiça na máquina.</li>
-    <li>Devolva as chaves ao cofre e baralhe o código.</li>
-    <li>Obrigado pela estadia — uma avaliação no Airbnb ajuda-nos muito!</li>
-  </ul>
+  <h2><span class="ic">👋</span> <span data-t="departureTitle"></span></h2>
+  <ul class="list" data-list="departure"></ul>
 </section>
 
 </main>
 
 <footer>
   <p>Casa Porches · Porches, Lagoa, Algarve · AL n.º 154937/AL</p>
-  <p><a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener"><span data-l="en">Complaints book (Livro de Reclamações)</span><span data-l="pt">Livro de Reclamações Eletrónico</span></a> · <a href="index.html"><span data-l="en">About the house</span><span data-l="pt">Sobre a casa</span></a></p>
+  <p><a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener" data-t="complaints"></a> · <a href="index.html" data-t="about"></a></p>
 </footer>
 
-<script>
-(function(){
-  var root=document.documentElement, btns=document.querySelectorAll('.lang button');
-  function set(l){root.lang=l;btns.forEach(function(b){b.classList.toggle('on',b.dataset.set===l)});
-    try{localStorage.setItem('guiaLang',l)}catch(e){}
-    var u=new URL(location.href);u.searchParams.set('lang',l);history.replaceState(null,'',u)}
-  var q=new URLSearchParams(location.search).get('lang'), saved=null;
-  try{saved=localStorage.getItem('guiaLang')}catch(e){}
-  var nav=(navigator.language||'en').toLowerCase().indexOf('pt')===0?'pt':'en';
-  set(q==='pt'||q==='en'?q:(saved||nav));
-  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set)})});
-  document.querySelectorAll('[data-copy]').forEach(function(b){
-    b.addEventListener('click',function(){
-      var t=document.getElementById(b.dataset.copy).textContent, spans=b.querySelectorAll('span');
-      var done=function(){var o=[].map.call(spans,function(s){return s.textContent});spans[0].textContent='Copied ✓';spans[1].textContent='Copiado ✓';setTimeout(function(){spans[0].textContent=o[0];spans[1].textContent=o[1]},1500)};
-      if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){})}
-    });
-  });
-})();
-</script>
+<script src="textos.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function(){
   var HOME=[37.125046,-8.399062];
-  var CATS={
-    beach:{c:'#2a9fd6',i:'🏖️',en:'Beaches',pt:'Praias'},
-    food:{c:'#d9822b',i:'🍽️',en:'Restaurants',pt:'Restaurantes'},
-    fun:{c:'#7b5bd6',i:'🎢',en:'Activities',pt:'Atividades'},
-    see:{c:'#3c9a5f',i:'📍',en:'Places to visit',pt:'Locais a visitar'},
-    help:{c:'#c0392b',i:'🏥',en:'Health',pt:'Saúde'}
-  };
-  var P=[
-    ['beach','Praia Nossa Senhora da Rocha',37.0976,-8.3848,'Sheltered beach below the clifftop chapel.','Praia abrigada junto à capela na falésia.'],
-    ['beach','Armação de Pêra',37.1010,-8.3600,'Long sandy beach with promenade.','Praia extensa com passeio marítimo.'],
-    ['beach','Praia da Marinha',37.0899,-8.4121,'Iconic cliffs and arches. Arrive early in summer.','Falésias e arcos icónicos. No verão chegue cedo.'],
-    ['beach','Praia de Benagil',37.0874,-8.4260,'Boat and kayak trips to the Benagil cave.','Passeios de barco e kayak à gruta de Benagil.'],
-    ['beach','Praia do Vale de Centeanes',37.0920,-8.4405,'Small, quieter beach between cliffs.','Praia pequena e sossegada entre falésias.'],
-    ['beach','Praia da Albandeira',37.0912,-8.4032,'Small cove with a natural rock arch.','Pequena enseada com arco natural na rocha.'],
-    ['food','Ocean · Vila Vita Parc',37.0960,-8.3920,'Michelin-starred fine dining. Book ahead.','Restaurante com estrelas Michelin. Reserve com antecedência.'],
-    ['food','O Charneco',37.1440,-8.4850,'No menu, fixed price with wine. Booking essential.','Sem menu, preço fixo com vinho. Reserva obrigatória.'],
-    ['food','O Ciclo',37.1350,-8.4530,'Fresh fish and traditional dishes.','Peixe fresco e pratos tradicionais.'],
-    ['food','Rei das Praias',37.1045,-8.5055,'Fish and seafood on Caneiros beach.','Peixe e marisco na Praia dos Caneiros.'],
-    ['food','Vista',37.1188,-8.5330,'Fine dining by Praia da Rocha.','Alta cozinha junto à Praia da Rocha.'],
-    ['fun','Aqualand',37.1375,-8.3615,'Water park (summer season).','Parque aquático (época de verão).'],
-    ['fun','Slide & Splash',37.1310,-8.4665,'Water park (summer season).','Parque aquático (época de verão).'],
-    ['fun','Zoomarine',37.1280,-8.3180,'Marine theme park.','Parque temático marinho.'],
-    ['fun','Vale da Pinta Golf',37.1230,-8.4260,'Golf course.','Campo de golfe.'],
-    ['see','Algar Seco · Carvoeiro',37.0945,-8.4620,'Clifftop boardwalk and rock formations.','Passadiço nas falésias e formações rochosas.'],
-    ['see','Ferragudo',37.1240,-8.5190,'Charming fishing village by the river.','Vila piscatória junto ao rio.'],
-    ['see','Silves · Castelo',37.1914,-8.4386,'Medieval castle and old town.','Castelo medieval e centro histórico.'],
-    ['help','Hospital de Portimão',37.1450,-8.5470,'Hospital (A&E).','Hospital (urgência).']
-  ];
-  var lang=function(){return document.documentElement.lang==='pt'?'pt':'en'};
+  var CATS={beach:{c:'#2a9fd6',i:'🏖️'},food:{c:'#d9822b',i:'🍽️'},fun:{c:'#7b5bd6',i:'🎢'},see:{c:'#3c9a5f',i:'📍'},help:{c:'#c0392b',i:'🏥'}};
+  var codes=LANGS.map(function(l){return l.code});
+  var cur='en', T=TXT.en;
+  function get(path){return path.split('.').reduce(function(o,k){return o&&o[k]},T)}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function gmaps(q){return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q)}
+  function dir(p){return 'https://www.google.com/maps/dir/?api=1&origin='+HOME.join(',')+'&destination='+(p.lat!=null?p.lat+','+p.lng:encodeURIComponent(p.q))}
+
+  document.getElementById('ssid').textContent=WIFI.ssid;
+  document.getElementById('pwd').textContent=WIFI.password;
+
+  var langBox=document.getElementById('langs');
+  LANGS.forEach(function(l){var b=document.createElement('button');b.textContent=l.label;b.title=l.name;b.dataset.set=l.code;b.onclick=function(){setLang(l.code)};langBox.appendChild(b)});
+
+  /* ---- map ---- */
   var touch=('ontouchstart' in window)||navigator.maxTouchPoints>0;
-  var map=L.map('leafmap',{scrollWheelZoom:false,dragging:!touch,tap:true}).setView(HOME,12);
-  if(touch){
-    var hint=document.getElementById('maphint'); hint.classList.add('show');
-    hint.addEventListener('click',function(){hint.classList.remove('show');map.dragging.enable()});
-    new IntersectionObserver(function(e){ if(!e[0].isIntersecting){map.dragging.disable();hint.classList.add('show')} }).observe(document.getElementById('leafmap'));
+  var map=null, layers={}, markers=[], home=null, hidden={};
+  if(window.L){
+    map=L.map('leafmap',{scrollWheelZoom:false,dragging:!touch,tap:true}).setView(HOME,12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap'}).addTo(map);
+    var icon=function(cls,bg,txt){return L.divIcon({className:'',html:'<div class="pin '+cls+'" style="background:'+bg+'">'+txt+'</div>',iconSize:cls?[40,40]:[30,30],iconAnchor:cls?[20,20]:[15,15],popupAnchor:[0,-14]})};
+    home=L.marker(HOME,{icon:icon('home','','🏠'),zIndexOffset:1000}).addTo(map);
+    Object.keys(CATS).forEach(function(k){layers[k]=L.layerGroup().addTo(map)});
+    PLACES.forEach(function(p){ if(p.lat==null) return;
+      var m=L.marker([p.lat,p.lng],{icon:icon('',CATS[p.cat].c,CATS[p.cat].i)}).addTo(layers[p.cat]); m._p=p; markers.push(m)});
+    var pts=[HOME].concat(PLACES.filter(function(p){return p.lat!=null&&p.cat!=='help'&&p.lat<37.17}).map(function(p){return [p.lat,p.lng]}));
+    map.fitBounds(pts,{padding:[20,20]});
+    if(touch){
+      var hint=document.getElementById('maphint'); hint.classList.add('show');
+      hint.addEventListener('click',function(){hint.classList.remove('show');map.dragging.enable()});
+      if('IntersectionObserver' in window) new IntersectionObserver(function(e){ if(!e[0].isIntersecting){map.dragging.disable();hint.classList.add('show')} }).observe(document.getElementById('leafmap'));
+    } else {
+      map.on('focus click',function(){map.scrollWheelZoom.enable()});
+      map.on('mouseout',function(){map.scrollWheelZoom.disable()});
+    }
   } else {
-    map.on('focus click',function(){map.scrollWheelZoom.enable()});
-    map.on('mouseout',function(){map.scrollWheelZoom.disable()});
+    document.getElementById('map').style.display='none';
   }
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap'}).addTo(map);
-  var icon=function(cls,bg,txt){return L.divIcon({className:'',html:'<div class="pin '+cls+'" style="background:'+bg+'">'+txt+'</div>',iconSize:cls?[40,40]:[30,30],iconAnchor:cls?[20,20]:[15,15],popupAnchor:[0,-14]})};
-  var dir=function(la,lo){return 'https://www.google.com/maps/dir/?api=1&origin='+HOME.join(',')+'&destination='+la+','+lo};
-  var home=L.marker(HOME,{icon:icon('home','','🏠'),zIndexOffset:1000}).addTo(map);
-  var layers={}, markers=[];
-  Object.keys(CATS).forEach(function(k){layers[k]=L.layerGroup().addTo(map)});
-  P.forEach(function(p){
-    var m=L.marker([p[2],p[3]],{icon:icon('',CATS[p[0]].c,CATS[p[0]].i)}).addTo(layers[p[0]]);
-    m._p=p; markers.push(m);
-  });
-  function popups(){
-    var l=lang();
-    home.bindPopup('<b>Casa Porches</b><br>'+(l==='pt'?'A sua casa · em frente à Igreja Matriz':'Your home · facing the parish church'));
+
+  function renderMap(){
+    if(!map) return;
+    home.bindPopup('<b>Casa Porches</b><br>'+esc(T.homePopup));
     markers.forEach(function(m){var p=m._p;
-      m.bindPopup('<b>'+p[1]+'</b><br>'+(l==='pt'?p[5]:p[4])+'<br><a target="_blank" rel="noopener" href="'+dir(p[2],p[3])+'">'+(l==='pt'?'Como chegar →':'Directions →')+'</a>')});
+      m.bindPopup('<b>'+esc(p.name)+'</b><br>'+esc(p.d[cur]||p.d.en)+'<br><a target="_blank" rel="noopener" href="'+dir(p)+'">'+esc(T.directions)+'</a>')});
     var ch=document.getElementById('chips'); ch.innerHTML='';
     Object.keys(CATS).forEach(function(k){
-      var b=document.createElement('button'); if(!map.hasLayer(layers[k])) b.className='off';
-      b.innerHTML='<i style="background:'+CATS[k].c+'"></i>'+CATS[k][l];
-      b.onclick=function(){ if(map.hasLayer(layers[k])){map.removeLayer(layers[k]);b.className='off'} else {map.addLayer(layers[k]);b.className=''} };
+      var b=document.createElement('button'); if(hidden[k]) b.className='off';
+      b.innerHTML='<i style="background:'+CATS[k].c+'"></i>'+esc(T.cats[k]);
+      b.onclick=function(){hidden[k]=!hidden[k]; if(hidden[k]){map.removeLayer(layers[k]);b.className='off'} else {map.addLayer(layers[k]);b.className=''}};
       ch.appendChild(b);
     });
   }
-  popups();
-  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',popups)});
-  var all=[HOME].concat(P.filter(function(p){return p[0]!=='help'&&p[1].indexOf('Silves')<0}).map(function(p){return [p[2],p[3]]}));
-  map.fitBounds(all,{padding:[20,20]});
+
+  function setLang(l){
+    if(codes.indexOf(l)<0) l='en';
+    cur=l; T=TXT[l]; document.documentElement.lang=l; document.title=T.title;
+    document.querySelectorAll('[data-t]').forEach(function(el){var v=get(el.dataset.t); if(v!=null) el.textContent=v});
+    document.querySelectorAll('[data-list]').forEach(function(ul){ul.innerHTML=(T[ul.dataset.list]||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('')});
+    document.querySelectorAll('[data-places]').forEach(function(box){
+      box.innerHTML=PLACES.filter(function(p){return p.list===box.dataset.places}).map(function(p){
+        return '<div class="card"><div class="t">'+esc(p.name)+(p.dist?'<small>'+esc(p.dist)+'</small>':'')+'</div><p>'+esc(p.d[l]||p.d.en)+'</p><a class="map" target="_blank" rel="noopener" href="'+gmaps(p.q)+'">Google Maps →</a></div>'}).join('')});
+    langBox.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.set===l)});
+    try{localStorage.setItem('guiaLang',l)}catch(e){}
+    try{var u=new URL(location.href);u.searchParams.set('lang',l);history.replaceState(null,'',u)}catch(e){}
+    renderMap();
+  }
+
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=document.getElementById(b.dataset.copy).textContent;
+      var done=function(){b.textContent=T.copied;setTimeout(function(){b.textContent=T.copy},1500)};
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){})}
+      else{var r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.copy));var s=getSelection();s.removeAllRanges();s.addRange(r);try{document.execCommand('copy');done()}catch(e){}}
+    });
+  });
+
+  var q=new URLSearchParams(location.search).get('lang'), saved=null;
+  try{saved=localStorage.getItem('guiaLang')}catch(e){}
+  var navs=(navigator.languages||[navigator.language||'en']).map(function(x){return (x||'').slice(0,2).toLowerCase()});
+  var auto=navs.filter(function(c){return codes.indexOf(c)>=0})[0];
+  setLang(codes.indexOf(q)>=0?q:(saved||auto||'en'));
 })();
 </script>
 </body>
