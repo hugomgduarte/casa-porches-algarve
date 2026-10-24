@@ -22,6 +22,7 @@ window.TXT = {
     h1: 'Bem-vindos à Casa Porches',
     sub: 'Tudo o que precisa para a sua estadia — Wi-Fi, regras da casa, praias, restaurantes e contactos úteis.',
     nav: { wifi: 'Wi-Fi', arrival: 'Chegada', rules: 'Regras', pool: 'Piscina', help: 'Ajuda e emergência', map: 'Mapa', beaches: 'Praias', food: 'Restaurantes', todo: 'O que fazer', departure: 'Saída' },
+    wifiScan: 'Leia com a câmara do telemóvel para ligar automaticamente.',
     network: 'Rede', password: 'Palavra-passe', copy: 'Copiar', copied: 'Copiado ✓',
     arrivalTitle: 'Chegada', checkinFrom: 'Check-in a partir das', checkoutBy: 'Check-out até às',
     arrival: [
@@ -77,6 +78,7 @@ window.TXT = {
     h1: 'Welcome to Casa Porches',
     sub: 'Everything you need for your stay — Wi-Fi, house rules, beaches, restaurants and useful contacts.',
     nav: { wifi: 'Wi-Fi', arrival: 'Check-in', rules: 'House rules', pool: 'Pool', help: 'Help & emergency', map: 'Map', beaches: 'Beaches', food: 'Restaurants', todo: 'Things to do', departure: 'Departure' },
+    wifiScan: 'Scan with your phone camera to connect automatically.',
     network: 'Network', password: 'Password', copy: 'Copy', copied: 'Copied ✓',
     arrivalTitle: 'Arrival', checkinFrom: 'Check-in from', checkoutBy: 'Check-out by',
     arrival: [
@@ -132,6 +134,7 @@ window.TXT = {
     h1: 'Bienvenidos a Casa Porches',
     sub: 'Todo lo que necesita para su estancia: Wi-Fi, normas de la casa, playas, restaurantes y contactos útiles.',
     nav: { wifi: 'Wi-Fi', arrival: 'Llegada', rules: 'Normas', pool: 'Piscina', help: 'Ayuda y emergencias', map: 'Mapa', beaches: 'Playas', food: 'Restaurantes', todo: 'Qué hacer', departure: 'Salida' },
+    wifiScan: 'Escanee con la cámara del móvil para conectarse automáticamente.',
     network: 'Red', password: 'Contraseña', copy: 'Copiar', copied: 'Copiado ✓',
     arrivalTitle: 'Llegada', checkinFrom: 'Check-in a partir de las', checkoutBy: 'Check-out hasta las',
     arrival: [
@@ -187,6 +190,7 @@ window.TXT = {
     h1: 'Bienvenue à la Casa Porches',
     sub: 'Tout ce qu’il vous faut pour votre séjour : Wi-Fi, règlement de la maison, plages, restaurants et contacts utiles.',
     nav: { wifi: 'Wi-Fi', arrival: 'Arrivée', rules: 'Règlement', pool: 'Piscine', help: 'Aide et urgences', map: 'Carte', beaches: 'Plages', food: 'Restaurants', todo: 'À faire', departure: 'Départ' },
+    wifiScan: 'Scannez avec l’appareil photo de votre téléphone pour vous connecter automatiquement.',
     network: 'Réseau', password: 'Mot de passe', copy: 'Copier', copied: 'Copié ✓',
     arrivalTitle: 'Arrivée', checkinFrom: 'Arrivée à partir de', checkoutBy: 'Départ avant',
     arrival: [
@@ -242,6 +246,7 @@ window.TXT = {
     h1: 'Willkommen in der Casa Porches',
     sub: 'Alles für Ihren Aufenthalt – WLAN, Hausregeln, Strände, Restaurants und wichtige Kontakte.',
     nav: { wifi: 'WLAN', arrival: 'Anreise', rules: 'Hausregeln', pool: 'Pool', help: 'Hilfe & Notfall', map: 'Karte', beaches: 'Strände', food: 'Restaurants', todo: 'Ausflüge', departure: 'Abreise' },
+    wifiScan: 'Mit der Handykamera scannen, um sich automatisch zu verbinden.',
     network: 'Netzwerk', password: 'Passwort', copy: 'Kopieren', copied: 'Kopiert ✓',
     arrivalTitle: 'Anreise', checkinFrom: 'Check-in ab', checkoutBy: 'Check-out bis',
     arrival: [
@@ -297,6 +302,7 @@ window.TXT = {
     h1: 'Benvenuti a Casa Porches',
     sub: 'Tutto ciò che serve per il vostro soggiorno: Wi-Fi, regole della casa, spiagge, ristoranti e contatti utili.',
     nav: { wifi: 'Wi-Fi', arrival: 'Arrivo', rules: 'Regole', pool: 'Piscina', help: 'Aiuto ed emergenze', map: 'Mappa', beaches: 'Spiagge', food: 'Ristoranti', todo: 'Cosa fare', departure: 'Partenza' },
+    wifiScan: 'Inquadrate con la fotocamera del telefono per connettervi automaticamente.',
     network: 'Rete', password: 'Password', copy: 'Copia', copied: 'Copiato ✓',
     arrivalTitle: 'Arrivo', checkinFrom: 'Check-in dalle', checkoutBy: 'Check-out entro le',
     arrival: [
