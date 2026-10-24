@@ -20,9 +20,13 @@ a{color:var(--gold-dark)}
 header{position:relative;color:#fff;background:linear-gradient(rgba(26,35,50,.55),rgba(26,35,50,.75)),url('images/house_0.jpg') center/cover;padding:28px 16px 40px}
 .topbar{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center;max-width:760px;margin:0 auto 36px}
 .brand{font-family:'Playfair Display',serif;font-size:1.15rem;color:#fff;text-decoration:none}
-.lang{display:flex;background:rgba(255,255,255,.15);border-radius:999px;padding:3px}
-.lang button{border:0;background:transparent;color:#fff;font:600 .8rem 'Inter';padding:6px 9px;border-radius:999px;cursor:pointer}
+.lang{display:flex;flex-wrap:wrap;gap:4px;background:rgba(26,35,50,.55);border:1px solid rgba(255,255,255,.35);border-radius:12px;padding:4px}
+.lang button{display:flex;align-items:center;gap:5px;border:0;background:transparent;color:#fff;font:600 .78rem 'Inter';padding:5px 7px;border-radius:8px;cursor:pointer;line-height:1}
+.lang button svg{width:20px;height:14px;border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,.4);flex:none}
 .lang button.on{background:#fff;color:var(--navy)}
+.lang button:hover:not(.on){background:rgba(255,255,255,.18)}
+.topbar{row-gap:12px}
+@media (max-width:360px){.lang button span{display:none}.lang button{padding:6px}.lang button svg{width:24px;height:16px}}
 .hero{max-width:760px;margin:0 auto}
 .hero h1{color:#fff;font-size:2rem;margin-bottom:8px}
 .hero p{opacity:.92}
@@ -119,7 +123,7 @@ footer a{color:var(--muted)}
     <div><div class="k" data-t="password"></div><div class="v" id="pwd"></div></div>
     <button data-copy="pwd" data-t="copy"></button>
   </div>
-  <div class="wqr"><img src="wifi-qr.svg" alt="Wi-Fi QR code" width="150" height="150"><p data-t="wifiScan"></p></div>
+  <div class="wqr"><img src="wifi-qr.svg?v=1" alt="Wi-Fi QR code" width="150" height="150"><p data-t="wifiScan"></p></div>
 </section>
 
 <section id="arrival">
@@ -191,7 +195,7 @@ footer a{color:var(--muted)}
   <p><a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener" data-t="complaints"></a> · <a href="index.html" data-t="about"></a></p>
 </footer>
 
-<script src="textos.js"></script>
+<script src="textos.js?v=3"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function(){
@@ -208,7 +212,15 @@ footer a{color:var(--muted)}
   document.getElementById('pwd').textContent=WIFI.password;
 
   var langBox=document.getElementById('langs');
-  LANGS.forEach(function(l){var b=document.createElement('button');b.textContent=l.label;b.title=l.name;b.dataset.set=l.code;b.onclick=function(){setLang(l.code)};langBox.appendChild(b)});
+  var FLAGS={
+    pt:'<svg viewBox="0 0 30 20"><rect width="12" height="20" fill="#046a38"/><rect x="12" width="18" height="20" fill="#da291c"/><circle cx="12" cy="10" r="4.2" fill="#ffe900"/><circle cx="12" cy="10" r="2.4" fill="#da291c"/></svg>',
+    en:'<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#012169"/><path d="M0,0 60,40M60,0 0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 60,40M60,0 0,40" stroke="#c8102e" stroke-width="3"/><path d="M30,0V40M0,20H60" stroke="#fff" stroke-width="12"/><path d="M30,0V40M0,20H60" stroke="#c8102e" stroke-width="7"/></svg>',
+    es:'<svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/></svg>',
+    fr:'<svg viewBox="0 0 30 20"><rect width="10" height="20" fill="#002654"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ce1126"/></svg>',
+    de:'<svg viewBox="0 0 30 20"><rect width="30" height="7" fill="#000"/><rect y="6.6" width="30" height="7" fill="#dd0000"/><rect y="13.3" width="30" height="6.7" fill="#ffce00"/></svg>',
+    it:'<svg viewBox="0 0 30 20"><rect width="10" height="20" fill="#009246"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ce2b37"/></svg>'
+  };
+  LANGS.forEach(function(l){var b=document.createElement('button');b.innerHTML=(FLAGS[l.code]||'')+'<span>'+l.label+'</span>';b.setAttribute('aria-label',l.name);b.title=l.name;b.dataset.set=l.code;b.onclick=function(){setLang(l.code)};langBox.appendChild(b)});
 
   /* ---- map ---- */
   var touch=('ontouchstart' in window)||navigator.maxTouchPoints>0;
@@ -276,7 +288,7 @@ footer a{color:var(--muted)}
   try{saved=localStorage.getItem('guiaLang')}catch(e){}
   var navs=(navigator.languages||[navigator.language||'en']).map(function(x){return (x||'').slice(0,2).toLowerCase()});
   var auto=navs.filter(function(c){return codes.indexOf(c)>=0})[0];
-  setLang(codes.indexOf(q)>=0?q:(saved||auto||'en'));
+  setLang(codes.indexOf(q)>=0?q:(saved||auto||'pt'));
 })();
 </script>
 </body>
