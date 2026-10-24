@@ -403,6 +403,7 @@
                     <span class="restaurant-distance">20 min de carro</span>
                 </div>
             </div>
+            <div style="text-align:center;margin-top:36px"><a href="guia.html#food" class="btn btn-primary">Ver os 40 restaurantes recomendados</a></div>
         </div>
     </section>
 
@@ -451,6 +452,7 @@
                     </div>
                 </div>
             </div>
+            <div style="text-align:center;margin-top:36px"><a href="guia.html#todo" class="btn btn-primary">Ver eventos, festas e experiências</a></div>
         </div>
     </section>
 
@@ -550,9 +552,8 @@
     </div>
 
     <script src="script.js"></script>
-    <script src="site-textos.js?v=1"></script>
-    <script>
-    (function(){
+        <script>
+    window.startSite=function(){
       var FLAGS={
         pt:'<svg viewBox="0 0 30 20"><rect width="12" height="20" fill="#046a38"/><rect x="12" width="18" height="20" fill="#da291c"/><circle cx="12" cy="10" r="4.2" fill="#ffe900"/><circle cx="12" cy="10" r="2.4" fill="#da291c"/></svg>',
         en:'<svg viewBox="0 0 60 40"><rect width="60" height="40" fill="#012169"/><path d="M0,0 60,40M60,0 0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 60,40M60,0 0,40" stroke="#c8102e" stroke-width="3"/><path d="M30,0V40M0,20H60" stroke="#fff" stroke-width="12"/><path d="M30,0V40M0,20H60" stroke="#c8102e" stroke-width="7"/></svg>',
@@ -592,7 +593,10 @@
       var navs=(navigator.languages||[navigator.language||'pt']).map(function(x){return (x||'').slice(0,2).toLowerCase()});
       var auto=navs.filter(function(c){return L.indexOf(c)>=0})[0];
       set(L.indexOf(q)>=0?q:(saved||auto||'pt'));
-    })();
+    };
+    fetch('data/site.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
+      window.SITE_LANGS=d.SITE_LANGS; window.SITE_ROWS=d.SITE_ROWS; window.startSite();
+    }).catch(function(e){console.error(e)});
     </script>
 </body>
 </html>
