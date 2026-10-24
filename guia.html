@@ -44,6 +44,9 @@ ul.list li::before{content:"";position:absolute;left:4px;top:16px;width:8px;heig
 .wifi .k{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:#e8d5a8}
 .wifi .v{font-size:1.1rem;font-weight:600;word-break:break-all}
 .wifi button{flex:none;border:0;background:var(--gold);color:var(--navy);font:600 .85rem 'Inter';padding:9px 14px;border-radius:8px;cursor:pointer}
+.wqr{display:flex;align-items:center;gap:16px;margin-top:14px;background:rgba(255,255,255,.08);border-radius:10px;padding:12px 14px}
+.wqr img{width:120px;height:120px;border-radius:8px;background:#fff;flex:none}
+.wqr p{font-size:.9rem;color:#e8d5a8}
 .times{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
 .time{background:var(--cream);border-radius:10px;padding:14px;text-align:center}
 .time b{display:block;font-family:'Playfair Display',serif;font-size:1.7rem;color:var(--navy)}
@@ -116,6 +119,7 @@ footer a{color:var(--muted)}
     <div><div class="k" data-t="password"></div><div class="v" id="pwd"></div></div>
     <button data-copy="pwd" data-t="copy"></button>
   </div>
+  <div class="wqr"><img src="wifi-qr.svg" alt="Wi-Fi QR code" width="150" height="150"><p data-t="wifiScan"></p></div>
 </section>
 
 <section id="arrival">
