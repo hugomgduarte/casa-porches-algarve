@@ -223,7 +223,8 @@ footer a{color:var(--muted)}
 <script>
 window.startGuide=function(){
   var HOME=[37.125046,-8.399062];
-  var CATS={beach:{c:'#2a9fd6',i:'🏖️'},food:{c:'#d9822b',i:'🍽️'},fun:{c:'#7b5bd6',i:'🎢'},see:{c:'#3c9a5f',i:'📍'},help:{c:'#c0392b',i:'🏥'}};
+  var CATS={beach:{c:'#2a9fd6',i:'🏖️'},food:{c:'#d9822b',i:'🍽️'},fun:{c:'#7b5bd6',i:'🎢'},see:{c:'#3c9a5f',i:'📍'},help:{c:'#c0392b',i:'🏥'},fest:{c:'#c2185b',i:'🎉'}};
+  var EVMAP={events:'fest',markets:'fest',water:'fun',indoor:'fun',nature:'see',sea:'see'};
   var codes=LANGS.map(function(l){return l.code});
   var cur='en', T=TXT.en;
   function get(path){return path.split('.').reduce(function(o,k){return o&&o[k]},T)}
@@ -254,9 +255,16 @@ window.startGuide=function(){
     var icon=function(cls,bg,txt){return L.divIcon({className:'',html:'<div class="pin '+cls+'" style="background:'+bg+'">'+txt+'</div>',iconSize:cls?[40,40]:[30,30],iconAnchor:cls?[20,20]:[15,15],popupAnchor:[0,-14]})};
     home=L.marker(HOME,{icon:icon('home','','🏠'),zIndexOffset:1000}).addTo(map);
     Object.keys(CATS).forEach(function(k){layers[k]=L.layerGroup().addTo(map)});
-    PLACES.forEach(function(p){ if(p.lat==null) return;
-      var m=L.marker([p.lat,p.lng],{icon:icon('',CATS[p.cat].c,CATS[p.cat].i)}).addTo(layers[p.cat]); m._p=p; markers.push(m)});
-    var pts=[HOME].concat(PLACES.filter(function(p){return p.lat!=null&&p.cat!=='help'&&p.lat<37.17}).map(function(p){return [p.lat,p.lng]}));
+    /* pontos: praias/locais (folha Mapa) + restaurantes + eventos com coordenadas; locais iguais juntam-se num só ponto */
+    var all=[];
+    PLACES.forEach(function(p){ if(p.lat!=null) all.push({cat:p.cat,o:p}) });
+    (window.RESTAURANTS||[]).forEach(function(r){ if(r.lat!=null) all.push({cat:'food',o:r,price:r.price}) });
+    (window.EVENTS||[]).forEach(function(e){ if(e.lat!=null) all.push({cat:EVMAP[e.cat]||'see',o:e}) });
+    var groups={};
+    all.forEach(function(x){var k=x.cat+'|'+x.o.lat.toFixed(4)+','+x.o.lng.toFixed(4);(groups[k]=groups[k]||[]).push(x)});
+    Object.keys(groups).forEach(function(k){var g=groups[k],c=g[0].cat,o=g[0].o;
+      var m=L.marker([o.lat,o.lng],{icon:icon('',CATS[c].c,CATS[c].i)}).addTo(layers[c]); m._g=g; markers.push(m)});
+    var pts=[HOME].concat(all.filter(function(x){return x.cat!=='help'&&x.o.lat<37.17&&x.o.lng>-8.56&&x.o.lng<-8.28}).map(function(x){return [x.o.lat,x.o.lng]}));
     map.fitBounds(pts,{padding:[20,20]});
     if(touch){
       var hint=document.getElementById('maphint'); hint.classList.add('show');
@@ -273,8 +281,9 @@ window.startGuide=function(){
   function renderMap(){
     if(!map) return;
     home.bindPopup('<b>Casa Porches</b><br>'+esc(T.homePopup));
-    markers.forEach(function(m){var p=m._p;
-      m.bindPopup('<b>'+esc(p.name)+'</b><br>'+esc(p.d[cur]||p.d.en)+'<br><a target="_blank" rel="noopener" href="'+dir(p)+'">'+esc(T.directions)+'</a>')});
+    markers.forEach(function(m){var g=m._g,o=g[0].o;
+      var body=g.map(function(x){return '<b>'+esc(x.o.name)+'</b>'+(x.price?' <span style="color:#a88a4e">'+esc(x.price)+'</span>':'')+'<br>'+esc((x.o.d&&(x.o.d[cur]||x.o.d.en))||'')}).join('<hr style="border:0;border-top:1px solid #eee;margin:6px 0">');
+      m.bindPopup('<div style="max-height:220px;overflow:auto">'+body+'</div><a target="_blank" rel="noopener" href="'+dir(o)+'">'+esc(T.directions)+'</a>',{maxWidth:260})});
     var ch=document.getElementById('chips'); ch.innerHTML='';
     Object.keys(CATS).forEach(function(k){
       var b=document.createElement('button'); if(hidden[k]) b.className='off';
