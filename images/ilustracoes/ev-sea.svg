@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a5f8a"/><stop offset="1" stop-color="#2a9fd6"/></linearGradient>
+ <pattern id="az" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M12 2 L22 12 L12 22 L2 12Z" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1.5"/><circle cx="12" cy="12" r="2.2" fill="#fff" fill-opacity=".18"/></pattern>
+</defs>
+<rect width="600" height="300" fill="url(#bg)"/>
+<rect width="600" height="300" fill="url(#az)"/>
+<circle cx="520" cy="60" r="90" fill="#fff" fill-opacity=".10"/>
+<circle cx="70" cy="260" r="120" fill="#fff" fill-opacity=".08"/>
+
+<g>
+<path d="M0 220 Q75 200 150 220 T300 220 T450 220 T600 220 V300 H0Z" fill="#fff" fill-opacity=".25"/>
+<path d="M180 215 L420 215 L390 250 L210 250Z" fill="#fff"/>
+<rect x="296" y="90" width="6" height="125" fill="#1a2332"/>
+<path d="M302 95 L380 200 L302 200Z" fill="#f3ece0"/><path d="M296 110 L240 200 L296 200Z" fill="#c9a96e"/>
+<path d="M90 190 Q120 140 175 160 Q150 170 150 190 Q130 175 90 190Z" fill="#8fb3c9"/>
+<path d="M120 160 L130 140 L140 162Z" fill="#8fb3c9"/>
+<path d="M440 175 Q470 140 520 160 Q500 170 498 188 Q480 172 440 175Z" fill="#8fb3c9"/>
+<path d="M0 255 Q75 235 150 255 T300 255 T450 255 T600 255 V300 H0Z" fill="#fff" fill-opacity=".45"/>
+</g>
+</svg>
