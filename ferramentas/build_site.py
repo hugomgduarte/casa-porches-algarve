@@ -76,6 +76,19 @@ def langs(r, prefix, where, required=True):
     return d if any(d.values()) else None
 
 
+def img(r, default, where):
+    """Imagem do cartão: a da coluna 'imagem' ou, se vazia, a ilustração da categoria."""
+    v = s(r.get("imagem")).replace("\\", "/")
+    if not v:
+        return default
+    if v.startswith("http://") or v.startswith("https://"):
+        warnings.append(f"{where}: imagem externa ({v}) — confirme que tem autorização para a usar")
+        return v
+    if not os.path.exists(os.path.join(ROOT, v)):
+        errors.append(f"{where}: a imagem '{v}' não existe na pasta do site")
+    return v
+
+
 def set_path(obj, path, value):
     parts = path.split(".")
     for i, p in enumerate(parts[:-1]):
@@ -149,6 +162,7 @@ def main():
         out["PLACES"].append({"cat": s(r.get("categoria")), "list": s(r.get("seccao")), "name": s(r.get("nome")),
                               "dist": s(r.get("distancia")), "lat": None if lat in (None, "") else float(lat),
                               "lng": None if lng in (None, "") else float(lng), "q": s(r.get("pesquisa_maps")) or s(r.get("nome")),
+                              "img": img(r, "images/ilustracoes/ev-nature.svg", where),
                               "d": langs(r, "desc", where)})
 
     # ---- Restaurantes ----
@@ -163,6 +177,7 @@ def main():
         out["RESTAURANTS"].append({"cat": cat, "name": s(r.get("nome")), "loc": s(r.get("localidade")),
                                    "price": s(r.get("preco")), "near": s(r.get("perto_de_casa")).lower() in ("sim", "s", "yes", "x"),
                                    "q": s(r.get("pesquisa_maps")) or (s(r.get("nome")) + " " + s(r.get("localidade"))),
+                                   "img": img(r, f"images/ilustracoes/rest-{cat}.svg", where),
                                    "d": langs(r, "desc", where)})
 
     # ---- Eventos ----
@@ -188,7 +203,8 @@ def main():
         for t in tl:
             if t not in tags:
                 errors.append(f"{where}: 'para_quem' tem '{t}' desconhecido (use: {', '.join(sorted(tags))})")
-        e = {"cat": cat, "town": town, "name": name, "tags": tl, "d": langs(r, "desc", where)}
+        e = {"cat": cat, "town": town, "name": name, "tags": tl, "d": langs(r, "desc", where),
+             "img": img(r, f"images/ilustracoes/ev-{cat}.svg", where)}
         a, b = date(r.get("data_inicio"), where), date(r.get("data_fim"), where)
         if a:
             e["start"], e["end"] = a, b or a
