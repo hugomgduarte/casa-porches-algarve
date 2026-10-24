@@ -71,6 +71,9 @@ ul.list li::before{content:"";position:absolute;left:4px;top:16px;width:8px;heig
 .badge.ok{background:#e8f3ec;color:#2e7d4f}
 .badge.live{background:#fdecea;color:#c0392b}
 .card .links{display:flex;gap:14px;flex-wrap:wrap}
+.card.pic{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.card.pic .cimg{width:100%;aspect-ratio:2/1;object-fit:cover;display:block;background:var(--cream)}
+.card.pic .cbody{padding:12px 14px 14px}
 .card .loc{font-size:.82rem;color:var(--gold-dark);font-weight:500}
 .card{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
 .card .t{display:flex;justify-content:space-between;gap:10px;font-weight:600;color:var(--navy)}
@@ -324,12 +327,12 @@ window.startGuide=function(){
       var dist=x.sub?'':T.km===0?U.inPorches[l]:(T.km?'≈ '+T.km+' km · '+T.min+' min '+U.fromHouse[l]:'');
       var place=(x.sub?x.sub:(T.name||''));
       var q=x.sub||(e.name+' '+(T.name||'Algarve'));
-      return '<div class="card"><div class="t"><span>'+esc(e.name)+badge+'</span></div>'
+      return '<div class="card pic">'+(e.img?'<img class="cimg" loading="lazy" alt="" src="'+esc(e.img)+'">':'')+'<div class="cbody"><div class="t"><span>'+esc(e.name)+badge+'</span></div>'
         +(when?'<div class="when">'+esc(when)+'</div>':'')
         +'<div class="loc">'+esc([place,dist].filter(Boolean).join(' · '))+'</div>'
         +'<p>'+esc(e.d[l]||e.d.en)+(e.price?' <b>'+esc(e.price)+'</b>':'')+'</p>'
         +'<div class="meta">'+(e.tags||[]).map(function(t){return '<span>'+esc(EV_TAGS[t][l])+'</span>'}).join('')+'</div>'
-        +'<div class="links"><a class="map" target="_blank" rel="noopener" href="'+gmaps(q)+'">Google Maps →</a>'+(e.url?'<a class="map" target="_blank" rel="noopener" href="'+esc(e.url)+'">'+U.website[l]+' →</a>':'')+'</div></div>';
+        +'<div class="links"><a class="map" target="_blank" rel="noopener" href="'+gmaps(q)+'">Google Maps →</a>'+(e.url?'<a class="map" target="_blank" rel="noopener" href="'+esc(e.url)+'">'+U.website[l]+' →</a>':'')+'</div></div></div>';
     }).join('');
     document.getElementById('evList').innerHTML=html||'<p class="note">'+U.none[l]+'</p>';
     document.getElementById('evNote').textContent=U.note[l];
@@ -345,7 +348,7 @@ window.startGuide=function(){
     var items=RESTAURANTS.filter(function(r){return restFilter==='all'||(restFilter==='near'?r.near:r.cat===restFilter)});
     if(restFilter==='all') items=items.slice().sort(function(a,b){return (b.near?1:0)-(a.near?1:0)});
     list.innerHTML=items.map(function(r){
-      return '<div class="card"><div class="t">'+esc(r.name)+'<small>'+esc(r.price)+'</small></div><div class="loc">'+esc(r.loc)+'</div><p>'+esc(r.d[l]||r.d.en)+'</p><div class="meta"><span>'+esc(REST_CATS[r.cat][l])+'</span>'+(r.near?'<span class="near">'+esc(REST_UI.near[l])+'</span>':'')+'</div><a class="map" target="_blank" rel="noopener" href="'+gmaps(r.q)+'">Google Maps →</a></div>'}).join('');
+      return '<div class="card pic">'+(r.img?'<img class="cimg" loading="lazy" alt="" src="'+esc(r.img)+'">':'')+'<div class="cbody"><div class="t">'+esc(r.name)+'<small>'+esc(r.price)+'</small></div><div class="loc">'+esc(r.loc)+'</div><p>'+esc(r.d[l]||r.d.en)+'</p><div class="meta"><span>'+esc(REST_CATS[r.cat][l])+'</span>'+(r.near?'<span class="near">'+esc(REST_UI.near[l])+'</span>':'')+'</div><a class="map" target="_blank" rel="noopener" href="'+gmaps(r.q)+'">Google Maps →</a></div></div>'}).join('');
     document.getElementById('restNote').textContent='€ <20 € · €€ 20–40 € · €€€ 40–80 € · €€€€ >80 € — '+REST_UI.price[l];
   }
   function setLang(l){
@@ -355,7 +358,7 @@ window.startGuide=function(){
     document.querySelectorAll('[data-list]').forEach(function(ul){ul.innerHTML=(T[ul.dataset.list]||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('')});
     document.querySelectorAll('[data-places]').forEach(function(box){
       box.innerHTML=PLACES.filter(function(p){return p.list===box.dataset.places}).map(function(p){
-        return '<div class="card"><div class="t">'+esc(p.name)+(p.dist?'<small>'+esc(p.dist)+'</small>':'')+'</div><p>'+esc(p.d[l]||p.d.en)+'</p><a class="map" target="_blank" rel="noopener" href="'+gmaps(p.q)+'">Google Maps →</a></div>'}).join('')});
+        return '<div class="card pic">'+(p.img?'<img class="cimg" loading="lazy" alt="" src="'+esc(p.img)+'">':'')+'<div class="cbody"><div class="t">'+esc(p.name)+(p.dist?'<small>'+esc(p.dist)+'</small>':'')+'</div><p>'+esc(p.d[l]||p.d.en)+'</p><a class="map" target="_blank" rel="noopener" href="'+gmaps(p.q)+'">Google Maps →</a></div></div>'}).join('')});
     renderRest();
     evRender();
     langBox.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.set===l)});
