@@ -1,0 +1,4736 @@
+{
+ "LANGS": [
+  {
+   "code": "pt",
+   "label": "PT",
+   "name": "Português"
+  },
+  {
+   "code": "en",
+   "label": "EN",
+   "name": "English"
+  },
+  {
+   "code": "es",
+   "label": "ES",
+   "name": "Español"
+  },
+  {
+   "code": "fr",
+   "label": "FR",
+   "name": "Français"
+  },
+  {
+   "code": "de",
+   "label": "DE",
+   "name": "Deutsch"
+  },
+  {
+   "code": "it",
+   "label": "IT",
+   "name": "Italiano"
+  }
+ ],
+ "WIFI": {
+  "ssid": "HDPORCHES_Guest",
+  "password": "CasaPorchesHD2023"
+ },
+ "TXT": {
+  "pt": {
+   "title": "Guia do Hóspede | Casa Porches",
+   "h1": "Bem-vindos à Casa Porches",
+   "sub": "Tudo o que precisa para a sua estadia — Wi-Fi, regras da casa, praias, restaurantes e contactos úteis.",
+   "nav": {
+    "wifi": "Wi-Fi",
+    "arrival": "Chegada",
+    "rules": "Regras",
+    "pool": "Piscina",
+    "help": "Ajuda e emergência",
+    "map": "Mapa",
+    "beaches": "Praias",
+    "food": "Restaurantes",
+    "todo": "O que fazer",
+    "departure": "Saída"
+   },
+   "wifiScan": "Leia com a câmara do telemóvel para ligar automaticamente.",
+   "network": "Rede",
+   "password": "Palavra-passe",
+   "copy": "Copiar",
+   "copied": "Copiado ✓",
+   "arrivalTitle": "Chegada",
+   "checkinFrom": "Check-in a partir das",
+   "checkoutBy": "Check-out até às",
+   "arrival": [
+    "Check-in autónomo: as chaves estão no cofre de chaves. O código é enviado pela HostWise nas mensagens do Airbnb.",
+    "A casa fica no centro da vila de Porches, em frente à Igreja Matriz.",
+    "Estacionamento gratuito na garagem da casa.",
+    "A lei portuguesa obriga ao registo de todos os hóspedes — preencha o formulário que a HostWise envia após a reserva.",
+    "São fornecidos produtos de higiene básicos para o primeiro dia."
+   ],
+   "rulesTitle": "Regras da casa",
+   "rules": [
+    "Máximo de 8 hóspedes. Não são permitidas visitas a pernoitar.",
+    "Não são permitidas festas nem eventos.",
+    "Não são aceites animais.",
+    "Respeite os vizinhos: silêncio entre as 23:00 e as 08:00, dentro de casa e no jardim.",
+    "Não é permitido fumar dentro de casa.",
+    "Mantenha portas e janelas fechadas com o ar condicionado ligado e desligue-o quando sair.",
+    "Separe o lixo. Há ecopontos na vila.",
+    "Comunique qualquer avaria ou dano à HostWise o mais depressa possível."
+   ],
+   "poolTitle": "Piscina",
+   "pool": [
+    "Não há nadador-salvador. As crianças devem estar sempre acompanhadas por um adulto.",
+    "Não use copos ou garrafas de vidro junto à piscina.",
+    "Retire o protetor solar antes de entrar na água.",
+    "Não mergulhe de cabeça na piscina."
+   ],
+   "helpTitle": "Ajuda e emergência",
+   "emergency": "Emergência (polícia, bombeiros, ambulância)",
+   "sns": "SNS 24 – linha de saúde (24h)",
+   "snsDesc": "Aconselhamento médico por telefone; indicam onde se deve dirigir.",
+   "host": "Problemas na casa, dúvidas, serviços extra",
+   "hostDesc": "Contacte a HostWise pela app do Airbnb (normalmente responde em menos de uma hora). Limpeza extra, roupa de cama extra, check-out tardio ou chaves adicionais disponíveis a pedido (custo extra).",
+   "hospital": "Hospital (urgência)",
+   "pharmacies": "Farmácias",
+   "supermarket": "Supermercado",
+   "byCar": "de carro",
+   "mapTitle": "Mapa",
+   "mapTap": "Toque para usar o mapa",
+   "mapNote": "Toque num ponto para ver detalhes e o caminho a partir da casa.",
+   "directions": "Como chegar →",
+   "homePopup": "A sua casa · em frente à Igreja Matriz",
+   "cats": {
+    "beach": "Praias",
+    "food": "Restaurantes",
+    "fun": "Atividades",
+    "see": "Locais a visitar",
+    "help": "Saúde"
+   },
+   "beachesTitle": "Praias perto",
+   "beachTip": "Dica: o Percurso dos Sete Vales Suspensos liga a Marinha a Benagil pelas falésias — melhor de manhã cedo ou ao fim da tarde.",
+   "foodTitle": "Restaurantes",
+   "todoTitle": "O que fazer",
+   "golf": "Golfe",
+   "inVillage": "Na vila",
+   "departureTitle": "Antes de sair",
+   "departure": [
+    "Check-out até às 11:00 (check-out tardio a pedido pelo Airbnb).",
+    "Desligue o ar condicionado e as luzes e feche janelas e portas.",
+    "Deixe o lixo nos contentores da vila e coloque a loiça na máquina.",
+    "Devolva as chaves ao cofre e baralhe o código.",
+    "Obrigado pela estadia — uma avaliação no Airbnb ajuda-nos muito!"
+   ],
+   "complaints": "Livro de Reclamações Eletrónico",
+   "about": "Sobre a casa"
+  },
+  "en": {
+   "title": "Guest Guide | Casa Porches",
+   "h1": "Welcome to Casa Porches",
+   "sub": "Everything you need for your stay — Wi-Fi, house rules, beaches, restaurants and useful contacts.",
+   "nav": {
+    "wifi": "Wi-Fi",
+    "arrival": "Check-in",
+    "rules": "House rules",
+    "pool": "Pool",
+    "help": "Help & emergency",
+    "map": "Map",
+    "beaches": "Beaches",
+    "food": "Restaurants",
+    "todo": "Things to do",
+    "departure": "Departure"
+   },
+   "wifiScan": "Scan with your phone camera to connect automatically.",
+   "network": "Network",
+   "password": "Password",
+   "copy": "Copy",
+   "copied": "Copied ✓",
+   "arrivalTitle": "Arrival",
+   "checkinFrom": "Check-in from",
+   "checkoutBy": "Check-out by",
+   "arrival": [
+    "Self check-in: the keys are in the key safe. The code is sent by HostWise in your Airbnb messages.",
+    "The house is in the centre of Porches village, facing the parish church.",
+    "Free parking in the house garage.",
+    "Portuguese law requires every guest to be registered — please complete the registration form HostWise sends after booking.",
+    "Basic toiletries are provided for the first day."
+   ],
+   "rulesTitle": "House rules",
+   "rules": [
+    "Maximum 8 guests. Visitors are not allowed to stay overnight.",
+    "No parties or events.",
+    "No pets allowed.",
+    "Please respect the neighbours: keep noise down between 23:00 and 08:00, both inside and in the garden.",
+    "No smoking inside the house.",
+    "Keep windows and doors closed while the air conditioning is on, and switch it off when you go out.",
+    "Please separate your rubbish. Recycling bins (ecopontos) are located in the village.",
+    "Please report any breakage or problem to HostWise as soon as possible."
+   ],
+   "poolTitle": "Pool",
+   "pool": [
+    "There is no lifeguard. Children must be supervised by an adult at all times.",
+    "No glass around the pool — please use plastic cups.",
+    "Please rinse off sun cream before swimming.",
+    "Please do not dive into the pool."
+   ],
+   "helpTitle": "Help & emergency",
+   "emergency": "Emergency (police, fire, ambulance)",
+   "sns": "SNS 24 – health helpline (24h)",
+   "snsDesc": "Medical advice by phone; they tell you where to go.",
+   "host": "House problems, questions, extra services",
+   "hostDesc": "Contact HostWise through the Airbnb app (usually replies within an hour). Extra cleaning, extra bedding, late check-out or extra keys are available on request (extra cost).",
+   "hospital": "Hospital (A&E)",
+   "pharmacies": "Pharmacies",
+   "supermarket": "Supermarket",
+   "byCar": "by car",
+   "mapTitle": "Map",
+   "mapTap": "Tap to use the map",
+   "mapNote": "Tap a pin for details and directions from the house.",
+   "directions": "Directions →",
+   "homePopup": "Your home · facing the parish church",
+   "cats": {
+    "beach": "Beaches",
+    "food": "Restaurants",
+    "fun": "Activities",
+    "see": "Places to visit",
+    "help": "Health"
+   },
+   "beachesTitle": "Beaches nearby",
+   "beachTip": "Tip: the Seven Hanging Valleys trail (Percurso dos Sete Vales Suspensos) links Marinha and Benagil along the clifftops — best early morning or late afternoon.",
+   "foodTitle": "Restaurants",
+   "todoTitle": "Things to do",
+   "golf": "Golf",
+   "inVillage": "In the village",
+   "departureTitle": "Before you leave",
+   "departure": [
+    "Check-out by 11:00 (late check-out on request through Airbnb).",
+    "Switch off the air conditioning and lights, and close windows and doors.",
+    "Put the rubbish in the village bins and load the dishwasher.",
+    "Return the keys to the key safe and scramble the code.",
+    "Thank you for staying with us — a review on Airbnb helps us a lot!"
+   ],
+   "complaints": "Complaints book (Livro de Reclamações)",
+   "about": "About the house"
+  },
+  "es": {
+   "title": "Guía del huésped | Casa Porches",
+   "h1": "Bienvenidos a Casa Porches",
+   "sub": "Todo lo que necesita para su estancia: Wi-Fi, normas de la casa, playas, restaurantes y contactos útiles.",
+   "nav": {
+    "wifi": "Wi-Fi",
+    "arrival": "Llegada",
+    "rules": "Normas",
+    "pool": "Piscina",
+    "help": "Ayuda y emergencias",
+    "map": "Mapa",
+    "beaches": "Playas",
+    "food": "Restaurantes",
+    "todo": "Qué hacer",
+    "departure": "Salida"
+   },
+   "wifiScan": "Escanee con la cámara del móvil para conectarse automáticamente.",
+   "network": "Red",
+   "password": "Contraseña",
+   "copy": "Copiar",
+   "copied": "Copiado ✓",
+   "arrivalTitle": "Llegada",
+   "checkinFrom": "Check-in a partir de las",
+   "checkoutBy": "Check-out hasta las",
+   "arrival": [
+    "Check-in autónomo: las llaves están en la caja de seguridad. HostWise le envía el código en los mensajes de Airbnb.",
+    "La casa está en el centro del pueblo de Porches, frente a la iglesia.",
+    "Aparcamiento gratuito en el garaje de la casa.",
+    "La ley portuguesa exige el registro de todos los huéspedes: rellene el formulario que HostWise le envía tras la reserva.",
+    "Se proporcionan artículos de aseo básicos para el primer día."
+   ],
+   "rulesTitle": "Normas de la casa",
+   "rules": [
+    "Máximo 8 huéspedes. No se permite que las visitas pasen la noche.",
+    "No se permiten fiestas ni eventos.",
+    "No se admiten mascotas.",
+    "Respete a los vecinos: silencio entre las 23:00 y las 08:00, dentro de la casa y en el jardín.",
+    "No está permitido fumar dentro de la casa.",
+    "Mantenga puertas y ventanas cerradas con el aire acondicionado encendido y apáguelo al salir.",
+    "Separe la basura. Hay contenedores de reciclaje (ecopontos) en el pueblo.",
+    "Comunique cualquier avería o daño a HostWise lo antes posible."
+   ],
+   "poolTitle": "Piscina",
+   "pool": [
+    "No hay socorrista. Los niños deben estar siempre acompañados por un adulto.",
+    "No utilice vasos ni botellas de cristal junto a la piscina.",
+    "Quítese la crema solar antes de entrar en el agua.",
+    "No se tire de cabeza a la piscina."
+   ],
+   "helpTitle": "Ayuda y emergencias",
+   "emergency": "Emergencias (policía, bomberos, ambulancia)",
+   "sns": "SNS 24 – línea de salud (24h)",
+   "snsDesc": "Consejo médico por teléfono; le indican adónde dirigirse.",
+   "host": "Problemas en la casa, dudas, servicios extra",
+   "hostDesc": "Contacte con HostWise a través de la app de Airbnb (suele responder en menos de una hora). Limpieza extra, ropa de cama adicional, salida tardía o llaves adicionales disponibles bajo petición (coste extra).",
+   "hospital": "Hospital (urgencias)",
+   "pharmacies": "Farmacias",
+   "supermarket": "Supermercado",
+   "byCar": "en coche",
+   "mapTitle": "Mapa",
+   "mapTap": "Toque para usar el mapa",
+   "mapNote": "Toque un punto para ver detalles y cómo llegar desde la casa.",
+   "directions": "Cómo llegar →",
+   "homePopup": "Su casa · frente a la iglesia",
+   "cats": {
+    "beach": "Playas",
+    "food": "Restaurantes",
+    "fun": "Actividades",
+    "see": "Lugares que visitar",
+    "help": "Salud"
+   },
+   "beachesTitle": "Playas cercanas",
+   "beachTip": "Consejo: la ruta de los Siete Valles Colgantes (Percurso dos Sete Vales Suspensos) une Marinha y Benagil por los acantilados; mejor a primera hora o al final de la tarde.",
+   "foodTitle": "Restaurantes",
+   "todoTitle": "Qué hacer",
+   "golf": "Golf",
+   "inVillage": "En el pueblo",
+   "departureTitle": "Antes de irse",
+   "departure": [
+    "Check-out hasta las 11:00 (salida tardía bajo petición a través de Airbnb).",
+    "Apague el aire acondicionado y las luces y cierre puertas y ventanas.",
+    "Deje la basura en los contenedores del pueblo y ponga la vajilla en el lavavajillas.",
+    "Devuelva las llaves a la caja de seguridad y cambie la combinación.",
+    "¡Gracias por su estancia! Una valoración en Airbnb nos ayuda mucho."
+   ],
+   "complaints": "Libro de reclamaciones (Livro de Reclamações)",
+   "about": "Sobre la casa"
+  },
+  "fr": {
+   "title": "Guide du voyageur | Casa Porches",
+   "h1": "Bienvenue à la Casa Porches",
+   "sub": "Tout ce qu’il vous faut pour votre séjour : Wi-Fi, règlement de la maison, plages, restaurants et contacts utiles.",
+   "nav": {
+    "wifi": "Wi-Fi",
+    "arrival": "Arrivée",
+    "rules": "Règlement",
+    "pool": "Piscine",
+    "help": "Aide et urgences",
+    "map": "Carte",
+    "beaches": "Plages",
+    "food": "Restaurants",
+    "todo": "À faire",
+    "departure": "Départ"
+   },
+   "wifiScan": "Scannez avec l’appareil photo de votre téléphone pour vous connecter automatiquement.",
+   "network": "Réseau",
+   "password": "Mot de passe",
+   "copy": "Copier",
+   "copied": "Copié ✓",
+   "arrivalTitle": "Arrivée",
+   "checkinFrom": "Arrivée à partir de",
+   "checkoutBy": "Départ avant",
+   "arrival": [
+    "Arrivée autonome : les clés sont dans la boîte à clés. HostWise vous envoie le code dans la messagerie Airbnb.",
+    "La maison se trouve au centre du village de Porches, face à l’église.",
+    "Parking gratuit dans le garage de la maison.",
+    "La loi portugaise impose l’enregistrement de tous les voyageurs : merci de remplir le formulaire envoyé par HostWise après la réservation.",
+    "Des produits de toilette de base sont fournis pour le premier jour."
+   ],
+   "rulesTitle": "Règlement de la maison",
+   "rules": [
+    "8 voyageurs maximum. Les visiteurs ne peuvent pas passer la nuit.",
+    "Fêtes et événements interdits.",
+    "Animaux non admis.",
+    "Respectez les voisins : silence entre 23h00 et 08h00, à l’intérieur comme dans le jardin.",
+    "Interdiction de fumer à l’intérieur de la maison.",
+    "Gardez portes et fenêtres fermées lorsque la climatisation fonctionne, et éteignez-la en sortant.",
+    "Merci de trier vos déchets. Des points de recyclage (ecopontos) se trouvent dans le village.",
+    "Signalez toute panne ou dégât à HostWise dès que possible."
+   ],
+   "poolTitle": "Piscine",
+   "pool": [
+    "Pas de maître-nageur. Les enfants doivent toujours être surveillés par un adulte.",
+    "Pas de verre autour de la piscine : utilisez des gobelets en plastique.",
+    "Rincez la crème solaire avant de vous baigner.",
+    "Ne plongez pas dans la piscine."
+   ],
+   "helpTitle": "Aide et urgences",
+   "emergency": "Urgences (police, pompiers, ambulance)",
+   "sns": "SNS 24 – ligne santé (24h/24)",
+   "snsDesc": "Conseil médical par téléphone ; on vous indique où vous rendre.",
+   "host": "Problèmes dans la maison, questions, services supplémentaires",
+   "hostDesc": "Contactez HostWise via l’application Airbnb (réponse généralement en moins d’une heure). Ménage supplémentaire, linge de lit supplémentaire, départ tardif ou clés supplémentaires sur demande (avec supplément).",
+   "hospital": "Hôpital (urgences)",
+   "pharmacies": "Pharmacies",
+   "supermarket": "Supermarché",
+   "byCar": "en voiture",
+   "mapTitle": "Carte",
+   "mapTap": "Touchez pour utiliser la carte",
+   "mapNote": "Touchez un point pour voir les détails et l’itinéraire depuis la maison.",
+   "directions": "Itinéraire →",
+   "homePopup": "Votre maison · face à l’église",
+   "cats": {
+    "beach": "Plages",
+    "food": "Restaurants",
+    "fun": "Activités",
+    "see": "À visiter",
+    "help": "Santé"
+   },
+   "beachesTitle": "Plages à proximité",
+   "beachTip": "Astuce : le sentier des Sept Vallées Suspendues (Percurso dos Sete Vales Suspensos) relie Marinha à Benagil par les falaises — idéal tôt le matin ou en fin d’après-midi.",
+   "foodTitle": "Restaurants",
+   "todoTitle": "À faire",
+   "golf": "Golf",
+   "inVillage": "Au village",
+   "departureTitle": "Avant de partir",
+   "departure": [
+    "Départ avant 11h00 (départ tardif sur demande via Airbnb).",
+    "Éteignez la climatisation et les lumières, fermez portes et fenêtres.",
+    "Déposez les déchets dans les conteneurs du village et mettez la vaisselle dans le lave-vaisselle.",
+    "Remettez les clés dans la boîte à clés et brouillez le code.",
+    "Merci pour votre séjour — un commentaire sur Airbnb nous aide beaucoup !"
+   ],
+   "complaints": "Livre de réclamations (Livro de Reclamações)",
+   "about": "À propos de la maison"
+  },
+  "de": {
+   "title": "Gästeinformation | Casa Porches",
+   "h1": "Willkommen in der Casa Porches",
+   "sub": "Alles für Ihren Aufenthalt – WLAN, Hausregeln, Strände, Restaurants und wichtige Kontakte.",
+   "nav": {
+    "wifi": "WLAN",
+    "arrival": "Anreise",
+    "rules": "Hausregeln",
+    "pool": "Pool",
+    "help": "Hilfe & Notfall",
+    "map": "Karte",
+    "beaches": "Strände",
+    "food": "Restaurants",
+    "todo": "Ausflüge",
+    "departure": "Abreise"
+   },
+   "wifiScan": "Mit der Handykamera scannen, um sich automatisch zu verbinden.",
+   "network": "Netzwerk",
+   "password": "Passwort",
+   "copy": "Kopieren",
+   "copied": "Kopiert ✓",
+   "arrivalTitle": "Anreise",
+   "checkinFrom": "Check-in ab",
+   "checkoutBy": "Check-out bis",
+   "arrival": [
+    "Selbst-Check-in: Die Schlüssel befinden sich im Schlüsseltresor. Den Code sendet HostWise über die Airbnb-Nachrichten.",
+    "Das Haus liegt im Zentrum von Porches, gegenüber der Kirche.",
+    "Kostenloses Parken in der Garage des Hauses.",
+    "Nach portugiesischem Recht müssen alle Gäste registriert werden – bitte füllen Sie das Formular aus, das HostWise nach der Buchung sendet.",
+    "Grundlegende Hygieneartikel sind für den ersten Tag vorhanden."
+   ],
+   "rulesTitle": "Hausregeln",
+   "rules": [
+    "Maximal 8 Gäste. Besucher dürfen nicht übernachten.",
+    "Keine Partys oder Veranstaltungen.",
+    "Haustiere sind nicht erlaubt.",
+    "Bitte nehmen Sie Rücksicht auf die Nachbarn: Ruhezeit von 23:00 bis 08:00 Uhr, im Haus und im Garten.",
+    "Rauchen im Haus ist nicht gestattet.",
+    "Halten Sie Fenster und Türen bei eingeschalteter Klimaanlage geschlossen und schalten Sie sie aus, wenn Sie das Haus verlassen.",
+    "Bitte trennen Sie den Müll. Recyclingcontainer (Ecopontos) gibt es im Ort.",
+    "Melden Sie Schäden oder Probleme bitte so schnell wie möglich an HostWise."
+   ],
+   "poolTitle": "Pool",
+   "pool": [
+    "Es gibt keinen Bademeister. Kinder müssen jederzeit von einem Erwachsenen beaufsichtigt werden.",
+    "Kein Glas am Pool – bitte Plastikbecher verwenden.",
+    "Bitte Sonnencreme vor dem Schwimmen abduschen.",
+    "Bitte nicht in den Pool springen oder kopfüber tauchen."
+   ],
+   "helpTitle": "Hilfe & Notfall",
+   "emergency": "Notruf (Polizei, Feuerwehr, Rettungsdienst)",
+   "sns": "SNS 24 – Gesundheitstelefon (24 h)",
+   "snsDesc": "Medizinische Beratung am Telefon; man sagt Ihnen, wohin Sie gehen sollen.",
+   "host": "Probleme im Haus, Fragen, Zusatzleistungen",
+   "hostDesc": "Kontaktieren Sie HostWise über die Airbnb-App (Antwort meist innerhalb einer Stunde). Zusätzliche Reinigung, zusätzliche Bettwäsche, später Check-out oder weitere Schlüssel auf Anfrage (gegen Aufpreis).",
+   "hospital": "Krankenhaus (Notaufnahme)",
+   "pharmacies": "Apotheken",
+   "supermarket": "Supermarkt",
+   "byCar": "mit dem Auto",
+   "mapTitle": "Karte",
+   "mapTap": "Tippen, um die Karte zu benutzen",
+   "mapNote": "Tippen Sie auf einen Punkt für Details und die Route ab dem Haus.",
+   "directions": "Route →",
+   "homePopup": "Ihr Zuhause · gegenüber der Kirche",
+   "cats": {
+    "beach": "Strände",
+    "food": "Restaurants",
+    "fun": "Aktivitäten",
+    "see": "Sehenswürdigkeiten",
+    "help": "Gesundheit"
+   },
+   "beachesTitle": "Strände in der Nähe",
+   "beachTip": "Tipp: Der Wanderweg der Sieben Hängenden Täler (Percurso dos Sete Vales Suspensos) verbindet Marinha und Benagil entlang der Klippen – am schönsten früh morgens oder am späten Nachmittag.",
+   "foodTitle": "Restaurants",
+   "todoTitle": "Ausflüge & Aktivitäten",
+   "golf": "Golf",
+   "inVillage": "Im Ort",
+   "departureTitle": "Vor der Abreise",
+   "departure": [
+    "Check-out bis 11:00 Uhr (später Check-out auf Anfrage über Airbnb).",
+    "Schalten Sie Klimaanlage und Licht aus und schließen Sie Fenster und Türen.",
+    "Bringen Sie den Müll zu den Containern im Ort und räumen Sie das Geschirr in die Spülmaschine.",
+    "Legen Sie die Schlüssel zurück in den Schlüsseltresor und verstellen Sie den Code.",
+    "Danke für Ihren Aufenthalt – eine Bewertung auf Airbnb hilft uns sehr!"
+   ],
+   "complaints": "Beschwerdebuch (Livro de Reclamações)",
+   "about": "Über das Haus"
+  },
+  "it": {
+   "title": "Guida per gli ospiti | Casa Porches",
+   "h1": "Benvenuti a Casa Porches",
+   "sub": "Tutto ciò che serve per il vostro soggiorno: Wi-Fi, regole della casa, spiagge, ristoranti e contatti utili.",
+   "nav": {
+    "wifi": "Wi-Fi",
+    "arrival": "Arrivo",
+    "rules": "Regole",
+    "pool": "Piscina",
+    "help": "Aiuto ed emergenze",
+    "map": "Mappa",
+    "beaches": "Spiagge",
+    "food": "Ristoranti",
+    "todo": "Cosa fare",
+    "departure": "Partenza"
+   },
+   "wifiScan": "Inquadrate con la fotocamera del telefono per connettervi automaticamente.",
+   "network": "Rete",
+   "password": "Password",
+   "copy": "Copia",
+   "copied": "Copiato ✓",
+   "arrivalTitle": "Arrivo",
+   "checkinFrom": "Check-in dalle",
+   "checkoutBy": "Check-out entro le",
+   "arrival": [
+    "Check-in autonomo: le chiavi si trovano nella cassetta di sicurezza. Il codice viene inviato da HostWise nei messaggi di Airbnb.",
+    "La casa si trova nel centro del paese di Porches, di fronte alla chiesa.",
+    "Parcheggio gratuito nel garage della casa.",
+    "La legge portoghese richiede la registrazione di tutti gli ospiti: compilate il modulo che HostWise invia dopo la prenotazione.",
+    "Sono forniti prodotti da bagno di base per il primo giorno."
+   ],
+   "rulesTitle": "Regole della casa",
+   "rules": [
+    "Massimo 8 ospiti. I visitatori non possono pernottare.",
+    "Non sono ammesse feste né eventi.",
+    "Non sono ammessi animali.",
+    "Rispettate i vicini: silenzio dalle 23:00 alle 08:00, in casa e in giardino.",
+    "È vietato fumare all’interno della casa.",
+    "Tenete porte e finestre chiuse con l’aria condizionata accesa e spegnetela quando uscite.",
+    "Fate la raccolta differenziata. In paese ci sono i contenitori per il riciclo (ecopontos).",
+    "Segnalate qualsiasi guasto o danno a HostWise il prima possibile."
+   ],
+   "poolTitle": "Piscina",
+   "pool": [
+    "Non c’è bagnino. I bambini devono essere sempre sorvegliati da un adulto.",
+    "Niente bicchieri o bottiglie di vetro vicino alla piscina.",
+    "Sciacquate via la crema solare prima di entrare in acqua.",
+    "Non tuffatevi di testa in piscina."
+   ],
+   "helpTitle": "Aiuto ed emergenze",
+   "emergency": "Emergenze (polizia, vigili del fuoco, ambulanza)",
+   "sns": "SNS 24 – linea sanitaria (24h)",
+   "snsDesc": "Consulenza medica al telefono; vi indicano dove recarvi.",
+   "host": "Problemi in casa, domande, servizi extra",
+   "hostDesc": "Contattate HostWise tramite l’app di Airbnb (di solito risponde entro un’ora). Pulizia extra, biancheria aggiuntiva, check-out posticipato o chiavi aggiuntive disponibili su richiesta (a pagamento).",
+   "hospital": "Ospedale (pronto soccorso)",
+   "pharmacies": "Farmacie",
+   "supermarket": "Supermercato",
+   "byCar": "in auto",
+   "mapTitle": "Mappa",
+   "mapTap": "Toccate per usare la mappa",
+   "mapNote": "Toccate un punto per i dettagli e il percorso dalla casa.",
+   "directions": "Indicazioni →",
+   "homePopup": "La vostra casa · di fronte alla chiesa",
+   "cats": {
+    "beach": "Spiagge",
+    "food": "Ristoranti",
+    "fun": "Attività",
+    "see": "Da visitare",
+    "help": "Salute"
+   },
+   "beachesTitle": "Spiagge vicine",
+   "beachTip": "Consiglio: il sentiero delle Sette Valli Sospese (Percurso dos Sete Vales Suspensos) collega Marinha e Benagil lungo le scogliere — ideale al mattino presto o nel tardo pomeriggio.",
+   "foodTitle": "Ristoranti",
+   "todoTitle": "Cosa fare",
+   "golf": "Golf",
+   "inVillage": "In paese",
+   "departureTitle": "Prima di partire",
+   "departure": [
+    "Check-out entro le 11:00 (check-out posticipato su richiesta tramite Airbnb).",
+    "Spegnete l’aria condizionata e le luci e chiudete porte e finestre.",
+    "Lasciate i rifiuti nei contenitori del paese e mettete le stoviglie in lavastoviglie.",
+    "Rimettete le chiavi nella cassetta di sicurezza e cambiate la combinazione.",
+    "Grazie per il soggiorno: una recensione su Airbnb ci aiuta molto!"
+   ],
+   "complaints": "Libro dei reclami (Livro de Reclamações)",
+   "about": "La casa"
+  }
+ },
+ "REST_CATS": {
+  "near": {
+   "pt": "Perto de casa",
+   "en": "Close to the house",
+   "es": "Cerca de casa",
+   "fr": "Près de la maison",
+   "de": "In der Nähe",
+   "it": "Vicino a casa"
+  },
+  "michelin": {
+   "pt": "Estrelas Michelin",
+   "en": "Michelin stars",
+   "es": "Estrellas Michelin",
+   "fr": "Étoiles Michelin",
+   "de": "Michelin-Sterne",
+   "it": "Stelle Michelin"
+  },
+  "fine": {
+   "pt": "Requintados",
+   "en": "Fine dining",
+   "es": "Alta cocina",
+   "fr": "Raffinés",
+   "de": "Gehobene Küche",
+   "it": "Raffinati"
+  },
+  "wine": {
+   "pt": "Vinhos e petiscos",
+   "en": "Wine & small plates",
+   "es": "Vinos y tapas",
+   "fr": "Vins & petites assiettes",
+   "de": "Wein & Tapas",
+   "it": "Vini e stuzzichini"
+  },
+  "sea": {
+   "pt": "Peixe e vista mar",
+   "en": "Seafood & sea views",
+   "es": "Pescado y vistas al mar",
+   "fr": "Poisson & vue mer",
+   "de": "Fisch & Meerblick",
+   "it": "Pesce e vista mare"
+  },
+  "trad": {
+   "pt": "Tradicionais",
+   "en": "Traditional",
+   "es": "Tradicionales",
+   "fr": "Traditionnels",
+   "de": "Traditionell",
+   "it": "Tradizionali"
+  },
+  "intl": {
+   "pt": "Internacional e famílias",
+   "en": "International & families",
+   "es": "Internacional y familias",
+   "fr": "International & familles",
+   "de": "International & Familien",
+   "it": "Internazionale e famiglie"
+  },
+  "cafe": {
+   "pt": "Cafés e refeições leves",
+   "en": "Cafés & light meals",
+   "es": "Cafés y comidas ligeras",
+   "fr": "Cafés & repas légers",
+   "de": "Cafés & leichte Küche",
+   "it": "Caffè e pasti leggeri"
+  }
+ },
+ "REST_UI": {
+  "all": {
+   "pt": "Todos",
+   "en": "All",
+   "es": "Todos",
+   "fr": "Tous",
+   "de": "Alle",
+   "it": "Tutti"
+  },
+  "price": {
+   "pt": "Preço indicativo por pessoa, sem bebidas — confirme antes de reservar.",
+   "en": "Approximate price per person, excluding drinks — please check before booking.",
+   "es": "Precio orientativo por persona, sin bebidas; confírmelo antes de reservar.",
+   "fr": "Prix indicatif par personne, hors boissons — à vérifier avant de réserver.",
+   "de": "Richtpreis pro Person ohne Getränke – bitte vor der Reservierung prüfen.",
+   "it": "Prezzo indicativo a persona, bevande escluse: verificate prima di prenotare."
+  },
+  "near": {
+   "pt": "Perto de casa",
+   "en": "Near the house",
+   "es": "Cerca de casa",
+   "fr": "Près de la maison",
+   "de": "In der Nähe",
+   "it": "Vicino a casa"
+  }
+ },
+ "EV_CATS": {
+  "upcoming": {
+   "pt": "Próximos eventos",
+   "en": "Upcoming events",
+   "es": "Próximos eventos",
+   "fr": "Événements à venir",
+   "de": "Kommende Events",
+   "it": "Prossimi eventi"
+  },
+  "events": {
+   "pt": "Festivais e festas anuais",
+   "en": "Annual festivals",
+   "es": "Festivales y fiestas anuales",
+   "fr": "Festivals et fêtes annuels",
+   "de": "Jährliche Feste & Festivals",
+   "it": "Festival e feste annuali"
+  },
+  "water": {
+   "pt": "Parques e atrações familiares",
+   "en": "Water & theme parks",
+   "es": "Parques y atracciones familiares",
+   "fr": "Parcs et attractions familiales",
+   "de": "Wasser- & Freizeitparks",
+   "it": "Parchi e attrazioni per famiglie"
+  },
+  "nature": {
+   "pt": "Natureza e praias",
+   "en": "Nature & beaches",
+   "es": "Naturaleza y playas",
+   "fr": "Nature & plages",
+   "de": "Natur & Strände",
+   "it": "Natura e spiagge"
+  },
+  "sea": {
+   "pt": "Mar e aventura",
+   "en": "Sea & adventure",
+   "es": "Mar y aventura",
+   "fr": "Mer & aventure",
+   "de": "Meer & Abenteuer",
+   "it": "Mare e avventura"
+  },
+  "indoor": {
+   "pt": "Piscinas e dias de chuva",
+   "en": "Indoor & rainy days",
+   "es": "Piscinas y días de lluvia",
+   "fr": "Piscines & jours de pluie",
+   "de": "Hallenbäder & Regentage",
+   "it": "Piscine e giorni di pioggia"
+  },
+  "markets": {
+   "pt": "Mercados e tradições",
+   "en": "Markets & traditions",
+   "es": "Mercados y tradiciones",
+   "fr": "Marchés & traditions",
+   "de": "Märkte & Traditionen",
+   "it": "Mercati e tradizioni"
+  }
+ },
+ "EV_TAGS": {
+  "fam": {
+   "pt": "Famílias",
+   "en": "Families",
+   "es": "Familias",
+   "fr": "Familles",
+   "de": "Familien",
+   "it": "Famiglie"
+  },
+  "teen": {
+   "pt": "Jovens",
+   "en": "Teens",
+   "es": "Jóvenes",
+   "fr": "Ados",
+   "de": "Jugendliche",
+   "it": "Ragazzi"
+  },
+  "couple": {
+   "pt": "Casais",
+   "en": "Couples",
+   "es": "Parejas",
+   "fr": "Couples",
+   "de": "Paare",
+   "it": "Coppie"
+  },
+  "food": {
+   "pt": "Gastronomia",
+   "en": "Food & drink",
+   "es": "Gastronomía",
+   "fr": "Gastronomie",
+   "de": "Kulinarik",
+   "it": "Gastronomia"
+  },
+  "free": {
+   "pt": "Natureza / grátis",
+   "en": "Nature / free",
+   "es": "Naturaleza / gratis",
+   "fr": "Nature / gratuit",
+   "de": "Natur / gratis",
+   "it": "Natura / gratis"
+  },
+  "winter": {
+   "pt": "Outono e inverno",
+   "en": "Autumn & winter",
+   "es": "Otoño e invierno",
+   "fr": "Automne & hiver",
+   "de": "Herbst & Winter",
+   "it": "Autunno e inverno"
+  }
+ },
+ "EV_UI": {
+  "title": {
+   "pt": "Eventos e experiências",
+   "en": "Events & experiences",
+   "es": "Eventos y experiencias",
+   "fr": "Événements & expériences",
+   "de": "Events & Erlebnisse",
+   "it": "Eventi ed esperienze"
+  },
+  "forWho": {
+   "pt": "Para quem:",
+   "en": "Best for:",
+   "es": "Para quién:",
+   "fr": "Pour qui :",
+   "de": "Ideal für:",
+   "it": "Per chi:"
+  },
+  "anyone": {
+   "pt": "Todos",
+   "en": "Everyone",
+   "es": "Todos",
+   "fr": "Tous",
+   "de": "Alle",
+   "it": "Tutti"
+  },
+  "confirmed": {
+   "pt": "Confirmado",
+   "en": "Confirmed",
+   "es": "Confirmado",
+   "fr": "Confirmé",
+   "de": "Bestätigt",
+   "it": "Confermato"
+  },
+  "usually": {
+   "pt": "Habitualmente",
+   "en": "Usually",
+   "es": "Normalmente",
+   "fr": "Habituellement",
+   "de": "Üblicherweise",
+   "it": "Di solito"
+  },
+  "last": {
+   "pt": "Última edição",
+   "en": "Last edition",
+   "es": "Última edición",
+   "fr": "Dernière édition",
+   "de": "Letzte Ausgabe",
+   "it": "Ultima edizione"
+  },
+  "now": {
+   "pt": "A decorrer",
+   "en": "On now",
+   "es": "En curso",
+   "fr": "En cours",
+   "de": "Läuft gerade",
+   "it": "In corso"
+  },
+  "fromHouse": {
+   "pt": "da casa",
+   "en": "from the house",
+   "es": "desde la casa",
+   "fr": "de la maison",
+   "de": "vom Haus",
+   "it": "dalla casa"
+  },
+  "inPorches": {
+   "pt": "Em Porches",
+   "en": "In Porches",
+   "es": "En Porches",
+   "fr": "À Porches",
+   "de": "In Porches",
+   "it": "A Porches"
+  },
+  "website": {
+   "pt": "Website",
+   "en": "Website",
+   "es": "Web",
+   "fr": "Site web",
+   "de": "Website",
+   "it": "Sito web"
+  },
+  "none": {
+   "pt": "Nada para mostrar com estes filtros.",
+   "en": "Nothing to show with these filters.",
+   "es": "No hay resultados con estos filtros.",
+   "fr": "Aucun résultat avec ces filtres.",
+   "de": "Keine Ergebnisse mit diesen Filtern.",
+   "it": "Nessun risultato con questi filtri."
+  },
+  "note": {
+   "pt": "Datas, horários e preços são indicativos — confirme sempre com os organizadores. Distâncias aproximadas por estrada.",
+   "en": "Dates, times and prices are indicative — always check with the organisers. Road distances are approximate.",
+   "es": "Fechas, horarios y precios son orientativos; confírmelos siempre con los organizadores. Distancias aproximadas por carretera.",
+   "fr": "Dates, horaires et prix indicatifs — vérifiez toujours auprès des organisateurs. Distances routières approximatives.",
+   "de": "Termine, Zeiten und Preise ohne Gewähr – bitte immer beim Veranstalter prüfen. Straßenentfernungen ca.",
+   "it": "Date, orari e prezzi indicativi: verificate sempre con gli organizzatori. Distanze stradali approssimative."
+  }
+ },
+ "TOWNS": {
+  "porches": {
+   "name": "Porches",
+   "km": 0,
+   "min": 0
+  },
+  "senhora": {
+   "name": "Senhora da Rocha",
+   "km": 3,
+   "min": 5
+  },
+  "albandeira": {
+   "name": "Albandeira",
+   "km": 4,
+   "min": 7
+  },
+  "armacao": {
+   "name": "Armação de Pêra",
+   "km": 5,
+   "min": 8
+  },
+  "alcantarilha": {
+   "name": "Alcantarilha",
+   "km": 5,
+   "min": 7
+  },
+  "marinha": {
+   "name": "Praia da Marinha",
+   "km": 6,
+   "min": 10
+  },
+  "benagil": {
+   "name": "Benagil",
+   "km": 7,
+   "min": 12
+  },
+  "lagoa": {
+   "name": "Lagoa",
+   "km": 8,
+   "min": 10
+  },
+  "salgados": {
+   "name": "Lagoa dos Salgados",
+   "km": 10,
+   "min": 15
+  },
+  "carvoeiro": {
+   "name": "Carvoeiro",
+   "km": 12,
+   "min": 15
+  },
+  "guia": {
+   "name": "Guia (Albufeira)",
+   "km": 12,
+   "min": 15
+  },
+  "estombar": {
+   "name": "Estômbar",
+   "km": 13,
+   "min": 15
+  },
+  "algoz": {
+   "name": "Algoz",
+   "km": 14,
+   "min": 15
+  },
+  "albufeira": {
+   "name": "Albufeira",
+   "km": 16,
+   "min": 20
+  },
+  "ferragudo": {
+   "name": "Ferragudo",
+   "km": 17,
+   "min": 20
+  },
+  "silves": {
+   "name": "Silves",
+   "km": 20,
+   "min": 25
+  },
+  "portimao": {
+   "name": "Portimão",
+   "km": 22,
+   "min": 25
+  },
+  "aia": {
+   "name": "Autódromo do Algarve, Portimão",
+   "km": 28,
+   "min": 25
+  },
+  "paderne": {
+   "name": "Paderne",
+   "km": 25,
+   "min": 25
+  },
+  "alvor": {
+   "name": "Alvor",
+   "km": 27,
+   "min": 30
+  },
+  "messines": {
+   "name": "S. B. de Messines",
+   "km": 30,
+   "min": 30
+  },
+  "quarteira": {
+   "name": "Quarteira",
+   "km": 32,
+   "min": 30
+  },
+  "lagos": {
+   "name": "Lagos",
+   "km": 37,
+   "min": 35
+  },
+  "loule": {
+   "name": "Loulé",
+   "km": 40,
+   "min": 35
+  },
+  "monchique": {
+   "name": "Monchique",
+   "km": 45,
+   "min": 45
+  },
+  "aljezur": {
+   "name": "Aljezur",
+   "km": 70,
+   "min": 60
+  },
+  "varios": {
+   "name": "",
+   "km": null,
+   "min": null
+  }
+ },
+ "PLACES": [
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Nossa Senhora da Rocha",
+   "dist": "4 km",
+   "lat": 37.0976,
+   "lng": -8.3848,
+   "q": "Praia Nossa Senhora da Rocha",
+   "d": {
+    "pt": "Praia abrigada com a capela na falésia. Ideal para famílias.",
+    "en": "Sheltered beach with the clifftop chapel. Great for families.",
+    "es": "Playa resguardada con la capilla sobre el acantilado. Ideal para familias.",
+    "fr": "Plage abritée avec la chapelle sur la falaise. Idéale pour les familles.",
+    "de": "Geschützter Strand mit der Kapelle auf der Klippe. Ideal für Familien.",
+    "it": "Spiaggia riparata con la cappella sulla scogliera. Ideale per famiglie."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Armação de Pêra",
+   "dist": "5 km",
+   "lat": 37.101,
+   "lng": -8.36,
+   "q": "Praia de Armação de Pêra",
+   "d": {
+    "pt": "Praia extensa com passeio marítimo, cafés e restaurantes.",
+    "en": "Long sandy beach with a promenade, cafés and restaurants.",
+    "es": "Playa extensa con paseo marítimo, cafés y restaurantes.",
+    "fr": "Longue plage de sable avec promenade, cafés et restaurants.",
+    "de": "Langer Sandstrand mit Promenade, Cafés und Restaurants.",
+    "it": "Lunga spiaggia con lungomare, bar e ristoranti."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Praia da Marinha",
+   "dist": "6 km",
+   "lat": 37.0899,
+   "lng": -8.4121,
+   "q": "Praia da Marinha",
+   "d": {
+    "pt": "Uma das praias mais famosas da Europa: falésias, arcos e água cristalina. No verão chegue cedo — o estacionamento enche.",
+    "en": "One of the most famous beaches in Europe: cliffs, arches and clear water. Arrive early in summer — parking fills up.",
+    "es": "Una de las playas más famosas de Europa: acantilados, arcos y agua cristalina. En verano llegue temprano: el aparcamiento se llena.",
+    "fr": "L’une des plages les plus célèbres d’Europe : falaises, arches et eau cristalline. En été, arrivez tôt — le parking se remplit vite.",
+    "de": "Einer der berühmtesten Strände Europas: Klippen, Felsbögen und klares Wasser. Im Sommer früh kommen – der Parkplatz ist schnell voll.",
+    "it": "Una delle spiagge più famose d’Europa: scogliere, archi e acqua cristallina. In estate arrivate presto: il parcheggio si riempie."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Benagil",
+   "dist": "7 km",
+   "lat": 37.0874,
+   "lng": -8.426,
+   "q": "Praia de Benagil",
+   "d": {
+    "pt": "Ponto de partida para passeios de barco e kayak à gruta de Benagil.",
+    "en": "Starting point for boat and kayak trips to the Benagil sea cave.",
+    "es": "Punto de salida de excursiones en barco y kayak a la cueva de Benagil.",
+    "fr": "Point de départ des excursions en bateau et en kayak vers la grotte de Benagil.",
+    "de": "Ausgangspunkt für Boots- und Kajaktouren zur Benagil-Höhle.",
+    "it": "Punto di partenza per gite in barca e kayak alla grotta di Benagil."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Vale de Centeanes",
+   "dist": "9 km",
+   "lat": 37.092,
+   "lng": -8.4405,
+   "q": "Praia do Vale de Centeanes",
+   "d": {
+    "pt": "Praia pequena e mais sossegada entre falésias.",
+    "en": "Small, quieter beach between cliffs.",
+    "es": "Playa pequeña y más tranquila entre acantilados.",
+    "fr": "Petite plage plus tranquille entre les falaises.",
+    "de": "Kleiner, ruhigerer Strand zwischen Klippen.",
+    "it": "Piccola spiaggia più tranquilla tra le scogliere."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "",
+   "name": "Praia da Albandeira",
+   "dist": "",
+   "lat": 37.0912,
+   "lng": -8.4032,
+   "q": "Praia da Albandeira",
+   "d": {
+    "pt": "Pequena enseada com arco natural na rocha.",
+    "en": "Small cove with a natural rock arch.",
+    "es": "Pequeña cala con un arco natural de roca.",
+    "fr": "Petite crique avec une arche rocheuse naturelle.",
+    "de": "Kleine Bucht mit natürlichem Felsbogen.",
+    "it": "Piccola caletta con un arco naturale nella roccia."
+   }
+  },
+  {
+   "cat": "food",
+   "list": "food",
+   "name": "Tasca 26",
+   "dist": "Porches",
+   "lat": null,
+   "lng": null,
+   "q": "Tasca 26 Porches",
+   "d": {
+    "pt": "Tasca tradicional, carnes grelhadas.",
+    "en": "Traditional tavern, grilled meats.",
+    "es": "Taberna tradicional, carnes a la brasa.",
+    "fr": "Taverne traditionnelle, viandes grillées.",
+    "de": "Traditionelle Taverne, Grillfleisch.",
+    "it": "Taverna tradizionale, carni alla griglia."
+   }
+  },
+  {
+   "cat": "food",
+   "list": "food",
+   "name": "O Charneco",
+   "dist": "Estômbar · 10 min",
+   "lat": 37.144,
+   "lng": -8.485,
+   "q": "O Charneco Estômbar",
+   "d": {
+    "pt": "Sem menu, preço fixo com vinho. Cozinha algarvia autêntica. Reserva obrigatória.",
+    "en": "No menu, fixed price with wine. Authentic Algarve cooking. Booking essential.",
+    "es": "Sin carta, precio fijo con vino incluido. Cocina algarvía auténtica. Reserva imprescindible.",
+    "fr": "Pas de carte, prix fixe vin compris. Cuisine authentique de l’Algarve. Réservation indispensable.",
+    "de": "Keine Speisekarte, Festpreis inkl. Wein. Authentische Algarve-Küche. Reservierung erforderlich.",
+    "it": "Niente menù, prezzo fisso con vino incluso. Autentica cucina dell’Algarve. Prenotazione obbligatoria."
+   }
+  },
+  {
+   "cat": "food",
+   "list": "food",
+   "name": "O Ciclo",
+   "dist": "Lagoa · 8 min",
+   "lat": 37.135,
+   "lng": -8.453,
+   "q": "O Ciclo Lagoa",
+   "d": {
+    "pt": "Peixe fresco e pratos tradicionais no centro de Lagoa.",
+    "en": "Fresh fish and traditional dishes in the centre of Lagoa.",
+    "es": "Pescado fresco y platos tradicionales en el centro de Lagoa.",
+    "fr": "Poisson frais et plats traditionnels au centre de Lagoa.",
+    "de": "Frischer Fisch und traditionelle Gerichte im Zentrum von Lagoa.",
+    "it": "Pesce fresco e piatti tradizionali nel centro di Lagoa."
+   }
+  },
+  {
+   "cat": "food",
+   "list": "food",
+   "name": "Rei das Praias",
+   "dist": "Ferragudo · 15 min",
+   "lat": 37.1045,
+   "lng": -8.5055,
+   "q": "Rei das Praias Ferragudo",
+   "d": {
+    "pt": "Peixe e marisco na Praia dos Caneiros, desde 1976.",
+    "en": "Fish and seafood on Caneiros beach, since 1976.",
+    "es": "Pescado y marisco en la playa de Caneiros, desde 1976.",
+    "fr": "Poissons et fruits de mer sur la plage de Caneiros, depuis 1976.",
+    "de": "Fisch und Meeresfrüchte am Strand von Caneiros, seit 1976.",
+    "it": "Pesce e frutti di mare sulla spiaggia di Caneiros, dal 1976."
+   }
+  },
+  {
+   "cat": "food",
+   "list": "food",
+   "name": "Vista",
+   "dist": "Portimão · 20 min",
+   "lat": 37.1188,
+   "lng": -8.533,
+   "q": "Vista Restaurante Portimão",
+   "d": {
+    "pt": "Alta cozinha junto ao mar, extensa carta de vinhos.",
+    "en": "Fine dining by the sea, large wine list.",
+    "es": "Alta cocina junto al mar, amplia carta de vinos.",
+    "fr": "Gastronomie en bord de mer, grande carte des vins.",
+    "de": "Gehobene Küche am Meer, große Weinkarte.",
+    "it": "Alta cucina sul mare, ampia carta dei vini."
+   }
+  },
+  {
+   "cat": "food",
+   "list": "food",
+   "name": "Ocean",
+   "dist": "Vila Vita Parc",
+   "lat": 37.096,
+   "lng": -8.392,
+   "q": "Ocean Restaurant Vila Vita Parc",
+   "d": {
+    "pt": "Restaurante com estrelas Michelin a poucos minutos. Reserve com antecedência.",
+    "en": "Michelin-starred fine dining a few minutes away. Book well in advance.",
+    "es": "Restaurante con estrellas Michelin a pocos minutos. Reserve con antelación.",
+    "fr": "Restaurant étoilé Michelin à quelques minutes. Réservez longtemps à l’avance.",
+    "de": "Michelin-Sterne-Restaurant wenige Minuten entfernt. Frühzeitig reservieren.",
+    "it": "Ristorante stellato Michelin a pochi minuti. Prenotate con largo anticipo."
+   }
+  },
+  {
+   "cat": "fun",
+   "list": "todo",
+   "name": "Aqualand",
+   "dist": "3 km",
+   "lat": 37.1375,
+   "lng": -8.3615,
+   "q": "Aqualand Algarve",
+   "d": {
+    "pt": "Parque aquático — escorregas e piscinas (época de verão).",
+    "en": "Water park — slides and pools for all ages (summer season).",
+    "es": "Parque acuático: toboganes y piscinas (temporada de verano).",
+    "fr": "Parc aquatique — toboggans et piscines (saison estivale).",
+    "de": "Wasserpark – Rutschen und Pools (Sommersaison).",
+    "it": "Parco acquatico: scivoli e piscine (stagione estiva)."
+   }
+  },
+  {
+   "cat": "fun",
+   "list": "todo",
+   "name": "Slide & Splash",
+   "dist": "6 km",
+   "lat": 37.131,
+   "lng": -8.4665,
+   "q": "Slide and Splash Lagoa",
+   "d": {
+    "pt": "Parque aquático em Lagoa (época de verão).",
+    "en": "Water park in Lagoa (summer season).",
+    "es": "Parque acuático en Lagoa (temporada de verano).",
+    "fr": "Parc aquatique à Lagoa (saison estivale).",
+    "de": "Wasserpark in Lagoa (Sommersaison).",
+    "it": "Parco acquatico a Lagoa (stagione estiva)."
+   }
+  },
+  {
+   "cat": "fun",
+   "list": "todo",
+   "name": "Zoomarine",
+   "dist": "10 km",
+   "lat": 37.128,
+   "lng": -8.318,
+   "q": "Zoomarine Algarve",
+   "d": {
+    "pt": "Parque temático com golfinhos, aves e aquários.",
+    "en": "Marine theme park with dolphins, birds and aquariums.",
+    "es": "Parque temático marino con delfines, aves y acuarios.",
+    "fr": "Parc à thème marin avec dauphins, oiseaux et aquariums.",
+    "de": "Meeres-Themenpark mit Delfinen, Vögeln und Aquarien.",
+    "it": "Parco tematico marino con delfini, uccelli e acquari."
+   }
+  },
+  {
+   "cat": "fun",
+   "list": "todo",
+   "name": "Golf · Vale da Pinta / Amendoeira",
+   "dist": "6–8 km",
+   "lat": 37.123,
+   "lng": -8.426,
+   "q": "Vale da Pinta Golf",
+   "d": {
+    "pt": "Dois campos de golfe de referência perto de casa.",
+    "en": "Two top golf courses close to the house.",
+    "es": "Dos campos de golf de referencia cerca de casa.",
+    "fr": "Deux parcours de golf réputés près de la maison.",
+    "de": "Zwei renommierte Golfplätze in der Nähe.",
+    "it": "Due rinomati campi da golf vicino a casa."
+   }
+  },
+  {
+   "cat": "fun",
+   "list": "todo",
+   "name": "Benagil – barco / kayak",
+   "dist": "7 km",
+   "lat": null,
+   "lng": null,
+   "q": "Benagil boat tours",
+   "d": {
+    "pt": "Passeios à gruta de Benagil a partir de Benagil, Armação de Pêra e Portimão.",
+    "en": "Tours to the Benagil cave from Benagil, Armação de Pêra and Portimão.",
+    "es": "Excursiones a la cueva de Benagil desde Benagil, Armação de Pêra y Portimão.",
+    "fr": "Excursions vers la grotte de Benagil depuis Benagil, Armação de Pêra et Portimão.",
+    "de": "Touren zur Benagil-Höhle ab Benagil, Armação de Pêra und Portimão.",
+    "it": "Gite alla grotta di Benagil da Benagil, Armação de Pêra e Portimão."
+   }
+  },
+  {
+   "cat": "see",
+   "list": "todo",
+   "name": "Olaria de Porches",
+   "dist": "Porches",
+   "lat": null,
+   "lng": null,
+   "q": "Olaria Porchesa",
+   "d": {
+    "pt": "Porches é conhecida pela sua olaria algarvia pintada à mão.",
+    "en": "Porches is known for its hand-painted Algarve pottery.",
+    "es": "Porches es conocida por su cerámica algarvía pintada a mano.",
+    "fr": "Porches est réputée pour sa poterie de l’Algarve peinte à la main.",
+    "de": "Porches ist bekannt für seine handbemalte Algarve-Keramik.",
+    "it": "Porches è famosa per le sue ceramiche dell’Algarve dipinte a mano."
+   }
+  },
+  {
+   "cat": "see",
+   "list": "",
+   "name": "Algar Seco · Carvoeiro",
+   "dist": "",
+   "lat": 37.0945,
+   "lng": -8.462,
+   "q": "Algar Seco Carvoeiro",
+   "d": {
+    "pt": "Passadiço nas falésias e formações rochosas.",
+    "en": "Clifftop boardwalk and rock formations.",
+    "es": "Pasarela sobre los acantilados y formaciones rocosas.",
+    "fr": "Promenade sur les falaises et formations rocheuses.",
+    "de": "Klippenpromenade und Felsformationen.",
+    "it": "Passerella sulle scogliere e formazioni rocciose."
+   }
+  },
+  {
+   "cat": "see",
+   "list": "",
+   "name": "Ferragudo",
+   "dist": "",
+   "lat": 37.124,
+   "lng": -8.519,
+   "q": "Ferragudo",
+   "d": {
+    "pt": "Vila piscatória junto ao rio.",
+    "en": "Charming fishing village by the river.",
+    "es": "Encantador pueblo pesquero junto al río.",
+    "fr": "Charmant village de pêcheurs au bord de la rivière.",
+    "de": "Malerisches Fischerdorf am Fluss.",
+    "it": "Grazioso villaggio di pescatori sul fiume."
+   }
+  },
+  {
+   "cat": "see",
+   "list": "",
+   "name": "Silves · Castelo",
+   "dist": "",
+   "lat": 37.1914,
+   "lng": -8.4386,
+   "q": "Castelo de Silves",
+   "d": {
+    "pt": "Castelo medieval e centro histórico.",
+    "en": "Medieval castle and old town.",
+    "es": "Castillo medieval y casco histórico.",
+    "fr": "Château médiéval et vieille ville.",
+    "de": "Mittelalterliche Burg und Altstadt.",
+    "it": "Castello medievale e centro storico."
+   }
+  },
+  {
+   "cat": "help",
+   "list": "",
+   "name": "Hospital de Portimão",
+   "dist": "~25 min",
+   "lat": 37.145,
+   "lng": -8.547,
+   "q": "Hospital de Portimão",
+   "d": {
+    "pt": "Hospital (urgência).",
+    "en": "Hospital (A&E).",
+    "es": "Hospital (urgencias).",
+    "fr": "Hôpital (urgences).",
+    "de": "Krankenhaus (Notaufnahme).",
+    "it": "Ospedale (pronto soccorso)."
+   }
+  }
+ ],
+ "RESTAURANTS": [
+  {
+   "cat": "michelin",
+   "name": "Ocean",
+   "loc": "Vila Vita Parc, Porches",
+   "price": "€€€€",
+   "near": true,
+   "q": "Ocean Restaurant Vila Vita Parc",
+   "d": {
+    "pt": "2 estrelas Michelin. Chef Hans Neuner, cozinha criativa, menus de degustação e harmonização de vinhos, vista mar.",
+    "en": "2 Michelin stars. Chef Hans Neuner, creative cuisine, tasting menus with wine pairing, ocean views.",
+    "es": "2 estrellas Michelin. Chef Hans Neuner, cocina creativa, menús degustación con maridaje y vistas al mar.",
+    "fr": "2 étoiles Michelin. Chef Hans Neuner, cuisine créative, menus dégustation avec accords mets-vins, vue sur l’océan.",
+    "de": "2 Michelin-Sterne. Küchenchef Hans Neuner, kreative Küche, Degustationsmenüs mit Weinbegleitung, Meerblick.",
+    "it": "2 stelle Michelin. Chef Hans Neuner, cucina creativa, menù degustazione con abbinamento vini, vista oceano."
+   }
+  },
+  {
+   "cat": "michelin",
+   "name": "Vila Joya",
+   "loc": "Galé, Albufeira",
+   "price": "€€€€",
+   "near": false,
+   "q": "Vila Joya Albufeira",
+   "d": {
+    "pt": "2 estrelas Michelin. Cozinha de autor internacional, excelente garrafeira e vista mar. Para ocasiões especiais.",
+    "en": "2 Michelin stars. International signature cuisine, outstanding wine cellar and sea views. For special occasions.",
+    "es": "2 estrellas Michelin. Cocina de autor internacional, excelente bodega y vistas al mar. Para ocasiones especiales.",
+    "fr": "2 étoiles Michelin. Cuisine d’auteur internationale, superbe cave et vue sur la mer. Pour les grandes occasions.",
+    "de": "2 Michelin-Sterne. Internationale Autorenküche, hervorragender Weinkeller und Meerblick. Für besondere Anlässe.",
+    "it": "2 stelle Michelin. Cucina d’autore internazionale, ottima cantina e vista mare. Per occasioni speciali."
+   }
+  },
+  {
+   "cat": "michelin",
+   "name": "Bon Bon",
+   "loc": "Sesmarias, Carvoeiro",
+   "price": "€€€€",
+   "near": false,
+   "q": "Bon Bon Restaurante Carvoeiro",
+   "d": {
+    "pt": "1 estrela Michelin. Cozinha portuguesa contemporânea com ingredientes regionais. Ambiente intimista.",
+    "en": "1 Michelin star. Contemporary Portuguese cuisine with regional produce. Intimate setting.",
+    "es": "1 estrella Michelin. Cocina portuguesa contemporánea con productos regionales. Ambiente íntimo.",
+    "fr": "1 étoile Michelin. Cuisine portugaise contemporaine aux produits régionaux. Cadre intimiste.",
+    "de": "1 Michelin-Stern. Zeitgemäße portugiesische Küche mit regionalen Zutaten. Intime Atmosphäre.",
+    "it": "1 stella Michelin. Cucina portoghese contemporanea con prodotti regionali. Ambiente intimo."
+   }
+  },
+  {
+   "cat": "michelin",
+   "name": "Vista",
+   "loc": "Bela Vista Hotel, Praia da Rocha",
+   "price": "€€€€",
+   "near": false,
+   "q": "Vista Restaurante Bela Vista Portimão",
+   "d": {
+    "pt": "1 estrela Michelin. Alta gastronomia de peixe e marisco com vista sobre o Atlântico. Ótimo para jantares românticos.",
+    "en": "1 Michelin star. Fine dining focused on fish and seafood, overlooking the Atlantic. Great for a romantic dinner.",
+    "es": "1 estrella Michelin. Alta cocina de pescado y marisco con vistas al Atlántico. Ideal para una cena romántica.",
+    "fr": "1 étoile Michelin. Haute gastronomie de poisson et fruits de mer face à l’Atlantique. Idéal pour un dîner romantique.",
+    "de": "1 Michelin-Stern. Gehobene Fisch- und Meeresfrüchteküche mit Blick auf den Atlantik. Ideal für ein romantisches Dinner.",
+    "it": "1 stella Michelin. Alta cucina di pesce e frutti di mare con vista sull’Atlantico. Ideale per una cena romantica."
+   }
+  },
+  {
+   "cat": "fine",
+   "name": "O Leão de Porches",
+   "loc": "Porches",
+   "price": "€€€",
+   "near": true,
+   "q": "O Leão de Porches",
+   "d": {
+    "pt": "Recomendado pelo Guia Michelin, numa casa histórica. Cozinha criativa portuguesa e mediterrânica, ambiente romântico.",
+    "en": "Michelin Guide recommended, in a historic house. Creative Portuguese and Mediterranean cuisine, romantic setting.",
+    "es": "Recomendado por la Guía Michelin, en una casa histórica. Cocina creativa portuguesa y mediterránea, ambiente romántico.",
+    "fr": "Recommandé par le Guide Michelin, dans une maison historique. Cuisine créative portugaise et méditerranéenne, cadre romantique.",
+    "de": "Vom Guide Michelin empfohlen, in einem historischen Haus. Kreative portugiesische und mediterrane Küche, romantisches Ambiente.",
+    "it": "Consigliato dalla Guida Michelin, in una casa storica. Cucina creativa portoghese e mediterranea, atmosfera romantica."
+   }
+  },
+  {
+   "cat": "fine",
+   "name": "Coral – Éden do Mar",
+   "loc": "Porches",
+   "price": "€€€€",
+   "near": true,
+   "q": "Coral Eden do Mar Porches",
+   "d": {
+    "pt": "Recomendado pelo Guia Michelin. Cozinha atlântica contemporânea e menus de degustação à beira-mar.",
+    "en": "Michelin Guide recommended. Contemporary Atlantic cuisine and tasting menus by the sea.",
+    "es": "Recomendado por la Guía Michelin. Cocina atlántica contemporánea y menús degustación junto al mar.",
+    "fr": "Recommandé par le Guide Michelin. Cuisine atlantique contemporaine et menus dégustation en bord de mer.",
+    "de": "Vom Guide Michelin empfohlen. Zeitgemäße atlantische Küche und Degustationsmenüs am Meer.",
+    "it": "Consigliato dalla Guida Michelin. Cucina atlantica contemporanea e menù degustazione sul mare."
+   }
+  },
+  {
+   "cat": "fine",
+   "name": "Atlântico",
+   "loc": "Vila Vita Parc, Porches",
+   "price": "€€€",
+   "near": true,
+   "q": "Atlantico Vila Vita Parc",
+   "d": {
+    "pt": "Recomendado pelo Guia Michelin. Cozinha mediterrânica contemporânea com influências do Levante e vista mar.",
+    "en": "Michelin Guide recommended. Contemporary Mediterranean cuisine with Levantine influences and sea views.",
+    "es": "Recomendado por la Guía Michelin. Cocina mediterránea contemporánea con influencias de Levante y vistas al mar.",
+    "fr": "Recommandé par le Guide Michelin. Cuisine méditerranéenne contemporaine aux influences levantines, vue mer.",
+    "de": "Vom Guide Michelin empfohlen. Moderne mediterrane Küche mit levantinischen Einflüssen und Meerblick.",
+    "it": "Consigliato dalla Guida Michelin. Cucina mediterranea contemporanea con influenze levantine e vista mare."
+   }
+  },
+  {
+   "cat": "fine",
+   "name": "Al Quimia",
+   "loc": "Falésia, Albufeira",
+   "price": "€€€€",
+   "near": false,
+   "q": "Al Quimia Albufeira",
+   "d": {
+    "pt": "Recomendado pelo Guia Michelin. Cozinha portuguesa moderna, menus criativos e harmonizações de vinhos.",
+    "en": "Michelin Guide recommended. Modern Portuguese cuisine, creative menus and wine pairings.",
+    "es": "Recomendado por la Guía Michelin. Cocina portuguesa moderna, menús creativos y maridajes.",
+    "fr": "Recommandé par le Guide Michelin. Cuisine portugaise moderne, menus créatifs et accords mets-vins.",
+    "de": "Vom Guide Michelin empfohlen. Moderne portugiesische Küche, kreative Menüs und Weinbegleitung.",
+    "it": "Consigliato dalla Guida Michelin. Cucina portoghese moderna, menù creativi e abbinamenti di vini."
+   }
+  },
+  {
+   "cat": "fine",
+   "name": "O Barradas",
+   "loc": "Silves",
+   "price": "€€–€€€",
+   "near": false,
+   "q": "O Barradas Silves",
+   "d": {
+    "pt": "Restaurante de referência em ambiente rural, entre laranjais. Carnes e peixes portugueses e boa oferta de vinhos.",
+    "en": "A renowned restaurant in the countryside among orange groves. Portuguese meat and fish, good wine list.",
+    "es": "Restaurante de referencia en un entorno rural, entre naranjos. Carnes y pescados portugueses y buena carta de vinos.",
+    "fr": "Adresse réputée à la campagne, au milieu des orangers. Viandes et poissons portugais, belle carte des vins.",
+    "de": "Renommiertes Restaurant auf dem Land zwischen Orangenhainen. Portugiesisches Fleisch und Fisch, gute Weinkarte.",
+    "it": "Ristorante rinomato in campagna, tra gli aranceti. Carne e pesce portoghesi, buona carta dei vini."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Rolha Wine Bar",
+   "loc": "Porches",
+   "price": "€€",
+   "near": true,
+   "q": "Rolha Wine Bar Porches",
+   "d": {
+    "pt": "Vinhos portugueses e petiscos de qualidade num ambiente acolhedor. Ótimo para partilhar pratos.",
+    "en": "Portuguese wines and quality small plates in a cosy setting. Great for sharing.",
+    "es": "Vinos portugueses y tapas de calidad en un ambiente acogedor. Ideal para compartir.",
+    "fr": "Vins portugais et petites assiettes de qualité dans un cadre chaleureux. Parfait pour partager.",
+    "de": "Portugiesische Weine und hochwertige Häppchen in gemütlicher Atmosphäre. Ideal zum Teilen.",
+    "it": "Vini portoghesi e stuzzichini di qualità in un ambiente accogliente. Perfetto per condividere."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Inevitável Wine Bar",
+   "loc": "Armação de Pêra",
+   "price": "€€–€€€",
+   "near": false,
+   "q": "Inevitavel Wine Bar Armação de Pêra",
+   "d": {
+    "pt": "Cozinha portuguesa contemporânea, menus de degustação e excelente seleção de vinhos. Muito bem avaliado.",
+    "en": "Contemporary Portuguese cuisine, tasting menus and an excellent wine selection. Very highly rated.",
+    "es": "Cocina portuguesa contemporánea, menús degustación y excelente selección de vinos. Muy bien valorado.",
+    "fr": "Cuisine portugaise contemporaine, menus dégustation et excellente sélection de vins. Très bien noté.",
+    "de": "Moderne portugiesische Küche, Degustationsmenüs und exzellente Weinauswahl. Sehr gut bewertet.",
+    "it": "Cucina portoghese contemporanea, menù degustazione e ottima selezione di vini. Valutazioni eccellenti."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Hexagone",
+   "loc": "Sesmarias, Carvoeiro",
+   "price": "€€€",
+   "near": false,
+   "q": "Hexagone Restaurant Carvoeiro",
+   "d": {
+    "pt": "Carnes nobres, cozinha mediterrânica e boa garrafeira. Ambiente elegante.",
+    "en": "Prime meats, Mediterranean cuisine and a good wine cellar. Elegant setting.",
+    "es": "Carnes selectas, cocina mediterránea y buena bodega. Ambiente elegante.",
+    "fr": "Viandes d’exception, cuisine méditerranéenne et belle cave. Cadre élégant.",
+    "de": "Edle Fleischgerichte, mediterrane Küche und guter Weinkeller. Elegantes Ambiente.",
+    "it": "Carni pregiate, cucina mediterranea e buona cantina. Ambiente elegante."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Restaurante F",
+   "loc": "Praia da Rocha",
+   "price": "€€€",
+   "near": false,
+   "q": "Restaurante F Praia da Rocha",
+   "d": {
+    "pt": "Cozinha portuguesa contemporânea, peixe, marisco e cataplanas, com vista mar e boa carta de vinhos.",
+    "en": "Contemporary Portuguese cuisine, fish, seafood and cataplanas, with sea views and a good wine list.",
+    "es": "Cocina portuguesa contemporánea, pescado, marisco y cataplanas, con vistas al mar y buena carta de vinos.",
+    "fr": "Cuisine portugaise contemporaine, poisson, fruits de mer et cataplanas, vue mer et belle carte des vins.",
+    "de": "Moderne portugiesische Küche, Fisch, Meeresfrüchte und Cataplanas, mit Meerblick und guter Weinkarte.",
+    "it": "Cucina portoghese contemporanea, pesce, frutti di mare e cataplane, con vista mare e buona carta dei vini."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Veneza",
+   "loc": "Paderne",
+   "price": "€€–€€€",
+   "near": false,
+   "q": "Restaurante Veneza Paderne",
+   "d": {
+    "pt": "Restaurante tradicional famoso pela extraordinária garrafeira de vinhos portugueses e pela cozinha regional.",
+    "en": "Traditional restaurant famous for its extraordinary Portuguese wine cellar and regional cooking.",
+    "es": "Restaurante tradicional famoso por su extraordinaria bodega de vinos portugueses y su cocina regional.",
+    "fr": "Restaurant traditionnel réputé pour son extraordinaire cave de vins portugais et sa cuisine régionale.",
+    "de": "Traditionelles Restaurant, berühmt für seinen außergewöhnlichen portugiesischen Weinkeller und regionale Küche.",
+    "it": "Ristorante tradizionale famoso per la straordinaria cantina di vini portoghesi e la cucina regionale."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Le Crô",
+   "loc": "Carvoeiro",
+   "price": "€€",
+   "near": false,
+   "q": "Le Crô Carvoeiro",
+   "d": {
+    "pt": "Pequeno restaurante de tapas criativas e vinhos portugueses. Descontraído e intimista.",
+    "en": "Small spot for creative tapas and Portuguese wines. Relaxed and intimate.",
+    "es": "Pequeño local de tapas creativas y vinos portugueses. Relajado e íntimo.",
+    "fr": "Petit restaurant de tapas créatives et vins portugais. Décontracté et intimiste.",
+    "de": "Kleines Lokal mit kreativen Tapas und portugiesischen Weinen. Entspannt und gemütlich.",
+    "it": "Piccolo locale di tapas creative e vini portoghesi. Rilassato e intimo."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Brasserie Rosal",
+   "loc": "Vale d'El Rei, Lagoa",
+   "price": "€€–€€€",
+   "near": false,
+   "q": "Brasserie Rosal Lagoa",
+   "d": {
+    "pt": "Cozinha mediterrânica e internacional, carnes e peixe, em ambiente tranquilo.",
+    "en": "Mediterranean and international cuisine, meat and fish, in a peaceful setting.",
+    "es": "Cocina mediterránea e internacional, carnes y pescado, en un ambiente tranquilo.",
+    "fr": "Cuisine méditerranéenne et internationale, viandes et poissons, dans un cadre paisible.",
+    "de": "Mediterrane und internationale Küche, Fleisch und Fisch, in ruhiger Umgebung.",
+    "it": "Cucina mediterranea e internazionale, carne e pesce, in un ambiente tranquillo."
+   }
+  },
+  {
+   "cat": "sea",
+   "name": "Vilarinho",
+   "loc": "Praia da Senhora da Rocha",
+   "price": "€€",
+   "near": true,
+   "q": "Vilarinho Senhora da Rocha",
+   "d": {
+    "pt": "Mesmo na praia. Peixe grelhado, marisco e cozinha algarvia. Ótimo para almoçar com vista mar.",
+    "en": "Right on the beach. Grilled fish, seafood and Algarve cooking. Great for lunch with a sea view.",
+    "es": "En la misma playa. Pescado a la parrilla, marisco y cocina del Algarve. Ideal para comer con vistas al mar.",
+    "fr": "Directement sur la plage. Poisson grillé, fruits de mer et cuisine de l’Algarve. Idéal pour déjeuner face à la mer.",
+    "de": "Direkt am Strand. Gegrillter Fisch, Meeresfrüchte und Algarve-Küche. Ideal zum Mittagessen mit Meerblick.",
+    "it": "Direttamente sulla spiaggia. Pesce alla griglia, frutti di mare e cucina dell’Algarve. Ideale per pranzo vista mare."
+   }
+  },
+  {
+   "cat": "sea",
+   "name": "Olivalmar",
+   "loc": "Praia do Vale do Olival, Armação de Pêra",
+   "price": "€€–€€€",
+   "near": true,
+   "q": "Olivalmar Armação de Pêra",
+   "d": {
+    "pt": "Restaurante moderno junto ao mar: peixe fresco, marisco e cataplanas, esplanada e pôr do sol.",
+    "en": "Modern seaside restaurant: fresh fish, seafood and cataplanas, terrace and sunsets.",
+    "es": "Restaurante moderno junto al mar: pescado fresco, marisco y cataplanas, terraza y puestas de sol.",
+    "fr": "Restaurant moderne en bord de mer : poisson frais, fruits de mer et cataplanas, terrasse et coucher de soleil.",
+    "de": "Modernes Restaurant am Meer: frischer Fisch, Meeresfrüchte und Cataplanas, Terrasse und Sonnenuntergang.",
+    "it": "Ristorante moderno sul mare: pesce fresco, frutti di mare e cataplane, terrazza e tramonti."
+   }
+  },
+  {
+   "cat": "sea",
+   "name": "Arte Náutica",
+   "loc": "Praia de Armação de Pêra",
+   "price": "€€€",
+   "near": true,
+   "q": "Arte Nautica Armação de Pêra",
+   "d": {
+    "pt": "Restaurante de praia do grupo Vila Vita. Peixe fresco, marisco e esplanada junto ao mar.",
+    "en": "Beach restaurant run by Vila Vita. Fresh fish, seafood and a seafront terrace.",
+    "es": "Restaurante de playa del grupo Vila Vita. Pescado fresco, marisco y terraza junto al mar.",
+    "fr": "Restaurant de plage du groupe Vila Vita. Poisson frais, fruits de mer et terrasse face à la mer.",
+    "de": "Strandrestaurant der Vila-Vita-Gruppe. Frischer Fisch, Meeresfrüchte und Terrasse am Meer.",
+    "it": "Ristorante sulla spiaggia del gruppo Vila Vita. Pesce fresco, frutti di mare e terrazza sul mare."
+   }
+  },
+  {
+   "cat": "sea",
+   "name": "Palm Beach",
+   "loc": "Armação de Pêra",
+   "price": "€€",
+   "near": false,
+   "q": "Palm Beach Armação de Pêra",
+   "d": {
+    "pt": "Restaurante de praia descontraído: peixe, marisco e cozinha internacional, com esplanada.",
+    "en": "Relaxed beach restaurant: fish, seafood and international dishes, with a terrace.",
+    "es": "Restaurante de playa informal: pescado, marisco y cocina internacional, con terraza.",
+    "fr": "Restaurant de plage décontracté : poisson, fruits de mer et cuisine internationale, en terrasse.",
+    "de": "Entspanntes Strandrestaurant: Fisch, Meeresfrüchte und internationale Küche, mit Terrasse.",
+    "it": "Ristorante sulla spiaggia informale: pesce, frutti di mare e cucina internazionale, con terrazza."
+   }
+  },
+  {
+   "cat": "sea",
+   "name": "Rei das Praias",
+   "loc": "Praia dos Caneiros, Ferragudo",
+   "price": "€€€",
+   "near": false,
+   "q": "Rei das Praias Ferragudo",
+   "d": {
+    "pt": "Um dos restaurantes de praia mais conhecidos da região. Peixe e marisco com vista espetacular.",
+    "en": "One of the best-known beach restaurants in the region. Fish and seafood with a spectacular view.",
+    "es": "Uno de los restaurantes de playa más conocidos de la zona. Pescado y marisco con vistas espectaculares.",
+    "fr": "L’un des restaurants de plage les plus connus de la région. Poisson et fruits de mer avec une vue spectaculaire.",
+    "de": "Eines der bekanntesten Strandrestaurants der Region. Fisch und Meeresfrüchte mit spektakulärer Aussicht.",
+    "it": "Uno dei ristoranti sulla spiaggia più noti della zona. Pesce e frutti di mare con una vista spettacolare."
+   }
+  },
+  {
+   "cat": "sea",
+   "name": "Marisqueira Rui",
+   "loc": "Silves",
+   "price": "€€–€€€",
+   "near": false,
+   "q": "Marisqueira Rui Silves",
+   "d": {
+    "pt": "Marisqueira tradicional muito conhecida: marisco, arroz de marisco e cataplanas. Boa para grupos.",
+    "en": "Famous traditional seafood house: shellfish, seafood rice and cataplanas. Good for groups.",
+    "es": "Marisquería tradicional muy conocida: marisco, arroz con marisco y cataplanas. Buena para grupos.",
+    "fr": "Célèbre maison de fruits de mer : coquillages, riz aux fruits de mer et cataplanas. Idéale en groupe.",
+    "de": "Bekanntes traditionelles Meeresfrüchte-Lokal: Meeresfrüchte, Meeresfrüchtereis und Cataplanas. Gut für Gruppen.",
+    "it": "Famosa marisqueira tradizionale: frutti di mare, riso ai frutti di mare e cataplane. Ottima per gruppi."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Porches Velho",
+   "loc": "Porches",
+   "price": "€€",
+   "near": true,
+   "q": "Porches Velho Restaurante",
+   "d": {
+    "pt": "Casa típica com cozinha regional algarvia: peixe, cataplanas e carnes. Ambiente rústico e acolhedor.",
+    "en": "Typical house serving regional Algarve food: fish, cataplanas and meat. Rustic and cosy.",
+    "es": "Casa típica con cocina regional del Algarve: pescado, cataplanas y carnes. Rústico y acogedor.",
+    "fr": "Maison typique, cuisine régionale de l’Algarve : poisson, cataplanas et viandes. Rustique et chaleureux.",
+    "de": "Typisches Haus mit regionaler Algarve-Küche: Fisch, Cataplanas und Fleisch. Rustikal und gemütlich.",
+    "it": "Casa tipica con cucina regionale dell’Algarve: pesce, cataplane e carne. Rustico e accogliente."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Quirinu's Wine & Grill",
+   "loc": "Porches / Alporchinhos",
+   "price": "€€",
+   "near": true,
+   "q": "Quirinu's Wine & Grill Porches",
+   "d": {
+    "pt": "Carnes grelhadas, tábuas para partilhar e vinhos. Muito bem avaliado, ótimo para famílias e grupos.",
+    "en": "Grilled meats, sharing boards and wine. Very well rated, great for families and groups.",
+    "es": "Carnes a la parrilla, tablas para compartir y vinos. Muy bien valorado, ideal para familias y grupos.",
+    "fr": "Grillades, planches à partager et vins. Très bien noté, idéal pour familles et groupes.",
+    "de": "Grillfleisch, Platten zum Teilen und Wein. Sehr gut bewertet, ideal für Familien und Gruppen.",
+    "it": "Carni alla griglia, taglieri da condividere e vini. Ottime recensioni, ideale per famiglie e gruppi."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Tasca 26",
+   "loc": "Porches / Alporchinhos",
+   "price": "€€",
+   "near": true,
+   "q": "Tasca 26 Porches",
+   "d": {
+    "pt": "Muito bem avaliado: carnes, tapas e pratos internacionais. Ambiente informal e bom serviço.",
+    "en": "Highly rated: meat, tapas and international dishes. Informal atmosphere and good service.",
+    "es": "Muy bien valorado: carnes, tapas y platos internacionales. Ambiente informal y buen servicio.",
+    "fr": "Très bien noté : viandes, tapas et plats internationaux. Ambiance décontractée et bon service.",
+    "de": "Sehr gut bewertet: Fleisch, Tapas und internationale Gerichte. Ungezwungene Atmosphäre, guter Service.",
+    "it": "Ottime recensioni: carne, tapas e piatti internazionali. Ambiente informale e buon servizio."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Tasca'lado",
+   "loc": "Porches",
+   "price": "€€",
+   "near": true,
+   "q": "Tasca'lado Porches",
+   "d": {
+    "pt": "Comida portuguesa caseira e ambiente familiar. Boa relação qualidade/preço.",
+    "en": "Home-style Portuguese food in a family atmosphere. Good value for money.",
+    "es": "Comida portuguesa casera y ambiente familiar. Buena relación calidad-precio.",
+    "fr": "Cuisine portugaise maison dans une ambiance familiale. Bon rapport qualité-prix.",
+    "de": "Portugiesische Hausmannskost in familiärer Atmosphäre. Gutes Preis-Leistungs-Verhältnis.",
+    "it": "Cucina portoghese casalinga in un ambiente familiare. Buon rapporto qualità-prezzo."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "A Rampa",
+   "loc": "Porches",
+   "price": "€–€€",
+   "near": true,
+   "q": "A Rampa Porches",
+   "d": {
+    "pt": "Pequeno restaurante muito apreciado pela comida caseira, simpatia e excelente relação qualidade/preço.",
+    "en": "Small, much-loved restaurant for home cooking, friendly service and excellent value.",
+    "es": "Pequeño restaurante muy apreciado por su comida casera, su simpatía y su excelente relación calidad-precio.",
+    "fr": "Petit restaurant très apprécié pour sa cuisine maison, son accueil et son excellent rapport qualité-prix.",
+    "de": "Kleines, beliebtes Lokal mit Hausmannskost, freundlichem Service und sehr gutem Preis-Leistungs-Verhältnis.",
+    "it": "Piccolo ristorante molto apprezzato per la cucina casalinga, la cordialità e l’ottimo rapporto qualità-prezzo."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Ti Teresa",
+   "loc": "Vale das Lousas, EN125 (Porches–Alcantarilha)",
+   "price": "€",
+   "near": true,
+   "q": "Ti Teresa Restaurante Alcantarilha",
+   "d": {
+    "pt": "Muito conhecido pelos almoços económicos: pratos do dia, peixe grelhado e comida caseira. Ótimo para famílias.",
+    "en": "Well known for good-value lunches: dish of the day, grilled fish and home cooking. Great for families.",
+    "es": "Muy conocido por sus comidas económicas: plato del día, pescado a la parrilla y comida casera. Ideal para familias.",
+    "fr": "Réputé pour ses déjeuners bon marché : plat du jour, poisson grillé et cuisine maison. Idéal en famille.",
+    "de": "Bekannt für günstige Mittagessen: Tagesgericht, gegrillter Fisch und Hausmannskost. Ideal für Familien.",
+    "it": "Famoso per i pranzi economici: piatto del giorno, pesce alla griglia e cucina casalinga. Ideale per famiglie."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Mar à Vista",
+   "loc": "Porches",
+   "price": "€",
+   "near": true,
+   "q": "Mar à Vista Porches",
+   "d": {
+    "pt": "Cozinha portuguesa simples, peixe grelhado e pratos caseiros. Económico, ideal para almoços.",
+    "en": "Simple Portuguese food, grilled fish and home-made dishes. Inexpensive, ideal for lunch.",
+    "es": "Cocina portuguesa sencilla, pescado a la parrilla y platos caseros. Económico, ideal para comer.",
+    "fr": "Cuisine portugaise simple, poisson grillé et plats maison. Bon marché, idéal le midi.",
+    "de": "Einfache portugiesische Küche, gegrillter Fisch und Hausmannskost. Günstig, ideal zum Mittagessen.",
+    "it": "Cucina portoghese semplice, pesce alla griglia e piatti casalinghi. Economico, ideale per pranzo."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Dois Irmãos",
+   "loc": "EN125, Porches",
+   "price": "€",
+   "near": true,
+   "q": "Restaurante Dois Irmãos Porches",
+   "d": {
+    "pt": "Comida tradicional portuguesa, doses generosas e preços acessíveis.",
+    "en": "Traditional Portuguese food, generous portions and affordable prices.",
+    "es": "Comida tradicional portuguesa, raciones generosas y precios asequibles.",
+    "fr": "Cuisine traditionnelle portugaise, portions généreuses et prix abordables.",
+    "de": "Traditionelle portugiesische Küche, große Portionen und günstige Preise.",
+    "it": "Cucina tradizionale portoghese, porzioni abbondanti e prezzi accessibili."
+   }
+  },
+  {
+   "cat": "trad",
+   "name": "Casa de Pasto A Paragem",
+   "loc": "Porches",
+   "price": "€",
+   "near": true,
+   "q": "A Paragem Porches",
+   "d": {
+    "pt": "Restaurante típico frequentado pelos locais: comida caseira e peixe grelhado a preços económicos.",
+    "en": "Typical local eatery: home cooking and grilled fish at low prices.",
+    "es": "Restaurante típico frecuentado por los vecinos: comida casera y pescado a la parrilla a buen precio.",
+    "fr": "Restaurant typique fréquenté par les habitants : cuisine maison et poisson grillé à petits prix.",
+    "de": "Typisches Lokal der Einheimischen: Hausmannskost und gegrillter Fisch zu kleinen Preisen.",
+    "it": "Trattoria tipica frequentata dai locali: cucina casalinga e pesce alla griglia a prezzi economici."
+   }
+  },
+  {
+   "cat": "intl",
+   "name": "Vila Vita Biergarten",
+   "loc": "EN125, Porches",
+   "price": "€€",
+   "near": true,
+   "q": "Vila Vita Biergarten Porches",
+   "d": {
+    "pt": "Inspiração bávara: cervejas, salsichas e schnitzel. Espaço animado, ótimo para famílias e grupos.",
+    "en": "Bavarian-style: beers, sausages and schnitzel. Lively place, great for families and groups.",
+    "es": "Inspiración bávara: cervezas, salchichas y schnitzel. Ambiente animado, ideal para familias y grupos.",
+    "fr": "Esprit bavarois : bières, saucisses et schnitzel. Lieu animé, idéal pour familles et groupes.",
+    "de": "Bayerischer Stil: Bier, Würstchen und Schnitzel. Lebhaft, ideal für Familien und Gruppen.",
+    "it": "Ispirazione bavarese: birre, salsicce e schnitzel. Ambiente vivace, ideale per famiglie e gruppi."
+   }
+  },
+  {
+   "cat": "intl",
+   "name": "Vila de Itália",
+   "loc": "Alporchinhos, Porches",
+   "price": "€€",
+   "near": true,
+   "q": "Vila de Itália Alporchinhos",
+   "d": {
+    "pt": "Italiano informal: pizzas, massas e especialidades mediterrânicas. Bom para crianças.",
+    "en": "Casual Italian: pizzas, pasta and Mediterranean dishes. Child-friendly.",
+    "es": "Italiano informal: pizzas, pastas y especialidades mediterráneas. Adecuado para niños.",
+    "fr": "Italien décontracté : pizzas, pâtes et spécialités méditerranéennes. Adapté aux enfants.",
+    "de": "Ungezwungener Italiener: Pizza, Pasta und mediterrane Spezialitäten. Kinderfreundlich.",
+    "it": "Italiano informale: pizze, pasta e specialità mediterranee. Adatto ai bambini."
+   }
+  },
+  {
+   "cat": "intl",
+   "name": "Belmondo",
+   "loc": "Praia da Senhora da Rocha",
+   "price": "€€–€€€",
+   "near": true,
+   "q": "Belmondo Senhora da Rocha",
+   "d": {
+    "pt": "Italiano com pizzas, massas e cozinha mediterrânica, com vista sobre as falésias.",
+    "en": "Italian with pizzas, pasta and Mediterranean dishes, overlooking the cliffs.",
+    "es": "Italiano con pizzas, pastas y cocina mediterránea, con vistas a los acantilados.",
+    "fr": "Italien avec pizzas, pâtes et cuisine méditerranéenne, vue sur les falaises.",
+    "de": "Italiener mit Pizza, Pasta und mediterraner Küche, mit Blick auf die Klippen.",
+    "it": "Italiano con pizze, pasta e cucina mediterranea, con vista sulle scogliere."
+   }
+  },
+  {
+   "cat": "intl",
+   "name": "Indian Curry House",
+   "loc": "Alporchinhos, Porches",
+   "price": "€€",
+   "near": true,
+   "q": "Indian Curry House Alporchinhos",
+   "d": {
+    "pt": "Cozinha indiana: caril, tandoori e pratos vegetarianos. Informal e a preços moderados.",
+    "en": "Indian cuisine: curries, tandoori and vegetarian dishes. Informal and moderately priced.",
+    "es": "Cocina india: curris, tandoori y platos vegetarianos. Informal y a precios moderados.",
+    "fr": "Cuisine indienne : currys, tandoori et plats végétariens. Décontracté et prix modérés.",
+    "de": "Indische Küche: Currys, Tandoori und vegetarische Gerichte. Ungezwungen und preiswert.",
+    "it": "Cucina indiana: curry, tandoori e piatti vegetariani. Informale e a prezzi moderati."
+   }
+  },
+  {
+   "cat": "intl",
+   "name": "O Veleiro",
+   "loc": "Alporchinhos, Porches",
+   "price": "€€",
+   "near": true,
+   "q": "O Veleiro Alporchinhos",
+   "d": {
+    "pt": "Cozinha portuguesa e internacional, carnes e peixe. Ambiente familiar e tranquilo.",
+    "en": "Portuguese and international food, meat and fish. Quiet, family atmosphere.",
+    "es": "Cocina portuguesa e internacional, carnes y pescado. Ambiente familiar y tranquilo.",
+    "fr": "Cuisine portugaise et internationale, viandes et poissons. Ambiance familiale et calme.",
+    "de": "Portugiesische und internationale Küche, Fleisch und Fisch. Ruhige, familiäre Atmosphäre.",
+    "it": "Cucina portoghese e internazionale, carne e pesce. Ambiente familiare e tranquillo."
+   }
+  },
+  {
+   "cat": "intl",
+   "name": "Panorama Sol",
+   "loc": "Porches",
+   "price": "€",
+   "near": true,
+   "q": "Panorama Sol Porches",
+   "d": {
+    "pt": "Restaurante informal com grelhados e cozinha portuguesa simples. Opção económica.",
+    "en": "Casual restaurant with grills and simple Portuguese food. A budget option.",
+    "es": "Restaurante informal con parrilla y cocina portuguesa sencilla. Opción económica.",
+    "fr": "Restaurant décontracté, grillades et cuisine portugaise simple. Option économique.",
+    "de": "Ungezwungenes Lokal mit Grillgerichten und einfacher portugiesischer Küche. Günstig.",
+    "it": "Ristorante informale con grigliate e cucina portoghese semplice. Opzione economica."
+   }
+  },
+  {
+   "cat": "intl",
+   "name": "Ramires",
+   "loc": "Guia, Albufeira",
+   "price": "€–€€",
+   "near": false,
+   "q": "Restaurante Ramires Guia",
+   "d": {
+    "pt": "Restaurante histórico, famoso pelo frango piri-piri da Guia. Simples, familiar e muito popular.",
+    "en": "Historic restaurant famous for Guia-style piri-piri chicken. Simple, family-friendly and very popular.",
+    "es": "Restaurante histórico, famoso por el pollo piri-piri de Guia. Sencillo, familiar y muy popular.",
+    "fr": "Restaurant historique célèbre pour le poulet piri-piri de Guia. Simple, familial et très populaire.",
+    "de": "Traditionsrestaurant, berühmt für Piri-Piri-Hähnchen aus Guia. Einfach, familiär und sehr beliebt.",
+    "it": "Ristorante storico famoso per il pollo piri-piri di Guia. Semplice, familiare e molto popolare."
+   }
+  },
+  {
+   "cat": "cafe",
+   "name": "Café Aurora",
+   "loc": "Alporchinhos, Porches",
+   "price": "€",
+   "near": true,
+   "q": "Café Aurora Alporchinhos",
+   "d": {
+    "pt": "Muito bem avaliado: pequenos-almoços, café, quiches, tostas e refeições leves.",
+    "en": "Highly rated: breakfasts, coffee, quiches, toasties and light meals.",
+    "es": "Muy bien valorado: desayunos, café, quiches, tostadas y comidas ligeras.",
+    "fr": "Très bien noté : petits-déjeuners, café, quiches, croque-monsieur et repas légers.",
+    "de": "Sehr gut bewertet: Frühstück, Kaffee, Quiches, Toasts und leichte Gerichte.",
+    "it": "Ottime recensioni: colazioni, caffè, quiche, toast e pasti leggeri."
+   }
+  },
+  {
+   "cat": "cafe",
+   "name": "Sweet Spot Porches",
+   "loc": "Alporchinhos",
+   "price": "€–€€",
+   "near": true,
+   "q": "Sweet Spot Porches Alporchinhos",
+   "d": {
+    "pt": "Pequenos-almoços, panquecas, hambúrgueres, wraps e cocktails. Bom para famílias.",
+    "en": "Breakfasts, pancakes, burgers, wraps and cocktails. Family-friendly.",
+    "es": "Desayunos, tortitas, hamburguesas, wraps y cócteles. Para familias.",
+    "fr": "Petits-déjeuners, pancakes, burgers, wraps et cocktails. Adapté aux familles.",
+    "de": "Frühstück, Pancakes, Burger, Wraps und Cocktails. Familienfreundlich.",
+    "it": "Colazioni, pancake, hamburger, wrap e cocktail. Adatto alle famiglie."
+   }
+  }
+ ],
+ "EVENTS": [
+  {
+   "cat": "events",
+   "town": "aia",
+   "name": "Fórmula 1 — Grande Prémio de Portugal",
+   "tags": [
+    "teen"
+   ],
+   "d": {
+    "pt": "O Mundial de Fórmula 1 regressa ao Algarve: treinos, corridas e ambiente internacional. Edição de 2028 também confirmada.",
+    "en": "Formula 1 returns to the Algarve: practice, races and an international atmosphere. A 2028 race is also confirmed.",
+    "es": "La Fórmula 1 vuelve al Algarve: entrenamientos, carreras y ambiente internacional. También confirmada para 2028.",
+    "fr": "La Formule 1 revient en Algarve : essais, courses et ambiance internationale. Édition 2028 également confirmée.",
+    "de": "Die Formel 1 kehrt an die Algarve zurück: Training, Rennen und internationales Flair. Auch 2028 bestätigt.",
+    "it": "La Formula 1 torna in Algarve: prove, gare e atmosfera internazionale. Confermata anche l’edizione 2028."
+   },
+   "start": "2027-06-18",
+   "end": "2027-06-20",
+   "url": "https://autodromodoalgarve.com"
+  },
+  {
+   "cat": "events",
+   "town": "aia",
+   "name": "MotoGP — Grande Prémio de Portugal",
+   "tags": [
+    "teen",
+    "winter"
+   ],
+   "d": {
+    "pt": "Um dos maiores eventos desportivos do Algarve, com os melhores pilotos de motociclismo do mundo.",
+    "en": "One of the Algarve’s biggest sporting events, with the world’s best motorcycle riders.",
+    "es": "Uno de los mayores eventos deportivos del Algarve, con los mejores pilotos de motociclismo del mundo.",
+    "fr": "L’un des plus grands événements sportifs de l’Algarve, avec les meilleurs pilotes moto du monde.",
+    "de": "Eines der größten Sportevents der Algarve mit den besten Motorradfahrern der Welt.",
+    "it": "Uno dei più grandi eventi sportivi dell’Algarve, con i migliori piloti di moto al mondo."
+   },
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "url": "https://autodromodoalgarve.com"
+  },
+  {
+   "cat": "events",
+   "town": "aia",
+   "name": "Algarve Classic Festival",
+   "tags": [
+    "teen",
+    "winter"
+   ],
+   "d": {
+    "pt": "Corridas de automóveis clássicos, competição histórica e exposições de carros emblemáticos.",
+    "en": "Classic car racing, historic motorsport and displays of iconic cars.",
+    "es": "Carreras de coches clásicos, competición histórica y exposiciones de coches emblemáticos.",
+    "fr": "Courses de voitures classiques, compétition historique et expositions de voitures mythiques.",
+    "de": "Oldtimerrennen, historischer Motorsport und Ausstellungen legendärer Autos.",
+    "it": "Gare di auto d’epoca, competizioni storiche ed esposizioni di auto iconiche."
+   },
+   "start": "2026-10-30",
+   "end": "2026-11-01"
+  },
+  {
+   "cat": "events",
+   "town": "lagoa",
+   "name": "FATACIL — Feira de Lagoa",
+   "tags": [
+    "fam",
+    "food"
+   ],
+   "d": {
+    "pt": "Uma das maiores feiras do sul de Portugal: concertos, gastronomia, artesanato, agricultura e atividades equestres.",
+    "en": "One of southern Portugal’s biggest fairs: concerts, food, crafts, farming and equestrian shows.",
+    "es": "Una de las mayores ferias del sur de Portugal: conciertos, gastronomía, artesanía, agricultura y espectáculos ecuestres.",
+    "fr": "L’une des plus grandes foires du sud du Portugal : concerts, gastronomie, artisanat, agriculture et spectacles équestres.",
+    "de": "Eine der größten Messen Südportugals: Konzerte, Essen, Kunsthandwerk, Landwirtschaft und Reitvorführungen.",
+    "it": "Una delle più grandi fiere del sud del Portogallo: concerti, gastronomia, artigianato, agricoltura e spettacoli equestri."
+   },
+   "start": "2027-08-20",
+   "end": "2027-08-29",
+   "url": "https://fatacil.pt"
+  },
+  {
+   "cat": "events",
+   "town": "porches",
+   "name": "Festival do Caracol de Porches",
+   "tags": [
+    "food",
+    "fam"
+   ],
+   "d": {
+    "pt": "A festa gastronómica mais tradicional da vila: caracóis, petiscos, artesanato e concertos populares.",
+    "en": "The village’s most traditional food festival: snails, petiscos, crafts and live music.",
+    "es": "La fiesta gastronómica más tradicional del pueblo: caracoles, tapas, artesanía y conciertos populares.",
+    "fr": "La fête gastronomique la plus traditionnelle du village : escargots, petiscos, artisanat et concerts.",
+    "de": "Das traditionellste Fest des Ortes: Schnecken, Häppchen, Kunsthandwerk und Volksmusik.",
+    "it": "La festa gastronomica più tradizionale del paese: lumache, stuzzichini, artigianato e concerti."
+   },
+   "last": [
+    "2026-06-26",
+    "2026-06-28"
+   ],
+   "usual": {
+    "pt": "final de junho / início de julho",
+    "en": "late June / early July",
+    "es": "finales de junio / principios de julio",
+    "fr": "fin juin / début juillet",
+    "de": "Ende Juni / Anfang Juli",
+    "it": "fine giugno / inizio luglio"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "porches",
+   "name": "Festival do Polvo de Porches",
+   "tags": [
+    "food"
+   ],
+   "d": {
+    "pt": "Festa dedicada aos pratos de polvo, petiscos regionais, música e animação.",
+    "en": "A festival of octopus dishes, regional snacks, music and entertainment.",
+    "es": "Fiesta dedicada a los platos de pulpo, tapas regionales, música y animación.",
+    "fr": "Fête dédiée aux plats de poulpe, petiscos régionaux, musique et animations.",
+    "de": "Fest rund um Oktopus-Gerichte, regionale Häppchen, Musik und Unterhaltung.",
+    "it": "Festa dedicata ai piatti di polpo, stuzzichini regionali, musica e animazione."
+   },
+   "usual": {
+    "pt": "agosto (confirmar com a Junta de Freguesia)",
+    "en": "August (check with the parish council)",
+    "es": "agosto (confirmar con la Junta de Freguesia)",
+    "fr": "août (à confirmer auprès de la mairie)",
+    "de": "August (bei der Gemeinde nachfragen)",
+    "it": "agosto (verificare con la Junta de Freguesia)"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "messines",
+   "name": "Festa do Caracol de S. B. de Messines",
+   "tags": [
+    "food",
+    "fam"
+   ],
+   "d": {
+    "pt": "Festa popular com caracóis, gastronomia, concertos, humor e animação familiar.",
+    "en": "Popular festival with snails, food, concerts, comedy and family fun.",
+    "es": "Fiesta popular con caracoles, gastronomía, conciertos, humor y animación familiar.",
+    "fr": "Fête populaire avec escargots, gastronomie, concerts, humour et animations familiales.",
+    "de": "Volksfest mit Schnecken, Essen, Konzerten, Comedy und Familienprogramm.",
+    "it": "Festa popolare con lumache, gastronomia, concerti, comicità e animazione per famiglie."
+   },
+   "last": [
+    "2026-06-03",
+    "2026-06-07"
+   ],
+   "usual": {
+    "pt": "início de junho",
+    "en": "early June",
+    "es": "principios de junio",
+    "fr": "début juin",
+    "de": "Anfang Juni",
+    "it": "inizio giugno"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "porches",
+   "name": "Oktoberfest de Porches (Vila Vita Biergarten)",
+   "tags": [
+    "food",
+    "teen"
+   ],
+   "d": {
+    "pt": "Cerveja bávara, comida típica, mesas comunitárias e música ao vivo, mesmo ao lado de Porches.",
+    "en": "Bavarian beer, traditional food, long tables and live music, right next to Porches.",
+    "es": "Cerveza bávara, comida típica, mesas compartidas y música en directo, junto a Porches.",
+    "fr": "Bière bavaroise, plats typiques, grandes tablées et musique live, tout près de Porches.",
+    "de": "Bayerisches Bier, typisches Essen, lange Tische und Livemusik direkt bei Porches.",
+    "it": "Birra bavarese, cibo tipico, tavolate e musica dal vivo, a due passi da Porches."
+   },
+   "last": [
+    "2026-09-24",
+    "2026-10-05"
+   ],
+   "usual": {
+    "pt": "final de setembro / início de outubro",
+    "en": "late September / early October",
+    "es": "finales de septiembre / principios de octubre",
+    "fr": "fin septembre / début octobre",
+    "de": "Ende September / Anfang Oktober",
+    "it": "fine settembre / inizio ottobre"
+   },
+   "url": "https://vilavitabiergarten.com"
+  },
+  {
+   "cat": "events",
+   "town": "silves",
+   "name": "Silves Beer Fest",
+   "tags": [
+    "food",
+    "teen"
+   ],
+   "d": {
+    "pt": "Cerveja, street food, DJs e concertos na Praça Al-Muthamid. Entrada habitualmente gratuita.",
+    "en": "Beer, street food, DJs and concerts in Praça Al-Muthamid. Usually free entry.",
+    "es": "Cerveza, street food, DJs y conciertos en la Praça Al-Muthamid. Entrada normalmente gratuita.",
+    "fr": "Bière, street food, DJ et concerts place Al-Muthamid. Entrée généralement gratuite.",
+    "de": "Bier, Streetfood, DJs und Konzerte auf der Praça Al-Muthamid. Meist freier Eintritt.",
+    "it": "Birra, street food, DJ e concerti in Praça Al-Muthamid. Ingresso di solito gratuito."
+   },
+   "last": [
+    "2026-07-14",
+    "2026-07-18"
+   ],
+   "usual": {
+    "pt": "meados de julho",
+    "en": "mid-July",
+    "es": "mediados de julio",
+    "fr": "mi-juillet",
+    "de": "Mitte Juli",
+    "it": "metà luglio"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "portimao",
+   "name": "Portimão World Beer Groove",
+   "tags": [
+    "food",
+    "teen"
+   ],
+   "d": {
+    "pt": "Cervejas internacionais, comida de rua e música na Fortaleza de Santa Catarina, Praia da Rocha.",
+    "en": "International beers, street food and music at the Santa Catarina fortress, Praia da Rocha.",
+    "es": "Cervezas internacionales, comida callejera y música en la Fortaleza de Santa Catarina, Praia da Rocha.",
+    "fr": "Bières internationales, street food et musique à la forteresse de Santa Catarina, Praia da Rocha.",
+    "de": "Internationale Biere, Streetfood und Musik in der Festung Santa Catarina, Praia da Rocha.",
+    "it": "Birre internazionali, street food e musica alla fortezza di Santa Catarina, Praia da Rocha."
+   },
+   "last": [
+    "2026-09-18",
+    "2026-09-20"
+   ],
+   "usual": {
+    "pt": "setembro (1.ª edição em 2026; confirmar)",
+    "en": "September (first held 2026; check)",
+    "es": "septiembre (1.ª edición en 2026; confirmar)",
+    "fr": "septembre (1re édition en 2026 ; à confirmer)",
+    "de": "September (erstmals 2026; bitte prüfen)",
+    "it": "settembre (1ª edizione nel 2026; da confermare)"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "portimao",
+   "name": "Festival da Sardinha de Portimão",
+   "tags": [
+    "food",
+    "fam"
+   ],
+   "d": {
+    "pt": "Grande festa popular da sardinha assada junto ao rio, com tasquinhas, espetáculos e concertos.",
+    "en": "Big riverside festival of grilled sardines, with food stalls, shows and concerts.",
+    "es": "Gran fiesta popular de la sardina asada junto al río, con puestos, espectáculos y conciertos.",
+    "fr": "Grande fête populaire de la sardine grillée au bord du fleuve, avec stands, spectacles et concerts.",
+    "de": "Großes Sardinenfest am Fluss mit Essensständen, Shows und Konzerten.",
+    "it": "Grande festa popolare della sardina alla griglia sul fiume, con stand, spettacoli e concerti."
+   },
+   "start": "2027-08-03",
+   "end": "2027-08-08",
+   "url": "https://festivaldasardinha.pt"
+  },
+  {
+   "cat": "events",
+   "town": "silves",
+   "name": "Feira Medieval de Silves",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Recriação medieval no castelo e centro histórico: torneios, mercados, trajes de época e espetáculos.",
+    "en": "Medieval re-enactment at the castle and old town: tournaments, markets, costumes and shows.",
+    "es": "Recreación medieval en el castillo y el casco histórico: torneos, mercados, trajes de época y espectáculos.",
+    "fr": "Reconstitution médiévale au château et dans la vieille ville : tournois, marchés, costumes et spectacles.",
+    "de": "Mittelalterfest an der Burg und in der Altstadt: Turniere, Märkte, Kostüme und Shows.",
+    "it": "Rievocazione medievale al castello e nel centro storico: tornei, mercati, costumi e spettacoli."
+   },
+   "last": [
+    "2026-08-07",
+    "2026-08-15"
+   ],
+   "usual": {
+    "pt": "agosto",
+    "en": "August",
+    "es": "agosto",
+    "fr": "août",
+    "de": "August",
+    "it": "agosto"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "carvoeiro",
+   "name": "Carvoeiro Black & White Night",
+   "tags": [
+    "teen",
+    "couple"
+   ],
+   "d": {
+    "pt": "Grande festa de verão com vários palcos, DJs e milhares de pessoas vestidas de preto e branco. Entrada habitualmente gratuita.",
+    "en": "Huge summer party with several stages, DJs and thousands dressed in black and white. Usually free.",
+    "es": "Gran fiesta de verano con varios escenarios, DJs y miles de personas vestidas de blanco y negro. Normalmente gratis.",
+    "fr": "Grande fête d’été avec plusieurs scènes, DJ et des milliers de personnes en noir et blanc. Généralement gratuit.",
+    "de": "Große Sommerparty mit mehreren Bühnen, DJs und Tausenden in Schwarz-Weiß. Meist gratis.",
+    "it": "Grande festa d’estate con più palchi, DJ e migliaia di persone vestite di bianco e nero. Di solito gratuita."
+   },
+   "last": [
+    "2026-06-20",
+    "2026-06-20"
+   ],
+   "usual": {
+    "pt": "junho",
+    "en": "June",
+    "es": "junio",
+    "fr": "juin",
+    "de": "Juni",
+    "it": "giugno"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "lagoa",
+   "name": "Lagoa Wine Show",
+   "tags": [
+    "food",
+    "couple"
+   ],
+   "d": {
+    "pt": "Festival de vinhos portugueses com provas comentadas, produtores, gastronomia e música ao vivo.",
+    "en": "Portuguese wine festival with guided tastings, producers, food and live music.",
+    "es": "Festival de vinos portugueses con catas comentadas, productores, gastronomía y música en directo.",
+    "fr": "Festival des vins portugais : dégustations commentées, producteurs, gastronomie et musique live.",
+    "de": "Fest der portugiesischen Weine mit geführten Verkostungen, Winzern, Essen und Livemusik.",
+    "it": "Festival dei vini portoghesi con degustazioni guidate, produttori, gastronomia e musica dal vivo."
+   },
+   "last": [
+    "2026-06-05",
+    "2026-06-09"
+   ],
+   "usual": {
+    "pt": "início de junho",
+    "en": "early June",
+    "es": "principios de junio",
+    "fr": "début juin",
+    "de": "Anfang Juni",
+    "it": "inizio giugno"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "lagoa",
+   "name": "Mercado de Culturas à Luz das Velas",
+   "tags": [
+    "couple",
+    "fam"
+   ],
+   "d": {
+    "pt": "Mercado noturno iluminado por milhares de velas, com artesanato, gastronomia e espetáculos do mundo.",
+    "en": "Night market lit by thousands of candles, with crafts, food and performances from around the world.",
+    "es": "Mercado nocturno iluminado por miles de velas, con artesanía, gastronomía y espectáculos del mundo.",
+    "fr": "Marché nocturne éclairé par des milliers de bougies : artisanat, gastronomie et spectacles du monde.",
+    "de": "Nachtmarkt im Licht tausender Kerzen mit Kunsthandwerk, Essen und Darbietungen aus aller Welt.",
+    "it": "Mercato notturno illuminato da migliaia di candele, con artigianato, gastronomia e spettacoli dal mondo."
+   },
+   "last": [
+    "2026-07-02",
+    "2026-07-05"
+   ],
+   "usual": {
+    "pt": "início de julho",
+    "en": "early July",
+    "es": "principios de julio",
+    "fr": "début juillet",
+    "de": "Anfang Juli",
+    "it": "inizio luglio"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "estombar",
+   "name": "Lagoa Jazz Fest",
+   "tags": [
+    "couple"
+   ],
+   "d": {
+    "pt": "Jazz internacional ao ar livre no Parque do Sítio das Fontes, com gastronomia e ambiente descontraído.",
+    "en": "International open-air jazz at Sítio das Fontes park, with food and a relaxed atmosphere.",
+    "es": "Jazz internacional al aire libre en el parque Sítio das Fontes, con gastronomía y ambiente relajado.",
+    "fr": "Jazz international en plein air au parc de Sítio das Fontes, avec gastronomie et ambiance détendue.",
+    "de": "Internationaler Open-Air-Jazz im Park Sítio das Fontes, mit Essen und entspannter Atmosphäre.",
+    "it": "Jazz internazionale all’aperto nel parco di Sítio das Fontes, con gastronomia e atmosfera rilassata."
+   },
+   "last": [
+    "2026-07-17",
+    "2026-07-19"
+   ],
+   "usual": {
+    "pt": "meados de julho",
+    "en": "mid-July",
+    "es": "mediados de julio",
+    "fr": "mi-juillet",
+    "de": "Mitte Juli",
+    "it": "metà luglio"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "lagoa",
+   "name": "Mostra do Doce Conventual de Lagoa",
+   "tags": [
+    "food",
+    "fam"
+   ],
+   "d": {
+    "pt": "Doçaria conventual portuguesa: doces de amêndoa e ovos, compotas e licores, no Convento de São José.",
+    "en": "Traditional Portuguese convent sweets: almond and egg pastries, jams and liqueurs, at the São José convent.",
+    "es": "Dulces conventuales portugueses: almendra y huevo, mermeladas y licores, en el Convento de São José.",
+    "fr": "Douceurs conventuelles portugaises : amande, œuf, confitures et liqueurs, au couvent de São José.",
+    "de": "Portugiesische Klostersüßigkeiten aus Mandeln und Ei, Marmeladen und Liköre im Kloster São José.",
+    "it": "Dolci conventuali portoghesi a base di mandorle e uova, marmellate e liquori, al Convento di São José."
+   },
+   "last": [
+    "2026-07-29",
+    "2026-08-02"
+   ],
+   "usual": {
+    "pt": "final de julho / início de agosto",
+    "en": "late July / early August",
+    "es": "finales de julio / principios de agosto",
+    "fr": "fin juillet / début août",
+    "de": "Ende Juli / Anfang August",
+    "it": "fine luglio / inizio agosto"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "silves",
+   "name": "Mostra Silves Capital da Laranja",
+   "tags": [
+    "food",
+    "winter",
+    "fam"
+   ],
+   "d": {
+    "pt": "Festival da laranja de Silves: produtores, gastronomia regional, produtos locais e concertos.",
+    "en": "Silves orange festival: growers, regional food, local produce and concerts.",
+    "es": "Festival de la naranja de Silves: productores, gastronomía regional, productos locales y conciertos.",
+    "fr": "Fête de l’orange de Silves : producteurs, gastronomie régionale, produits locaux et concerts.",
+    "de": "Orangenfest in Silves: Erzeuger, regionale Küche, lokale Produkte und Konzerte.",
+    "it": "Festa dell’arancia di Silves: produttori, gastronomia regionale, prodotti locali e concerti."
+   },
+   "last": [
+    "2026-02-13",
+    "2026-02-15"
+   ],
+   "usual": {
+    "pt": "fevereiro",
+    "en": "February",
+    "es": "febrero",
+    "fr": "février",
+    "de": "Februar",
+    "it": "febbraio"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "paderne",
+   "name": "Paderne Medieval",
+   "tags": [
+    "fam",
+    "winter"
+   ],
+   "d": {
+    "pt": "Festa medieval de inverno com encenações, torneios, mercados, artesanato e gastronomia.",
+    "en": "Winter medieval fair with re-enactments, tournaments, markets, crafts and food.",
+    "es": "Fiesta medieval de invierno con representaciones, torneos, mercados, artesanía y gastronomía.",
+    "fr": "Fête médiévale d’hiver : reconstitutions, tournois, marchés, artisanat et gastronomie.",
+    "de": "Mittelalterfest im Winter mit Inszenierungen, Turnieren, Märkten, Kunsthandwerk und Essen.",
+    "it": "Festa medievale invernale con rievocazioni, tornei, mercati, artigianato e gastronomia."
+   },
+   "last": [
+    "2026-01-01",
+    "2026-01-04"
+   ],
+   "usual": {
+    "pt": "início de janeiro",
+    "en": "early January",
+    "es": "principios de enero",
+    "fr": "début janvier",
+    "de": "Anfang Januar",
+    "it": "inizio gennaio"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "silves",
+   "name": "Feira de Todos os Santos de Silves",
+   "tags": [
+    "fam",
+    "winter"
+   ],
+   "d": {
+    "pt": "Feira tradicional com carrosséis, castanhas, farturas, tasquinhas e música. Ótima para famílias.",
+    "en": "Traditional fair with rides, roast chestnuts, churros, food stalls and music. Great for families.",
+    "es": "Feria tradicional con atracciones, castañas, churros, puestos de comida y música. Ideal para familias.",
+    "fr": "Foire traditionnelle : manèges, châtaignes, churros, stands et musique. Idéale en famille.",
+    "de": "Traditioneller Jahrmarkt mit Karussells, Maronen, Churros, Essensständen und Musik. Ideal für Familien.",
+    "it": "Fiera tradizionale con giostre, caldarroste, churros, stand e musica. Ideale per famiglie."
+   },
+   "start": "2026-10-29",
+   "end": "2026-11-01"
+  },
+  {
+   "cat": "events",
+   "town": "lagoa",
+   "name": "Lagoa Magic Fest",
+   "tags": [
+    "fam",
+    "winter"
+   ],
+   "d": {
+    "pt": "Festival de magia e ilusionismo com espetáculos para todos os públicos.",
+    "en": "Magic and illusion festival with shows for all ages.",
+    "es": "Festival de magia e ilusionismo con espectáculos para todos los públicos.",
+    "fr": "Festival de magie et d’illusionnisme avec des spectacles pour tous.",
+    "de": "Zauber- und Illusionsfestival mit Shows für jedes Alter.",
+    "it": "Festival di magia e illusionismo con spettacoli per tutti."
+   },
+   "last": [
+    "2026-10-08",
+    "2026-10-10"
+   ],
+   "usual": {
+    "pt": "outubro",
+    "en": "October",
+    "es": "octubre",
+    "fr": "octobre",
+    "de": "Oktober",
+    "it": "ottobre"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "loule",
+   "name": "Festival MED — Loulé",
+   "tags": [
+    "couple",
+    "teen",
+    "food"
+   ],
+   "d": {
+    "pt": "Um dos principais festivais de músicas do mundo, no centro histórico de Loulé.",
+    "en": "One of Portugal’s leading world music festivals, in Loulé’s old town.",
+    "es": "Uno de los principales festivales de músicas del mundo, en el casco antiguo de Loulé.",
+    "fr": "L’un des grands festivals de musiques du monde, dans la vieille ville de Loulé.",
+    "de": "Eines der wichtigsten Weltmusikfestivals, in der Altstadt von Loulé.",
+    "it": "Uno dei principali festival di world music, nel centro storico di Loulé."
+   },
+   "last": [
+    "2026-06-25",
+    "2026-06-28"
+   ],
+   "usual": {
+    "pt": "final de junho",
+    "en": "late June",
+    "es": "finales de junio",
+    "fr": "fin juin",
+    "de": "Ende Juni",
+    "it": "fine giugno"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "loule",
+   "name": "Carnaval de Loulé",
+   "tags": [
+    "fam",
+    "winter"
+   ],
+   "d": {
+    "pt": "Desfile tradicional com carros alegóricos, música e fantasias.",
+    "en": "Traditional parade with floats, music and costumes.",
+    "es": "Desfile tradicional con carrozas, música y disfraces.",
+    "fr": "Défilé traditionnel avec chars, musique et costumes.",
+    "de": "Traditioneller Umzug mit Festwagen, Musik und Kostümen.",
+    "it": "Sfilata tradizionale con carri allegorici, musica e costumi."
+   },
+   "usual": {
+    "pt": "fevereiro (2027: previsivelmente 7 a 9 de fevereiro, programa por confirmar)",
+    "en": "February (2027: expected 7–9 February, programme TBC)",
+    "es": "febrero (2027: previsiblemente del 7 al 9 de febrero, programa por confirmar)",
+    "fr": "février (2027 : probablement du 7 au 9 février, programme à confirmer)",
+    "de": "Februar (2027: voraussichtlich 7.–9. Februar, Programm folgt)",
+    "it": "febbraio (2027: presumibilmente 7–9 febbraio, programma da confermare)"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "aljezur",
+   "name": "Festival da Batata-Doce de Aljezur",
+   "tags": [
+    "food",
+    "winter"
+   ],
+   "d": {
+    "pt": "Festival da famosa batata-doce de Aljezur, com produtores, doces regionais e espetáculos. Excursão mais longa.",
+    "en": "Festival of Aljezur’s famous sweet potato, with producers, local sweets and shows. A longer day trip.",
+    "es": "Festival del famoso boniato de Aljezur, con productores, dulces regionales y espectáculos. Excursión más larga.",
+    "fr": "Fête de la célèbre patate douce d’Aljezur : producteurs, douceurs locales et spectacles. Excursion plus longue.",
+    "de": "Fest der berühmten Süßkartoffel aus Aljezur mit Erzeugern, Süßem und Shows. Längerer Ausflug.",
+    "it": "Festa della famosa patata dolce di Aljezur, con produttori, dolci locali e spettacoli. Gita più lunga."
+   },
+   "usual": {
+    "pt": "final de novembro",
+    "en": "late November",
+    "es": "finales de noviembre",
+    "fr": "fin novembre",
+    "de": "Ende November",
+    "it": "fine novembre"
+   }
+  },
+  {
+   "cat": "events",
+   "town": "silves",
+   "name": "Jazz nas Adegas",
+   "tags": [
+    "couple",
+    "food",
+    "winter"
+   ],
+   "d": {
+    "pt": "Concertos de jazz intimistas em quintas e adegas, com provas de vinho e petiscos.",
+    "en": "Intimate jazz concerts at wine estates, with wine tasting and snacks.",
+    "es": "Conciertos íntimos de jazz en bodegas y fincas, con cata de vinos y tapas.",
+    "fr": "Concerts de jazz intimistes dans des domaines viticoles, avec dégustation et petiscos.",
+    "de": "Intime Jazzkonzerte auf Weingütern mit Weinprobe und Häppchen.",
+    "it": "Concerti jazz intimi in cantine e tenute, con degustazione di vini e stuzzichini."
+   },
+   "usual": {
+    "pt": "novembro a maio",
+    "en": "November to May",
+    "es": "de noviembre a mayo",
+    "fr": "de novembre à mai",
+    "de": "November bis Mai",
+    "it": "da novembre a maggio"
+   },
+   "price": "35 € (18+)",
+   "sessions": [
+    [
+     "2026-11-06",
+     "2026-11-07",
+     "Quinta João Clara, Alcantarilha"
+    ],
+    [
+     "2026-11-27",
+     "2026-11-28",
+     "Cabrita Wines, Silves"
+    ],
+    [
+     "2026-12-04",
+     "2026-12-05",
+     "Quinta do Francês, Odelouca"
+    ],
+    [
+     "2027-01-08",
+     "2027-01-09",
+     "Quinta do Barradas, Silves"
+    ],
+    [
+     "2027-01-29",
+     "2027-01-30",
+     "Quinta do Malaca, Pêra"
+    ],
+    [
+     "2027-02-05",
+     "2027-02-06",
+     "Casa Islâmica, Silves"
+    ],
+    [
+     "2027-03-05",
+     "2027-03-06",
+     "Herdade Barranco do Vale, Messines"
+    ],
+    [
+     "2027-03-19",
+     "2027-03-20",
+     "Paxa Wines, Silves"
+    ],
+    [
+     "2027-04-09",
+     "2027-04-10",
+     "Barranco Longo, Algoz"
+    ],
+    [
+     "2027-04-23",
+     "2027-04-24",
+     "Quinta do Rogel, Silves"
+    ],
+    [
+     "2027-05-07",
+     "2027-05-08",
+     "Patuá Wine, Silves"
+    ],
+    [
+     "2027-05-15",
+     "2027-05-15",
+     "Quinta dos Sentidos, Silves"
+    ],
+    [
+     "2027-05-21",
+     "2027-05-22",
+     "Convento do Paraíso, Silves"
+    ]
+   ]
+  },
+  {
+   "cat": "water",
+   "town": "estombar",
+   "name": "Slide & Splash",
+   "tags": [
+    "fam",
+    "teen"
+   ],
+   "d": {
+    "pt": "Um dos maiores parques aquáticos do Algarve: escorregas gigantes, atrações radicais e zonas para crianças.",
+    "en": "One of the Algarve’s largest water parks: giant slides, thrill rides and kids’ areas.",
+    "es": "Uno de los mayores parques acuáticos del Algarve: toboganes gigantes, atracciones extremas y zonas infantiles.",
+    "fr": "L’un des plus grands parcs aquatiques de l’Algarve : toboggans géants, attractions à sensations et espaces enfants.",
+    "de": "Einer der größten Wasserparks der Algarve: Riesenrutschen, Adrenalin-Attraktionen und Kinderbereiche.",
+    "it": "Uno dei parchi acquatici più grandi dell’Algarve: scivoli giganti, attrazioni adrenaliniche e aree bimbi."
+   },
+   "season": {
+    "pt": "Abril a outubro (referência 2026)",
+    "en": "April to October (2026 season)",
+    "es": "De abril a octubre (temporada 2026)",
+    "fr": "D’avril à octobre (saison 2026)",
+    "de": "April bis Oktober (Saison 2026)",
+    "it": "Da aprile a ottobre (stagione 2026)"
+   },
+   "url": "https://www.slidesplash.com"
+  },
+  {
+   "cat": "water",
+   "town": "alcantarilha",
+   "name": "Aqualand Algarve",
+   "tags": [
+    "fam",
+    "teen"
+   ],
+   "d": {
+    "pt": "King Cobra, Kamikaze, piscina de ondas, rio lento e áreas infantis — a 5 minutos de casa.",
+    "en": "King Cobra, Kamikaze, wave pool, lazy river and kids’ areas — 5 minutes from the house.",
+    "es": "King Cobra, Kamikaze, piscina de olas, río lento y zonas infantiles, a 5 minutos de casa.",
+    "fr": "King Cobra, Kamikaze, piscine à vagues, rivière lente et espaces enfants — à 5 minutes.",
+    "de": "King Cobra, Kamikaze, Wellenbad, Lazy River und Kinderbereiche – 5 Minuten vom Haus.",
+    "it": "King Cobra, Kamikaze, piscina a onde, fiume lento e aree bimbi, a 5 minuti da casa."
+   },
+   "season": {
+    "pt": "Verão (habitualmente junho a setembro)",
+    "en": "Summer (usually June–September)",
+    "es": "Verano (normalmente de junio a septiembre)",
+    "fr": "Été (généralement juin à septembre)",
+    "de": "Sommer (meist Juni–September)",
+    "it": "Estate (di solito giugno–settembre)"
+   },
+   "url": "https://www.aqualand.pt"
+  },
+  {
+   "cat": "water",
+   "town": "guia",
+   "name": "Zoomarine",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Parque temático e aquático com apresentações educativas de animais, aquários e piscinas.",
+    "en": "Theme and water park with educational animal presentations, aquariums and pools.",
+    "es": "Parque temático y acuático con presentaciones educativas de animales, acuarios y piscinas.",
+    "fr": "Parc à thème et aquatique avec présentations pédagogiques d’animaux, aquariums et piscines.",
+    "de": "Themen- und Wasserpark mit lehrreichen Tiervorführungen, Aquarien und Pools.",
+    "it": "Parco tematico e acquatico con presentazioni educative di animali, acquari e piscine."
+   },
+   "season": {
+    "pt": "Março a novembro (atrações de água só no verão)",
+    "en": "March to November (water rides in summer only)",
+    "es": "De marzo a noviembre (atracciones acuáticas solo en verano)",
+    "fr": "De mars à novembre (attractions aquatiques l’été seulement)",
+    "de": "März bis November (Wasserattraktionen nur im Sommer)",
+    "it": "Da marzo a novembre (attrazioni d’acqua solo d’estate)"
+   },
+   "url": "https://www.zoomarine.pt"
+  },
+  {
+   "cat": "water",
+   "town": "guia",
+   "name": "Halloween no Zoomarine",
+   "tags": [
+    "fam",
+    "teen",
+    "winter"
+   ],
+   "d": {
+    "pt": "Decorações, personagens, atividades infantis e atrações de sustos (para maiores de 14 anos).",
+    "en": "Decorations, characters, kids’ activities and scare attractions (14+).",
+    "es": "Decoración, personajes, actividades infantiles y atracciones de miedo (mayores de 14).",
+    "fr": "Décors, personnages, activités enfants et attractions qui font peur (14 ans et +).",
+    "de": "Deko, Figuren, Kinderprogramm und Grusel-Attraktionen (ab 14).",
+    "it": "Decorazioni, personaggi, attività per bambini e attrazioni da brivido (14+)."
+   },
+   "start": "2026-10-20",
+   "end": "2026-10-31"
+  },
+  {
+   "cat": "water",
+   "town": "quarteira",
+   "name": "Aquashow Outdoor",
+   "tags": [
+    "fam",
+    "teen"
+   ],
+   "d": {
+    "pt": "Escorregas radicais, piscinas de ondas e atrações para toda a família.",
+    "en": "Thrill slides, wave pools and attractions for the whole family.",
+    "es": "Toboganes extremos, piscinas de olas y atracciones para toda la familia.",
+    "fr": "Toboggans à sensations, piscines à vagues et attractions pour toute la famille.",
+    "de": "Rasante Rutschen, Wellenbecken und Attraktionen für die ganze Familie.",
+    "it": "Scivoli adrenalinici, piscine a onde e attrazioni per tutta la famiglia."
+   },
+   "season": {
+    "pt": "Primavera e verão",
+    "en": "Spring and summer",
+    "es": "Primavera y verano",
+    "fr": "Printemps et été",
+    "de": "Frühling und Sommer",
+    "it": "Primavera ed estate"
+   },
+   "url": "https://aquashowpark.com"
+  },
+  {
+   "cat": "water",
+   "town": "quarteira",
+   "name": "Aquashow Indoor",
+   "tags": [
+    "fam",
+    "winter"
+   ],
+   "d": {
+    "pt": "Parque aquático coberto e aquecido com escorregas, piscinas e spa. Ótimo em dias de chuva.",
+    "en": "Covered, heated water park with slides, pools and spa. Perfect on rainy days.",
+    "es": "Parque acuático cubierto y climatizado con toboganes, piscinas y spa. Ideal en días de lluvia.",
+    "fr": "Parc aquatique couvert et chauffé avec toboggans, piscines et spa. Parfait les jours de pluie.",
+    "de": "Überdachter, beheizter Wasserpark mit Rutschen, Pools und Spa. Ideal bei Regen.",
+    "it": "Parco acquatico coperto e riscaldato con scivoli, piscine e spa. Perfetto nei giorni di pioggia."
+   },
+   "season": {
+    "pt": "Desde 1 de outubro de 2026, 10h–18h",
+    "en": "From 1 October 2026, 10 am–6 pm",
+    "es": "Desde el 1 de octubre de 2026, 10–18 h",
+    "fr": "Depuis le 1er octobre 2026, 10h–18h",
+    "de": "Ab 1. Oktober 2026, 10–18 Uhr",
+    "it": "Dal 1° ottobre 2026, 10–18"
+   },
+   "price": "30 € (2 h) · 35 € (3 h)",
+   "url": "https://aquashowpark.com"
+  },
+  {
+   "cat": "water",
+   "town": "algoz",
+   "name": "Krazy World",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Zoo interativo com animais, minigolfe, piscinas, arborismo e passeios de pónei.",
+    "en": "Interactive zoo with animals, mini golf, pools, tree-top course and pony rides.",
+    "es": "Zoo interactivo con animales, minigolf, piscinas, circuito de árboles y paseos en poni.",
+    "fr": "Zoo interactif avec animaux, minigolf, piscines, accrobranche et balades à poney.",
+    "de": "Interaktiver Zoo mit Tieren, Minigolf, Pools, Kletterpark und Ponyreiten.",
+    "it": "Zoo interattivo con animali, minigolf, piscine, percorso sugli alberi e giri in pony."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   },
+   "url": "https://krazyworld.com"
+  },
+  {
+   "cat": "water",
+   "town": "lagoa",
+   "name": "Sand City",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Mais de 120 esculturas gigantes em areia ao ar livre, junto à EN125.",
+    "en": "Over 120 giant open-air sand sculptures, by the EN125 road.",
+    "es": "Más de 120 esculturas gigantes de arena al aire libre, junto a la EN125.",
+    "fr": "Plus de 120 sculptures géantes en sable en plein air, le long de l’EN125.",
+    "de": "Über 120 riesige Sandskulpturen unter freiem Himmel an der EN125.",
+    "it": "Oltre 120 sculture giganti di sabbia all’aperto, lungo la EN125."
+   },
+   "start": "2026-03-25",
+   "end": "2026-11-15",
+   "price": "11,90 € · 5,90 € (6–12)",
+   "url": "https://sandcity.pt"
+  },
+  {
+   "cat": "water",
+   "town": "aia",
+   "name": "Kartódromo Internacional do Algarve",
+   "tags": [
+    "teen"
+   ],
+   "d": {
+    "pt": "Karting individual ou em grupo no circuito do Autódromo, mediante disponibilidade.",
+    "en": "Karting for individuals or groups at the Algarve circuit, subject to availability.",
+    "es": "Karting individual o en grupo en el circuito del Autódromo, según disponibilidad.",
+    "fr": "Karting en solo ou en groupe sur le circuit, selon disponibilité.",
+    "de": "Kartfahren allein oder in Gruppen an der Rennstrecke, je nach Verfügbarkeit.",
+    "it": "Kart individuale o di gruppo sul circuito, secondo disponibilità."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   },
+   "url": "https://autodromodoalgarve.com"
+  },
+  {
+   "cat": "indoor",
+   "town": "lagoa",
+   "name": "Piscinas Municipais de Lagoa",
+   "tags": [
+    "winter",
+    "fam"
+   ],
+   "d": {
+    "pt": "Piscinas cobertas com natação livre, aulas e atividades aquáticas.",
+    "en": "Indoor pools with public swimming, classes and water activities.",
+    "es": "Piscinas cubiertas con baño libre, clases y actividades acuáticas.",
+    "fr": "Piscines couvertes : nage libre, cours et activités aquatiques.",
+    "de": "Hallenbad mit freiem Schwimmen, Kursen und Wasseraktivitäten.",
+    "it": "Piscine coperte con nuoto libero, corsi e attività in acqua."
+   },
+   "season": {
+    "pt": "Confirmar horários de utilização livre",
+    "en": "Check public swimming times",
+    "es": "Consulte los horarios de baño libre",
+    "fr": "Vérifier les horaires de nage libre",
+    "de": "Öffnungszeiten für freies Schwimmen prüfen",
+    "it": "Verificare gli orari di nuoto libero"
+   }
+  },
+  {
+   "cat": "indoor",
+   "town": "silves",
+   "name": "Piscinas Municipais de Silves",
+   "tags": [
+    "winter"
+   ],
+   "d": {
+    "pt": "Piscina interior e bem-estar: sauna, banho turco e jacuzzi (conforme disponibilidade).",
+    "en": "Indoor pool and wellness: sauna, steam room and jacuzzi (subject to availability).",
+    "es": "Piscina cubierta y bienestar: sauna, baño turco y jacuzzi (según disponibilidad).",
+    "fr": "Piscine couverte et bien-être : sauna, hammam et jacuzzi (selon disponibilité).",
+    "de": "Hallenbad und Wellness: Sauna, Dampfbad und Whirlpool (je nach Verfügbarkeit).",
+    "it": "Piscina coperta e benessere: sauna, bagno turco e jacuzzi (secondo disponibilità)."
+   },
+   "season": {
+    "pt": "Confirmar horários de utilização livre",
+    "en": "Check public swimming times",
+    "es": "Consulte los horarios de baño libre",
+    "fr": "Vérifier les horaires de nage libre",
+    "de": "Öffnungszeiten für freies Schwimmen prüfen",
+    "it": "Verificare gli orari di nuoto libero"
+   }
+  },
+  {
+   "cat": "indoor",
+   "town": "portimao",
+   "name": "Piscina Municipal de Portimão",
+   "tags": [
+    "winter"
+   ],
+   "d": {
+    "pt": "Piscina coberta e aquecida com seis pistas, para manter o treino nas férias.",
+    "en": "Covered, heated six-lane pool — keep up your training on holiday.",
+    "es": "Piscina cubierta y climatizada de seis calles, para no perder el ritmo en vacaciones.",
+    "fr": "Piscine couverte et chauffée de six couloirs, pour garder la forme en vacances.",
+    "de": "Überdachtes, beheiztes 6-Bahnen-Becken – fit bleiben im Urlaub.",
+    "it": "Piscina coperta e riscaldata a sei corsie, per allenarsi anche in vacanza."
+   },
+   "season": {
+    "pt": "Confirmar horários de utilização livre",
+    "en": "Check public swimming times",
+    "es": "Consulte los horarios de baño libre",
+    "fr": "Vérifier les horaires de nage libre",
+    "de": "Öffnungszeiten für freies Schwimmen prüfen",
+    "it": "Verificare gli orari di nuoto libero"
+   }
+  },
+  {
+   "cat": "indoor",
+   "town": "alvor",
+   "name": "Complexo Desportivo de Alvor",
+   "tags": [
+    "winter",
+    "teen"
+   ],
+   "d": {
+    "pt": "Piscina coberta, campos de ténis e outras instalações desportivas.",
+    "en": "Indoor pool, tennis courts and other sports facilities.",
+    "es": "Piscina cubierta, pistas de tenis y otras instalaciones deportivas.",
+    "fr": "Piscine couverte, courts de tennis et autres équipements sportifs.",
+    "de": "Hallenbad, Tennisplätze und weitere Sportanlagen.",
+    "it": "Piscina coperta, campi da tennis e altri impianti sportivi."
+   },
+   "season": {
+    "pt": "Confirmar horários de utilização livre",
+    "en": "Check public swimming times",
+    "es": "Consulte los horarios de baño libre",
+    "fr": "Vérifier les horaires de nage libre",
+    "de": "Öffnungszeiten für freies Schwimmen prüfen",
+    "it": "Verificare gli orari di nuoto libero"
+   }
+  },
+  {
+   "cat": "indoor",
+   "town": "albufeira",
+   "name": "Piscinas Municipais de Albufeira",
+   "tags": [
+    "winter"
+   ],
+   "d": {
+    "pt": "Complexo coberto com piscinas, ginásio, jacuzzi, sauna e banho turco.",
+    "en": "Indoor complex with pools, gym, jacuzzi, sauna and steam room.",
+    "es": "Complejo cubierto con piscinas, gimnasio, jacuzzi, sauna y baño turco.",
+    "fr": "Complexe couvert avec piscines, salle de sport, jacuzzi, sauna et hammam.",
+    "de": "Hallenkomplex mit Pools, Fitnessraum, Whirlpool, Sauna und Dampfbad.",
+    "it": "Complesso coperto con piscine, palestra, jacuzzi, sauna e bagno turco."
+   },
+   "season": {
+    "pt": "Interrupções entre outubro e novembro de 2026 (competições) — confirmar",
+    "en": "Closures in October–November 2026 (competitions) — check",
+    "es": "Cierres entre octubre y noviembre de 2026 (competiciones): confirmar",
+    "fr": "Fermetures en octobre–novembre 2026 (compétitions) — vérifier",
+    "de": "Schließungen Oktober–November 2026 (Wettkämpfe) – bitte prüfen",
+    "it": "Chiusure tra ottobre e novembre 2026 (gare): verificare"
+   }
+  },
+  {
+   "cat": "indoor",
+   "town": "silves",
+   "name": "Museu Municipal de Arqueologia de Silves",
+   "tags": [
+    "winter",
+    "fam"
+   ],
+   "d": {
+    "pt": "A história e a ocupação islâmica de Silves em peças arqueológicas. Ótimo para um dia de chuva.",
+    "en": "Silves’ history and Islamic heritage told through archaeological finds. Ideal on a rainy day.",
+    "es": "La historia y el pasado islámico de Silves a través de piezas arqueológicas. Ideal en un día de lluvia.",
+    "fr": "L’histoire et le passé islamique de Silves à travers des pièces archéologiques. Idéal par temps de pluie.",
+    "de": "Geschichte und islamisches Erbe von Silves in archäologischen Funden. Ideal an Regentagen.",
+    "it": "La storia e il passato islamico di Silves attraverso reperti archeologici. Ideale nei giorni di pioggia."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "marinha",
+   "name": "Praia da Marinha",
+   "tags": [
+    "free",
+    "couple"
+   ],
+   "d": {
+    "pt": "Uma das praias mais emblemáticas de Portugal: falésias, rochas esculpidas e água transparente.",
+    "en": "One of Portugal’s most iconic beaches: cliffs, sculpted rocks and clear water.",
+    "es": "Una de las playas más emblemáticas de Portugal: acantilados, rocas esculpidas y agua transparente.",
+    "fr": "L’une des plages les plus emblématiques du Portugal : falaises, rochers sculptés et eau limpide.",
+    "de": "Einer der bekanntesten Strände Portugals: Klippen, Felsformationen und klares Wasser.",
+    "it": "Una delle spiagge più iconiche del Portogallo: scogliere, rocce scolpite e acqua trasparente."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "benagil",
+   "name": "Gruta de Benagil",
+   "tags": [
+    "free",
+    "fam"
+   ],
+   "d": {
+    "pt": "Gruta marítima com abertura circular no teto. Só se visita de barco ou caiaque guiado — não é permitido nadar até lá nem desembarcar.",
+    "en": "Sea cave with a round opening in its roof. Visit only by guided boat or kayak — swimming in or landing is not allowed.",
+    "es": "Cueva marina con una abertura circular en el techo. Solo en barco o kayak guiado: no se permite nadar hasta ella ni desembarcar.",
+    "fr": "Grotte marine au plafond percé d’une ouverture ronde. Accès en bateau ou kayak guidé uniquement — baignade et débarquement interdits.",
+    "de": "Meereshöhle mit runder Deckenöffnung. Nur per geführter Boots- oder Kajaktour – Hinschwimmen und Anlanden verboten.",
+    "it": "Grotta marina con un’apertura circolare nel soffitto. Solo in barca o kayak guidato: vietato nuotare fin lì o sbarcare."
+   },
+   "season": {
+    "pt": "Primavera a início do outono, conforme o mar",
+    "en": "Spring to early autumn, sea permitting",
+    "es": "De primavera a principios de otoño, según el mar",
+    "fr": "Du printemps au début de l’automne, selon la mer",
+    "de": "Frühling bis Frühherbst, je nach Seegang",
+    "it": "Dalla primavera all’inizio dell’autunno, mare permettendo"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "senhora",
+   "name": "Praia da Senhora da Rocha",
+   "tags": [
+    "free",
+    "fam",
+    "couple"
+   ],
+   "d": {
+    "pt": "A praia mais perto de casa, com a capela na falésia e miradouros para o pôr do sol.",
+    "en": "The beach closest to the house, with the clifftop chapel and sunset viewpoints.",
+    "es": "La playa más cercana a la casa, con la capilla en el acantilado y miradores para el atardecer.",
+    "fr": "La plage la plus proche, avec la chapelle sur la falaise et des belvédères pour le coucher du soleil.",
+    "de": "Der nächste Strand zum Haus, mit Klippenkapelle und Aussichtspunkten zum Sonnenuntergang.",
+    "it": "La spiaggia più vicina a casa, con la cappella sulla scogliera e belvedere per il tramonto."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "albandeira",
+   "name": "Praia de Albandeira",
+   "tags": [
+    "free",
+    "couple"
+   ],
+   "d": {
+    "pt": "Pequena praia entre falésias, famosa pelo arco natural na rocha.",
+    "en": "Small beach between cliffs, famous for its natural rock arch.",
+    "es": "Pequeña playa entre acantilados, famosa por su arco natural de roca.",
+    "fr": "Petite plage entre falaises, célèbre pour son arche rocheuse naturelle.",
+    "de": "Kleiner Strand zwischen Klippen, bekannt für seinen natürlichen Felsbogen.",
+    "it": "Piccola spiaggia tra le scogliere, famosa per il suo arco naturale."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "marinha",
+   "name": "Percurso dos Sete Vales Suspensos",
+   "tags": [
+    "free",
+    "teen",
+    "couple"
+   ],
+   "d": {
+    "pt": "Trilho de 5–6 km (por sentido) entre a Praia da Marinha e Vale de Centeanes, com vistas espetaculares.",
+    "en": "5–6 km trail (each way) from Praia da Marinha to Vale de Centeanes, with spectacular views.",
+    "es": "Sendero de 5–6 km (por trayecto) entre la Praia da Marinha y Vale de Centeanes, con vistas espectaculares.",
+    "fr": "Sentier de 5–6 km (aller) entre Praia da Marinha et Vale de Centeanes, vues spectaculaires.",
+    "de": "5–6 km Wanderweg (einfach) von der Praia da Marinha nach Vale de Centeanes mit spektakulären Ausblicken.",
+    "it": "Sentiero di 5–6 km (sola andata) tra Praia da Marinha e Vale de Centeanes, con viste spettacolari."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "carvoeiro",
+   "name": "Algar Seco e Passadiços do Carvoeiro",
+   "tags": [
+    "free",
+    "fam",
+    "couple"
+   ],
+   "d": {
+    "pt": "Passadiço curto e acessível junto às falésias até às grutas e rochas esculpidas do Algar Seco.",
+    "en": "Short, easy clifftop boardwalk leading to the caves and sculpted rocks of Algar Seco.",
+    "es": "Pasarela corta y accesible sobre los acantilados hasta las cuevas y rocas esculpidas del Algar Seco.",
+    "fr": "Courte promenade accessible sur les falaises jusqu’aux grottes et rochers sculptés d’Algar Seco.",
+    "de": "Kurzer, leichter Klippenweg zu den Höhlen und Felsformationen von Algar Seco.",
+    "it": "Breve passerella accessibile sulle scogliere fino alle grotte e alle rocce scolpite di Algar Seco."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "estombar",
+   "name": "Parque Municipal do Sítio das Fontes",
+   "tags": [
+    "free",
+    "fam"
+   ],
+   "d": {
+    "pt": "Parque natural junto ao rio Arade, com trilhos, zonas verdes e merendas.",
+    "en": "Riverside nature park on the Arade, with trails, green spaces and picnic areas.",
+    "es": "Parque natural junto al río Arade, con senderos, zonas verdes y áreas de pícnic.",
+    "fr": "Parc naturel au bord de l’Arade, avec sentiers, espaces verts et aires de pique-nique.",
+    "de": "Naturpark am Fluss Arade mit Wegen, Grünflächen und Picknickplätzen.",
+    "it": "Parco naturale sul fiume Arade, con sentieri, aree verdi e zone picnic."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "salgados",
+   "name": "Lagoa dos Salgados",
+   "tags": [
+    "free"
+   ],
+   "d": {
+    "pt": "Zona húmida de grande valor ecológico, ótima para observar aves migratórias.",
+    "en": "Wetland of great ecological value, excellent for birdwatching.",
+    "es": "Humedal de gran valor ecológico, ideal para observar aves migratorias.",
+    "fr": "Zone humide d’une grande richesse écologique, idéale pour observer les oiseaux.",
+    "de": "Ökologisch wertvolles Feuchtgebiet, ideal zur Vogelbeobachtung.",
+    "it": "Zona umida di grande valore ecologico, ideale per il birdwatching."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "alvor",
+   "name": "Passadiços de Alvor",
+   "tags": [
+    "free",
+    "fam"
+   ],
+   "d": {
+    "pt": "Passadiços sobre dunas e zonas húmidas com vista para a Ria de Alvor.",
+    "en": "Boardwalks over dunes and wetlands overlooking the Alvor estuary.",
+    "es": "Pasarelas sobre dunas y humedales con vistas a la Ría de Alvor.",
+    "fr": "Passerelles sur les dunes et zones humides face à la Ria de Alvor.",
+    "de": "Holzstege über Dünen und Feuchtgebiete mit Blick auf die Ria de Alvor.",
+    "it": "Passerelle su dune e zone umide con vista sulla Ria de Alvor."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "monchique",
+   "name": "Serra de Monchique, Fóia e Caldas",
+   "tags": [
+    "free",
+    "couple",
+    "winter"
+   ],
+   "d": {
+    "pt": "Montanha, trilhos, aldeias, o miradouro da Fóia e as termas das Caldas de Monchique. Um dia diferente da praia.",
+    "en": "Mountains, trails, villages, the Fóia viewpoint and the Caldas de Monchique spa. A change from the beach.",
+    "es": "Montaña, senderos, aldeas, el mirador de Fóia y el balneario de Caldas de Monchique. Un día distinto a la playa.",
+    "fr": "Montagne, sentiers, villages, le belvédère de Fóia et les thermes de Caldas de Monchique. Une journée hors plage.",
+    "de": "Berge, Wanderwege, Dörfer, der Aussichtspunkt Fóia und das Thermalbad Caldas de Monchique. Abwechslung zum Strand.",
+    "it": "Montagna, sentieri, villaggi, il belvedere di Fóia e le terme di Caldas de Monchique. Una giornata diversa dal mare."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "lagos",
+   "name": "Ponta da Piedade",
+   "tags": [
+    "free",
+    "couple"
+   ],
+   "d": {
+    "pt": "Falésias, arcos rochosos e grutas marítimas — uma das paisagens mais famosas do Algarve.",
+    "en": "Cliffs, rock arches and sea caves — one of the Algarve’s most famous landscapes.",
+    "es": "Acantilados, arcos de roca y cuevas marinas: uno de los paisajes más famosos del Algarve.",
+    "fr": "Falaises, arches rocheuses et grottes marines — l’un des paysages les plus célèbres de l’Algarve.",
+    "de": "Klippen, Felsbögen und Meereshöhlen – eine der berühmtesten Landschaften der Algarve.",
+    "it": "Scogliere, archi di roccia e grotte marine: uno dei paesaggi più famosi dell’Algarve."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "nature",
+   "town": "silves",
+   "name": "Castelo de Silves",
+   "tags": [
+    "fam",
+    "winter"
+   ],
+   "d": {
+    "pt": "Um dos castelos islâmicos mais importantes de Portugal, com muralhas e vista sobre a cidade.",
+    "en": "One of Portugal’s most important Islamic castles, with ramparts and views over the town.",
+    "es": "Uno de los castillos islámicos más importantes de Portugal, con murallas y vistas a la ciudad.",
+    "fr": "L’un des plus importants châteaux islamiques du Portugal, avec remparts et vue sur la ville.",
+    "de": "Eine der bedeutendsten islamischen Burgen Portugals mit Mauern und Blick über die Stadt.",
+    "it": "Uno dei castelli islamici più importanti del Portogallo, con mura e vista sulla città."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "sea",
+   "town": "armacao",
+   "name": "Passeios de barco às grutas",
+   "tags": [
+    "fam",
+    "couple"
+   ],
+   "d": {
+    "pt": "Saídas de Armação de Pêra, Benagil, Carvoeiro, Portimão e Albufeira pelas grutas e falésias.",
+    "en": "Trips from Armação de Pêra, Benagil, Carvoeiro, Portimão and Albufeira along caves and cliffs.",
+    "es": "Salidas desde Armação de Pêra, Benagil, Carvoeiro, Portimão y Albufeira por cuevas y acantilados.",
+    "fr": "Départs d’Armação de Pêra, Benagil, Carvoeiro, Portimão et Albufeira le long des grottes et falaises.",
+    "de": "Touren ab Armação de Pêra, Benagil, Carvoeiro, Portimão und Albufeira entlang Höhlen und Klippen.",
+    "it": "Partenze da Armação de Pêra, Benagil, Carvoeiro, Portimão e Albufeira tra grotte e scogliere."
+   },
+   "season": {
+    "pt": "Primavera a início do outono, conforme o mar",
+    "en": "Spring to early autumn, sea permitting",
+    "es": "De primavera a principios de otoño, según el mar",
+    "fr": "Du printemps au début de l’automne, selon la mer",
+    "de": "Frühling bis Frühherbst, je nach Seegang",
+    "it": "Dalla primavera all’inizio dell’autunno, mare permettendo"
+   }
+  },
+  {
+   "cat": "sea",
+   "town": "portimao",
+   "name": "Observação de golfinhos",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Saídas de Portimão, Ferragudo e Albufeira para ver golfinhos no seu habitat (avistamento não garantido).",
+    "en": "Trips from Portimão, Ferragudo and Albufeira to see dolphins in the wild (sightings not guaranteed).",
+    "es": "Salidas desde Portimão, Ferragudo y Albufeira para ver delfines en libertad (avistamiento no garantizado).",
+    "fr": "Sorties depuis Portimão, Ferragudo et Albufeira pour observer les dauphins (observation non garantie).",
+    "de": "Ausfahrten ab Portimão, Ferragudo und Albufeira zu wilden Delfinen (Sichtung nicht garantiert).",
+    "it": "Uscite da Portimão, Ferragudo e Albufeira per vedere i delfini in libertà (avvistamento non garantito)."
+   },
+   "season": {
+    "pt": "Primavera a início do outono, conforme o mar",
+    "en": "Spring to early autumn, sea permitting",
+    "es": "De primavera a principios de otoño, según el mar",
+    "fr": "Du printemps au début de l’automne, selon la mer",
+    "de": "Frühling bis Frühherbst, je nach Seegang",
+    "it": "Dalla primavera all’inizio dell’autunno, mare permettendo"
+   }
+  },
+  {
+   "cat": "sea",
+   "town": "benagil",
+   "name": "Caiaque e paddle",
+   "tags": [
+    "teen",
+    "couple"
+   ],
+   "d": {
+    "pt": "Explorar a costa e pequenas enseadas em atividades guiadas (Benagil, Armação de Pêra, Carvoeiro).",
+    "en": "Explore the coast and hidden coves on guided tours (Benagil, Armação de Pêra, Carvoeiro).",
+    "es": "Explorar la costa y pequeñas calas en actividades guiadas (Benagil, Armação de Pêra, Carvoeiro).",
+    "fr": "Explorer la côte et les criques lors de sorties guidées (Benagil, Armação de Pêra, Carvoeiro).",
+    "de": "Küste und kleine Buchten auf geführten Touren erkunden (Benagil, Armação de Pêra, Carvoeiro).",
+    "it": "Esplorare la costa e piccole calette con attività guidate (Benagil, Armação de Pêra, Carvoeiro)."
+   },
+   "season": {
+    "pt": "Primavera a início do outono, conforme o mar",
+    "en": "Spring to early autumn, sea permitting",
+    "es": "De primavera a principios de otoño, según el mar",
+    "fr": "Du printemps au début de l’automne, selon la mer",
+    "de": "Frühling bis Frühherbst, je nach Seegang",
+    "it": "Dalla primavera all’inizio dell’autunno, mare permettendo"
+   }
+  },
+  {
+   "cat": "sea",
+   "town": "albufeira",
+   "name": "Cruzeiros ao pôr do sol",
+   "tags": [
+    "couple"
+   ],
+   "d": {
+    "pt": "Passeios ao fim da tarde a partir de Albufeira, Portimão e Armação de Pêra, alguns com jantar ou música.",
+    "en": "Evening cruises from Albufeira, Portimão and Armação de Pêra, some with dinner or music.",
+    "es": "Paseos al atardecer desde Albufeira, Portimão y Armação de Pêra, algunos con cena o música.",
+    "fr": "Croisières au coucher du soleil depuis Albufeira, Portimão et Armação de Pêra, certaines avec dîner ou musique.",
+    "de": "Abendfahrten ab Albufeira, Portimão und Armação de Pêra, teils mit Dinner oder Musik.",
+    "it": "Crociere al tramonto da Albufeira, Portimão e Armação de Pêra, alcune con cena o musica."
+   },
+   "season": {
+    "pt": "Primavera a início do outono, conforme o mar",
+    "en": "Spring to early autumn, sea permitting",
+    "es": "De primavera a principios de otoño, según el mar",
+    "fr": "Du printemps au début de l’automne, selon la mer",
+    "de": "Frühling bis Frühherbst, je nach Seegang",
+    "it": "Dalla primavera all’inizio dell’autunno, mare permettendo"
+   }
+  },
+  {
+   "cat": "sea",
+   "town": "armacao",
+   "name": "Mergulho e snorkeling",
+   "tags": [
+    "teen",
+    "couple"
+   ],
+   "d": {
+    "pt": "Mergulhos acompanhados por operadores especializados em Armação de Pêra, Carvoeiro e Portimão.",
+    "en": "Guided dives with specialist operators in Armação de Pêra, Carvoeiro and Portimão.",
+    "es": "Inmersiones guiadas con operadores especializados en Armação de Pêra, Carvoeiro y Portimão.",
+    "fr": "Plongées encadrées par des opérateurs spécialisés à Armação de Pêra, Carvoeiro et Portimão.",
+    "de": "Geführte Tauchgänge mit Fachanbietern in Armação de Pêra, Carvoeiro und Portimão.",
+    "it": "Immersioni guidate con operatori specializzati ad Armação de Pêra, Carvoeiro e Portimão."
+   },
+   "season": {
+    "pt": "Primavera a início do outono, conforme o mar",
+    "en": "Spring to early autumn, sea permitting",
+    "es": "De primavera a principios de otoño, según el mar",
+    "fr": "Du printemps au début de l’automne, selon la mer",
+    "de": "Frühling bis Frühherbst, je nach Seegang",
+    "it": "Dalla primavera all’inizio dell’autunno, mare permettendo"
+   }
+  },
+  {
+   "cat": "sea",
+   "town": "alvor",
+   "name": "Surf e desportos aquáticos",
+   "tags": [
+    "teen",
+    "fam"
+   ],
+   "d": {
+    "pt": "Aulas para todas as idades e níveis em Albufeira, Alvor e na costa ocidental.",
+    "en": "Lessons for all ages and levels in Albufeira, Alvor and on the west coast.",
+    "es": "Clases para todas las edades y niveles en Albufeira, Alvor y la costa oeste.",
+    "fr": "Cours pour tous âges et niveaux à Albufeira, Alvor et sur la côte ouest.",
+    "de": "Kurse für jedes Alter und Niveau in Albufeira, Alvor und an der Westküste.",
+    "it": "Lezioni per tutte le età e livelli ad Albufeira, Alvor e sulla costa occidentale."
+   },
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "cat": "markets",
+   "town": "senhora",
+   "name": "Festa de Nossa Senhora da Rocha",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Festa religiosa e tradicional da comunidade de Porches.",
+    "en": "Traditional religious festival of the Porches community.",
+    "es": "Fiesta religiosa y tradicional de la comunidad de Porches.",
+    "fr": "Fête religieuse et traditionnelle de la communauté de Porches.",
+    "de": "Traditionelles religiöses Fest der Gemeinde Porches.",
+    "it": "Festa religiosa e tradizionale della comunità di Porches."
+   },
+   "usual": {
+    "pt": "primeiro fim de semana de agosto",
+    "en": "first weekend of August",
+    "es": "primer fin de semana de agosto",
+    "fr": "premier week-end d’août",
+    "de": "erstes Augustwochenende",
+    "it": "primo fine settimana di agosto"
+   }
+  },
+  {
+   "cat": "markets",
+   "town": "porches",
+   "name": "Festa de Nossa Senhora da Encarnação",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Festa popular e religiosa da freguesia de Porches.",
+    "en": "Popular and religious festival of the parish of Porches.",
+    "es": "Fiesta popular y religiosa de la parroquia de Porches.",
+    "fr": "Fête populaire et religieuse de la paroisse de Porches.",
+    "de": "Volks- und Kirchenfest der Gemeinde Porches.",
+    "it": "Festa popolare e religiosa della parrocchia di Porches."
+   },
+   "usual": {
+    "pt": "primeiro fim de semana de setembro",
+    "en": "first weekend of September",
+    "es": "primer fin de semana de septiembre",
+    "fr": "premier week-end de septembre",
+    "de": "erstes Septemberwochenende",
+    "it": "primo fine settimana di settembre"
+   }
+  },
+  {
+   "cat": "markets",
+   "town": "lagoa",
+   "name": "Feira de Velharias de Lagoa",
+   "tags": [
+    "couple"
+   ],
+   "d": {
+    "pt": "Antiguidades, objetos usados, decoração e artigos de coleção.",
+    "en": "Antiques, second-hand goods, homeware and collectables.",
+    "es": "Antigüedades, objetos de segunda mano, decoración y coleccionismo.",
+    "fr": "Antiquités, brocante, décoration et objets de collection.",
+    "de": "Antiquitäten, Second-Hand, Deko und Sammlerstücke.",
+    "it": "Antiquariato, oggetti usati, decorazioni e collezionismo."
+   },
+   "usual": {
+    "pt": "4.º domingo de cada mês",
+    "en": "4th Sunday of each month",
+    "es": "4.º domingo de cada mes",
+    "fr": "4e dimanche du mois",
+    "de": "jeden 4. Sonntag im Monat",
+    "it": "4ª domenica del mese"
+   }
+  },
+  {
+   "cat": "markets",
+   "town": "lagoa",
+   "name": "Mercado Mensal de Lagoa",
+   "tags": [
+    "fam"
+   ],
+   "d": {
+    "pt": "Mercado tradicional com roupa, acessórios e artigos para a casa.",
+    "en": "Traditional market with clothes, accessories and household goods.",
+    "es": "Mercado tradicional con ropa, accesorios y artículos para el hogar.",
+    "fr": "Marché traditionnel : vêtements, accessoires et articles pour la maison.",
+    "de": "Traditioneller Markt mit Kleidung, Accessoires und Haushaltswaren.",
+    "it": "Mercato tradizionale con abbigliamento, accessori e articoli per la casa."
+   },
+   "usual": {
+    "pt": "2.º domingo de cada mês",
+    "en": "2nd Sunday of each month",
+    "es": "2.º domingo de cada mes",
+    "fr": "2e dimanche du mois",
+    "de": "jeden 2. Sonntag im Monat",
+    "it": "2ª domenica del mese"
+   }
+  },
+  {
+   "cat": "markets",
+   "town": "loule",
+   "name": "Mercado Municipal de Loulé",
+   "tags": [
+    "food",
+    "couple"
+   ],
+   "d": {
+    "pt": "Mercado tradicional de produtos frescos e sabores do Algarve, num edifício histórico.",
+    "en": "Traditional market of fresh produce and Algarve flavours, in a historic building.",
+    "es": "Mercado tradicional de productos frescos y sabores del Algarve, en un edificio histórico.",
+    "fr": "Marché traditionnel de produits frais et saveurs de l’Algarve, dans un bâtiment historique.",
+    "de": "Traditioneller Markt mit frischen Produkten und Algarve-Spezialitäten in einem historischen Gebäude.",
+    "it": "Mercato tradizionale di prodotti freschi e sapori dell’Algarve, in un edificio storico."
+   },
+   "usual": {
+    "pt": "todos os dias; mais animado ao sábado",
+    "en": "daily; liveliest on Saturdays",
+    "es": "todos los días; más animado los sábados",
+    "fr": "tous les jours ; plus animé le samedi",
+    "de": "täglich; samstags am lebhaftesten",
+    "it": "tutti i giorni; più vivace il sabato"
+   }
+  },
+  {
+   "cat": "markets",
+   "town": "varios",
+   "name": "Natal e Passagem de Ano",
+   "tags": [
+    "fam",
+    "couple",
+    "winter"
+   ],
+   "d": {
+    "pt": "Iluminações, mercados de Natal, concertos e fogo de artifício em Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira e Silves.",
+    "en": "Lights, Christmas markets, concerts and fireworks in Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira and Silves.",
+    "es": "Iluminación, mercados navideños, conciertos y fuegos artificiales en Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira y Silves.",
+    "fr": "Illuminations, marchés de Noël, concerts et feux d’artifice à Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira et Silves.",
+    "de": "Lichter, Weihnachtsmärkte, Konzerte und Feuerwerk in Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira und Silves.",
+    "it": "Luminarie, mercatini di Natale, concerti e fuochi d’artificio a Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira e Silves."
+   },
+   "usual": {
+    "pt": "dezembro e início de janeiro",
+    "en": "December and early January",
+    "es": "diciembre y principios de enero",
+    "fr": "décembre et début janvier",
+    "de": "Dezember und Anfang Januar",
+    "it": "dicembre e inizio gennaio"
+   }
+  }
+ ],
+ "SITE_LANGS": [
+  "pt",
+  "en",
+  "es",
+  "fr",
+  "de",
+  "it"
+ ],
+ "SITE_ROWS": [
+  [
+   "A Casa",
+   "The House",
+   "La Casa",
+   "La Maison",
+   "Das Haus",
+   "La Casa"
+  ],
+  [
+   "Galeria",
+   "Gallery",
+   "Galería",
+   "Galerie",
+   "Galerie",
+   "Galleria"
+  ],
+  [
+   "Praias",
+   "Beaches",
+   "Playas",
+   "Plages",
+   "Strände",
+   "Spiagge"
+  ],
+  [
+   "Restaurantes",
+   "Restaurants",
+   "Restaurantes",
+   "Restaurants",
+   "Restaurants",
+   "Ristoranti"
+  ],
+  [
+   "Atividades",
+   "Activities",
+   "Actividades",
+   "Activités",
+   "Aktivitäten",
+   "Attività"
+  ],
+  [
+   "Mapa",
+   "Map",
+   "Mapa",
+   "Carte",
+   "Karte",
+   "Mappa"
+  ],
+  [
+   "Guia do Hóspede",
+   "Guest Guide",
+   "Guía del huésped",
+   "Guide du voyageur",
+   "Gästeinfo",
+   "Guida ospiti"
+  ],
+  [
+   "Reservar",
+   "Book",
+   "Reservar",
+   "Réserver",
+   "Buchen",
+   "Prenota"
+  ],
+  [
+   "O Seu Refúgio no",
+   "Your Retreat in the",
+   "Su refugio en el",
+   "Votre refuge en",
+   "Ihr Rückzugsort an der",
+   "Il vostro rifugio in"
+  ],
+  [
+   "Moradia com piscina privada no coração histórico de Porches, a minutos das praias mais bonitas de Portugal",
+   "Villa with a private pool in the historic heart of Porches, minutes from the most beautiful beaches in Portugal",
+   "Casa con piscina privada en el corazón histórico de Porches, a pocos minutos de las playas más bonitas de Portugal",
+   "Villa avec piscine privée au cœur historique de Porches, à quelques minutes des plus belles plages du Portugal",
+   "Haus mit privatem Pool im historischen Zentrum von Porches, nur Minuten von den schönsten Stränden Portugals entfernt",
+   "Villa con piscina privata nel cuore storico di Porches, a pochi minuti dalle spiagge più belle del Portogallo"
+  ],
+  [
+   "Até 8 hóspedes",
+   "Up to 8 guests",
+   "Hasta 8 huéspedes",
+   "Jusqu’à 8 personnes",
+   "Bis zu 8 Gäste",
+   "Fino a 8 ospiti"
+  ],
+  [
+   "3 quartos",
+   "3 bedrooms",
+   "3 dormitorios",
+   "3 chambres",
+   "3 Schlafzimmer",
+   "3 camere"
+  ],
+  [
+   "Reservar Agora",
+   "Book Now",
+   "Reservar ahora",
+   "Réserver maintenant",
+   "Jetzt buchen",
+   "Prenota ora"
+  ],
+  [
+   "Explorar",
+   "Explore",
+   "Explorar",
+   "Découvrir",
+   "Entdecken",
+   "Esplora"
+  ],
+  [
+   "Piscina Privada",
+   "Private Pool",
+   "Piscina privada",
+   "Piscine privée",
+   "Privater Pool",
+   "Piscina privata"
+  ],
+  [
+   "Piscina exclusiva com espreguiçadeiras",
+   "Exclusive pool with sun loungers",
+   "Piscina exclusiva con tumbonas",
+   "Piscine privative avec transats",
+   "Eigener Pool mit Sonnenliegen",
+   "Piscina esclusiva con lettini"
+  ],
+  [
+   "Ar Condicionado",
+   "Air Conditioning",
+   "Aire acondicionado",
+   "Climatisation",
+   "Klimaanlage",
+   "Aria condizionata"
+  ],
+  [
+   "Em todas as divisões",
+   "In every room",
+   "En todas las estancias",
+   "Dans toutes les pièces",
+   "In allen Räumen",
+   "In tutte le stanze"
+  ],
+  [
+   "Praias a 10 min",
+   "Beaches 10 min away",
+   "Playas a 10 min",
+   "Plages à 10 min",
+   "Strände in 10 Min.",
+   "Spiagge a 10 min"
+  ],
+  [
+   "Wi-Fi Grátis",
+   "Free Wi-Fi",
+   "Wi-Fi gratis",
+   "Wi-Fi gratuit",
+   "Kostenloses WLAN",
+   "Wi-Fi gratuito"
+  ],
+  [
+   "Internet de alta velocidade",
+   "High-speed internet",
+   "Internet de alta velocidad",
+   "Internet haut débit",
+   "Schnelles Internet",
+   "Internet ad alta velocità"
+  ],
+  [
+   "Bem-vindo",
+   "Welcome",
+   "Bienvenidos",
+   "Bienvenue",
+   "Willkommen",
+   "Benvenuti"
+  ],
+  [
+   "A Sua Casa no Algarve",
+   "Your Home in the Algarve",
+   "Su casa en el Algarve",
+   "Votre maison en Algarve",
+   "Ihr Zuhause an der Algarve",
+   "La vostra casa in Algarve"
+  ],
+  [
+   "Moradia térrea situada no centro histórico da vila de Porches, em frente à Igreja Matriz. Um refúgio de tranquilidade com todo o conforto moderno.",
+   "Single-storey house in the historic centre of Porches village, facing the parish church. A peaceful retreat with every modern comfort.",
+   "Casa de una planta en el centro histórico del pueblo de Porches, frente a la iglesia. Un refugio de tranquilidad con todo el confort moderno.",
+   "Maison de plain-pied au centre historique du village de Porches, face à l’église. Un havre de paix avec tout le confort moderne.",
+   "Ebenerdiges Haus im historischen Ortskern von Porches, gegenüber der Kirche. Ein ruhiger Rückzugsort mit allem modernen Komfort.",
+   "Villa su un unico piano nel centro storico del paese di Porches, di fronte alla chiesa. Un rifugio di tranquillità con ogni comfort moderno."
+  ],
+  [
+   "Interior",
+   "Indoors",
+   "Interior",
+   "Intérieur",
+   "Innen",
+   "Interni"
+  ],
+  [
+   "3 quartos de casal (todos com acesso ao exterior)",
+   "3 double bedrooms (all with direct garden access)",
+   "3 dormitorios dobles (todos con acceso al exterior)",
+   "3 chambres doubles (toutes avec accès à l’extérieur)",
+   "3 Doppelzimmer (alle mit Zugang nach draußen)",
+   "3 camere matrimoniali (tutte con accesso all’esterno)"
+  ],
+  [
+   "Suite com cama 160x200, TV e AC",
+   "En-suite with 160x200 bed, TV and A/C",
+   "Suite con cama de 160x200, TV y aire acondicionado",
+   "Suite avec lit 160x200, TV et climatisation",
+   "Suite mit 160x200-Bett, TV und Klimaanlage",
+   "Suite con letto 160x200, TV e aria condizionata"
+  ],
+  [
+   "2 casas de banho completas",
+   "2 full bathrooms",
+   "2 baños completos",
+   "2 salles de bains complètes",
+   "2 komplette Badezimmer",
+   "2 bagni completi"
+  ],
+  [
+   "Ar condicionado em todas as divisões",
+   "Air conditioning in every room",
+   "Aire acondicionado en todas las estancias",
+   "Climatisation dans toutes les pièces",
+   "Klimaanlage in allen Räumen",
+   "Aria condizionata in tutte le stanze"
+  ],
+  [
+   "Cozinha totalmente equipada",
+   "Fully equipped kitchen",
+   "Cocina totalmente equipada",
+   "Cuisine entièrement équipée",
+   "Voll ausgestattete Küche",
+   "Cucina completamente attrezzata"
+  ],
+  [
+   "Máquina de loiça e Nespresso",
+   "Dishwasher and Nespresso",
+   "Lavavajillas y Nespresso",
+   "Lave-vaisselle et Nespresso",
+   "Geschirrspüler und Nespresso",
+   "Lavastoviglie e Nespresso"
+  ],
+  [
+   "Mesa de jantar para 8/10 pessoas",
+   "Dining table for 8–10 people",
+   "Mesa de comedor para 8-10 personas",
+   "Table à manger pour 8 à 10 personnes",
+   "Esstisch für 8–10 Personen",
+   "Tavolo da pranzo per 8-10 persone"
+  ],
+  [
+   "Wi-Fi gratuito",
+   "Free Wi-Fi",
+   "Wi-Fi gratis",
+   "Wi-Fi gratuit",
+   "Kostenloses WLAN",
+   "Wi-Fi gratuito"
+  ],
+  [
+   "Exterior",
+   "Outdoors",
+   "Exterior",
+   "Extérieur",
+   "Außen",
+   "Esterni"
+  ],
+  [
+   "Piscina privada",
+   "Private pool",
+   "Piscina privada",
+   "Piscine privée",
+   "Privater Pool",
+   "Piscina privata"
+  ],
+  [
+   "6 espreguiçadeiras",
+   "6 sun loungers",
+   "6 tumbonas",
+   "6 transats",
+   "6 Sonnenliegen",
+   "6 lettini"
+  ],
+  [
+   "Mesa exterior para 10 pessoas",
+   "Outdoor table for 10 people",
+   "Mesa exterior para 10 personas",
+   "Table extérieure pour 10 personnes",
+   "Außentisch für 10 Personen",
+   "Tavolo esterno per 10 persone"
+  ],
+  [
+   "Grelhador / Barbecue",
+   "Barbecue grill",
+   "Barbacoa",
+   "Barbecue",
+   "Grill",
+   "Barbecue"
+  ],
+  [
+   "Chapéu de sol com iluminação LED",
+   "Parasol with LED lighting",
+   "Sombrilla con iluminación LED",
+   "Parasol avec éclairage LED",
+   "Sonnenschirm mit LED-Beleuchtung",
+   "Ombrellone con illuminazione LED"
+  ],
+  [
+   "Jardim com acesso direto dos quartos",
+   "Garden with direct access from the bedrooms",
+   "Jardín con acceso directo desde los dormitorios",
+   "Jardin accessible directement depuis les chambres",
+   "Garten mit direktem Zugang von den Schlafzimmern",
+   "Giardino con accesso diretto dalle camere"
+  ],
+  [
+   "Descubra Cada Detalhe",
+   "Discover Every Detail",
+   "Descubra cada detalle",
+   "Découvrez chaque détail",
+   "Entdecken Sie jedes Detail",
+   "Scoprite ogni dettaglio"
+  ],
+  [
+   "Tudo",
+   "All",
+   "Todo",
+   "Tout",
+   "Alle",
+   "Tutto"
+  ],
+  [
+   "Exterior & Piscina",
+   "Outdoors & Pool",
+   "Exterior y piscina",
+   "Extérieur & piscine",
+   "Außen & Pool",
+   "Esterni e piscina"
+  ],
+  [
+   "Quartos",
+   "Bedrooms",
+   "Dormitorios",
+   "Chambres",
+   "Schlafzimmer",
+   "Camere"
+  ],
+  [
+   "Zona Social",
+   "Living Areas",
+   "Zonas comunes",
+   "Pièces de vie",
+   "Wohnbereich",
+   "Zona giorno"
+  ],
+  [
+   "Piscina & Jardim",
+   "Pool & Garden",
+   "Piscina y jardín",
+   "Piscine & jardin",
+   "Pool & Garten",
+   "Piscina e giardino"
+  ],
+  [
+   "Zona de Lazer",
+   "Lounge Area",
+   "Zona de ocio",
+   "Espace détente",
+   "Entspannungsbereich",
+   "Zona relax"
+  ],
+  [
+   "Piscina",
+   "Pool",
+   "Piscina",
+   "Piscine",
+   "Pool",
+   "Piscina"
+  ],
+  [
+   "Jardim",
+   "Garden",
+   "Jardín",
+   "Jardin",
+   "Garten",
+   "Giardino"
+  ],
+  [
+   "Suite Principal",
+   "Master Suite",
+   "Suite principal",
+   "Suite parentale",
+   "Hauptsuite",
+   "Suite padronale"
+  ],
+  [
+   "Suite - Detalhe",
+   "Suite – Detail",
+   "Suite – Detalle",
+   "Suite – Détail",
+   "Suite – Detail",
+   "Suite – Dettaglio"
+  ],
+  [
+   "Quarto 2",
+   "Bedroom 2",
+   "Dormitorio 2",
+   "Chambre 2",
+   "Schlafzimmer 2",
+   "Camera 2"
+  ],
+  [
+   "Quarto 2 - Detalhe",
+   "Bedroom 2 – Detail",
+   "Dormitorio 2 – Detalle",
+   "Chambre 2 – Détail",
+   "Schlafzimmer 2 – Detail",
+   "Camera 2 – Dettaglio"
+  ],
+  [
+   "Quarto 3",
+   "Bedroom 3",
+   "Dormitorio 3",
+   "Chambre 3",
+   "Schlafzimmer 3",
+   "Camera 3"
+  ],
+  [
+   "Sala de Estar",
+   "Living Room",
+   "Salón",
+   "Salon",
+   "Wohnzimmer",
+   "Soggiorno"
+  ],
+  [
+   "Zona de Refeições",
+   "Dining Area",
+   "Comedor",
+   "Coin repas",
+   "Essbereich",
+   "Zona pranzo"
+  ],
+  [
+   "Sala",
+   "Lounge",
+   "Sala de estar",
+   "Séjour",
+   "Wohnraum",
+   "Salotto"
+  ],
+  [
+   "Cozinha Equipada",
+   "Equipped Kitchen",
+   "Cocina equipada",
+   "Cuisine équipée",
+   "Ausgestattete Küche",
+   "Cucina attrezzata"
+  ],
+  [
+   "Cozinha - Detalhe",
+   "Kitchen – Detail",
+   "Cocina – Detalle",
+   "Cuisine – Détail",
+   "Küche – Detail",
+   "Cucina – Dettaglio"
+  ],
+  [
+   "Casa de Banho",
+   "Bathroom",
+   "Baño",
+   "Salle de bains",
+   "Badezimmer",
+   "Bagno"
+  ],
+  [
+   "Paraíso à Porta",
+   "Paradise on the Doorstep",
+   "El paraíso a la puerta",
+   "Le paradis à votre porte",
+   "Das Paradies vor der Tür",
+   "Il paradiso a due passi"
+  ],
+  [
+   "Praias Deslumbrantes",
+   "Stunning Beaches",
+   "Playas espectaculares",
+   "Des plages éblouissantes",
+   "Traumhafte Strände",
+   "Spiagge mozzafiato"
+  ],
+  [
+   "Algumas das praias mais bonitas do mundo estão a poucos minutos da casa. Falésias douradas, grutas secretas e águas cristalinas.",
+   "Some of the most beautiful beaches in the world are just minutes from the house. Golden cliffs, hidden caves and crystal-clear water.",
+   "Algunas de las playas más bonitas del mundo están a pocos minutos de la casa. Acantilados dorados, cuevas secretas y aguas cristalinas.",
+   "Certaines des plus belles plages du monde sont à quelques minutes de la maison. Falaises dorées, grottes secrètes et eaux cristallines.",
+   "Einige der schönsten Strände der Welt liegen nur wenige Minuten vom Haus entfernt. Goldene Klippen, versteckte Höhlen und kristallklares Wasser.",
+   "Alcune delle spiagge più belle del mondo sono a pochi minuti dalla casa. Scogliere dorate, grotte segrete e acque cristalline."
+  ],
+  [
+   "Considerada pela CNN uma das melhores praias do mundo. Falésias espetaculares, águas cristalinas e formações rochosas únicas. Perfeita para snorkeling.",
+   "Rated by CNN as one of the best beaches in the world. Spectacular cliffs, crystal-clear water and unique rock formations. Perfect for snorkelling.",
+   "Considerada por la CNN una de las mejores playas del mundo. Acantilados espectaculares, aguas cristalinas y formaciones rocosas únicas. Perfecta para hacer snorkel.",
+   "Classée par CNN parmi les plus belles plages du monde. Falaises spectaculaires, eaux cristallines et formations rocheuses uniques. Parfaite pour le snorkeling.",
+   "Von CNN zu einem der besten Strände der Welt gekürt. Spektakuläre Klippen, kristallklares Wasser und einzigartige Felsformationen. Ideal zum Schnorcheln.",
+   "Considerata dalla CNN una delle spiagge più belle del mondo. Scogliere spettacolari, acque cristalline e formazioni rocciose uniche. Perfetta per lo snorkeling."
+  ],
+  [
+   "Top Mundial",
+   "World Top",
+   "Top mundial",
+   "Top mondial",
+   "Weltklasse",
+   "Top mondiale"
+  ],
+  [
+   "Falésias",
+   "Cliffs",
+   "Acantilados",
+   "Falaises",
+   "Klippen",
+   "Scogliere"
+  ],
+  [
+   "Praia N.ª Sr.ª da Rocha",
+   "Nossa Senhora da Rocha Beach",
+   "Playa de N.ª Sr.ª da Rocha",
+   "Plage de N.ª Sr.ª da Rocha",
+   "Strand N.ª Sr.ª da Rocha",
+   "Spiaggia di N.ª Sr.ª da Rocha"
+  ],
+  [
+   "Capela pitoresca no topo da falésia com vistas panorâmicas. Praia abrigada e tranquila, ideal para famílias.",
+   "Picturesque chapel on the clifftop with panoramic views. A sheltered, calm beach, ideal for families.",
+   "Pintoresca capilla en lo alto del acantilado con vistas panorámicas. Playa resguardada y tranquila, ideal para familias.",
+   "Chapelle pittoresque au sommet de la falaise avec vue panoramique. Plage abritée et tranquille, idéale pour les familles.",
+   "Malerische Kapelle auf der Klippe mit Panoramablick. Geschützter, ruhiger Strand, ideal für Familien.",
+   "Pittoresca cappella in cima alla scogliera con vista panoramica. Spiaggia riparata e tranquilla, ideale per famiglie."
+  ],
+  [
+   "Família",
+   "Family",
+   "Familia",
+   "Famille",
+   "Familie",
+   "Famiglia"
+  ],
+  [
+   "Tranquila",
+   "Calm",
+   "Tranquila",
+   "Calme",
+   "Ruhig",
+   "Tranquilla"
+  ],
+  [
+   "Praia de Benagil",
+   "Benagil Beach",
+   "Playa de Benagil",
+   "Plage de Benagil",
+   "Strand von Benagil",
+   "Spiaggia di Benagil"
+  ],
+  [
+   "Famosa pela gruta do Algar de Benagil — uma catedral natural esculpida pelo mar. Passeios de barco disponíveis.",
+   "Famous for the Benagil sea cave — a natural cathedral carved by the sea. Boat trips available.",
+   "Famosa por la cueva de Benagil, una catedral natural esculpida por el mar. Excursiones en barco disponibles.",
+   "Célèbre pour la grotte de Benagil — une cathédrale naturelle sculptée par la mer. Excursions en bateau disponibles.",
+   "Berühmt für die Benagil-Höhle – eine vom Meer geformte natürliche Kathedrale. Bootstouren verfügbar.",
+   "Famosa per la grotta di Benagil, una cattedrale naturale scolpita dal mare. Gite in barca disponibili."
+  ],
+  [
+   "Gruta Icónica",
+   "Iconic Cave",
+   "Cueva icónica",
+   "Grotte emblématique",
+   "Berühmte Höhle",
+   "Grotta iconica"
+  ],
+  [
+   "Barco",
+   "Boat",
+   "Barco",
+   "Bateau",
+   "Boot",
+   "Barca"
+  ],
+  [
+   "Praia extensa com passeio marítimo animado, restaurantes e cafés. Perfeita para longas caminhadas à beira-mar.",
+   "Long beach with a lively promenade, restaurants and cafés. Perfect for long walks by the sea.",
+   "Playa extensa con un animado paseo marítimo, restaurantes y cafés. Perfecta para largos paseos junto al mar.",
+   "Longue plage avec une promenade animée, des restaurants et des cafés. Parfaite pour de longues balades au bord de la mer.",
+   "Langer Strand mit lebhafter Promenade, Restaurants und Cafés. Perfekt für lange Spaziergänge am Meer.",
+   "Lunga spiaggia con un vivace lungomare, ristoranti e bar. Perfetta per lunghe passeggiate in riva al mare."
+  ],
+  [
+   "Passeio Marítimo",
+   "Promenade",
+   "Paseo marítimo",
+   "Promenade",
+   "Promenade",
+   "Lungomare"
+  ],
+  [
+   "Praia do Vale de Centeanes",
+   "Vale de Centeanes Beach",
+   "Playa de Vale de Centeanes",
+   "Plage de Vale de Centeanes",
+   "Strand Vale de Centeanes",
+   "Spiaggia di Vale de Centeanes"
+  ],
+  [
+   "Pequena praia entre falésias, longe das multidões. Um segredo bem guardado do Algarve para quem procura sossego.",
+   "A small beach between cliffs, away from the crowds. A well-kept Algarve secret for those seeking peace and quiet.",
+   "Pequeña playa entre acantilados, lejos de las multitudes. Un secreto bien guardado del Algarve para quien busca tranquilidad.",
+   "Petite plage entre les falaises, loin de la foule. Un secret bien gardé de l’Algarve pour qui cherche le calme.",
+   "Kleiner Strand zwischen Klippen, abseits der Massen. Ein gut gehütetes Geheimnis der Algarve für alle, die Ruhe suchen.",
+   "Piccola spiaggia tra le scogliere, lontana dalla folla. Un segreto ben custodito dell’Algarve per chi cerca tranquillità."
+  ],
+  [
+   "Sossego",
+   "Peaceful",
+   "Tranquilidad",
+   "Calme",
+   "Ruhe",
+   "Quiete"
+  ],
+  [
+   "Secreta",
+   "Hidden",
+   "Secreta",
+   "Secrète",
+   "Geheimtipp",
+   "Segreta"
+  ],
+  [
+   "Paz & Sossego",
+   "Peace & Quiet",
+   "Paz y tranquilidad",
+   "Paix & tranquillité",
+   "Ruhe & Erholung",
+   "Pace e tranquillità"
+  ],
+  [
+   "Porches é uma vila tradicional algarvia onde o tempo parece parar. Longe do turismo de massas, aqui encontra a autenticidade do Algarve — ruas tranquilas, azulejos pintados à mão e o som das cigarras ao entardecer.",
+   "Porches is a traditional Algarve village where time seems to stand still. Away from mass tourism, you will find the authentic Algarve — quiet streets, hand-painted tiles and the sound of cicadas at dusk.",
+   "Porches es un pueblo tradicional del Algarve donde el tiempo parece detenerse. Lejos del turismo de masas, encontrará el Algarve auténtico: calles tranquilas, azulejos pintados a mano y el canto de las cigarras al atardecer.",
+   "Porches est un village traditionnel de l’Algarve où le temps semble s’arrêter. Loin du tourisme de masse, vous y trouverez l’Algarve authentique — ruelles tranquilles, azulejos peints à la main et chant des cigales au crépuscule.",
+   "Porches ist ein traditionelles Algarve-Dorf, in dem die Zeit stillzustehen scheint. Fernab vom Massentourismus finden Sie hier die authentische Algarve – ruhige Gassen, handbemalte Fliesen und das Zirpen der Zikaden in der Abenddämmerung.",
+   "Porches è un tradizionale paese dell’Algarve dove il tempo sembra fermarsi. Lontano dal turismo di massa, troverete l’Algarve autentico: strade tranquille, azulejos dipinti a mano e il canto delle cicale al tramonto."
+  ],
+  [
+   "da Igreja Matriz — fica em frente",
+   "to the parish church — it’s right opposite",
+   "a la iglesia: está justo enfrente",
+   "de l’église — juste en face",
+   "zur Kirche – direkt gegenüber",
+   "dalla chiesa: è proprio di fronte"
+  ],
+  [
+   "barulho de trânsito",
+   "traffic noise",
+   "ruido de tráfico",
+   "bruit de circulation",
+   "Verkehrslärm",
+   "rumore del traffico"
+  ],
+  [
+   "privacidade na piscina",
+   "pool privacy",
+   "privacidad en la piscina",
+   "intimité à la piscine",
+   "Privatsphäre am Pool",
+   "privacy in piscina"
+  ],
+  [
+   "Gastronomia",
+   "Food & Drink",
+   "Gastronomía",
+   "Gastronomie",
+   "Gastronomie",
+   "Gastronomia"
+  ],
+  [
+   "Sabores do Algarve",
+   "Flavours of the Algarve",
+   "Sabores del Algarve",
+   "Saveurs de l’Algarve",
+   "Aromen der Algarve",
+   "Sapori dell’Algarve"
+  ],
+  [
+   "De tascas tradicionais a restaurantes com estrela Michelin — a zona de Porches é um paraíso gastronómico.",
+   "From traditional taverns to Michelin-starred restaurants — the Porches area is a food lover’s paradise.",
+   "De tabernas tradicionales a restaurantes con estrella Michelin: la zona de Porches es un paraíso gastronómico.",
+   "Des tavernes traditionnelles aux restaurants étoilés Michelin — la région de Porches est un paradis gastronomique.",
+   "Von traditionellen Tavernen bis zu Michelin-Sterne-Restaurants – die Gegend um Porches ist ein Paradies für Genießer.",
+   "Dalle taverne tradizionali ai ristoranti stellati Michelin: la zona di Porches è un paradiso gastronomico."
+  ],
+  [
+   "Estrelas Michelin",
+   "Michelin Stars",
+   "Estrellas Michelin",
+   "Étoiles Michelin",
+   "Michelin-Sterne",
+   "Stelle Michelin"
+  ],
+  [
+   "Chef Hans Neuner. Cozinha de autor com ingredientes locais e marisco fresco da costa algarvia. Uma experiência gastronómica única.",
+   "Chef Hans Neuner. Signature cuisine with local ingredients and fresh seafood from the Algarve coast. A unique dining experience.",
+   "Chef Hans Neuner. Cocina de autor con ingredientes locales y marisco fresco de la costa del Algarve. Una experiencia gastronómica única.",
+   "Chef Hans Neuner. Cuisine d’auteur avec des produits locaux et des fruits de mer frais de la côte de l’Algarve. Une expérience gastronomique unique.",
+   "Küchenchef Hans Neuner. Kreative Küche mit lokalen Zutaten und frischen Meeresfrüchten von der Algarve-Küste. Ein einzigartiges Erlebnis.",
+   "Chef Hans Neuner. Cucina d’autore con ingredienti locali e frutti di mare freschi della costa dell’Algarve. Un’esperienza gastronomica unica."
+  ],
+  [
+   "A poucos minutos",
+   "A few minutes away",
+   "A pocos minutos",
+   "À quelques minutes",
+   "Wenige Minuten entfernt",
+   "A pochi minuti"
+  ],
+  [
+   "Tasca Tradicional",
+   "Traditional Tavern",
+   "Taberna tradicional",
+   "Taverne traditionnelle",
+   "Traditionelle Taverne",
+   "Taverna tradizionale"
+  ],
+  [
+   "Especialistas em carnes grelhadas. Ambiente autêntico e acolhedor, com os melhores sabores da cozinha algarvia tradicional.",
+   "Specialists in grilled meats. An authentic, welcoming atmosphere with the best flavours of traditional Algarve cooking.",
+   "Especialistas en carnes a la brasa. Ambiente auténtico y acogedor, con los mejores sabores de la cocina tradicional del Algarve.",
+   "Spécialistes des viandes grillées. Ambiance authentique et chaleureuse, avec les meilleures saveurs de la cuisine traditionnelle de l’Algarve.",
+   "Spezialisiert auf Grillfleisch. Authentische, gemütliche Atmosphäre mit den besten Aromen der traditionellen Algarve-Küche.",
+   "Specialisti in carni alla griglia. Atmosfera autentica e accogliente, con i migliori sapori della cucina tradizionale dell’Algarve."
+  ],
+  [
+   "Em Porches",
+   "In Porches",
+   "En Porches",
+   "À Porches",
+   "In Porches",
+   "A Porches"
+  ],
+  [
+   "Cozinha Algarvia",
+   "Algarve Cuisine",
+   "Cocina algarvía",
+   "Cuisine de l’Algarve",
+   "Algarve-Küche",
+   "Cucina dell’Algarve"
+  ],
+  [
+   "Sem menu, preço fixo com vinho incluído. Culinária tradicional algarvia autêntica. Reserva obrigatória — vale cada momento.",
+   "No menu, fixed price with wine included. Authentic traditional Algarve cooking. Booking essential — worth every moment.",
+   "Sin carta, precio fijo con vino incluido. Auténtica cocina tradicional del Algarve. Reserva imprescindible: merece cada momento.",
+   "Pas de carte, prix fixe vin compris. Authentique cuisine traditionnelle de l’Algarve. Réservation indispensable — chaque instant en vaut la peine.",
+   "Keine Speisekarte, Festpreis inklusive Wein. Authentische traditionelle Algarve-Küche. Reservierung erforderlich – jeder Moment lohnt sich.",
+   "Niente menù, prezzo fisso con vino incluso. Autentica cucina tradizionale dell’Algarve. Prenotazione obbligatoria: ne vale ogni momento."
+  ],
+  [
+   "10 min de carro",
+   "10 min by car",
+   "10 min en coche",
+   "10 min en voiture",
+   "10 Min. mit dem Auto",
+   "10 min in auto"
+  ],
+  [
+   "Peixe Fresco",
+   "Fresh Fish",
+   "Pescado fresco",
+   "Poisson frais",
+   "Frischer Fisch",
+   "Pesce fresco"
+  ],
+  [
+   "Raia de caldo, açorda de lingueirão, xerém de berbigão. Peixe fresco e pratos tradicionais no centro de Lagoa.",
+   "Skate stew, razor-clam açorda, cockle xerém. Fresh fish and traditional dishes in the centre of Lagoa.",
+   "Raya en caldo, açorda de navajas, xerém de berberechos. Pescado fresco y platos tradicionales en el centro de Lagoa.",
+   "Raie en bouillon, açorda aux couteaux, xerém aux coques. Poisson frais et plats traditionnels au centre de Lagoa.",
+   "Rochen-Eintopf, Açorda mit Scheidenmuscheln, Xerém mit Herzmuscheln. Frischer Fisch und traditionelle Gerichte im Zentrum von Lagoa.",
+   "Razza in brodo, açorda di cannolicchi, xerém di vongole. Pesce fresco e piatti tradizionali nel centro di Lagoa."
+  ],
+  [
+   "8 min de carro",
+   "8 min by car",
+   "8 min en coche",
+   "8 min en voiture",
+   "8 Min. mit dem Auto",
+   "8 min in auto"
+  ],
+  [
+   "Junto ao Mar",
+   "By the Sea",
+   "Junto al mar",
+   "Au bord de la mer",
+   "Am Meer",
+   "Sul mare"
+  ],
+  [
+   "Desde 1976 na Praia dos Caneiros. Peixe e marisco frescos com vista privilegiada para o mar. Uma referência algarvia.",
+   "On Caneiros beach since 1976. Fresh fish and seafood with superb sea views. An Algarve institution.",
+   "Desde 1976 en la playa de Caneiros. Pescado y marisco frescos con vistas privilegiadas al mar. Un referente del Algarve.",
+   "Depuis 1976 sur la plage de Caneiros. Poissons et fruits de mer frais avec une vue imprenable sur la mer. Une référence en Algarve.",
+   "Seit 1976 am Strand von Caneiros. Frischer Fisch und Meeresfrüchte mit herrlichem Meerblick. Eine Institution an der Algarve.",
+   "Dal 1976 sulla spiaggia di Caneiros. Pesce e frutti di mare freschi con una splendida vista sul mare. Un punto di riferimento in Algarve."
+  ],
+  [
+   "15 min de carro",
+   "15 min by car",
+   "15 min en coche",
+   "15 min en voiture",
+   "15 Min. mit dem Auto",
+   "15 min in auto"
+  ],
+  [
+   "Vista Mar",
+   "Sea View",
+   "Vista al mar",
+   "Vue mer",
+   "Meerblick",
+   "Vista mare"
+  ],
+  [
+   "Chef João Oliveira numa das mais belas praias do Algarve. Mais de 600 vinhos. Requinte tradicional e moderno.",
+   "Chef João Oliveira on one of the Algarve’s most beautiful beaches. Over 600 wines. Traditional and modern refinement.",
+   "El chef João Oliveira en una de las playas más bonitas del Algarve. Más de 600 vinos. Refinamiento tradicional y moderno.",
+   "Le chef João Oliveira sur l’une des plus belles plages de l’Algarve. Plus de 600 vins. Raffinement traditionnel et moderne.",
+   "Küchenchef João Oliveira an einem der schönsten Strände der Algarve. Über 600 Weine. Traditionelle und moderne Raffinesse.",
+   "Lo chef João Oliveira su una delle spiagge più belle dell’Algarve. Oltre 600 vini. Raffinatezza tradizionale e moderna."
+  ],
+  [
+   "20 min de carro",
+   "20 min by car",
+   "20 min en coche",
+   "20 min en voiture",
+   "20 Min. mit dem Auto",
+   "20 min in auto"
+  ],
+  [
+   "Ver os 40 restaurantes recomendados",
+   "See all 40 recommended restaurants",
+   "Ver los 40 restaurantes recomendados",
+   "Voir les 40 restaurants recommandés",
+   "Alle 40 Restaurant-Tipps ansehen",
+   "Vedi i 40 ristoranti consigliati"
+  ],
+  [
+   "Para Toda a Família",
+   "For the Whole Family",
+   "Para toda la familia",
+   "Pour toute la famille",
+   "Für die ganze Familie",
+   "Per tutta la famiglia"
+  ],
+  [
+   "O Que Fazer",
+   "Things to Do",
+   "Qué hacer",
+   "À faire",
+   "Ausflüge & Aktivitäten",
+   "Cosa fare"
+  ],
+  [
+   "Golfe",
+   "Golf",
+   "Golf",
+   "Golf",
+   "Golf",
+   "Golf"
+  ],
+  [
+   "Vale da Pinta (8 km) e Amendoeira Golf Resort (6 km) — dois campos de classe mundial à porta de casa.",
+   "Vale da Pinta (8 km) and Amendoeira Golf Resort (6 km) — two world-class courses on your doorstep.",
+   "Vale da Pinta (8 km) y Amendoeira Golf Resort (6 km): dos campos de primer nivel a un paso de casa.",
+   "Vale da Pinta (8 km) et Amendoeira Golf Resort (6 km) — deux parcours de classe mondiale à votre porte.",
+   "Vale da Pinta (8 km) und Amendoeira Golf Resort (6 km) – zwei Weltklasse-Plätze direkt vor der Tür.",
+   "Vale da Pinta (8 km) e Amendoeira Golf Resort (6 km): due campi di livello mondiale a due passi da casa."
+  ],
+  [
+   "A apenas 3 km! Diversão garantida para miúdos e graúdos com escorregas e piscinas de ondas.",
+   "Just 3 km away! Fun for all ages with water slides and wave pools.",
+   "¡A solo 3 km! Diversión garantizada para pequeños y mayores con toboganes y piscinas de olas.",
+   "À seulement 3 km ! Plaisir garanti pour petits et grands avec toboggans et piscines à vagues.",
+   "Nur 3 km entfernt! Spaß für Groß und Klein mit Wasserrutschen und Wellenbecken.",
+   "A soli 3 km! Divertimento assicurato per grandi e piccini con scivoli e piscine a onde."
+  ],
+  [
+   "Parque aquático a 6 km com atrações para todas as idades. Espetáculos com animais e muito mais.",
+   "Water park 6 km away with attractions for all ages. Animal shows and much more.",
+   "Parque acuático a 6 km con atracciones para todas las edades. Espectáculos con animales y mucho más.",
+   "Parc aquatique à 6 km avec des attractions pour tous les âges. Spectacles d’animaux et bien plus.",
+   "Wasserpark 6 km entfernt mit Attraktionen für jedes Alter. Tiershows und vieles mehr.",
+   "Parco acquatico a 6 km con attrazioni per tutte le età. Spettacoli con animali e molto altro."
+  ],
+  [
+   "A 10 km. Parque temático com golfinhos, aves tropicais, aquários e cinema 4D. Imperdível!",
+   "10 km away. Theme park with dolphins, tropical birds, aquariums and a 4D cinema. Not to be missed!",
+   "A 10 km. Parque temático con delfines, aves tropicales, acuarios y cine 4D. ¡Imprescindible!",
+   "À 10 km. Parc à thème avec dauphins, oiseaux tropicaux, aquariums et cinéma 4D. Incontournable !",
+   "10 km entfernt. Themenpark mit Delfinen, tropischen Vögeln, Aquarien und 4D-Kino. Ein Muss!",
+   "A 10 km. Parco tematico con delfini, uccelli tropicali, acquari e cinema 4D. Imperdibile!"
+  ],
+  [
+   "Ver eventos, festas e experiências",
+   "See events, festivals & experiences",
+   "Ver eventos, fiestas y experiencias",
+   "Voir événements, fêtes & expériences",
+   "Events, Feste & Erlebnisse ansehen",
+   "Vedi eventi, feste ed esperienze"
+  ],
+  [
+   "Localização",
+   "Location",
+   "Ubicación",
+   "Situation",
+   "Lage",
+   "Posizione"
+  ],
+  [
+   "No Coração do Algarve",
+   "In the Heart of the Algarve",
+   "En el corazón del Algarve",
+   "Au cœur de l’Algarve",
+   "Im Herzen der Algarve",
+   "Nel cuore dell’Algarve"
+  ],
+  [
+   "Porches situa-se na zona central do Algarve, entre Albufeira e Portimão, com fácil acesso a tudo.",
+   "Porches is in the central Algarve, between Albufeira and Portimão, with easy access to everything.",
+   "Porches se encuentra en la zona central del Algarve, entre Albufeira y Portimão, con fácil acceso a todo.",
+   "Porches se situe au centre de l’Algarve, entre Albufeira et Portimão, avec un accès facile à tout.",
+   "Porches liegt in der zentralen Algarve zwischen Albufeira und Portimão – alles ist leicht erreichbar.",
+   "Porches si trova nell’Algarve centrale, tra Albufeira e Portimão, con facile accesso a tutto."
+  ],
+  [
+   "Aeroporto de Faro",
+   "Faro Airport",
+   "Aeropuerto de Faro",
+   "Aéroport de Faro",
+   "Flughafen Faro",
+   "Aeroporto di Faro"
+  ],
+  [
+   "Praia mais próxima",
+   "Nearest beach",
+   "Playa más cercana",
+   "Plage la plus proche",
+   "Nächster Strand",
+   "Spiaggia più vicina"
+  ],
+  [
+   "A pé",
+   "On foot",
+   "A pie",
+   "À pied",
+   "Zu Fuß",
+   "A piedi"
+  ],
+  [
+   "Supermercado",
+   "Supermarket",
+   "Supermercado",
+   "Supermarché",
+   "Supermarkt",
+   "Supermercato"
+  ],
+  [
+   "2 min de carro",
+   "2 min by car",
+   "2 min en coche",
+   "2 min en voiture",
+   "2 Min. mit dem Auto",
+   "2 min in auto"
+  ],
+  [
+   "Reserve as Suas Férias de Sonho",
+   "Book Your Dream Holiday",
+   "Reserve sus vacaciones de ensueño",
+   "Réservez les vacances de vos rêves",
+   "Buchen Sie Ihren Traumurlaub",
+   "Prenotate la vacanza dei vostri sogni"
+  ],
+  [
+   "Escape à rotina e descubra o melhor do Algarve. A sua casa em Porches espera por si.",
+   "Escape the routine and discover the best of the Algarve. Your home in Porches is waiting for you.",
+   "Escape de la rutina y descubra lo mejor del Algarve. Su casa en Porches le espera.",
+   "Échappez à la routine et découvrez le meilleur de l’Algarve. Votre maison à Porches vous attend.",
+   "Entfliehen Sie dem Alltag und entdecken Sie das Beste der Algarve. Ihr Zuhause in Porches wartet auf Sie.",
+   "Fuggite dalla routine e scoprite il meglio dell’Algarve. La vostra casa a Porches vi aspetta."
+  ],
+  [
+   "Reservar no Airbnb",
+   "Book on Airbnb",
+   "Reservar en Airbnb",
+   "Réserver sur Airbnb",
+   "Auf Airbnb buchen",
+   "Prenota su Airbnb"
+  ],
+  [
+   "Avaliação 4.82/5 · 45 avaliações · Gerido por HostWise",
+   "Rated 4.82/5 · 45 reviews · Managed by HostWise",
+   "Valoración 4,82/5 · 45 reseñas · Gestionado por HostWise",
+   "Note 4,82/5 · 45 avis · Géré par HostWise",
+   "Bewertung 4,82/5 · 45 Bewertungen · Verwaltet von HostWise",
+   "Valutazione 4,82/5 · 45 recensioni · Gestito da HostWise"
+  ]
+ ],
+ "_gerado": "2026-10-24T23:10:09"
+}
