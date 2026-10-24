@@ -1009,6 +1009,7 @@
    "lat": 37.0976,
    "lng": -8.3848,
    "q": "Praia Nossa Senhora da Rocha",
+   "img": "images/beaches_1.jpg",
    "d": {
     "pt": "Praia abrigada com a capela na falésia. Ideal para famílias.",
     "en": "Sheltered beach with the clifftop chapel. Great for families.",
@@ -1026,6 +1027,7 @@
    "lat": 37.101,
    "lng": -8.36,
    "q": "Praia de Armação de Pêra",
+   "img": "images/beaches_4.jpg",
    "d": {
     "pt": "Praia extensa com passeio marítimo, cafés e restaurantes.",
     "en": "Long sandy beach with a promenade, cafés and restaurants.",
@@ -1043,6 +1045,7 @@
    "lat": 37.0899,
    "lng": -8.4121,
    "q": "Praia da Marinha",
+   "img": "images/beaches_0.jpg",
    "d": {
     "pt": "Uma das praias mais famosas da Europa: falésias, arcos e água cristalina. No verão chegue cedo — o estacionamento enche.",
     "en": "One of the most famous beaches in Europe: cliffs, arches and clear water. Arrive early in summer — parking fills up.",
@@ -1060,6 +1063,7 @@
    "lat": 37.0874,
    "lng": -8.426,
    "q": "Praia de Benagil",
+   "img": "images/beaches_3.jpg",
    "d": {
     "pt": "Ponto de partida para passeios de barco e kayak à gruta de Benagil.",
     "en": "Starting point for boat and kayak trips to the Benagil sea cave.",
@@ -1077,6 +1081,7 @@
    "lat": 37.092,
    "lng": -8.4405,
    "q": "Praia do Vale de Centeanes",
+   "img": "images/beaches_2.jpg",
    "d": {
     "pt": "Praia pequena e mais sossegada entre falésias.",
     "en": "Small, quieter beach between cliffs.",
@@ -1094,6 +1099,7 @@
    "lat": 37.0912,
    "lng": -8.4032,
    "q": "Praia da Albandeira",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Pequena enseada com arco natural na rocha.",
     "en": "Small cove with a natural rock arch.",
@@ -1111,6 +1117,7 @@
    "lat": null,
    "lng": null,
    "q": "Tasca 26 Porches",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Tasca tradicional, carnes grelhadas.",
     "en": "Traditional tavern, grilled meats.",
@@ -1128,6 +1135,7 @@
    "lat": 37.144,
    "lng": -8.485,
    "q": "O Charneco Estômbar",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Sem menu, preço fixo com vinho. Cozinha algarvia autêntica. Reserva obrigatória.",
     "en": "No menu, fixed price with wine. Authentic Algarve cooking. Booking essential.",
@@ -1145,6 +1153,7 @@
    "lat": 37.135,
    "lng": -8.453,
    "q": "O Ciclo Lagoa",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Peixe fresco e pratos tradicionais no centro de Lagoa.",
     "en": "Fresh fish and traditional dishes in the centre of Lagoa.",
@@ -1162,6 +1171,7 @@
    "lat": 37.1045,
    "lng": -8.5055,
    "q": "Rei das Praias Ferragudo",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Peixe e marisco na Praia dos Caneiros, desde 1976.",
     "en": "Fish and seafood on Caneiros beach, since 1976.",
@@ -1179,6 +1189,7 @@
    "lat": 37.1188,
    "lng": -8.533,
    "q": "Vista Restaurante Portimão",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Alta cozinha junto ao mar, extensa carta de vinhos.",
     "en": "Fine dining by the sea, large wine list.",
@@ -1196,6 +1207,7 @@
    "lat": 37.096,
    "lng": -8.392,
    "q": "Ocean Restaurant Vila Vita Parc",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Restaurante com estrelas Michelin a poucos minutos. Reserve com antecedência.",
     "en": "Michelin-starred fine dining a few minutes away. Book well in advance.",
@@ -1213,6 +1225,7 @@
    "lat": 37.1375,
    "lng": -8.3615,
    "q": "Aqualand Algarve",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Parque aquático — escorregas e piscinas (época de verão).",
     "en": "Water park — slides and pools for all ages (summer season).",
@@ -1230,6 +1243,7 @@
    "lat": 37.131,
    "lng": -8.4665,
    "q": "Slide and Splash Lagoa",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Parque aquático em Lagoa (época de verão).",
     "en": "Water park in Lagoa (summer season).",
@@ -1247,6 +1261,7 @@
    "lat": 37.128,
    "lng": -8.318,
    "q": "Zoomarine Algarve",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Parque temático com golfinhos, aves e aquários.",
     "en": "Marine theme park with dolphins, birds and aquariums.",
@@ -1264,6 +1279,7 @@
    "lat": 37.123,
    "lng": -8.426,
    "q": "Vale da Pinta Golf",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Dois campos de golfe de referência perto de casa.",
     "en": "Two top golf courses close to the house.",
@@ -1281,6 +1297,7 @@
    "lat": null,
    "lng": null,
    "q": "Benagil boat tours",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Passeios à gruta de Benagil a partir de Benagil, Armação de Pêra e Portimão.",
     "en": "Tours to the Benagil cave from Benagil, Armação de Pêra and Portimão.",
@@ -1298,6 +1315,7 @@
    "lat": null,
    "lng": null,
    "q": "Olaria Porchesa",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Porches é conhecida pela sua olaria algarvia pintada à mão.",
     "en": "Porches is known for its hand-painted Algarve pottery.",
@@ -1315,6 +1333,7 @@
    "lat": 37.0945,
    "lng": -8.462,
    "q": "Algar Seco Carvoeiro",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Passadiço nas falésias e formações rochosas.",
     "en": "Clifftop boardwalk and rock formations.",
@@ -1332,6 +1351,7 @@
    "lat": 37.124,
    "lng": -8.519,
    "q": "Ferragudo",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Vila piscatória junto ao rio.",
     "en": "Charming fishing village by the river.",
@@ -1349,6 +1369,7 @@
    "lat": 37.1914,
    "lng": -8.4386,
    "q": "Castelo de Silves",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Castelo medieval e centro histórico.",
     "en": "Medieval castle and old town.",
@@ -1366,6 +1387,7 @@
    "lat": 37.145,
    "lng": -8.547,
    "q": "Hospital de Portimão",
+   "img": "images/ilustracoes/ev-nature.svg",
    "d": {
     "pt": "Hospital (urgência).",
     "en": "Hospital (A&E).",
@@ -1384,6 +1406,7 @@
    "price": "€€€€",
    "near": true,
    "q": "Ocean Restaurant Vila Vita Parc",
+   "img": "images/ilustracoes/rest-michelin.svg",
    "d": {
     "pt": "2 estrelas Michelin. Chef Hans Neuner, cozinha criativa, menus de degustação e harmonização de vinhos, vista mar.",
     "en": "2 Michelin stars. Chef Hans Neuner, creative cuisine, tasting menus with wine pairing, ocean views.",
@@ -1400,6 +1423,7 @@
    "price": "€€€€",
    "near": false,
    "q": "Vila Joya Albufeira",
+   "img": "images/ilustracoes/rest-michelin.svg",
    "d": {
     "pt": "2 estrelas Michelin. Cozinha de autor internacional, excelente garrafeira e vista mar. Para ocasiões especiais.",
     "en": "2 Michelin stars. International signature cuisine, outstanding wine cellar and sea views. For special occasions.",
@@ -1416,6 +1440,7 @@
    "price": "€€€€",
    "near": false,
    "q": "Bon Bon Restaurante Carvoeiro",
+   "img": "images/ilustracoes/rest-michelin.svg",
    "d": {
     "pt": "1 estrela Michelin. Cozinha portuguesa contemporânea com ingredientes regionais. Ambiente intimista.",
     "en": "1 Michelin star. Contemporary Portuguese cuisine with regional produce. Intimate setting.",
@@ -1432,6 +1457,7 @@
    "price": "€€€€",
    "near": false,
    "q": "Vista Restaurante Bela Vista Portimão",
+   "img": "images/ilustracoes/rest-michelin.svg",
    "d": {
     "pt": "1 estrela Michelin. Alta gastronomia de peixe e marisco com vista sobre o Atlântico. Ótimo para jantares românticos.",
     "en": "1 Michelin star. Fine dining focused on fish and seafood, overlooking the Atlantic. Great for a romantic dinner.",
@@ -1448,6 +1474,7 @@
    "price": "€€€",
    "near": true,
    "q": "O Leão de Porches",
+   "img": "images/ilustracoes/rest-fine.svg",
    "d": {
     "pt": "Recomendado pelo Guia Michelin, numa casa histórica. Cozinha criativa portuguesa e mediterrânica, ambiente romântico.",
     "en": "Michelin Guide recommended, in a historic house. Creative Portuguese and Mediterranean cuisine, romantic setting.",
@@ -1464,6 +1491,7 @@
    "price": "€€€€",
    "near": true,
    "q": "Coral Eden do Mar Porches",
+   "img": "images/ilustracoes/rest-fine.svg",
    "d": {
     "pt": "Recomendado pelo Guia Michelin. Cozinha atlântica contemporânea e menus de degustação à beira-mar.",
     "en": "Michelin Guide recommended. Contemporary Atlantic cuisine and tasting menus by the sea.",
@@ -1480,6 +1508,7 @@
    "price": "€€€",
    "near": true,
    "q": "Atlantico Vila Vita Parc",
+   "img": "images/ilustracoes/rest-fine.svg",
    "d": {
     "pt": "Recomendado pelo Guia Michelin. Cozinha mediterrânica contemporânea com influências do Levante e vista mar.",
     "en": "Michelin Guide recommended. Contemporary Mediterranean cuisine with Levantine influences and sea views.",
@@ -1496,6 +1525,7 @@
    "price": "€€€€",
    "near": false,
    "q": "Al Quimia Albufeira",
+   "img": "images/ilustracoes/rest-fine.svg",
    "d": {
     "pt": "Recomendado pelo Guia Michelin. Cozinha portuguesa moderna, menus criativos e harmonizações de vinhos.",
     "en": "Michelin Guide recommended. Modern Portuguese cuisine, creative menus and wine pairings.",
@@ -1512,6 +1542,7 @@
    "price": "€€–€€€",
    "near": false,
    "q": "O Barradas Silves",
+   "img": "images/ilustracoes/rest-fine.svg",
    "d": {
     "pt": "Restaurante de referência em ambiente rural, entre laranjais. Carnes e peixes portugueses e boa oferta de vinhos.",
     "en": "A renowned restaurant in the countryside among orange groves. Portuguese meat and fish, good wine list.",
@@ -1528,6 +1559,7 @@
    "price": "€€",
    "near": true,
    "q": "Rolha Wine Bar Porches",
+   "img": "images/attractions_1.jpg",
    "d": {
     "pt": "Vinhos portugueses e petiscos de qualidade num ambiente acolhedor. Ótimo para partilhar pratos.",
     "en": "Portuguese wines and quality small plates in a cosy setting. Great for sharing.",
@@ -1544,6 +1576,7 @@
    "price": "€€–€€€",
    "near": false,
    "q": "Inevitavel Wine Bar Armação de Pêra",
+   "img": "images/ilustracoes/rest-wine.svg",
    "d": {
     "pt": "Cozinha portuguesa contemporânea, menus de degustação e excelente seleção de vinhos. Muito bem avaliado.",
     "en": "Contemporary Portuguese cuisine, tasting menus and an excellent wine selection. Very highly rated.",
@@ -1560,6 +1593,7 @@
    "price": "€€€",
    "near": false,
    "q": "Hexagone Restaurant Carvoeiro",
+   "img": "images/ilustracoes/rest-grill.svg",
    "d": {
     "pt": "Carnes nobres, cozinha mediterrânica e boa garrafeira. Ambiente elegante.",
     "en": "Prime meats, Mediterranean cuisine and a good wine cellar. Elegant setting.",
@@ -1576,6 +1610,7 @@
    "price": "€€€",
    "near": false,
    "q": "Restaurante F Praia da Rocha",
+   "img": "images/ilustracoes/rest-wine.svg",
    "d": {
     "pt": "Cozinha portuguesa contemporânea, peixe, marisco e cataplanas, com vista mar e boa carta de vinhos.",
     "en": "Contemporary Portuguese cuisine, fish, seafood and cataplanas, with sea views and a good wine list.",
@@ -1592,6 +1627,7 @@
    "price": "€€–€€€",
    "near": false,
    "q": "Restaurante Veneza Paderne",
+   "img": "images/ilustracoes/rest-wine.svg",
    "d": {
     "pt": "Restaurante tradicional famoso pela extraordinária garrafeira de vinhos portugueses e pela cozinha regional.",
     "en": "Traditional restaurant famous for its extraordinary Portuguese wine cellar and regional cooking.",
@@ -1608,6 +1644,7 @@
    "price": "€€",
    "near": false,
    "q": "Le Crô Carvoeiro",
+   "img": "images/ilustracoes/rest-wine.svg",
    "d": {
     "pt": "Pequeno restaurante de tapas criativas e vinhos portugueses. Descontraído e intimista.",
     "en": "Small spot for creative tapas and Portuguese wines. Relaxed and intimate.",
@@ -1624,6 +1661,7 @@
    "price": "€€–€€€",
    "near": false,
    "q": "Brasserie Rosal Lagoa",
+   "img": "images/ilustracoes/rest-wine.svg",
    "d": {
     "pt": "Cozinha mediterrânica e internacional, carnes e peixe, em ambiente tranquilo.",
     "en": "Mediterranean and international cuisine, meat and fish, in a peaceful setting.",
@@ -1640,6 +1678,7 @@
    "price": "€€",
    "near": true,
    "q": "Vilarinho Senhora da Rocha",
+   "img": "images/ilustracoes/rest-sardines.svg",
    "d": {
     "pt": "Mesmo na praia. Peixe grelhado, marisco e cozinha algarvia. Ótimo para almoçar com vista mar.",
     "en": "Right on the beach. Grilled fish, seafood and Algarve cooking. Great for lunch with a sea view.",
@@ -1656,6 +1695,7 @@
    "price": "€€–€€€",
    "near": true,
    "q": "Olivalmar Armação de Pêra",
+   "img": "images/ilustracoes/rest-sea.svg",
    "d": {
     "pt": "Restaurante moderno junto ao mar: peixe fresco, marisco e cataplanas, esplanada e pôr do sol.",
     "en": "Modern seaside restaurant: fresh fish, seafood and cataplanas, terrace and sunsets.",
@@ -1672,6 +1712,7 @@
    "price": "€€€",
    "near": true,
    "q": "Arte Nautica Armação de Pêra",
+   "img": "images/ilustracoes/rest-sea.svg",
    "d": {
     "pt": "Restaurante de praia do grupo Vila Vita. Peixe fresco, marisco e esplanada junto ao mar.",
     "en": "Beach restaurant run by Vila Vita. Fresh fish, seafood and a seafront terrace.",
@@ -1688,6 +1729,7 @@
    "price": "€€",
    "near": false,
    "q": "Palm Beach Armação de Pêra",
+   "img": "images/ilustracoes/rest-sea.svg",
    "d": {
     "pt": "Restaurante de praia descontraído: peixe, marisco e cozinha internacional, com esplanada.",
     "en": "Relaxed beach restaurant: fish, seafood and international dishes, with a terrace.",
@@ -1704,6 +1746,7 @@
    "price": "€€€",
    "near": false,
    "q": "Rei das Praias Ferragudo",
+   "img": "images/ilustracoes/rest-sea.svg",
    "d": {
     "pt": "Um dos restaurantes de praia mais conhecidos da região. Peixe e marisco com vista espetacular.",
     "en": "One of the best-known beach restaurants in the region. Fish and seafood with a spectacular view.",
@@ -1720,6 +1763,7 @@
    "price": "€€–€€€",
    "near": false,
    "q": "Marisqueira Rui Silves",
+   "img": "images/ilustracoes/rest-sea.svg",
    "d": {
     "pt": "Marisqueira tradicional muito conhecida: marisco, arroz de marisco e cataplanas. Boa para grupos.",
     "en": "Famous traditional seafood house: shellfish, seafood rice and cataplanas. Good for groups.",
@@ -1736,6 +1780,7 @@
    "price": "€€",
    "near": true,
    "q": "Porches Velho Restaurante",
+   "img": "images/ilustracoes/rest-trad.svg",
    "d": {
     "pt": "Casa típica com cozinha regional algarvia: peixe, cataplanas e carnes. Ambiente rústico e acolhedor.",
     "en": "Typical house serving regional Algarve food: fish, cataplanas and meat. Rustic and cosy.",
@@ -1752,6 +1797,7 @@
    "price": "€€",
    "near": true,
    "q": "Quirinu's Wine & Grill Porches",
+   "img": "images/ilustracoes/rest-grill.svg",
    "d": {
     "pt": "Carnes grelhadas, tábuas para partilhar e vinhos. Muito bem avaliado, ótimo para famílias e grupos.",
     "en": "Grilled meats, sharing boards and wine. Very well rated, great for families and groups.",
@@ -1768,6 +1814,7 @@
    "price": "€€",
    "near": true,
    "q": "Tasca 26 Porches",
+   "img": "images/ilustracoes/rest-grill.svg",
    "d": {
     "pt": "Muito bem avaliado: carnes, tapas e pratos internacionais. Ambiente informal e bom serviço.",
     "en": "Highly rated: meat, tapas and international dishes. Informal atmosphere and good service.",
@@ -1784,6 +1831,7 @@
    "price": "€€",
    "near": true,
    "q": "Tasca'lado Porches",
+   "img": "images/ilustracoes/rest-trad.svg",
    "d": {
     "pt": "Comida portuguesa caseira e ambiente familiar. Boa relação qualidade/preço.",
     "en": "Home-style Portuguese food in a family atmosphere. Good value for money.",
@@ -1800,6 +1848,7 @@
    "price": "€–€€",
    "near": true,
    "q": "A Rampa Porches",
+   "img": "images/ilustracoes/rest-trad.svg",
    "d": {
     "pt": "Pequeno restaurante muito apreciado pela comida caseira, simpatia e excelente relação qualidade/preço.",
     "en": "Small, much-loved restaurant for home cooking, friendly service and excellent value.",
@@ -1816,6 +1865,7 @@
    "price": "€",
    "near": true,
    "q": "Ti Teresa Restaurante Alcantarilha",
+   "img": "images/ilustracoes/rest-sardines.svg",
    "d": {
     "pt": "Muito conhecido pelos almoços económicos: pratos do dia, peixe grelhado e comida caseira. Ótimo para famílias.",
     "en": "Well known for good-value lunches: dish of the day, grilled fish and home cooking. Great for families.",
@@ -1832,6 +1882,7 @@
    "price": "€",
    "near": true,
    "q": "Mar à Vista Porches",
+   "img": "images/ilustracoes/rest-sardines.svg",
    "d": {
     "pt": "Cozinha portuguesa simples, peixe grelhado e pratos caseiros. Económico, ideal para almoços.",
     "en": "Simple Portuguese food, grilled fish and home-made dishes. Inexpensive, ideal for lunch.",
@@ -1848,6 +1899,7 @@
    "price": "€",
    "near": true,
    "q": "Restaurante Dois Irmãos Porches",
+   "img": "images/ilustracoes/rest-trad.svg",
    "d": {
     "pt": "Comida tradicional portuguesa, doses generosas e preços acessíveis.",
     "en": "Traditional Portuguese food, generous portions and affordable prices.",
@@ -1864,6 +1916,7 @@
    "price": "€",
    "near": true,
    "q": "A Paragem Porches",
+   "img": "images/ilustracoes/rest-sardines.svg",
    "d": {
     "pt": "Restaurante típico frequentado pelos locais: comida caseira e peixe grelhado a preços económicos.",
     "en": "Typical local eatery: home cooking and grilled fish at low prices.",
@@ -1880,6 +1933,7 @@
    "price": "€€",
    "near": true,
    "q": "Vila Vita Biergarten Porches",
+   "img": "images/ilustracoes/rest-beer.svg",
    "d": {
     "pt": "Inspiração bávara: cervejas, salsichas e schnitzel. Espaço animado, ótimo para famílias e grupos.",
     "en": "Bavarian-style: beers, sausages and schnitzel. Lively place, great for families and groups.",
@@ -1896,6 +1950,7 @@
    "price": "€€",
    "near": true,
    "q": "Vila de Itália Alporchinhos",
+   "img": "images/ilustracoes/rest-pizza.svg",
    "d": {
     "pt": "Italiano informal: pizzas, massas e especialidades mediterrânicas. Bom para crianças.",
     "en": "Casual Italian: pizzas, pasta and Mediterranean dishes. Child-friendly.",
@@ -1912,6 +1967,7 @@
    "price": "€€–€€€",
    "near": true,
    "q": "Belmondo Senhora da Rocha",
+   "img": "images/ilustracoes/rest-pizza.svg",
    "d": {
     "pt": "Italiano com pizzas, massas e cozinha mediterrânica, com vista sobre as falésias.",
     "en": "Italian with pizzas, pasta and Mediterranean dishes, overlooking the cliffs.",
@@ -1928,6 +1984,7 @@
    "price": "€€",
    "near": true,
    "q": "Indian Curry House Alporchinhos",
+   "img": "images/ilustracoes/rest-curry.svg",
    "d": {
     "pt": "Cozinha indiana: caril, tandoori e pratos vegetarianos. Informal e a preços moderados.",
     "en": "Indian cuisine: curries, tandoori and vegetarian dishes. Informal and moderately priced.",
@@ -1944,6 +2001,7 @@
    "price": "€€",
    "near": true,
    "q": "O Veleiro Alporchinhos",
+   "img": "images/ilustracoes/rest-intl.svg",
    "d": {
     "pt": "Cozinha portuguesa e internacional, carnes e peixe. Ambiente familiar e tranquilo.",
     "en": "Portuguese and international food, meat and fish. Quiet, family atmosphere.",
@@ -1960,6 +2018,7 @@
    "price": "€",
    "near": true,
    "q": "Panorama Sol Porches",
+   "img": "images/ilustracoes/rest-grill.svg",
    "d": {
     "pt": "Restaurante informal com grelhados e cozinha portuguesa simples. Opção económica.",
     "en": "Casual restaurant with grills and simple Portuguese food. A budget option.",
@@ -1976,6 +2035,7 @@
    "price": "€–€€",
    "near": false,
    "q": "Restaurante Ramires Guia",
+   "img": "images/ilustracoes/rest-chicken.svg",
    "d": {
     "pt": "Restaurante histórico, famoso pelo frango piri-piri da Guia. Simples, familiar e muito popular.",
     "en": "Historic restaurant famous for Guia-style piri-piri chicken. Simple, family-friendly and very popular.",
@@ -1992,6 +2052,7 @@
    "price": "€",
    "near": true,
    "q": "Café Aurora Alporchinhos",
+   "img": "images/ilustracoes/rest-cafe.svg",
    "d": {
     "pt": "Muito bem avaliado: pequenos-almoços, café, quiches, tostas e refeições leves.",
     "en": "Highly rated: breakfasts, coffee, quiches, toasties and light meals.",
@@ -2008,6 +2069,7 @@
    "price": "€–€€",
    "near": true,
    "q": "Sweet Spot Porches Alporchinhos",
+   "img": "images/ilustracoes/rest-cafe.svg",
    "d": {
     "pt": "Pequenos-almoços, panquecas, hambúrgueres, wraps e cocktails. Bom para famílias.",
     "en": "Breakfasts, pancakes, burgers, wraps and cocktails. Family-friendly.",
@@ -2034,6 +2096,7 @@
     "de": "Die Formel 1 kehrt an die Algarve zurück: Training, Rennen und internationales Flair. Auch 2028 bestätigt.",
     "it": "La Formula 1 torna in Algarve: prove, gare e atmosfera internazionale. Confermata anche l’edizione 2028."
    },
+   "img": "images/ilustracoes/ev-racing.svg",
    "start": "2027-06-18",
    "end": "2027-06-20",
    "url": "https://autodromodoalgarve.com"
@@ -2054,6 +2117,7 @@
     "de": "Eines der größten Sportevents der Algarve mit den besten Motorradfahrern der Welt.",
     "it": "Uno dei più grandi eventi sportivi dell’Algarve, con i migliori piloti di moto al mondo."
    },
+   "img": "images/ilustracoes/ev-racing.svg",
    "start": "2026-11-20",
    "end": "2026-11-22",
    "url": "https://autodromodoalgarve.com"
@@ -2074,6 +2138,7 @@
     "de": "Oldtimerrennen, historischer Motorsport und Ausstellungen legendärer Autos.",
     "it": "Gare di auto d’epoca, competizioni storiche ed esposizioni di auto iconiche."
    },
+   "img": "images/ilustracoes/ev-racing.svg",
    "start": "2026-10-30",
    "end": "2026-11-01"
   },
@@ -2093,6 +2158,7 @@
     "de": "Eine der größten Messen Südportugals: Konzerte, Essen, Kunsthandwerk, Landwirtschaft und Reitvorführungen.",
     "it": "Una delle più grandi fiere del sud del Portogallo: concerti, gastronomia, artigianato, agricoltura e spettacoli equestri."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "start": "2027-08-20",
    "end": "2027-08-29",
    "url": "https://fatacil.pt"
@@ -2113,6 +2179,7 @@
     "de": "Das traditionellste Fest des Ortes: Schnecken, Häppchen, Kunsthandwerk und Volksmusik.",
     "it": "La festa gastronomica più tradizionale del paese: lumache, stuzzichini, artigianato e concerti."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-06-26",
     "2026-06-28"
@@ -2141,6 +2208,7 @@
     "de": "Fest rund um Oktopus-Gerichte, regionale Häppchen, Musik und Unterhaltung.",
     "it": "Festa dedicata ai piatti di polpo, stuzzichini regionali, musica e animazione."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "usual": {
     "pt": "agosto (confirmar com a Junta de Freguesia)",
     "en": "August (check with the parish council)",
@@ -2166,6 +2234,7 @@
     "de": "Volksfest mit Schnecken, Essen, Konzerten, Comedy und Familienprogramm.",
     "it": "Festa popolare con lumache, gastronomia, concerti, comicità e animazione per famiglie."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-06-03",
     "2026-06-07"
@@ -2195,6 +2264,7 @@
     "de": "Bayerisches Bier, typisches Essen, lange Tische und Livemusik direkt bei Porches.",
     "it": "Birra bavarese, cibo tipico, tavolate e musica dal vivo, a due passi da Porches."
    },
+   "img": "images/ilustracoes/rest-beer.svg",
    "last": [
     "2026-09-24",
     "2026-10-05"
@@ -2225,6 +2295,7 @@
     "de": "Bier, Streetfood, DJs und Konzerte auf der Praça Al-Muthamid. Meist freier Eintritt.",
     "it": "Birra, street food, DJ e concerti in Praça Al-Muthamid. Ingresso di solito gratuito."
    },
+   "img": "images/ilustracoes/rest-beer.svg",
    "last": [
     "2026-07-14",
     "2026-07-18"
@@ -2254,6 +2325,7 @@
     "de": "Internationale Biere, Streetfood und Musik in der Festung Santa Catarina, Praia da Rocha.",
     "it": "Birre internazionali, street food e musica alla fortezza di Santa Catarina, Praia da Rocha."
    },
+   "img": "images/ilustracoes/rest-beer.svg",
    "last": [
     "2026-09-18",
     "2026-09-20"
@@ -2283,6 +2355,7 @@
     "de": "Großes Sardinenfest am Fluss mit Essensständen, Shows und Konzerten.",
     "it": "Grande festa popolare della sardina alla griglia sul fiume, con stand, spettacoli e concerti."
    },
+   "img": "images/ilustracoes/rest-sardines.svg",
    "start": "2027-08-03",
    "end": "2027-08-08",
    "url": "https://festivaldasardinha.pt"
@@ -2302,6 +2375,7 @@
     "de": "Mittelalterfest an der Burg und in der Altstadt: Turniere, Märkte, Kostüme und Shows.",
     "it": "Rievocazione medievale al castello e nel centro storico: tornei, mercati, costumi e spettacoli."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-08-07",
     "2026-08-15"
@@ -2331,6 +2405,7 @@
     "de": "Große Sommerparty mit mehreren Bühnen, DJs und Tausenden in Schwarz-Weiß. Meist gratis.",
     "it": "Grande festa d’estate con più palchi, DJ e migliaia di persone vestite di bianco e nero. Di solito gratuita."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-06-20",
     "2026-06-20"
@@ -2360,6 +2435,7 @@
     "de": "Fest der portugiesischen Weine mit geführten Verkostungen, Winzern, Essen und Livemusik.",
     "it": "Festival dei vini portoghesi con degustazioni guidate, produttori, gastronomia e musica dal vivo."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-06-05",
     "2026-06-09"
@@ -2389,6 +2465,7 @@
     "de": "Nachtmarkt im Licht tausender Kerzen mit Kunsthandwerk, Essen und Darbietungen aus aller Welt.",
     "it": "Mercato notturno illuminato da migliaia di candele, con artigianato, gastronomia e spettacoli dal mondo."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-07-02",
     "2026-07-05"
@@ -2417,6 +2494,7 @@
     "de": "Internationaler Open-Air-Jazz im Park Sítio das Fontes, mit Essen und entspannter Atmosphäre.",
     "it": "Jazz internazionale all’aperto nel parco di Sítio das Fontes, con gastronomia e atmosfera rilassata."
    },
+   "img": "images/ilustracoes/ev-music.svg",
    "last": [
     "2026-07-17",
     "2026-07-19"
@@ -2446,6 +2524,7 @@
     "de": "Portugiesische Klostersüßigkeiten aus Mandeln und Ei, Marmeladen und Liköre im Kloster São José.",
     "it": "Dolci conventuali portoghesi a base di mandorle e uova, marmellate e liquori, al Convento di São José."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-07-29",
     "2026-08-02"
@@ -2476,6 +2555,7 @@
     "de": "Orangenfest in Silves: Erzeuger, regionale Küche, lokale Produkte und Konzerte.",
     "it": "Festa dell’arancia di Silves: produttori, gastronomia regionale, prodotti locali e concerti."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-02-13",
     "2026-02-15"
@@ -2505,6 +2585,7 @@
     "de": "Mittelalterfest im Winter mit Inszenierungen, Turnieren, Märkten, Kunsthandwerk und Essen.",
     "it": "Festa medievale invernale con rievocazioni, tornei, mercati, artigianato e gastronomia."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-01-01",
     "2026-01-04"
@@ -2534,6 +2615,7 @@
     "de": "Traditioneller Jahrmarkt mit Karussells, Maronen, Churros, Essensständen und Musik. Ideal für Familien.",
     "it": "Fiera tradizionale con giostre, caldarroste, churros, stand e musica. Ideale per famiglie."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "start": "2026-10-29",
    "end": "2026-11-01"
   },
@@ -2553,6 +2635,7 @@
     "de": "Zauber- und Illusionsfestival mit Shows für jedes Alter.",
     "it": "Festival di magia e illusionismo con spettacoli per tutti."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "last": [
     "2026-10-08",
     "2026-10-10"
@@ -2583,6 +2666,7 @@
     "de": "Eines der wichtigsten Weltmusikfestivals, in der Altstadt von Loulé.",
     "it": "Uno dei principali festival di world music, nel centro storico di Loulé."
    },
+   "img": "images/ilustracoes/ev-music.svg",
    "last": [
     "2026-06-25",
     "2026-06-28"
@@ -2612,6 +2696,7 @@
     "de": "Traditioneller Umzug mit Festwagen, Musik und Kostümen.",
     "it": "Sfilata tradizionale con carri allegorici, musica e costumi."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "usual": {
     "pt": "fevereiro (2027: previsivelmente 7 a 9 de fevereiro, programa por confirmar)",
     "en": "February (2027: expected 7–9 February, programme TBC)",
@@ -2637,6 +2722,7 @@
     "de": "Fest der berühmten Süßkartoffel aus Aljezur mit Erzeugern, Süßem und Shows. Längerer Ausflug.",
     "it": "Festa della famosa patata dolce di Aljezur, con produttori, dolci locali e spettacoli. Gita più lunga."
    },
+   "img": "images/ilustracoes/ev-events.svg",
    "usual": {
     "pt": "final de novembro",
     "en": "late November",
@@ -2663,6 +2749,7 @@
     "de": "Intime Jazzkonzerte auf Weingütern mit Weinprobe und Häppchen.",
     "it": "Concerti jazz intimi in cantine e tenute, con degustazione di vini e stuzzichini."
    },
+   "img": "images/ilustracoes/ev-music.svg",
    "usual": {
     "pt": "novembro a maio",
     "en": "November to May",
@@ -2756,6 +2843,7 @@
     "de": "Einer der größten Wasserparks der Algarve: Riesenrutschen, Adrenalin-Attraktionen und Kinderbereiche.",
     "it": "Uno dei parchi acquatici più grandi dell’Algarve: scivoli giganti, attrazioni adrenaliniche e aree bimbi."
    },
+   "img": "images/waterparks_0.jpg",
    "season": {
     "pt": "Abril a outubro (referência 2026)",
     "en": "April to October (2026 season)",
@@ -2782,6 +2870,7 @@
     "de": "King Cobra, Kamikaze, Wellenbad, Lazy River und Kinderbereiche – 5 Minuten vom Haus.",
     "it": "King Cobra, Kamikaze, piscina a onde, fiume lento e aree bimbi, a 5 minuti da casa."
    },
+   "img": "images/waterparks_2.jpg",
    "season": {
     "pt": "Verão (habitualmente junho a setembro)",
     "en": "Summer (usually June–September)",
@@ -2807,6 +2896,7 @@
     "de": "Themen- und Wasserpark mit lehrreichen Tiervorführungen, Aquarien und Pools.",
     "it": "Parco tematico e acquatico con presentazioni educative di animali, acquari e piscine."
    },
+   "img": "images/zoomarine_1.jpg",
    "season": {
     "pt": "Março a novembro (atrações de água só no verão)",
     "en": "March to November (water rides in summer only)",
@@ -2834,6 +2924,7 @@
     "de": "Deko, Figuren, Kinderprogramm und Grusel-Attraktionen (ab 14).",
     "it": "Decorazioni, personaggi, attività per bambini e attrazioni da brivido (14+)."
    },
+   "img": "images/ilustracoes/ev-halloween.svg",
    "start": "2026-10-20",
    "end": "2026-10-31"
   },
@@ -2853,6 +2944,7 @@
     "de": "Rasante Rutschen, Wellenbecken und Attraktionen für die ganze Familie.",
     "it": "Scivoli adrenalinici, piscine a onde e attrazioni per tutta la famiglia."
    },
+   "img": "images/ilustracoes/ev-water.svg",
    "season": {
     "pt": "Primavera e verão",
     "en": "Spring and summer",
@@ -2879,6 +2971,7 @@
     "de": "Überdachter, beheizter Wasserpark mit Rutschen, Pools und Spa. Ideal bei Regen.",
     "it": "Parco acquatico coperto e riscaldato con scivoli, piscine e spa. Perfetto nei giorni di pioggia."
    },
+   "img": "images/ilustracoes/ev-water.svg",
    "season": {
     "pt": "Desde 1 de outubro de 2026, 10h–18h",
     "en": "From 1 October 2026, 10 am–6 pm",
@@ -2905,6 +2998,7 @@
     "de": "Interaktiver Zoo mit Tieren, Minigolf, Pools, Kletterpark und Ponyreiten.",
     "it": "Zoo interattivo con animali, minigolf, piscine, percorso sugli alberi e giri in pony."
    },
+   "img": "images/ilustracoes/ev-water.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -2930,6 +3024,7 @@
     "de": "Über 120 riesige Sandskulpturen unter freiem Himmel an der EN125.",
     "it": "Oltre 120 sculture giganti di sabbia all’aperto, lungo la EN125."
    },
+   "img": "images/ilustracoes/ev-sand.svg",
    "start": "2026-03-25",
    "end": "2026-11-15",
    "price": "11,90 € · 5,90 € (6–12)",
@@ -2950,6 +3045,7 @@
     "de": "Kartfahren allein oder in Gruppen an der Rennstrecke, je nach Verfügbarkeit.",
     "it": "Kart individuale o di gruppo sul circuito, secondo disponibilità."
    },
+   "img": "images/ilustracoes/ev-racing.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -2976,6 +3072,7 @@
     "de": "Hallenbad mit freiem Schwimmen, Kursen und Wasseraktivitäten.",
     "it": "Piscine coperte con nuoto libero, corsi e attività in acqua."
    },
+   "img": "images/ilustracoes/ev-indoor.svg",
    "season": {
     "pt": "Confirmar horários de utilização livre",
     "en": "Check public swimming times",
@@ -3000,6 +3097,7 @@
     "de": "Hallenbad und Wellness: Sauna, Dampfbad und Whirlpool (je nach Verfügbarkeit).",
     "it": "Piscina coperta e benessere: sauna, bagno turco e jacuzzi (secondo disponibilità)."
    },
+   "img": "images/ilustracoes/ev-indoor.svg",
    "season": {
     "pt": "Confirmar horários de utilização livre",
     "en": "Check public swimming times",
@@ -3024,6 +3122,7 @@
     "de": "Überdachtes, beheiztes 6-Bahnen-Becken – fit bleiben im Urlaub.",
     "it": "Piscina coperta e riscaldata a sei corsie, per allenarsi anche in vacanza."
    },
+   "img": "images/ilustracoes/ev-indoor.svg",
    "season": {
     "pt": "Confirmar horários de utilização livre",
     "en": "Check public swimming times",
@@ -3049,6 +3148,7 @@
     "de": "Hallenbad, Tennisplätze und weitere Sportanlagen.",
     "it": "Piscina coperta, campi da tennis e altri impianti sportivi."
    },
+   "img": "images/ilustracoes/ev-indoor.svg",
    "season": {
     "pt": "Confirmar horários de utilização livre",
     "en": "Check public swimming times",
@@ -3073,6 +3173,7 @@
     "de": "Hallenkomplex mit Pools, Fitnessraum, Whirlpool, Sauna und Dampfbad.",
     "it": "Complesso coperto con piscine, palestra, jacuzzi, sauna e bagno turco."
    },
+   "img": "images/ilustracoes/ev-indoor.svg",
    "season": {
     "pt": "Interrupções entre outubro e novembro de 2026 (competições) — confirmar",
     "en": "Closures in October–November 2026 (competitions) — check",
@@ -3098,6 +3199,7 @@
     "de": "Geschichte und islamisches Erbe von Silves in archäologischen Funden. Ideal an Regentagen.",
     "it": "La storia e il passato islamico di Silves attraverso reperti archeologici. Ideale nei giorni di pioggia."
    },
+   "img": "images/ilustracoes/ev-indoor.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3123,6 +3225,7 @@
     "de": "Einer der bekanntesten Strände Portugals: Klippen, Felsformationen und klares Wasser.",
     "it": "Una delle spiagge più iconiche del Portogallo: scogliere, rocce scolpite e acqua trasparente."
    },
+   "img": "images/beaches_0.jpg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3148,6 +3251,7 @@
     "de": "Meereshöhle mit runder Deckenöffnung. Nur per geführter Boots- oder Kajaktour – Hinschwimmen und Anlanden verboten.",
     "it": "Grotta marina con un’apertura circolare nel soffitto. Solo in barca o kayak guidato: vietato nuotare fin lì o sbarcare."
    },
+   "img": "images/beaches_3.jpg",
    "season": {
     "pt": "Primavera a início do outono, conforme o mar",
     "en": "Spring to early autumn, sea permitting",
@@ -3174,6 +3278,7 @@
     "de": "Der nächste Strand zum Haus, mit Klippenkapelle und Aussichtspunkten zum Sonnenuntergang.",
     "it": "La spiaggia più vicina a casa, con la cappella sulla scogliera e belvedere per il tramonto."
    },
+   "img": "images/beaches_1.jpg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3199,6 +3304,7 @@
     "de": "Kleiner Strand zwischen Klippen, bekannt für seinen natürlichen Felsbogen.",
     "it": "Piccola spiaggia tra le scogliere, famosa per il suo arco naturale."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3225,6 +3331,7 @@
     "de": "5–6 km Wanderweg (einfach) von der Praia da Marinha nach Vale de Centeanes mit spektakulären Ausblicken.",
     "it": "Sentiero di 5–6 km (sola andata) tra Praia da Marinha e Vale de Centeanes, con viste spettacolari."
    },
+   "img": "images/beaches_0.jpg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3251,6 +3358,7 @@
     "de": "Kurzer, leichter Klippenweg zu den Höhlen und Felsformationen von Algar Seco.",
     "it": "Breve passerella accessibile sulle scogliere fino alle grotte e alle rocce scolpite di Algar Seco."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3276,6 +3384,7 @@
     "de": "Naturpark am Fluss Arade mit Wegen, Grünflächen und Picknickplätzen.",
     "it": "Parco naturale sul fiume Arade, con sentieri, aree verdi e zone picnic."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3300,6 +3409,7 @@
     "de": "Ökologisch wertvolles Feuchtgebiet, ideal zur Vogelbeobachtung.",
     "it": "Zona umida di grande valore ecologico, ideale per il birdwatching."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3325,6 +3435,7 @@
     "de": "Holzstege über Dünen und Feuchtgebiete mit Blick auf die Ria de Alvor.",
     "it": "Passerelle su dune e zone umide con vista sulla Ria de Alvor."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3351,6 +3462,7 @@
     "de": "Berge, Wanderwege, Dörfer, der Aussichtspunkt Fóia und das Thermalbad Caldas de Monchique. Abwechslung zum Strand.",
     "it": "Montagna, sentieri, villaggi, il belvedere di Fóia e le terme di Caldas de Monchique. Una giornata diversa dal mare."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3376,6 +3488,7 @@
     "de": "Klippen, Felsbögen und Meereshöhlen – eine der berühmtesten Landschaften der Algarve.",
     "it": "Scogliere, archi di roccia e grotte marine: uno dei paesaggi più famosi dell’Algarve."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3401,6 +3514,7 @@
     "de": "Eine der bedeutendsten islamischen Burgen Portugals mit Mauern und Blick über die Stadt.",
     "it": "Uno dei castelli islamici più importanti del Portogallo, con mura e vista sulla città."
    },
+   "img": "images/ilustracoes/ev-nature.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3426,6 +3540,7 @@
     "de": "Touren ab Armação de Pêra, Benagil, Carvoeiro, Portimão und Albufeira entlang Höhlen und Klippen.",
     "it": "Partenze da Armação de Pêra, Benagil, Carvoeiro, Portimão e Albufeira tra grotte e scogliere."
    },
+   "img": "images/beaches_3.jpg",
    "season": {
     "pt": "Primavera a início do outono, conforme o mar",
     "en": "Spring to early autumn, sea permitting",
@@ -3450,6 +3565,7 @@
     "de": "Ausfahrten ab Portimão, Ferragudo und Albufeira zu wilden Delfinen (Sichtung nicht garantiert).",
     "it": "Uscite da Portimão, Ferragudo e Albufeira per vedere i delfini in libertà (avvistamento non garantito)."
    },
+   "img": "images/ilustracoes/ev-sea.svg",
    "season": {
     "pt": "Primavera a início do outono, conforme o mar",
     "en": "Spring to early autumn, sea permitting",
@@ -3475,6 +3591,7 @@
     "de": "Küste und kleine Buchten auf geführten Touren erkunden (Benagil, Armação de Pêra, Carvoeiro).",
     "it": "Esplorare la costa e piccole calette con attività guidate (Benagil, Armação de Pêra, Carvoeiro)."
    },
+   "img": "images/ilustracoes/ev-sea.svg",
    "season": {
     "pt": "Primavera a início do outono, conforme o mar",
     "en": "Spring to early autumn, sea permitting",
@@ -3499,6 +3616,7 @@
     "de": "Abendfahrten ab Albufeira, Portimão und Armação de Pêra, teils mit Dinner oder Musik.",
     "it": "Crociere al tramonto da Albufeira, Portimão e Armação de Pêra, alcune con cena o musica."
    },
+   "img": "images/ilustracoes/ev-sea.svg",
    "season": {
     "pt": "Primavera a início do outono, conforme o mar",
     "en": "Spring to early autumn, sea permitting",
@@ -3524,6 +3642,7 @@
     "de": "Geführte Tauchgänge mit Fachanbietern in Armação de Pêra, Carvoeiro und Portimão.",
     "it": "Immersioni guidate con operatori specializzati ad Armação de Pêra, Carvoeiro e Portimão."
    },
+   "img": "images/ilustracoes/ev-sea.svg",
    "season": {
     "pt": "Primavera a início do outono, conforme o mar",
     "en": "Spring to early autumn, sea permitting",
@@ -3549,6 +3668,7 @@
     "de": "Kurse für jedes Alter und Niveau in Albufeira, Alvor und an der Westküste.",
     "it": "Lezioni per tutte le età e livelli ad Albufeira, Alvor e sulla costa occidentale."
    },
+   "img": "images/ilustracoes/ev-sea.svg",
    "season": {
     "pt": "Todo o ano",
     "en": "All year round",
@@ -3573,6 +3693,7 @@
     "de": "Traditionelles religiöses Fest der Gemeinde Porches.",
     "it": "Festa religiosa e tradizionale della comunità di Porches."
    },
+   "img": "images/ilustracoes/ev-markets.svg",
    "usual": {
     "pt": "primeiro fim de semana de agosto",
     "en": "first weekend of August",
@@ -3597,6 +3718,7 @@
     "de": "Volks- und Kirchenfest der Gemeinde Porches.",
     "it": "Festa popolare e religiosa della parrocchia di Porches."
    },
+   "img": "images/attractions_2.jpg",
    "usual": {
     "pt": "primeiro fim de semana de setembro",
     "en": "first weekend of September",
@@ -3621,6 +3743,7 @@
     "de": "Antiquitäten, Second-Hand, Deko und Sammlerstücke.",
     "it": "Antiquariato, oggetti usati, decorazioni e collezionismo."
    },
+   "img": "images/ilustracoes/ev-markets.svg",
    "usual": {
     "pt": "4.º domingo de cada mês",
     "en": "4th Sunday of each month",
@@ -3645,6 +3768,7 @@
     "de": "Traditioneller Markt mit Kleidung, Accessoires und Haushaltswaren.",
     "it": "Mercato tradizionale con abbigliamento, accessori e articoli per la casa."
    },
+   "img": "images/ilustracoes/ev-markets.svg",
    "usual": {
     "pt": "2.º domingo de cada mês",
     "en": "2nd Sunday of each month",
@@ -3670,6 +3794,7 @@
     "de": "Traditioneller Markt mit frischen Produkten und Algarve-Spezialitäten in einem historischen Gebäude.",
     "it": "Mercato tradizionale di prodotti freschi e sapori dell’Algarve, in un edificio storico."
    },
+   "img": "images/ilustracoes/ev-markets.svg",
    "usual": {
     "pt": "todos os dias; mais animado ao sábado",
     "en": "daily; liveliest on Saturdays",
@@ -3696,6 +3821,7 @@
     "de": "Lichter, Weihnachtsmärkte, Konzerte und Feuerwerk in Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira und Silves.",
     "it": "Luminarie, mercatini di Natale, concerti e fuochi d’artificio a Lagoa, Carvoeiro, Armação de Pêra, Portimão, Albufeira e Silves."
    },
+   "img": "images/ilustracoes/ev-markets.svg",
    "usual": {
     "pt": "dezembro e início de janeiro",
     "en": "December and early January",
@@ -4732,5 +4858,5 @@
    "Valutazione 4,82/5 · 45 recensioni · Gestito da HostWise"
   ]
  ],
- "_gerado": "2026-10-24T23:10:09"
+ "_gerado": "2026-10-24T23:20:05"
 }
