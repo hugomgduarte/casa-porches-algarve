@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
 :root{--gold:#c9a96e;--gold-dark:#a88a4e;--navy:#1a2332;--navy-light:#2a3a4f;--cream:#faf8f4;--text:#333;--muted:#6b6b6b;--line:#ece6da;--radius:14px}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -27,7 +28,7 @@ header{position:relative;color:#fff;background:linear-gradient(rgba(26,35,50,.55
 .hero{max-width:760px;margin:0 auto}
 .hero h1{color:#fff;font-size:2rem;margin-bottom:8px}
 .hero p{opacity:.92}
-nav.jump{position:sticky;top:0;z-index:5;background:var(--navy);overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
+nav.jump{position:sticky;top:0;z-index:1100;background:var(--navy);overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
 nav.jump div{max-width:760px;margin:0 auto;padding:0 8px}
 nav.jump a{display:inline-block;color:#e8d5a8;text-decoration:none;font-size:.88rem;font-weight:500;padding:12px 10px}
 main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
@@ -60,6 +61,22 @@ ul.list li::before{content:"";position:absolute;left:4px;top:16px;width:8px;heig
 .note{font-size:.88rem;color:var(--muted);margin-top:10px}
 footer{text-align:center;font-size:.85rem;color:var(--muted);padding:8px 16px 40px}
 footer a{color:var(--muted)}
+.mapsec{padding:22px 0 0;overflow:hidden}
+.mapsec h2,.mapsec .chips,.mapsec .note{padding:0 20px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.chips button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:500 .85rem 'Inter';cursor:pointer;color:var(--navy);display:flex;align-items:center;gap:6px}
+.chips button.off{opacity:.4}
+.chips i{width:10px;height:10px;border-radius:50%;display:inline-block}
+#leafmap{height:min(65vh,520px);min-height:340px;border-top:1px solid var(--line);z-index:0}
+.mapwrap{position:relative}
+.maphint{position:absolute;inset:0;z-index:500;display:none;align-items:center;justify-content:center;background:rgba(26,35,50,.25);cursor:pointer}
+.maphint span{background:var(--navy);color:#fff;font-weight:600;font-size:.9rem;padding:10px 16px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.maphint.show{display:flex}
+.pin{width:30px;height:30px;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;font-size:15px}
+.pin.home{width:40px;height:40px;font-size:20px;background:var(--navy);border-color:var(--gold)}
+.leaflet-popup-content{font-family:'Inter',sans-serif;font-size:.9rem;margin:12px 14px}
+.leaflet-popup-content b{color:var(--navy);font-size:1rem}
+.leaflet-popup-content a{font-weight:600}
 @media (min-width:640px){.cards.two{grid-template-columns:1fr 1fr}.hero h1{font-size:2.5rem}}
 </style>
 </head>
@@ -86,6 +103,7 @@ footer a{color:var(--muted)}
   <a href="#rules"><span data-l="en">House rules</span><span data-l="pt">Regras</span></a>
   <a href="#pool"><span data-l="en">Pool</span><span data-l="pt">Piscina</span></a>
   <a href="#help"><span data-l="en">Help & emergency</span><span data-l="pt">Ajuda e emergência</span></a>
+  <a href="#map"><span data-l="en">Map</span><span data-l="pt">Mapa</span></a>
   <a href="#beaches"><span data-l="en">Beaches</span><span data-l="pt">Praias</span></a>
   <a href="#food"><span data-l="en">Restaurants</span><span data-l="pt">Restaurantes</span></a>
   <a href="#todo"><span data-l="en">Things to do</span><span data-l="pt">O que fazer</span></a>
@@ -133,6 +151,7 @@ footer a{color:var(--muted)}
   <ul class="list" data-l="en">
     <li>Maximum 8 guests. Visitors are not allowed to stay overnight.</li>
     <li>No parties or events.</li>
+    <li>No pets allowed.</li>
     <li>Please respect the neighbours: keep noise down between 23:00 and 08:00, both inside and in the garden.</li>
     <li>No smoking inside the house.</li>
     <li>Keep windows and doors closed while the air conditioning is on, and switch it off when you go out.</li>
@@ -142,6 +161,7 @@ footer a{color:var(--muted)}
   <ul class="list" data-l="pt">
     <li>Máximo de 8 hóspedes. Não são permitidas visitas a pernoitar.</li>
     <li>Não são permitidas festas nem eventos.</li>
+    <li>Não são aceites animais.</li>
     <li>Respeite os vizinhos: silêncio entre as 23:00 e as 08:00, dentro de casa e no jardim.</li>
     <li>Não é permitido fumar dentro de casa.</li>
     <li>Mantenha portas e janelas fechadas com o ar condicionado ligado e desligue-o quando sair.</li>
@@ -198,6 +218,14 @@ footer a{color:var(--muted)}
       <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=supermercado+Porches+Lagoa">Google Maps →</a>
     </div>
   </div>
+</section>
+
+<section id="map" class="mapsec">
+  <h2><span class="ic">🗺️</span> <span data-l="en">Map</span><span data-l="pt">Mapa</span></h2>
+  <div class="chips" id="chips"></div>
+  <div class="mapwrap"><div id="leafmap"></div><div class="maphint" id="maphint"><span data-l="en">Tap to use the map</span><span data-l="pt">Toque para usar o mapa</span></div></div>
+  <p class="note" style="padding-bottom:16px" data-l="en">Tap a pin for details and directions from the house.</p>
+  <p class="note" style="padding-bottom:16px" data-l="pt">Toque num ponto para ver detalhes e o caminho a partir da casa.</p>
 </section>
 
 <section id="beaches">
@@ -308,6 +336,78 @@ footer a{color:var(--muted)}
       if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){})}
     });
   });
+})();
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function(){
+  var HOME=[37.125046,-8.399062];
+  var CATS={
+    beach:{c:'#2a9fd6',i:'🏖️',en:'Beaches',pt:'Praias'},
+    food:{c:'#d9822b',i:'🍽️',en:'Restaurants',pt:'Restaurantes'},
+    fun:{c:'#7b5bd6',i:'🎢',en:'Activities',pt:'Atividades'},
+    see:{c:'#3c9a5f',i:'📍',en:'Places to visit',pt:'Locais a visitar'},
+    help:{c:'#c0392b',i:'🏥',en:'Health',pt:'Saúde'}
+  };
+  var P=[
+    ['beach','Praia Nossa Senhora da Rocha',37.0976,-8.3848,'Sheltered beach below the clifftop chapel.','Praia abrigada junto à capela na falésia.'],
+    ['beach','Armação de Pêra',37.1010,-8.3600,'Long sandy beach with promenade.','Praia extensa com passeio marítimo.'],
+    ['beach','Praia da Marinha',37.0899,-8.4121,'Iconic cliffs and arches. Arrive early in summer.','Falésias e arcos icónicos. No verão chegue cedo.'],
+    ['beach','Praia de Benagil',37.0874,-8.4260,'Boat and kayak trips to the Benagil cave.','Passeios de barco e kayak à gruta de Benagil.'],
+    ['beach','Praia do Vale de Centeanes',37.0920,-8.4405,'Small, quieter beach between cliffs.','Praia pequena e sossegada entre falésias.'],
+    ['beach','Praia da Albandeira',37.0912,-8.4032,'Small cove with a natural rock arch.','Pequena enseada com arco natural na rocha.'],
+    ['food','Ocean · Vila Vita Parc',37.0960,-8.3920,'Michelin-starred fine dining. Book ahead.','Restaurante com estrelas Michelin. Reserve com antecedência.'],
+    ['food','O Charneco',37.1440,-8.4850,'No menu, fixed price with wine. Booking essential.','Sem menu, preço fixo com vinho. Reserva obrigatória.'],
+    ['food','O Ciclo',37.1350,-8.4530,'Fresh fish and traditional dishes.','Peixe fresco e pratos tradicionais.'],
+    ['food','Rei das Praias',37.1045,-8.5055,'Fish and seafood on Caneiros beach.','Peixe e marisco na Praia dos Caneiros.'],
+    ['food','Vista',37.1188,-8.5330,'Fine dining by Praia da Rocha.','Alta cozinha junto à Praia da Rocha.'],
+    ['fun','Aqualand',37.1375,-8.3615,'Water park (summer season).','Parque aquático (época de verão).'],
+    ['fun','Slide & Splash',37.1310,-8.4665,'Water park (summer season).','Parque aquático (época de verão).'],
+    ['fun','Zoomarine',37.1280,-8.3180,'Marine theme park.','Parque temático marinho.'],
+    ['fun','Vale da Pinta Golf',37.1230,-8.4260,'Golf course.','Campo de golfe.'],
+    ['see','Algar Seco · Carvoeiro',37.0945,-8.4620,'Clifftop boardwalk and rock formations.','Passadiço nas falésias e formações rochosas.'],
+    ['see','Ferragudo',37.1240,-8.5190,'Charming fishing village by the river.','Vila piscatória junto ao rio.'],
+    ['see','Silves · Castelo',37.1914,-8.4386,'Medieval castle and old town.','Castelo medieval e centro histórico.'],
+    ['help','Hospital de Portimão',37.1450,-8.5470,'Hospital (A&E).','Hospital (urgência).']
+  ];
+  var lang=function(){return document.documentElement.lang==='pt'?'pt':'en'};
+  var touch=('ontouchstart' in window)||navigator.maxTouchPoints>0;
+  var map=L.map('leafmap',{scrollWheelZoom:false,dragging:!touch,tap:true}).setView(HOME,12);
+  if(touch){
+    var hint=document.getElementById('maphint'); hint.classList.add('show');
+    hint.addEventListener('click',function(){hint.classList.remove('show');map.dragging.enable()});
+    new IntersectionObserver(function(e){ if(!e[0].isIntersecting){map.dragging.disable();hint.classList.add('show')} }).observe(document.getElementById('leafmap'));
+  } else {
+    map.on('focus click',function(){map.scrollWheelZoom.enable()});
+    map.on('mouseout',function(){map.scrollWheelZoom.disable()});
+  }
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap'}).addTo(map);
+  var icon=function(cls,bg,txt){return L.divIcon({className:'',html:'<div class="pin '+cls+'" style="background:'+bg+'">'+txt+'</div>',iconSize:cls?[40,40]:[30,30],iconAnchor:cls?[20,20]:[15,15],popupAnchor:[0,-14]})};
+  var dir=function(la,lo){return 'https://www.google.com/maps/dir/?api=1&origin='+HOME.join(',')+'&destination='+la+','+lo};
+  var home=L.marker(HOME,{icon:icon('home','','🏠'),zIndexOffset:1000}).addTo(map);
+  var layers={}, markers=[];
+  Object.keys(CATS).forEach(function(k){layers[k]=L.layerGroup().addTo(map)});
+  P.forEach(function(p){
+    var m=L.marker([p[2],p[3]],{icon:icon('',CATS[p[0]].c,CATS[p[0]].i)}).addTo(layers[p[0]]);
+    m._p=p; markers.push(m);
+  });
+  function popups(){
+    var l=lang();
+    home.bindPopup('<b>Casa Porches</b><br>'+(l==='pt'?'A sua casa · em frente à Igreja Matriz':'Your home · facing the parish church'));
+    markers.forEach(function(m){var p=m._p;
+      m.bindPopup('<b>'+p[1]+'</b><br>'+(l==='pt'?p[5]:p[4])+'<br><a target="_blank" rel="noopener" href="'+dir(p[2],p[3])+'">'+(l==='pt'?'Como chegar →':'Directions →')+'</a>')});
+    var ch=document.getElementById('chips'); ch.innerHTML='';
+    Object.keys(CATS).forEach(function(k){
+      var b=document.createElement('button'); if(!map.hasLayer(layers[k])) b.className='off';
+      b.innerHTML='<i style="background:'+CATS[k].c+'"></i>'+CATS[k][l];
+      b.onclick=function(){ if(map.hasLayer(layers[k])){map.removeLayer(layers[k]);b.className='off'} else {map.addLayer(layers[k]);b.className=''} };
+      ch.appendChild(b);
+    });
+  }
+  popups();
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',popups)});
+  var all=[HOME].concat(P.filter(function(p){return p[0]!=='help'&&p[1].indexOf('Silves')<0}).map(function(p){return [p[2],p[3]]}));
+  map.fitBounds(all,{padding:[20,20]});
 })();
 </script>
 </body>
