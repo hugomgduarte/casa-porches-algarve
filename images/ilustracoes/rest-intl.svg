@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3c9a5f"/><stop offset="1" stop-color="#24683d"/></linearGradient>
+ <pattern id="az" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M12 2 L22 12 L12 22 L2 12Z" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1.5"/><circle cx="12" cy="12" r="2.2" fill="#fff" fill-opacity=".18"/></pattern>
+</defs>
+<rect width="600" height="300" fill="url(#bg)"/>
+<rect width="600" height="300" fill="url(#az)"/>
+<circle cx="520" cy="60" r="90" fill="#fff" fill-opacity=".10"/>
+<circle cx="70" cy="260" r="120" fill="#fff" fill-opacity=".08"/>
+
+<g>
+<circle cx="230" cy="165" r="85" fill="#e7b465"/>
+<circle cx="230" cy="165" r="70" fill="#d9452b"/>
+<g fill="#f6e7b5"><circle cx="205" cy="140" r="13"/><circle cx="255" cy="150" r="12"/><circle cx="220" cy="195" r="14"/><circle cx="265" cy="190" r="10"/></g>
+<g fill="#2f6b2f"><circle cx="240" cy="125" r="6"/><circle cx="190" cy="175" r="6"/><circle cx="250" cy="215" r="6"/></g>
+<path d="M230 165 L230 80 M230 165 L310 140 M230 165 L180 230" stroke="#e7b465" stroke-width="3"/>
+<path d="M340 170 H500 Q495 240 420 240 Q345 240 340 170Z" fill="#fff"/>
+<path d="M350 170 Q420 140 490 170Z" fill="#f2b33d"/>
+<circle cx="390" cy="162" r="9" fill="#d9822b"/><circle cx="430" cy="158" r="8" fill="#7cb342"/><circle cx="460" cy="164" r="7" fill="#d9822b"/>
+<path d="M470 120 L420 175 M490 125 L432 178" stroke="#8d6e63" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>
