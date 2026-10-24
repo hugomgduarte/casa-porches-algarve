@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7cc3e6"/><stop offset="1" stop-color="#2a9fd6"/></linearGradient>
+ <pattern id="az" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M12 2 L22 12 L12 22 L2 12Z" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1.5"/><circle cx="12" cy="12" r="2.2" fill="#fff" fill-opacity=".18"/></pattern>
+</defs>
+<rect width="600" height="300" fill="url(#bg)"/>
+<rect width="600" height="300" fill="url(#az)"/>
+<circle cx="520" cy="60" r="90" fill="#fff" fill-opacity=".10"/>
+<circle cx="70" cy="260" r="120" fill="#fff" fill-opacity=".08"/>
+
+<g>
+<circle cx="470" cy="80" r="36" fill="#fbe68a"/>
+<path d="M0 300 L0 120 Q40 105 80 115 L140 110 L170 130 L170 300Z" fill="#e3a54e"/>
+<path d="M230 300 L230 150 Q260 125 300 130 L360 125 Q400 130 410 150 L410 300 L370 300 L370 230 Q320 180 270 230 L270 300Z" fill="#e3a54e"/>
+<path d="M0 120 Q40 105 80 115 L140 110 L170 130 L170 140 L0 140Z M230 150 Q260 125 300 130 L360 125 Q400 130 410 150 L410 160 L230 160Z" fill="#7cb342"/>
+<path d="M0 240 Q150 225 300 245 T600 240 V300 H0Z" fill="#1a7fb5" fill-opacity=".75"/>
+<path d="M480 300 L480 200 Q520 180 600 190 L600 300Z" fill="#d79a48"/>
+<path d="M40 170 L60 230 M100 160 L110 210 M300 170 L290 200" stroke="#c98a3a" stroke-width="4"/>
+</g>
+</svg>
