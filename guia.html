@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guest Guide | Casa Porches</title>
+<meta name="description" content="Guest guide for Casa Porches, Algarve: Wi-Fi, check-in, house rules, beaches, restaurants and useful contacts.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#c9a96e;--gold-dark:#a88a4e;--navy:#1a2332;--navy-light:#2a3a4f;--cream:#faf8f4;--text:#333;--muted:#6b6b6b;--line:#ece6da;--radius:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',-apple-system,sans-serif;color:var(--text);background:var(--cream);line-height:1.55;font-size:16px}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.2;color:var(--navy)}
+a{color:var(--gold-dark)}
+/* language switching */
+html[lang="pt"] [data-l="en"], html[lang="en"] [data-l="pt"]{display:none !important}
+header{position:relative;color:#fff;background:linear-gradient(rgba(26,35,50,.55),rgba(26,35,50,.75)),url('images/house_0.jpg') center/cover;padding:28px 16px 40px}
+.topbar{display:flex;justify-content:space-between;align-items:center;max-width:760px;margin:0 auto 36px}
+.brand{font-family:'Playfair Display',serif;font-size:1.15rem;color:#fff;text-decoration:none}
+.lang{display:flex;background:rgba(255,255,255,.15);border-radius:999px;padding:3px}
+.lang button{border:0;background:transparent;color:#fff;font:600 .85rem 'Inter';padding:6px 14px;border-radius:999px;cursor:pointer}
+.lang button.on{background:#fff;color:var(--navy)}
+.hero{max-width:760px;margin:0 auto}
+.hero h1{color:#fff;font-size:2rem;margin-bottom:8px}
+.hero p{opacity:.92}
+nav.jump{position:sticky;top:0;z-index:5;background:var(--navy);overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
+nav.jump div{max-width:760px;margin:0 auto;padding:0 8px}
+nav.jump a{display:inline-block;color:#e8d5a8;text-decoration:none;font-size:.88rem;font-weight:500;padding:12px 10px}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+section{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px 20px;margin-bottom:16px;scroll-margin-top:56px}
+section h2{font-size:1.4rem;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+section h2 .ic{font-size:1.2rem}
+section h3{font-size:1.05rem;margin:16px 0 6px}
+ul.list{list-style:none}
+ul.list li{padding:8px 0 8px 26px;border-bottom:1px solid var(--line);position:relative}
+ul.list li:last-child{border-bottom:0}
+ul.list li::before{content:"";position:absolute;left:4px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--gold)}
+.wifi{background:var(--navy);color:#fff;border:0}
+.wifi h2{color:#fff}
+.wifi .row{display:flex;justify-content:space-between;align-items:center;gap:12px;background:rgba(255,255,255,.08);border-radius:10px;padding:12px 14px;margin-top:10px}
+.wifi .k{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:#e8d5a8}
+.wifi .v{font-size:1.1rem;font-weight:600;word-break:break-all}
+.wifi button{flex:none;border:0;background:var(--gold);color:var(--navy);font:600 .85rem 'Inter';padding:9px 14px;border-radius:8px;cursor:pointer}
+.times{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.time{background:var(--cream);border-radius:10px;padding:14px;text-align:center}
+.time b{display:block;font-family:'Playfair Display',serif;font-size:1.7rem;color:var(--navy)}
+.time span{font-size:.85rem;color:var(--muted)}
+.cards{display:grid;gap:10px}
+.card{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.card .t{display:flex;justify-content:space-between;gap:10px;font-weight:600;color:var(--navy)}
+.card .t small{font-weight:500;color:var(--gold-dark);white-space:nowrap}
+.card p{font-size:.92rem;color:var(--muted);margin-top:3px}
+.card a.map{display:inline-block;margin-top:6px;font-size:.85rem;font-weight:600;text-decoration:none}
+.sos{border-left:4px solid #c0392b}
+.big{font-size:1.5rem;font-weight:700;color:#c0392b;text-decoration:none}
+.note{font-size:.88rem;color:var(--muted);margin-top:10px}
+footer{text-align:center;font-size:.85rem;color:var(--muted);padding:8px 16px 40px}
+footer a{color:var(--muted)}
+@media (min-width:640px){.cards.two{grid-template-columns:1fr 1fr}.hero h1{font-size:2.5rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <a class="brand" href="index.html">Casa Porches</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-set="en">EN</button>
+      <button data-set="pt">PT</button>
+    </div>
+  </div>
+  <div class="hero">
+    <h1><span data-l="en">Welcome to Casa Porches</span><span data-l="pt">Bem-vindos à Casa Porches</span></h1>
+    <p data-l="en">Everything you need for your stay — Wi-Fi, house rules, beaches, restaurants and useful contacts.</p>
+    <p data-l="pt">Tudo o que precisa para a sua estadia — Wi-Fi, regras da casa, praias, restaurantes e contactos úteis.</p>
+  </div>
+</header>
+
+<nav class="jump"><div>
+  <a href="#wifi">Wi-Fi</a>
+  <a href="#arrival"><span data-l="en">Check-in</span><span data-l="pt">Chegada</span></a>
+  <a href="#rules"><span data-l="en">House rules</span><span data-l="pt">Regras</span></a>
+  <a href="#pool"><span data-l="en">Pool</span><span data-l="pt">Piscina</span></a>
+  <a href="#help"><span data-l="en">Help & emergency</span><span data-l="pt">Ajuda e emergência</span></a>
+  <a href="#beaches"><span data-l="en">Beaches</span><span data-l="pt">Praias</span></a>
+  <a href="#food"><span data-l="en">Restaurants</span><span data-l="pt">Restaurantes</span></a>
+  <a href="#todo"><span data-l="en">Things to do</span><span data-l="pt">O que fazer</span></a>
+  <a href="#departure"><span data-l="en">Departure</span><span data-l="pt">Saída</span></a>
+</div></nav>
+
+<main>
+
+<section id="wifi" class="wifi">
+  <h2><span class="ic">📶</span> Wi-Fi</h2>
+  <div class="row">
+    <div><div class="k"><span data-l="en">Network</span><span data-l="pt">Rede</span></div><div class="v" id="ssid">HDPORCHES_Guest</div></div>
+    <button data-copy="ssid"><span data-l="en">Copy</span><span data-l="pt">Copiar</span></button>
+  </div>
+  <div class="row">
+    <div><div class="k"><span data-l="en">Password</span><span data-l="pt">Palavra-passe</span></div><div class="v" id="pwd">CasaPorchesHD2023</div></div>
+    <button data-copy="pwd"><span data-l="en">Copy</span><span data-l="pt">Copiar</span></button>
+  </div>
+</section>
+
+<section id="arrival">
+  <h2><span class="ic">🔑</span> <span data-l="en">Arrival</span><span data-l="pt">Chegada</span></h2>
+  <div class="times">
+    <div class="time"><b>15:00</b><span data-l="en">Check-in from</span><span data-l="pt">Check-in a partir das</span></div>
+    <div class="time"><b>11:00</b><span data-l="en">Check-out by</span><span data-l="pt">Check-out até às</span></div>
+  </div>
+  <ul class="list" data-l="en">
+    <li>Self check-in: the keys are in the key safe. The code is sent by HostWise in your Airbnb messages.</li>
+    <li>The house is in the centre of Porches village, facing the parish church.</li>
+    <li>Free parking in the house garage.</li>
+    <li>Portuguese law requires every guest to be registered — please complete the registration form HostWise sends after booking.</li>
+    <li>Basic toiletries are provided for the first day.</li>
+  </ul>
+  <ul class="list" data-l="pt">
+    <li>Check-in autónomo: as chaves estão no cofre de chaves. O código é enviado pela HostWise nas mensagens do Airbnb.</li>
+    <li>A casa fica no centro da vila de Porches, em frente à Igreja Matriz.</li>
+    <li>Estacionamento gratuito na garagem da casa.</li>
+    <li>A lei portuguesa obriga ao registo de todos os hóspedes — preencha o formulário que a HostWise envia após a reserva.</li>
+    <li>São fornecidos produtos de higiene básicos para o primeiro dia.</li>
+  </ul>
+</section>
+
+<section id="rules">
+  <h2><span class="ic">🏡</span> <span data-l="en">House rules</span><span data-l="pt">Regras da casa</span></h2>
+  <ul class="list" data-l="en">
+    <li>Maximum 8 guests. Visitors are not allowed to stay overnight.</li>
+    <li>No parties or events.</li>
+    <li>Please respect the neighbours: keep noise down between 23:00 and 08:00, both inside and in the garden.</li>
+    <li>No smoking inside the house.</li>
+    <li>Keep windows and doors closed while the air conditioning is on, and switch it off when you go out.</li>
+    <li>Please separate your rubbish. Recycling bins (ecopontos) are located in the village.</li>
+    <li>Please report any breakage or problem to HostWise as soon as possible.</li>
+  </ul>
+  <ul class="list" data-l="pt">
+    <li>Máximo de 8 hóspedes. Não são permitidas visitas a pernoitar.</li>
+    <li>Não são permitidas festas nem eventos.</li>
+    <li>Respeite os vizinhos: silêncio entre as 23:00 e as 08:00, dentro de casa e no jardim.</li>
+    <li>Não é permitido fumar dentro de casa.</li>
+    <li>Mantenha portas e janelas fechadas com o ar condicionado ligado e desligue-o quando sair.</li>
+    <li>Separe o lixo. Há ecopontos na vila.</li>
+    <li>Comunique qualquer avaria ou dano à HostWise o mais depressa possível.</li>
+  </ul>
+</section>
+
+<section id="pool">
+  <h2><span class="ic">🏊</span> <span data-l="en">Pool</span><span data-l="pt">Piscina</span></h2>
+  <ul class="list" data-l="en">
+    <li>There is no lifeguard. Children must be supervised by an adult at all times.</li>
+    <li>No glass around the pool — please use plastic cups.</li>
+    <li>Please rinse off sun cream before swimming.</li>
+    <li>Please do not dive into the pool.</li>
+  </ul>
+  <ul class="list" data-l="pt">
+    <li>Não há nadador-salvador. As crianças devem estar sempre acompanhadas por um adulto.</li>
+    <li>Não use copos ou garrafas de vidro junto à piscina.</li>
+    <li>Retire o protetor solar antes de entrar na água.</li>
+    <li>Não mergulhe de cabeça na piscina.</li>
+  </ul>
+</section>
+
+<section id="help" class="sos">
+  <h2><span class="ic">🆘</span> <span data-l="en">Help & emergency</span><span data-l="pt">Ajuda e emergência</span></h2>
+  <div class="cards">
+    <div class="card">
+      <div class="t"><span data-l="en">Emergency (police, fire, ambulance)</span><span data-l="pt">Emergência (polícia, bombeiros, ambulância)</span></div>
+      <a class="big" href="tel:112">112</a>
+    </div>
+    <div class="card">
+      <div class="t"><span data-l="en">SNS 24 – health helpline (24h)</span><span data-l="pt">SNS 24 – linha de saúde (24h)</span></div>
+      <a class="big" href="tel:+351808242424" style="font-size:1.2rem">808 24 24 24</a>
+      <p data-l="en">Medical advice by phone; they tell you where to go.</p>
+      <p data-l="pt">Aconselhamento médico por telefone; indicam onde se deve dirigir.</p>
+    </div>
+    <div class="card">
+      <div class="t"><span data-l="en">House problems, questions, extra services</span><span data-l="pt">Problemas na casa, dúvidas, serviços extra</span></div>
+      <p data-l="en">Contact HostWise through the Airbnb app (usually replies within an hour). Extra cleaning, extra bedding, late check-out or extra keys are available on request (extra cost).</p>
+      <p data-l="pt">Contacte a HostWise pela app do Airbnb (normalmente responde em menos de uma hora). Limpeza extra, roupa de cama extra, check-out tardio ou chaves adicionais disponíveis a pedido (custo extra).</p>
+    </div>
+    <div class="card">
+      <div class="t"><span data-l="en">Hospital (A&E)</span><span data-l="pt">Hospital (urgência)</span><small>~25 min</small></div>
+      <p>Unidade Hospitalar de Portimão</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hospital+de+Portim%C3%A3o">Google Maps →</a>
+    </div>
+    <div class="card">
+      <div class="t"><span data-l="en">Pharmacies</span><span data-l="pt">Farmácias</span></div>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=farm%C3%A1cia+Porches+Lagoa">Google Maps →</a>
+    </div>
+    <div class="card">
+      <div class="t"><span data-l="en">Supermarket</span><span data-l="pt">Supermercado</span><small data-l="en">2 min by car</small><small data-l="pt">2 min de carro</small></div>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=supermercado+Porches+Lagoa">Google Maps →</a>
+    </div>
+  </div>
+</section>
+
+<section id="beaches">
+  <h2><span class="ic">🏖️</span> <span data-l="en">Beaches nearby</span><span data-l="pt">Praias perto</span></h2>
+  <div class="cards two">
+    <div class="card"><div class="t">Nossa Senhora da Rocha<small>4 km</small></div>
+      <p data-l="en">Sheltered beach with the clifftop chapel. Great for families.</p><p data-l="pt">Praia abrigada com a capela na falésia. Ideal para famílias.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+Nossa+Senhora+da+Rocha">Google Maps →</a></div>
+    <div class="card"><div class="t">Armação de Pêra<small>5 km</small></div>
+      <p data-l="en">Long sandy beach with a promenade, cafés and restaurants.</p><p data-l="pt">Praia extensa com passeio marítimo, cafés e restaurantes.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+de+Arma%C3%A7%C3%A3o+de+P%C3%AAra">Google Maps →</a></div>
+    <div class="card"><div class="t">Praia da Marinha<small>6 km</small></div>
+      <p data-l="en">One of the most famous beaches in Europe: cliffs, arches and clear water. Arrive early in summer — parking fills up.</p><p data-l="pt">Uma das praias mais famosas da Europa: falésias, arcos e água cristalina. No verão chegue cedo — o estacionamento enche.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+da+Marinha">Google Maps →</a></div>
+    <div class="card"><div class="t">Benagil<small>7 km</small></div>
+      <p data-l="en">Starting point for boat and kayak trips to the Benagil sea cave.</p><p data-l="pt">Ponto de partida para passeios de barco e kayak à gruta de Benagil.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+de+Benagil">Google Maps →</a></div>
+    <div class="card"><div class="t">Vale de Centeanes<small>9 km</small></div>
+      <p data-l="en">Small, quieter beach between cliffs.</p><p data-l="pt">Praia pequena e mais sossegada entre falésias.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Praia+do+Vale+de+Centeanes">Google Maps →</a></div>
+  </div>
+  <p class="note" data-l="en">Tip: the Seven Hanging Valleys trail (Percurso dos Sete Vales Suspensos) links Marinha and Benagil along the clifftops — best early morning or late afternoon.</p>
+  <p class="note" data-l="pt">Dica: o Percurso dos Sete Vales Suspensos liga a Marinha a Benagil pelas falésias — melhor de manhã cedo ou ao fim da tarde.</p>
+</section>
+
+<section id="food">
+  <h2><span class="ic">🍽️</span> <span data-l="en">Restaurants</span><span data-l="pt">Restaurantes</span></h2>
+  <div class="cards two">
+    <div class="card"><div class="t">Tasca 26<small data-l="en">Porches</small><small data-l="pt">Porches</small></div>
+      <p data-l="en">Traditional tavern, grilled meats.</p><p data-l="pt">Tasca tradicional, carnes grelhadas.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Tasca+26+Porches">Google Maps →</a></div>
+    <div class="card"><div class="t">O Charneco<small>Estômbar · 10 min</small></div>
+      <p data-l="en">No menu, fixed price with wine. Authentic Algarve cooking. Booking essential.</p><p data-l="pt">Sem menu, preço fixo com vinho. Cozinha algarvia autêntica. Reserva obrigatória.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=O+Charneco+Est%C3%B4mbar">Google Maps →</a></div>
+    <div class="card"><div class="t">O Ciclo<small>Lagoa · 8 min</small></div>
+      <p data-l="en">Fresh fish and traditional dishes in the centre of Lagoa.</p><p data-l="pt">Peixe fresco e pratos tradicionais no centro de Lagoa.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=O+Ciclo+Lagoa">Google Maps →</a></div>
+    <div class="card"><div class="t">Rei das Praias<small>Ferragudo · 15 min</small></div>
+      <p data-l="en">Fish and seafood on Caneiros beach, since 1976.</p><p data-l="pt">Peixe e marisco na Praia dos Caneiros, desde 1976.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rei+das+Praias+Ferragudo">Google Maps →</a></div>
+    <div class="card"><div class="t">Vista<small>Portimão · 20 min</small></div>
+      <p data-l="en">Fine dining by the sea, large wine list.</p><p data-l="pt">Alta cozinha junto ao mar, extensa carta de vinhos.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Vista+Restaurante+Portim%C3%A3o">Google Maps →</a></div>
+    <div class="card"><div class="t">Ocean<small>Vila Vita Parc</small></div>
+      <p data-l="en">Michelin-starred fine dining a few minutes away. Book well in advance.</p><p data-l="pt">Restaurante com estrelas Michelin a poucos minutos. Reserve com antecedência.</p>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ocean+Restaurant+Vila+Vita+Parc">Google Maps →</a></div>
+  </div>
+</section>
+
+<section id="todo">
+  <h2><span class="ic">☀️</span> <span data-l="en">Things to do</span><span data-l="pt">O que fazer</span></h2>
+  <div class="cards two">
+    <div class="card"><div class="t">Aqualand<small>3 km</small></div>
+      <p data-l="en">Water park — slides and pools for all ages (summer season).</p><p data-l="pt">Parque aquático — escorregas e piscinas (época de verão).</p></div>
+    <div class="card"><div class="t">Slide & Splash<small>6 km</small></div>
+      <p data-l="en">Water park in Lagoa (summer season).</p><p data-l="pt">Parque aquático em Lagoa (época de verão).</p></div>
+    <div class="card"><div class="t">Zoomarine<small>10 km</small></div>
+      <p data-l="en">Marine theme park with dolphins, birds and aquariums.</p><p data-l="pt">Parque temático com golfinhos, aves e aquários.</p></div>
+    <div class="card"><div class="t"><span data-l="en">Golf</span><span data-l="pt">Golfe</span><small>6–8 km</small></div>
+      <p>Vale da Pinta · Amendoeira Golf Resort</p></div>
+    <div class="card"><div class="t"><span data-l="en">Benagil cave by boat or kayak</span><span data-l="pt">Gruta de Benagil de barco ou kayak</span><small>7 km</small></div>
+      <p data-l="en">Tours leave from Benagil, Armação de Pêra and Portimão.</p><p data-l="pt">Passeios a partir de Benagil, Armação de Pêra e Portimão.</p></div>
+    <div class="card"><div class="t"><span data-l="en">Porches pottery</span><span data-l="pt">Olaria de Porches</span><small data-l="en">In the village</small><small data-l="pt">Na vila</small></div>
+      <p data-l="en">Porches is known for its hand-painted Algarve pottery.</p><p data-l="pt">Porches é conhecida pela sua olaria algarvia pintada à mão.</p></div>
+  </div>
+</section>
+
+<section id="departure">
+  <h2><span class="ic">👋</span> <span data-l="en">Before you leave</span><span data-l="pt">Antes de sair</span></h2>
+  <ul class="list" data-l="en">
+    <li>Check-out by 11:00 (late check-out on request through Airbnb).</li>
+    <li>Switch off the air conditioning and lights, and close windows and doors.</li>
+    <li>Put the rubbish in the village bins and load the dishwasher.</li>
+    <li>Return the keys to the key safe and scramble the code.</li>
+    <li>Thank you for staying with us — a review on Airbnb helps us a lot!</li>
+  </ul>
+  <ul class="list" data-l="pt">
+    <li>Check-out até às 11:00 (check-out tardio a pedido pelo Airbnb).</li>
+    <li>Desligue o ar condicionado e as luzes e feche janelas e portas.</li>
+    <li>Deixe o lixo nos contentores da vila e coloque a loiça na máquina.</li>
+    <li>Devolva as chaves ao cofre e baralhe o código.</li>
+    <li>Obrigado pela estadia — uma avaliação no Airbnb ajuda-nos muito!</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <p>Casa Porches · Porches, Lagoa, Algarve · AL n.º 154937/AL</p>
+  <p><a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener"><span data-l="en">Complaints book (Livro de Reclamações)</span><span data-l="pt">Livro de Reclamações Eletrónico</span></a> · <a href="index.html"><span data-l="en">About the house</span><span data-l="pt">Sobre a casa</span></a></p>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btns=document.querySelectorAll('.lang button');
+  function set(l){root.lang=l;btns.forEach(function(b){b.classList.toggle('on',b.dataset.set===l)});
+    try{localStorage.setItem('guiaLang',l)}catch(e){}
+    var u=new URL(location.href);u.searchParams.set('lang',l);history.replaceState(null,'',u)}
+  var q=new URLSearchParams(location.search).get('lang'), saved=null;
+  try{saved=localStorage.getItem('guiaLang')}catch(e){}
+  var nav=(navigator.language||'en').toLowerCase().indexOf('pt')===0?'pt':'en';
+  set(q==='pt'||q==='en'?q:(saved||nav));
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set)})});
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=document.getElementById(b.dataset.copy).textContent, spans=b.querySelectorAll('span');
+      var done=function(){var o=[].map.call(spans,function(s){return s.textContent});spans[0].textContent='Copied ✓';spans[1].textContent='Copiado ✓';setTimeout(function(){spans[0].textContent=o[0];spans[1].textContent=o[1]},1500)};
+      if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){})}
+    });
+  });
+})();
+</script>
+</body>
+</html>
