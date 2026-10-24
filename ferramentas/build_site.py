@@ -89,6 +89,21 @@ def img(r, default, where):
     return v
 
 
+def coords(r, where):
+    lat, lng = r.get("lat"), r.get("lng")
+    if lat in (None, "") and lng in (None, ""):
+        return {}
+    try:
+        lat, lng = float(str(lat).replace(",", ".")), float(str(lng).replace(",", "."))
+    except ValueError:
+        errors.append(f"{where}: coordenadas inválidas ({lat}, {lng})")
+        return {}
+    if not (36.9 < lat < 37.5 and -9.1 < lng < -7.3):
+        errors.append(f"{where}: coordenadas fora do Algarve ({lat}, {lng}) — trocou lat e lng?")
+        return {}
+    return {"lat": lat, "lng": lng}
+
+
 def set_path(obj, path, value):
     parts = path.split(".")
     for i, p in enumerate(parts[:-1]):
@@ -174,7 +189,7 @@ def main():
             errors.append(f"{where}: categoria '{cat}' desconhecida (use: {', '.join(sorted(rc))})")
         if s(r.get("mostrar")).lower() in ("não", "nao", "n", "no"):
             continue
-        out["RESTAURANTS"].append({"cat": cat, "name": s(r.get("nome")), "loc": s(r.get("localidade")),
+        out["RESTAURANTS"].append({**coords(r, where), "cat": cat, "name": s(r.get("nome")), "loc": s(r.get("localidade")),
                                    "price": s(r.get("preco")), "near": s(r.get("perto_de_casa")).lower() in ("sim", "s", "yes", "x"),
                                    "q": s(r.get("pesquisa_maps")) or (s(r.get("nome")) + " " + s(r.get("localidade"))),
                                    "img": img(r, f"images/ilustracoes/rest-{cat}.svg", where),
@@ -203,7 +218,7 @@ def main():
         for t in tl:
             if t not in tags:
                 errors.append(f"{where}: 'para_quem' tem '{t}' desconhecido (use: {', '.join(sorted(tags))})")
-        e = {"cat": cat, "town": town, "name": name, "tags": tl, "d": langs(r, "desc", where),
+        e = {**coords(r, where), "cat": cat, "town": town, "name": name, "tags": tl, "d": langs(r, "desc", where),
              "img": img(r, f"images/ilustracoes/ev-{cat}.svg", where)}
         a, b = date(r.get("data_inicio"), where), date(r.get("data_fim"), where)
         if a:
