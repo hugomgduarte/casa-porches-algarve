@@ -25,7 +25,7 @@ XLSX = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "Conteudos_Site_
 
 errors, warnings = [], []
 REST_ICON = {"michelin": "⭐", "fine": "🥂", "wine": "🍷", "sea": "🐟", "trad": "🍲", "intl": "🌍", "cafe": "☕"}
-EV_ICON = {"outdoor": "🥾", "events": "🎉", "water": "🛝", "nature": "🌿", "sea": "⛵", "indoor": "🏊", "markets": "🧺"}
+EV_ICON = {"cities": "🏘️", "outdoor": "🥾", "events": "🎉", "water": "🛝", "nature": "🌿", "sea": "⛵", "indoor": "🏊", "markets": "🧺"}
 
 
 def rows(ws):
