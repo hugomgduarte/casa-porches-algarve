@@ -15,7 +15,7 @@ import base64, hashlib, json, os, sys, time, urllib.request, urllib.error
 REPO = "hugomgduarte/casa-porches-algarve"
 BRANCH = "master"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FILES = ["index.html", "guia.html", "style.css", "script.js", "wifi-qr.svg", "data/site.json",
+FILES = ["data/site.json", "guia.css", "guia.js", "explorar.html", "guia.html", "index.html", "style.css", "script.js", "wifi-qr.svg", "data/site.json",
          "Conteudos_Site_Casa_Porches.xlsx", "ferramentas/build_site.py", "ferramentas/publicar.py"]
 
 
@@ -63,7 +63,7 @@ def main():
         return
 
     changed = 0
-    files = list(FILES)
+    files = list(dict.fromkeys(FILES))
     for d, _, fs in os.walk(os.path.join(ROOT, "images")):
         for n in fs:
             if not n.startswith("_"):
