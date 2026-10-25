@@ -1,8 +1,8 @@
 /* Casa Porches — código partilhado do Guia do Hóspede e do Explorar o Algarve */
 window.startGuide=function(){
   var HOME=[37.125046,-8.399062];
-  var CATS={beach:{c:'#2a9fd6',i:'🏖️'},food:{c:'#d9822b',i:'🍽️'},fun:{c:'#7b5bd6',i:'🎢'},see:{c:'#3c9a5f',i:'📍'},help:{c:'#c0392b',i:'🏥'},fest:{c:'#c2185b',i:'🎉'}};
-  var EVMAP={events:'fest',markets:'fest',water:'fun',indoor:'fun',nature:'see',sea:'see',outdoor:'fun'};
+  var CATS={beach:{c:'#2a9fd6',i:'🏖️'},food:{c:'#d9822b',i:'🍽️'},fun:{c:'#7b5bd6',i:'🎢'},see:{c:'#3c9a5f',i:'📍'},help:{c:'#c0392b',i:'🏥'},fest:{c:'#c2185b',i:'🎉'},shop:{c:'#5d6d7e',i:'🛒'}};
+  var EVMAP={events:'fest',markets:'fest',water:'fun',indoor:'fun',nature:'see',sea:'see',outdoor:'fun',cities:'see'};
   var codes=LANGS.map(function(l){return l.code});
   var cur='en', T=TXT.en;
   function get(path){return path.split('.').reduce(function(o,k){return o&&o[k]},T)}
