@@ -150,7 +150,7 @@
    "hospPrivate": "Hospitais privados",
    "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) e Hospital Particular do Algarve – Alvor (~30 min). Atendimento pago; confirme horários e seguro.",
    "shopsWalk": "Mercearias a pé",
-   "shopsWalkDesc": "Minimercado da Vila e supermercado Laginha, a 2 minutos a pé, no centro de Porches — práticos para pão, fruta e o essencial. Para compras maiores há supermercados em Lagoa e Armação de Pêra (10 min de carro)."
+   "shopsWalkDesc": "Minimercado da Vila e supermercado Laginha, a 2 minutos a pé, no centro de Porches — práticos para pão, fruta e o essencial. Para compras maiores há supermercados em Lagoa e Armação de Pêra (10 min de carro). Os supermercados maiores estão no mapa, na categoria \"Compras\"."
   },
   "en": {
    "title": "Guest Guide | Casa Porches",
@@ -266,7 +266,7 @@
    "hospPrivate": "Private hospitals",
    "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) and Hospital Particular do Algarve – Alvor (~30 min). Paid care; check hours and insurance.",
    "shopsWalk": "Grocery shops on foot",
-   "shopsWalkDesc": "Minimercado da Vila and Laginha supermarket, a 2-minute walk away in the centre of Porches — handy for bread, fruit and essentials. For a big shop there are supermarkets in Lagoa and Armação de Pêra (10 min by car)."
+   "shopsWalkDesc": "Minimercado da Vila and Laginha supermarket, a 2-minute walk away in the centre of Porches — handy for bread, fruit and essentials. For a big shop there are supermarkets in Lagoa and Armação de Pêra (10 min by car). Larger supermarkets are on the map under \"Shopping\"."
   },
   "es": {
    "title": "Guía del huésped | Casa Porches",
@@ -382,7 +382,7 @@
    "hospPrivate": "Hospitales privados",
    "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) y Hospital Particular do Algarve – Alvor (~30 min). Atención de pago; consulte horarios y seguro.",
    "shopsWalk": "Tiendas a pie",
-   "shopsWalkDesc": "Minimercado da Vila y el supermercado Laginha, a 2 minutos a pie en el centro de Porches: prácticos para pan, fruta y lo básico. Para compras grandes hay supermercados en Lagoa y Armação de Pêra (10 min en coche)."
+   "shopsWalkDesc": "Minimercado da Vila y el supermercado Laginha, a 2 minutos a pie en el centro de Porches: prácticos para pan, fruta y lo básico. Para compras grandes hay supermercados en Lagoa y Armação de Pêra (10 min en coche). Los supermercados grandes están en el mapa, en \"Compras\"."
   },
   "fr": {
    "title": "Guide du voyageur | Casa Porches",
@@ -498,7 +498,7 @@
    "hospPrivate": "Hôpitaux privés",
    "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) et Hospital Particular do Algarve – Alvor (~30 min). Soins payants ; vérifiez horaires et assurance.",
    "shopsWalk": "Épiceries à pied",
-   "shopsWalkDesc": "Minimercado da Vila et le supermarché Laginha, à 2 minutes à pied au centre de Porches — pratiques pour le pain, les fruits et l’essentiel. Pour les grosses courses, supermarchés à Lagoa et Armação de Pêra (10 min en voiture)."
+   "shopsWalkDesc": "Minimercado da Vila et le supermarché Laginha, à 2 minutes à pied au centre de Porches — pratiques pour le pain, les fruits et l’essentiel. Pour les grosses courses, supermarchés à Lagoa et Armação de Pêra (10 min en voiture). Les grands supermarchés sont sur la carte, rubrique « Courses »."
   },
   "de": {
    "title": "Gästeinformation | Casa Porches",
@@ -614,7 +614,7 @@
    "hospPrivate": "Privatkliniken",
    "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 Min.) und Hospital Particular do Algarve – Alvor (~30 Min.). Kostenpflichtig; Zeiten und Versicherung prüfen.",
    "shopsWalk": "Lebensmittel zu Fuß",
-   "shopsWalkDesc": "Minimercado da Vila und Supermarkt Laginha, 2 Gehminuten entfernt im Ortszentrum – praktisch für Brot, Obst und das Nötigste. Für größere Einkäufe gibt es Supermärkte in Lagoa und Armação de Pêra (10 Min. mit dem Auto)."
+   "shopsWalkDesc": "Minimercado da Vila und Supermarkt Laginha, 2 Gehminuten entfernt im Ortszentrum – praktisch für Brot, Obst und das Nötigste. Für größere Einkäufe gibt es Supermärkte in Lagoa und Armação de Pêra (10 Min. mit dem Auto). Größere Supermärkte finden Sie auf der Karte unter „Einkaufen“."
   },
   "it": {
    "title": "Guida per gli ospiti | Casa Porches",
@@ -730,7 +730,7 @@
    "hospPrivate": "Ospedali privati",
    "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) e Hospital Particular do Algarve – Alvor (~30 min). A pagamento; verificate orari e assicurazione.",
    "shopsWalk": "Alimentari a piedi",
-   "shopsWalkDesc": "Minimercado da Vila e il supermercato Laginha, a 2 minuti a piedi nel centro di Porches: comodi per pane, frutta e l’essenziale. Per la spesa grande ci sono supermercati a Lagoa e Armação de Pêra (10 min in auto)."
+   "shopsWalkDesc": "Minimercado da Vila e il supermercato Laginha, a 2 minuti a piedi nel centro di Porches: comodi per pane, frutta e l’essenziale. Per la spesa grande ci sono supermercati a Lagoa e Armação de Pêra (10 min in auto). I supermercati più grandi sono sulla mappa, alla voce «Spesa»."
   }
  },
  "REST_CATS": {
@@ -1666,6 +1666,258 @@
     "fr": "Rochers, grottes et arches naturelles près de la longue plage d’Alvor.",
     "de": "Felsen, Grotten und Felsbögen am langen Strand von Alvor.",
     "it": "Scogli, grotte e archi naturali accanto alla lunga spiaggia di Alvor."
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Continente Bom Dia · Alcantarilha (EN125)",
+   "dist": "4 km",
+   "lat": 37.13156,
+   "lng": -8.35976,
+   "q": "Continente Bom Dia Alcantarilha",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 4 km",
+    "en": "Supermarket · ≈ 4 km",
+    "es": "Supermercado · ≈ 4 km",
+    "fr": "Supermarché · ≈ 4 km",
+    "de": "Supermarkt · ≈ 4 km",
+    "it": "Supermercato · ≈ 4 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Aldi · Alcantarilha (EN125)",
+   "dist": "4,5 km",
+   "lat": 37.1305,
+   "lng": -8.34917,
+   "q": "Aldi Alcantarilha",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 4,5 km",
+    "en": "Supermarket · ≈ 4,5 km",
+    "es": "Supermercado · ≈ 4,5 km",
+    "fr": "Supermarché · ≈ 4,5 km",
+    "de": "Supermarkt · ≈ 4,5 km",
+    "it": "Supermercato · ≈ 4,5 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Continente Bom Dia · Armação de Pêra",
+   "dist": "4 km",
+   "lat": 37.10676,
+   "lng": -8.36222,
+   "q": "Continente Bom Dia Armação de Pêra",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 4 km",
+    "en": "Supermarket · ≈ 4 km",
+    "es": "Supermercado · ≈ 4 km",
+    "fr": "Supermarché · ≈ 4 km",
+    "de": "Supermarkt · ≈ 4 km",
+    "it": "Supermercato · ≈ 4 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Pingo Doce · Armação de Pêra",
+   "dist": "4 km",
+   "lat": 37.10664,
+   "lng": -8.35972,
+   "q": "Pingo Doce Armação de Pêra",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 4 km",
+    "en": "Supermarket · ≈ 4 km",
+    "es": "Supermercado · ≈ 4 km",
+    "fr": "Supermarché · ≈ 4 km",
+    "de": "Supermarkt · ≈ 4 km",
+    "it": "Supermercato · ≈ 4 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Lidl · Armação de Pêra",
+   "dist": "4 km",
+   "lat": 37.10362,
+   "lng": -8.36315,
+   "q": "Lidl Armação de Pêra",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 4 km",
+    "en": "Supermarket · ≈ 4 km",
+    "es": "Supermercado · ≈ 4 km",
+    "fr": "Supermarché · ≈ 4 km",
+    "de": "Supermarkt · ≈ 4 km",
+    "it": "Supermercato · ≈ 4 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Intermarché · Armação de Pêra",
+   "dist": "4 km",
+   "lat": 37.10233,
+   "lng": -8.36302,
+   "q": "Intermarché Armação de Pêra",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 4 km",
+    "en": "Supermarket · ≈ 4 km",
+    "es": "Supermercado · ≈ 4 km",
+    "fr": "Supermarché · ≈ 4 km",
+    "de": "Supermarkt · ≈ 4 km",
+    "it": "Supermercato · ≈ 4 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Apolónia · Lagoa",
+   "dist": "5 km",
+   "lat": 37.12623,
+   "lng": -8.45311,
+   "q": "Apolónia Lagoa",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 5 km",
+    "en": "Supermarket · ≈ 5 km",
+    "es": "Supermercado · ≈ 5 km",
+    "fr": "Supermarché · ≈ 5 km",
+    "de": "Supermarkt · ≈ 5 km",
+    "it": "Supermercato · ≈ 5 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Aldi · Lagoa",
+   "dist": "5 km",
+   "lat": 37.12697,
+   "lng": -8.45347,
+   "q": "Aldi Lagoa",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 5 km",
+    "en": "Supermarket · ≈ 5 km",
+    "es": "Supermercado · ≈ 5 km",
+    "fr": "Supermarché · ≈ 5 km",
+    "de": "Supermarkt · ≈ 5 km",
+    "it": "Supermercato · ≈ 5 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Pingo Doce · Lagoa",
+   "dist": "5 km",
+   "lat": 37.13135,
+   "lng": -8.45437,
+   "q": "Pingo Doce Lagoa",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 5 km",
+    "en": "Supermarket · ≈ 5 km",
+    "es": "Supermercado · ≈ 5 km",
+    "fr": "Supermarché · ≈ 5 km",
+    "de": "Supermarkt · ≈ 5 km",
+    "it": "Supermercato · ≈ 5 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Intermarché Super · Lagoa",
+   "dist": "5 km",
+   "lat": 37.13221,
+   "lng": -8.44893,
+   "q": "Intermarché Super Lagoa",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 5 km",
+    "en": "Supermarket · ≈ 5 km",
+    "es": "Supermercado · ≈ 5 km",
+    "fr": "Supermarché · ≈ 5 km",
+    "de": "Supermarkt · ≈ 5 km",
+    "it": "Supermercato · ≈ 5 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Auchan · Lagoa (EN125)",
+   "dist": "6 km",
+   "lat": 37.13689,
+   "lng": -8.4651,
+   "q": "Auchan Lagoa",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 6 km",
+    "en": "Supermarket · ≈ 6 km",
+    "es": "Supermercado · ≈ 6 km",
+    "fr": "Supermarché · ≈ 6 km",
+    "de": "Supermarkt · ≈ 6 km",
+    "it": "Supermercato · ≈ 6 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Intermarché · Carvoeiro",
+   "dist": "5 km",
+   "lat": 37.11514,
+   "lng": -8.45614,
+   "q": "Intermarché Carvoeiro",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 5 km",
+    "en": "Supermarket · ≈ 5 km",
+    "es": "Supermercado · ≈ 5 km",
+    "fr": "Supermarché · ≈ 5 km",
+    "de": "Supermarkt · ≈ 5 km",
+    "it": "Supermercato · ≈ 5 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Apolónia · Galé (Albufeira)",
+   "dist": "9 km",
+   "lat": 37.08255,
+   "lng": -8.31246,
+   "q": "Apolónia Galé",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 9 km",
+    "en": "Supermarket · ≈ 9 km",
+    "es": "Supermercado · ≈ 9 km",
+    "fr": "Supermarché · ≈ 9 km",
+    "de": "Supermarkt · ≈ 9 km",
+    "it": "Supermercato · ≈ 9 km"
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Continente Modelo · Silves",
+   "dist": "8 km",
+   "lat": 37.1878,
+   "lng": -8.44815,
+   "q": "Continente Modelo Silves",
+   "img": null,
+   "d": {
+    "pt": "Supermercado · ≈ 8 km",
+    "en": "Supermarket · ≈ 8 km",
+    "es": "Supermercado · ≈ 8 km",
+    "fr": "Supermarché · ≈ 8 km",
+    "de": "Supermarkt · ≈ 8 km",
+    "it": "Supermercato · ≈ 8 km"
    }
   }
  ],
@@ -6089,5 +6341,5 @@
   "vrbo_avaliacoes": "",
   "vrbo_link": ""
  },
- "_gerado": "2026-10-25T16:21:32"
+ "_gerado": "2026-10-25T16:29:06"
 }
