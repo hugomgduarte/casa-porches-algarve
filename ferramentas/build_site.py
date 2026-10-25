@@ -139,6 +139,7 @@ def main():
     # ---- Casa (Wi-Fi) ----
     casa = {s(r.get("campo")): s(r.get("valor")) for r in rows(wb["Casa"])}
     out["WIFI"] = {"ssid": casa.get("wifi_rede", ""), "password": casa.get("wifi_palavra_passe", "")}
+    out["CASA"] = {k: v for k, v in casa.items() if not k.startswith("wifi_")}
     if not out["WIFI"]["ssid"]:
         errors.append("Casa: falta wifi_rede")
     out["LANGS"] = [{"code": l, "label": l.upper(), "name": n} for l, n in
