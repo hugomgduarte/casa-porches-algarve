@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore the Algarve | Casa Porches</title>
+<meta name="description" content="Map, beaches, restaurants, events and outdoor experiences around Casa Porches, Algarve.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="guia.css?v=1">
+</head>
+<body data-page="explore">
+
+<header>
+  <div class="sitebar">
+    <a class="brand" data-page href="index.html">Casa Porches</a>
+    <nav class="mainnav"><a data-page href="index.html" data-t="site.home"></a><a data-page href="guia.html" data-t="site.guide"></a><a data-page href="explorar.html" data-t="site.explore" class="cur"></a><a data-page href="index.html#booking" data-t="site.book" class="book"></a></nav>
+    <div class="lang-dd" id="langDD"><button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"></button><div class="lang-menu" id="langMenu" role="menu"></div></div>
+  </div>
+  <div class="hero">
+    <h1 data-t="explore.h1"></h1>
+    <p data-t="explore.sub"></p>
+  </div>
+</header>
+
+<nav class="jump"><div>
+  <a href="#map" data-t="nav.map"></a>
+  <a href="#beaches" data-t="nav.beaches"></a>
+  <a href="#food" data-t="nav.food"></a>
+  <a href="#todo" data-ev="title"></a>
+</div></nav>
+
+<main>
+
+<section id="map" class="mapsec">
+  <h2><span class="ic">🗺️</span> <span data-t="mapTitle"></span></h2>
+  <div class="chips" id="chips"></div>
+  <div class="mapwrap"><div id="leafmap"></div><div class="maphint" id="maphint"><span data-t="mapTap"></span></div></div>
+  <p class="note" style="padding-bottom:16px" data-t="mapNote"></p>
+</section>
+
+<section id="beaches">
+  <h2><span class="ic">🏖️</span> <span data-t="beachesTitle"></span></h2>
+  <div class="cards two" data-places="beaches"></div>
+  <p class="note" data-t="beachTip"></p>
+</section>
+
+<section id="food">
+  <h2><span class="ic">🍽️</span> <span data-t="foodTitle"></span></h2>
+  <div class="chips rchips" id="restChips"></div>
+  <div class="cards two" id="restList"></div>
+  <p class="note" id="restNote"></p>
+</section>
+
+<section id="todo">
+  <h2><span class="ic">🎉</span> <span data-ev="title"></span></h2>
+  <div class="chips rchips" id="evCats"></div>
+  <div class="evwho"><span id="evWhoLbl"></span><div class="chips rchips" id="evTags"></div></div>
+  <div class="cards two" id="evList"></div>
+  <p class="note" id="evNote"></p>
+</section>
+
+</main>
+
+<footer>
+  <p class="disc" data-t="disclaimer"></p>
+  <p>Casa Porches · Porches, Lagoa, Algarve · AL n.º 154937/AL</p>
+  <p><a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener" data-t="complaints"></a> · <a data-page href="index.html" data-t="site.home"></a> · <a data-page href="guia.html" data-t="site.guide"></a> · <a data-page href="explorar.html" data-t="site.explore"></a></p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="guia.js?v=1"></script>
+</body>
+</html>
