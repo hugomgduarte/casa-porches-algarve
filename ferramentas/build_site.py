@@ -24,6 +24,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 XLSX = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "Conteudos_Site_Casa_Porches.xlsx")
 
 errors, warnings = [], []
+REST_ICON = {"michelin": "⭐", "fine": "🥂", "wine": "🍷", "sea": "🐟", "trad": "🍲", "intl": "🌍", "cafe": "☕"}
+EV_ICON = {"outdoor": "🥾", "events": "🎉", "water": "🛝", "nature": "🌿", "sea": "⛵", "indoor": "🏊", "markets": "🧺"}
 
 
 def rows(ws):
@@ -78,7 +80,7 @@ def langs(r, prefix, where, required=True):
 
 def img(r, default, where):
     """Imagem do cartão: a da coluna 'imagem' ou, se vazia, a ilustração da categoria."""
-    v = s(r.get("imagem")).replace("\\", "/")
+    v = s(r.get("foto") or r.get("imagem")).replace("\\", "/")
     if not v:
         return default
     if v.startswith("http://") or v.startswith("https://"):
@@ -177,7 +179,7 @@ def main():
         out["PLACES"].append({"cat": s(r.get("categoria")), "list": s(r.get("seccao")), "name": s(r.get("nome")),
                               "dist": s(r.get("distancia")), "lat": None if lat in (None, "") else float(lat),
                               "lng": None if lng in (None, "") else float(lng), "q": s(r.get("pesquisa_maps")) or s(r.get("nome")),
-                              "img": img(r, "images/ilustracoes/ev-nature.svg", where),
+                              "img": img(r, None, where),
                               "d": langs(r, "desc", where)})
 
     # ---- Restaurantes ----
@@ -192,7 +194,7 @@ def main():
         out["RESTAURANTS"].append({**coords(r, where), "cat": cat, "name": s(r.get("nome")), "loc": s(r.get("localidade")),
                                    "price": s(r.get("preco")), "near": s(r.get("perto_de_casa")).lower() in ("sim", "s", "yes", "x"),
                                    "q": s(r.get("pesquisa_maps")) or (s(r.get("nome")) + " " + s(r.get("localidade"))),
-                                   "img": img(r, f"images/ilustracoes/rest-{cat}.svg", where),
+                                   "img": img(r, None, where), "icon": s(r.get("icone")) or REST_ICON.get(cat, "🍽️"),
                                    "d": langs(r, "desc", where)})
 
     # ---- Eventos ----
@@ -219,7 +221,7 @@ def main():
             if t not in tags:
                 errors.append(f"{where}: 'para_quem' tem '{t}' desconhecido (use: {', '.join(sorted(tags))})")
         e = {**coords(r, where), "cat": cat, "town": town, "name": name, "tags": tl, "d": langs(r, "desc", where),
-             "img": img(r, f"images/ilustracoes/ev-{cat}.svg", where)}
+             "img": img(r, None, where), "icon": s(r.get("icone")) or EV_ICON.get(cat, "📍")}
         a, b = date(r.get("data_inicio"), where), date(r.get("data_fim"), where)
         if a:
             e["start"], e["end"] = a, b or a
