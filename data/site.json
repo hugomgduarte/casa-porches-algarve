@@ -39,7 +39,7 @@
   "pt": {
    "title": "Guia do Hóspede | Casa Porches",
    "h1": "Bem-vindos à Casa Porches",
-   "sub": "Tudo o que precisa para a sua estadia — Wi-Fi, regras da casa, praias, restaurantes e contactos úteis.",
+   "sub": "Tudo o que precisa durante a estadia — Wi-Fi, chegada, regras da casa e contactos úteis.",
    "nav": {
     "wifi": "Wi-Fi",
     "arrival": "Chegada",
@@ -123,12 +123,29 @@
     "Obrigado pela estadia — uma avaliação no Airbnb ajuda-nos muito!"
    ],
    "complaints": "Livro de Reclamações Eletrónico",
-   "about": "Sobre a casa"
+   "about": "Sobre a casa",
+   "site": {
+    "home": "A Casa",
+    "guide": "Guia do Hóspede",
+    "explore": "Explorar o Algarve",
+    "book": "Reservar"
+   },
+   "explore": {
+    "title": "Explorar o Algarve | Casa Porches",
+    "h1": "Explorar o Algarve",
+    "sub": "Mapa, praias, restaurantes, eventos e experiências à volta da Casa Porches."
+   },
+   "guide": {
+    "ctaTitle": "Explorar a região",
+    "ctaText": "Mapa interativo, praias, 40 restaurantes recomendados, eventos e atividades ao ar livre.",
+    "ctaBtn": "Abrir Explorar o Algarve →"
+   },
+   "disclaimer": "Informação meramente indicativa, sem valor contratual. Não dispensa a leitura das condições da plataforma de reserva (Airbnb, Booking, etc.) e das regras da HostWise, que prevalecem em caso de diferença."
   },
   "en": {
    "title": "Guest Guide | Casa Porches",
    "h1": "Welcome to Casa Porches",
-   "sub": "Everything you need for your stay — Wi-Fi, house rules, beaches, restaurants and useful contacts.",
+   "sub": "Everything you need during your stay — Wi-Fi, arrival, house rules and useful contacts.",
    "nav": {
     "wifi": "Wi-Fi",
     "arrival": "Check-in",
@@ -212,12 +229,29 @@
     "Thank you for staying with us — a review on Airbnb helps us a lot!"
    ],
    "complaints": "Complaints book (Livro de Reclamações)",
-   "about": "About the house"
+   "about": "About the house",
+   "site": {
+    "home": "The House",
+    "guide": "Guest Guide",
+    "explore": "Explore the Algarve",
+    "book": "Book"
+   },
+   "explore": {
+    "title": "Explore the Algarve | Casa Porches",
+    "h1": "Explore the Algarve",
+    "sub": "Map, beaches, restaurants, events and experiences around Casa Porches."
+   },
+   "guide": {
+    "ctaTitle": "Explore the area",
+    "ctaText": "Interactive map, beaches, 40 recommended restaurants, events and outdoor activities.",
+    "ctaBtn": "Open Explore the Algarve →"
+   },
+   "disclaimer": "For information only, with no contractual value. It does not replace the terms of the booking platform (Airbnb, Booking, etc.) or HostWise’s house rules, which prevail in case of any difference."
   },
   "es": {
    "title": "Guía del huésped | Casa Porches",
    "h1": "Bienvenidos a Casa Porches",
-   "sub": "Todo lo que necesita para su estancia: Wi-Fi, normas de la casa, playas, restaurantes y contactos útiles.",
+   "sub": "Todo lo que necesita durante su estancia: Wi-Fi, llegada, normas de la casa y contactos útiles.",
    "nav": {
     "wifi": "Wi-Fi",
     "arrival": "Llegada",
@@ -301,12 +335,29 @@
     "¡Gracias por su estancia! Una valoración en Airbnb nos ayuda mucho."
    ],
    "complaints": "Libro de reclamaciones (Livro de Reclamações)",
-   "about": "Sobre la casa"
+   "about": "Sobre la casa",
+   "site": {
+    "home": "La Casa",
+    "guide": "Guía del huésped",
+    "explore": "Explorar el Algarve",
+    "book": "Reservar"
+   },
+   "explore": {
+    "title": "Explorar el Algarve | Casa Porches",
+    "h1": "Explorar el Algarve",
+    "sub": "Mapa, playas, restaurantes, eventos y experiencias alrededor de Casa Porches."
+   },
+   "guide": {
+    "ctaTitle": "Explorar la zona",
+    "ctaText": "Mapa interactivo, playas, 40 restaurantes recomendados, eventos y actividades al aire libre.",
+    "ctaBtn": "Abrir Explorar el Algarve →"
+   },
+   "disclaimer": "Información meramente orientativa y sin valor contractual. No sustituye las condiciones de la plataforma de reserva (Airbnb, Booking, etc.) ni las normas de HostWise, que prevalecen en caso de diferencia."
   },
   "fr": {
    "title": "Guide du voyageur | Casa Porches",
    "h1": "Bienvenue à la Casa Porches",
-   "sub": "Tout ce qu’il vous faut pour votre séjour : Wi-Fi, règlement de la maison, plages, restaurants et contacts utiles.",
+   "sub": "Tout ce qu’il vous faut pendant votre séjour : Wi-Fi, arrivée, règlement et contacts utiles.",
    "nav": {
     "wifi": "Wi-Fi",
     "arrival": "Arrivée",
@@ -390,12 +441,29 @@
     "Merci pour votre séjour — un commentaire sur Airbnb nous aide beaucoup !"
    ],
    "complaints": "Livre de réclamations (Livro de Reclamações)",
-   "about": "À propos de la maison"
+   "about": "À propos de la maison",
+   "site": {
+    "home": "La Maison",
+    "guide": "Guide du voyageur",
+    "explore": "Explorer l’Algarve",
+    "book": "Réserver"
+   },
+   "explore": {
+    "title": "Explorer l’Algarve | Casa Porches",
+    "h1": "Explorer l’Algarve",
+    "sub": "Carte, plages, restaurants, événements et expériences autour de la Casa Porches."
+   },
+   "guide": {
+    "ctaTitle": "Explorer la région",
+    "ctaText": "Carte interactive, plages, 40 restaurants recommandés, événements et activités de plein air.",
+    "ctaBtn": "Ouvrir Explorer l’Algarve →"
+   },
+   "disclaimer": "Informations purement indicatives, sans valeur contractuelle. Elles ne remplacent pas les conditions de la plateforme de réservation (Airbnb, Booking, etc.) ni le règlement de HostWise, qui prévalent en cas de divergence."
   },
   "de": {
    "title": "Gästeinformation | Casa Porches",
    "h1": "Willkommen in der Casa Porches",
-   "sub": "Alles für Ihren Aufenthalt – WLAN, Hausregeln, Strände, Restaurants und wichtige Kontakte.",
+   "sub": "Alles für Ihren Aufenthalt – WLAN, Anreise, Hausregeln und wichtige Kontakte.",
    "nav": {
     "wifi": "WLAN",
     "arrival": "Anreise",
@@ -479,12 +547,29 @@
     "Danke für Ihren Aufenthalt – eine Bewertung auf Airbnb hilft uns sehr!"
    ],
    "complaints": "Beschwerdebuch (Livro de Reclamações)",
-   "about": "Über das Haus"
+   "about": "Über das Haus",
+   "site": {
+    "home": "Das Haus",
+    "guide": "Gästeinfo",
+    "explore": "Algarve entdecken",
+    "book": "Buchen"
+   },
+   "explore": {
+    "title": "Algarve entdecken | Casa Porches",
+    "h1": "Die Algarve entdecken",
+    "sub": "Karte, Strände, Restaurants, Events und Erlebnisse rund um die Casa Porches."
+   },
+   "guide": {
+    "ctaTitle": "Die Umgebung entdecken",
+    "ctaText": "Interaktive Karte, Strände, 40 Restaurant-Tipps, Events und Outdoor-Aktivitäten.",
+    "ctaBtn": "Algarve entdecken öffnen →"
+   },
+   "disclaimer": "Nur zur Information, ohne vertragliche Bindung. Ersetzt nicht die Bedingungen der Buchungsplattform (Airbnb, Booking usw.) oder die Hausregeln von HostWise, die im Zweifel Vorrang haben."
   },
   "it": {
    "title": "Guida per gli ospiti | Casa Porches",
    "h1": "Benvenuti a Casa Porches",
-   "sub": "Tutto ciò che serve per il vostro soggiorno: Wi-Fi, regole della casa, spiagge, ristoranti e contatti utili.",
+   "sub": "Tutto ciò che serve durante il soggiorno: Wi-Fi, arrivo, regole della casa e contatti utili.",
    "nav": {
     "wifi": "Wi-Fi",
     "arrival": "Arrivo",
@@ -568,7 +653,24 @@
     "Grazie per il soggiorno: una recensione su Airbnb ci aiuta molto!"
    ],
    "complaints": "Libro dei reclami (Livro de Reclamações)",
-   "about": "La casa"
+   "about": "La casa",
+   "site": {
+    "home": "La Casa",
+    "guide": "Guida ospiti",
+    "explore": "Esplora l’Algarve",
+    "book": "Prenota"
+   },
+   "explore": {
+    "title": "Esplora l’Algarve | Casa Porches",
+    "h1": "Esplora l’Algarve",
+    "sub": "Mappa, spiagge, ristoranti, eventi ed esperienze intorno a Casa Porches."
+   },
+   "guide": {
+    "ctaTitle": "Esplora la zona",
+    "ctaText": "Mappa interattiva, spiagge, 40 ristoranti consigliati, eventi e attività all’aperto.",
+    "ctaBtn": "Apri Esplora l’Algarve →"
+   },
+   "disclaimer": "Informazioni puramente indicative, senza valore contrattuale. Non sostituiscono le condizioni della piattaforma di prenotazione (Airbnb, Booking, ecc.) né le regole di HostWise, che prevalgono in caso di differenze."
   }
  },
  "REST_CATS": {
@@ -5269,7 +5371,146 @@
    "Note 4,82/5 · 45 avis · Géré par HostWise",
    "Bewertung 4,82/5 · 45 Bewertungen · Verwaltet von HostWise",
    "Valutazione 4,82/5 · 45 recensioni · Gestito da HostWise"
+  ],
+  [
+   "Toldo motorizado",
+   "Motorised awning",
+   "Toldo motorizado",
+   "Store banne motorisé",
+   "Motorisierte Markise",
+   "Tenda da sole motorizzata"
+  ],
+  [
+   "Garagem e estacionamento privativo dentro do lote",
+   "Garage and private parking within the property",
+   "Garaje y aparcamiento privado dentro de la parcela",
+   "Garage et parking privé dans la propriété",
+   "Garage und privater Parkplatz auf dem Grundstück",
+   "Garage e parcheggio privato all’interno della proprietà"
+  ],
+  [
+   "Sala de Jantar",
+   "Dining Room",
+   "Comedor",
+   "Salle à manger",
+   "Esszimmer",
+   "Sala da pranzo"
+  ],
+  [
+   "Explorar o Algarve",
+   "Explore the Algarve",
+   "Explorar el Algarve",
+   "Explorer l’Algarve",
+   "Algarve entdecken",
+   "Esplora l’Algarve"
+  ],
+  [
+   "À Volta da Casa",
+   "Around the House",
+   "Alrededor de la casa",
+   "Autour de la maison",
+   "Rund ums Haus",
+   "Intorno alla casa"
+  ],
+  [
+   "Praias, restaurantes, eventos e experiências — tudo num só sítio, com mapa interativo.",
+   "Beaches, restaurants, events and experiences — all in one place, with an interactive map.",
+   "Playas, restaurantes, eventos y experiencias, todo en un solo lugar y con mapa interactivo.",
+   "Plages, restaurants, événements et expériences — tout au même endroit, avec une carte interactive.",
+   "Strände, Restaurants, Events und Erlebnisse – alles an einem Ort, mit interaktiver Karte.",
+   "Spiagge, ristoranti, eventi ed esperienze: tutto in un unico posto, con mappa interattiva."
+  ],
+  [
+   "Mapa interativo",
+   "Interactive map",
+   "Mapa interactivo",
+   "Carte interactive",
+   "Interaktive Karte",
+   "Mappa interattiva"
+  ],
+  [
+   "Todos os pontos à volta da casa",
+   "Every spot around the house",
+   "Todos los puntos alrededor de la casa",
+   "Tous les lieux autour de la maison",
+   "Alle Orte rund ums Haus",
+   "Tutti i luoghi intorno alla casa"
+  ],
+  [
+   "As mais bonitas a poucos minutos",
+   "The most beautiful ones, minutes away",
+   "Las más bonitas, a pocos minutos",
+   "Les plus belles, à quelques minutes",
+   "Die schönsten, nur Minuten entfernt",
+   "Le più belle, a pochi minuti"
+  ],
+  [
+   "40 sugestões, de tascas a estrelas Michelin",
+   "40 picks, from taverns to Michelin stars",
+   "40 sugerencias, de tabernas a estrellas Michelin",
+   "40 adresses, des tavernes aux étoilés Michelin",
+   "40 Tipps, von Tavernen bis Michelin-Sterne",
+   "40 consigli, dalle taverne alle stelle Michelin"
+  ],
+  [
+   "Eventos e Experiências",
+   "Events & Experiences",
+   "Eventos y experiencias",
+   "Événements & expériences",
+   "Events & Erlebnisse",
+   "Eventi ed esperienze"
+  ],
+  [
+   "Festas, ar livre, natureza e muito mais",
+   "Festivals, outdoors, nature and more",
+   "Fiestas, aire libre, naturaleza y mucho más",
+   "Fêtes, plein air, nature et plus encore",
+   "Feste, Outdoor, Natur und mehr",
+   "Feste, aria aperta, natura e molto altro"
+  ],
+  [
+   "Abrir Explorar o Algarve",
+   "Open Explore the Algarve",
+   "Abrir Explorar el Algarve",
+   "Ouvrir Explorer l’Algarve",
+   "Algarve entdecken öffnen",
+   "Apri Esplora l’Algarve"
+  ],
+  [
+   "Reservar no Booking",
+   "Book on Booking.com",
+   "Reservar en Booking",
+   "Réserver sur Booking",
+   "Auf Booking buchen",
+   "Prenota su Booking"
+  ],
+  [
+   "Gerido por HostWise",
+   "Managed by HostWise",
+   "Gestionado por HostWise",
+   "Géré par HostWise",
+   "Verwaltet von HostWise",
+   "Gestito da HostWise"
+  ],
+  [
+   "Informação meramente indicativa, sem valor contratual. Não dispensa a leitura das condições da plataforma de reserva (Airbnb, Booking, etc.) e das regras da HostWise, que prevalecem em caso de diferença.",
+   "For information only, with no contractual value. It does not replace the terms of the booking platform (Airbnb, Booking, etc.) or HostWise’s house rules, which prevail in case of any difference.",
+   "Información meramente orientativa y sin valor contractual. No sustituye las condiciones de la plataforma de reserva (Airbnb, Booking, etc.) ni las normas de HostWise, que prevalecen en caso de diferencia.",
+   "Informations purement indicatives, sans valeur contractuelle. Elles ne remplacent pas les conditions de la plateforme de réservation (Airbnb, Booking, etc.) ni le règlement de HostWise, qui prévalent en cas de divergence.",
+   "Nur zur Information, ohne vertragliche Bindung. Ersetzt nicht die Bedingungen der Buchungsplattform (Airbnb, Booking usw.) oder die Hausregeln von HostWise, die im Zweifel Vorrang haben.",
+   "Informazioni puramente indicative, senza valore contrattuale. Non sostituiscono le condizioni della piattaforma di prenotazione (Airbnb, Booking, ecc.) né le regole di HostWise, che prevalgono in caso di differenze."
   ]
  ],
- "_gerado": "2026-10-25T07:25:25"
+ "CASA": {
+  "airbnb_nota": "4.82",
+  "airbnb_avaliacoes": "45",
+  "airbnb_link": "https://www.airbnb.pt/rooms/1123085919462636254",
+  "booking_nota": "",
+  "booking_avaliacoes": "",
+  "booking_link": "",
+  "vrbo_nota": "",
+  "vrbo_avaliacoes": "",
+  "vrbo_link": ""
+ },
+ "_gerado": "2026-10-25T13:15:05"
 }
