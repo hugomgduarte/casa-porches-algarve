@@ -43,8 +43,14 @@ window.startGuide=function(){
     (window.EVENTS||[]).forEach(function(e){ if(e.lat!=null) all.push({cat:EVMAP[e.cat]||'see',o:e}) });
     var groups={};
     all.forEach(function(x){var k=x.cat+'|'+x.o.lat.toFixed(4)+','+x.o.lng.toFixed(4);(groups[k]=groups[k]||[]).push(x)});
-    Object.keys(groups).forEach(function(k){var g=groups[k],c=g[0].cat,o=g[0].o;
-      var m=L.marker([o.lat,o.lng],{icon:icon('',CATS[c].c,(g.length===1&&o.icon)?o.icon:CATS[c].i)}).addTo(layers[c]); m._g=g; markers.push(m)});
+    /* pontos mesmo ao lado da casa: desenhados à volta da casa para não ficarem escondidos */
+    var nearKeys=Object.keys(groups).filter(function(k){var o=groups[k][0].o;return Math.abs(o.lat-HOME[0])<0.004&&Math.abs(o.lng-HOME[1])<0.004});
+    Object.keys(groups).forEach(function(k){var g=groups[k],c=g[0].cat,o=g[0].o,txt=(g.length===1&&o.icon)?o.icon:CATS[c].i;
+      var ni=nearKeys.indexOf(k), ic;
+      if(ni>=0){var a=-Math.PI/2+ni*2*Math.PI/nearKeys.length, dx=Math.round(34*Math.cos(a)), dy=Math.round(34*Math.sin(a));
+        ic=L.divIcon({className:'',html:'<div class="pin" style="background:'+CATS[c].c+'">'+txt+'</div>',iconSize:[30,30],iconAnchor:[15-dx,15-dy],popupAnchor:[dx,dy-14]});}
+      else ic=icon('',CATS[c].c,txt);
+      var m=L.marker([o.lat,o.lng],{icon:ic}).addTo(layers[c]); m._g=g; markers.push(m)});
     var pts=[HOME].concat(all.filter(function(x){return x.cat!=='help'&&x.o.lat<37.17&&x.o.lng>-8.56&&x.o.lng<-8.28}).map(function(x){return [x.o.lat,x.o.lng]}));
     map.fitBounds(pts,{padding:[20,20]});
     if(touch){
