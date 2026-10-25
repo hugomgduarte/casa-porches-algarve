@@ -11,6 +11,20 @@
     <link rel="stylesheet" href="style.css?v=2">
     <style>
     .nav-menu{margin-left:auto}
+    .explore-band{padding:90px 0;background:var(--cream)}
+    .explore-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:10px}
+    .ex-card{background:#fff;border:1px solid #ece6da;border-radius:16px;padding:26px 20px;text-align:center;display:flex;flex-direction:column;gap:6px;transition:var(--transition)}
+    .ex-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+    .ex-card b{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--navy)}
+    .ex-card span{color:var(--text-light);font-size:.9rem}
+    .ex-card .ex-ico{font-size:2rem;color:inherit}
+    @media (max-width:900px){.explore-grid{grid-template-columns:1fr 1fr}}
+    @media (max-width:480px){.explore-grid{grid-template-columns:1fr}}
+    .ratings{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:22px 0 6px}
+    .rating{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.95);color:var(--navy);border-radius:999px;padding:8px 16px;font-size:.92rem;text-decoration:none}
+    .rating b{font-size:1.05rem}.rating .st{color:#e0a100}
+    .rating small{color:#777}
+    .btn-outline{background:transparent;border:2px solid #fff;color:#fff}
     .lang-dd{position:relative;margin-left:20px}
     .lang-btn{display:flex;align-items:center;gap:6px;background:rgba(26,35,50,.55);color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:7px 12px;font:600 .82rem 'Inter',sans-serif;cursor:pointer}
     .navbar.scrolled .lang-btn{background:#fff;color:var(--navy);border-color:#e3dccd}
@@ -42,12 +56,8 @@
             </button>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#about">A Casa</a></li>
-                <li><a href="#gallery">Galeria</a></li>
-                <li><a href="#beaches">Praias</a></li>
-                <li><a href="#restaurants">Restaurantes</a></li>
-                <li><a href="#activities">Atividades</a></li>
-                <li><a href="guia.html#map">Mapa</a></li>
-                <li><a href="guia.html">Guia do Hóspede</a></li>
+                <li><a data-page href="guia.html">Guia do Hóspede</a></li>
+                <li><a data-page href="explorar.html">Explorar o Algarve</a></li>
                 <li><a href="#booking" class="nav-cta">Reservar</a></li>
             </ul>
             <div class="lang-dd" id="langDD">
@@ -152,7 +162,8 @@
                             <li>6 espreguiçadeiras</li>
                             <li>Mesa exterior para 10 pessoas</li>
                             <li>Grelhador / Barbecue</li>
-                            <li>Chapéu de sol com iluminação LED</li>
+                            <li>Toldo motorizado</li>
+                            <li>Garagem e estacionamento privativo dentro do lote</li>
                             <li>Jardim com acesso direto dos quartos</li>
                         </ul>
                     </div>
@@ -225,7 +236,7 @@
                 </div>
                 <div class="gallery-item" data-category="social">
                     <img src="images/living_2.jpg" alt="Sala" loading="lazy">
-                    <div class="gallery-caption">Sala</div>
+                    <div class="gallery-caption">Sala de Jantar</div>
                 </div>
                 <div class="gallery-item" data-category="social">
                     <img src="images/kitchen_0.jpg" alt="Cozinha" loading="lazy">
@@ -243,89 +254,7 @@
         </div>
     </section>
 
-    <!-- Beaches Section -->
-    <section class="beaches" id="beaches">
-        <div class="container">
-            <div class="section-header light">
-                <span class="section-tag">Paraíso à Porta</span>
-                <h2>Praias Deslumbrantes</h2>
-                <p class="section-desc">Algumas das praias mais bonitas do mundo estão a poucos minutos da casa. Falésias douradas, grutas secretas e águas cristalinas.</p>
-            </div>
-            <div class="beaches-grid">
-                <div class="beach-card featured">
-                    <div class="beach-image">
-                        <img src="images/beaches_0.jpg" alt="Praia da Marinha" loading="lazy">
-                        <span class="beach-distance">6 km</span>
-                    </div>
-                    <div class="beach-info">
-                        <h3>Praia da Marinha</h3>
-                        <p>Considerada pela CNN uma das melhores praias do mundo. Falésias espetaculares, águas cristalinas e formações rochosas únicas. Perfeita para snorkeling.</p>
-                        <div class="beach-tags">
-                            <span>Top Mundial</span>
-                            <span>Snorkeling</span>
-                            <span>Falésias</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="beach-card">
-                    <div class="beach-image">
-                        <img src="images/beaches_1.jpg" alt="Praia da Senhora da Rocha" loading="lazy">
-                        <span class="beach-distance">4 km</span>
-                    </div>
-                    <div class="beach-info">
-                        <h3>Praia N.ª Sr.ª da Rocha</h3>
-                        <p>Capela pitoresca no topo da falésia com vistas panorâmicas. Praia abrigada e tranquila, ideal para famílias.</p>
-                        <div class="beach-tags">
-                            <span>Família</span>
-                            <span>Tranquila</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="beach-card">
-                    <div class="beach-image">
-                        <img src="images/beaches_3.jpg" alt="Benagil" loading="lazy">
-                        <span class="beach-distance">7 km</span>
-                    </div>
-                    <div class="beach-info">
-                        <h3>Praia de Benagil</h3>
-                        <p>Famosa pela gruta do Algar de Benagil — uma catedral natural esculpida pelo mar. Passeios de barco disponíveis.</p>
-                        <div class="beach-tags">
-                            <span>Gruta Icónica</span>
-                            <span>Barco</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="beach-card">
-                    <div class="beach-image">
-                        <img src="images/beaches_4.jpg" alt="Armação de Pêra" loading="lazy">
-                        <span class="beach-distance">5 km</span>
-                    </div>
-                    <div class="beach-info">
-                        <h3>Armação de Pêra</h3>
-                        <p>Praia extensa com passeio marítimo animado, restaurantes e cafés. Perfeita para longas caminhadas à beira-mar.</p>
-                        <div class="beach-tags">
-                            <span>Passeio Marítimo</span>
-                            <span>Restaurantes</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="beach-card">
-                    <div class="beach-image">
-                        <img src="images/beaches_2.jpg" alt="Vale de Centeanes" loading="lazy">
-                        <span class="beach-distance">9 km</span>
-                    </div>
-                    <div class="beach-info">
-                        <h3>Praia do Vale de Centeanes</h3>
-                        <p>Pequena praia entre falésias, longe das multidões. Um segredo bem guardado do Algarve para quem procura sossego.</p>
-                        <div class="beach-tags">
-                            <span>Sossego</span>
-                            <span>Secreta</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Tranquility Section -->
     <section class="tranquility">
@@ -351,108 +280,25 @@
         </div>
     </section>
 
-    <!-- Restaurants Section -->
-    <section class="restaurants" id="restaurants">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Gastronomia</span>
-                <h2>Sabores do Algarve</h2>
-                <p class="section-desc">De tascas tradicionais a restaurantes com estrela Michelin — a zona de Porches é um paraíso gastronómico.</p>
-            </div>
-            <div class="restaurants-grid">
-                <div class="restaurant-card premium">
-                    <div class="restaurant-badge">Estrelas Michelin</div>
-                    <h3>Ocean Restaurant</h3>
-                    <p class="restaurant-location">Vila Vita Parc, Porches</p>
-                    <p>Chef Hans Neuner. Cozinha de autor com ingredientes locais e marisco fresco da costa algarvia. Uma experiência gastronómica única.</p>
-                    <span class="restaurant-distance">A poucos minutos</span>
-                </div>
-                <div class="restaurant-card">
-                    <div class="restaurant-badge local">Tasca Tradicional</div>
-                    <h3>Tasca 26</h3>
-                    <p class="restaurant-location">Porches</p>
-                    <p>Especialistas em carnes grelhadas. Ambiente autêntico e acolhedor, com os melhores sabores da cozinha algarvia tradicional.</p>
-                    <span class="restaurant-distance">Em Porches</span>
-                </div>
-                <div class="restaurant-card">
-                    <div class="restaurant-badge local">Cozinha Algarvia</div>
-                    <h3>O Charneco</h3>
-                    <p class="restaurant-location">Estômbar</p>
-                    <p>Sem menu, preço fixo com vinho incluído. Culinária tradicional algarvia autêntica. Reserva obrigatória — vale cada momento.</p>
-                    <span class="restaurant-distance">10 min de carro</span>
-                </div>
-                <div class="restaurant-card">
-                    <div class="restaurant-badge local">Peixe Fresco</div>
-                    <h3>O Ciclo</h3>
-                    <p class="restaurant-location">Lagoa</p>
-                    <p>Raia de caldo, açorda de lingueirão, xerém de berbigão. Peixe fresco e pratos tradicionais no centro de Lagoa.</p>
-                    <span class="restaurant-distance">8 min de carro</span>
-                </div>
-                <div class="restaurant-card">
-                    <div class="restaurant-badge local">Junto ao Mar</div>
-                    <h3>Rei das Praias</h3>
-                    <p class="restaurant-location">Ferragudo</p>
-                    <p>Desde 1976 na Praia dos Caneiros. Peixe e marisco frescos com vista privilegiada para o mar. Uma referência algarvia.</p>
-                    <span class="restaurant-distance">15 min de carro</span>
-                </div>
-                <div class="restaurant-card">
-                    <div class="restaurant-badge local">Vista Mar</div>
-                    <h3>Vista</h3>
-                    <p class="restaurant-location">Portimão</p>
-                    <p>Chef João Oliveira numa das mais belas praias do Algarve. Mais de 600 vinhos. Requinte tradicional e moderno.</p>
-                    <span class="restaurant-distance">20 min de carro</span>
-                </div>
-            </div>
-            <div style="text-align:center;margin-top:36px"><a href="guia.html#food" class="btn btn-primary">Ver os 40 restaurantes recomendados</a></div>
-        </div>
-    </section>
+    
 
-    <!-- Activities Section -->
-    <section class="activities" id="activities">
+    
+
+    <!-- Explore teaser -->
+    <section class="explore-band" id="explore">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Para Toda a Família</span>
-                <h2>O Que Fazer</h2>
+                <span class="section-tag">À Volta da Casa</span>
+                <h2>Explorar o Algarve</h2>
+                <p class="section-desc">Praias, restaurantes, eventos e experiências — tudo num só sítio, com mapa interativo.</p>
             </div>
-            <div class="activities-grid">
-                <div class="activity-card">
-                    <div class="activity-image">
-                        <img src="images/golf_0.jpg" alt="Golfe" loading="lazy">
-                    </div>
-                    <div class="activity-info">
-                        <h3>Golfe</h3>
-                        <p>Vale da Pinta (8 km) e Amendoeira Golf Resort (6 km) — dois campos de classe mundial à porta de casa.</p>
-                    </div>
-                </div>
-                <div class="activity-card">
-                    <div class="activity-image">
-                        <img src="images/waterparks_0.jpg" alt="Parques Aquáticos" loading="lazy">
-                    </div>
-                    <div class="activity-info">
-                        <h3>Aqualand</h3>
-                        <p>A apenas 3 km! Diversão garantida para miúdos e graúdos com escorregas e piscinas de ondas.</p>
-                    </div>
-                </div>
-                <div class="activity-card">
-                    <div class="activity-image">
-                        <img src="images/waterparks_2.jpg" alt="Slide & Splash" loading="lazy">
-                    </div>
-                    <div class="activity-info">
-                        <h3>Slide & Splash</h3>
-                        <p>Parque aquático a 6 km com atrações para todas as idades. Espetáculos com animais e muito mais.</p>
-                    </div>
-                </div>
-                <div class="activity-card">
-                    <div class="activity-image">
-                        <img src="images/zoomarine_0.jpg" alt="Zoomarine" loading="lazy">
-                    </div>
-                    <div class="activity-info">
-                        <h3>Zoomarine</h3>
-                        <p>A 10 km. Parque temático com golfinhos, aves tropicais, aquários e cinema 4D. Imperdível!</p>
-                    </div>
-                </div>
+            <div class="explore-grid">
+                <a data-page class="ex-card" href="explorar.html#map"><span class="ex-ico">🗺️</span><b>Mapa interativo</b><span>Todos os pontos à volta da casa</span></a>
+                <a data-page class="ex-card" href="explorar.html#beaches"><span class="ex-ico">🏖️</span><b>Praias</b><span>As mais bonitas a poucos minutos</span></a>
+                <a data-page class="ex-card" href="explorar.html#food"><span class="ex-ico">🍽️</span><b>Restaurantes</b><span>40 sugestões, de tascas a estrelas Michelin</span></a>
+                <a data-page class="ex-card" href="explorar.html#todo"><span class="ex-ico">🎉</span><b>Eventos e Experiências</b><span>Festas, ar livre, natureza e muito mais</span></a>
             </div>
-            <div style="text-align:center;margin-top:36px"><a href="guia.html#todo" class="btn btn-primary">Ver eventos, festas e experiências</a></div>
+            <div style="text-align:center;margin-top:32px"><a data-page href="explorar.html" class="btn btn-primary">Abrir Explorar o Algarve</a></div>
         </div>
     </section>
 
@@ -515,8 +361,10 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 18.275c-.457-.839-1.218-1.87-1.895-2.737-.799-1.024-1.672-2.057-2.361-3.199-.689-1.142-1.194-2.394-1.194-3.672 0-3.013 2.437-5.45 5.45-5.45s5.45 2.437 5.45 5.45c0 1.278-.505 2.53-1.194 3.672-.689 1.142-1.562 2.175-2.361 3.199-.677.867-1.438 1.898-1.895 2.737zM12.001 2.017c-3.563 0-6.65 2.887-6.65 6.65 0 1.578.605 3.03 1.394 4.272.789 1.242 1.762 2.375 2.561 3.399.799 1.024 1.562 2.057 1.895 2.837.1.2.3.4.5.6.1.1.2.1.3.1s.2 0 .3-.1c.2-.2.4-.4.5-.6.333-.78 1.096-1.813 1.895-2.837.799-1.024 1.772-2.157 2.561-3.399.789-1.242 1.394-2.694 1.394-4.272 0-3.763-3.087-6.65-6.65-6.65z"/><circle cx="12" cy="8.5" r="2.5"/></svg>
                     Reservar no Airbnb
                 </a>
+                <a id="bookingBtn" href="#" target="_blank" rel="noopener" class="btn btn-lg btn-outline" style="display:none">Reservar no Booking</a>
             </div>
-            <p class="booking-note">Avaliação 4.82/5 &middot; 45 avaliações &middot; Gerido por HostWise</p>
+            <div class="ratings" id="ratings"></div>
+            <p class="booking-note">Gerido por HostWise</p>
         </div>
     </section>
 
@@ -531,13 +379,13 @@
                 <div class="footer-links">
                     <a href="#about">A Casa</a>
                     <a href="#gallery">Galeria</a>
-                    <a href="#beaches">Praias</a>
-                    <a href="#restaurants">Restaurantes</a>
-                    <a href="guia.html">Guia do Hóspede</a>
+                    <a data-page href="guia.html">Guia do Hóspede</a>
+                    <a data-page href="explorar.html">Explorar o Algarve</a>
                     <a href="#booking">Reservar</a>
                 </div>
             </div>
             <div class="footer-bottom">
+                <p class="disc" style="max-width:720px;margin:0 auto 10px;font-size:.8rem;line-height:1.5;opacity:.75">Informação meramente indicativa, sem valor contratual. Não dispensa a leitura das condições da plataforma de reserva (Airbnb, Booking, etc.) e das regras da HostWise, que prevalecem em caso de diferença.</p>
                 <p>&copy; 2026 Casa Porches &middot; Algarve, Portugal</p>
             </div>
         </div>
@@ -585,8 +433,17 @@
         document.documentElement.lang=l; document.title=TITLES[l];
         btn.innerHTML=FLAGS[l]+'<span>'+l.toUpperCase()+'</span><span class="car">▾</span>';
         menu.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.l===l)});
-        document.querySelectorAll('a[href^="guia.html"]').forEach(function(a){var h=a.getAttribute('href').split('#');a.setAttribute('href','guia.html?lang='+l+(h[1]?'#'+h[1]:''))});
+        document.querySelectorAll('a[data-page]').forEach(function(a){var h=a.getAttribute('href').split('?')[0].split('#');a.setAttribute('href',h[0]+'?lang='+l+(h[1]?'#'+h[1]:''))});
+        renderRatings(l);
         try{localStorage.setItem('guiaLang',l)}catch(e){}
+      }
+      var REV={pt:'avaliações',en:'reviews',es:'reseñas',fr:'avis',de:'Bewertungen',it:'recensioni'};
+      function renderRatings(l){
+        var C=window.CASA||{}, box=document.getElementById('ratings'); if(!box) return;
+        box.innerHTML=[['Airbnb','airbnb'],['Booking.com','booking'],['Vrbo','vrbo']].filter(function(p){return C[p[1]+'_nota']}).map(function(p){
+          var k=p[1], link=C[k+'_link'], n=C[k+'_avaliacoes'];
+          return '<'+(link?'a href="'+link+'" target="_blank" rel="noopener"':'span')+' class="rating"><b>'+p[0]+'</b><span class="st">★</span><b>'+C[k+'_nota']+'</b>'+(n?'<small>· '+n+' '+REV[l]+'</small>':'')+'</'+(link?'a':'span')+'>'}).join('');
+        var bb=document.getElementById('bookingBtn'); if(C.booking_link){bb.href=C.booking_link;bb.style.display=''}
       }
       var q=new URLSearchParams(location.search).get('lang'), saved=null;
       try{saved=localStorage.getItem('guiaLang')}catch(e){}
@@ -595,7 +452,7 @@
       set(L.indexOf(q)>=0?q:(saved||auto||'pt'));
     };
     fetch('data/site.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
-      window.SITE_LANGS=d.SITE_LANGS; window.SITE_ROWS=d.SITE_ROWS; window.startSite();
+      window.SITE_LANGS=d.SITE_LANGS; window.SITE_ROWS=d.SITE_ROWS; window.CASA=d.CASA; window.startSite();
     }).catch(function(e){console.error(e)});
     </script>
 </body>
