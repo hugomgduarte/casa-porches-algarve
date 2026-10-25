@@ -440,9 +440,9 @@
       var REV={pt:'avaliações',en:'reviews',es:'reseñas',fr:'avis',de:'Bewertungen',it:'recensioni'};
       function renderRatings(l){
         var C=window.CASA||{}, box=document.getElementById('ratings'); if(!box) return;
-        box.innerHTML=[['Airbnb','airbnb'],['Booking.com','booking'],['Vrbo','vrbo']].filter(function(p){return C[p[1]+'_nota']}).map(function(p){
+        box.innerHTML=[['Airbnb','airbnb','/5'],['Booking.com','booking','/10'],['Vrbo','vrbo','/5']].filter(function(p){return C[p[1]+'_nota']}).map(function(p){
           var k=p[1], link=C[k+'_link'], n=C[k+'_avaliacoes'];
-          return '<'+(link?'a href="'+link+'" target="_blank" rel="noopener"':'span')+' class="rating"><b>'+p[0]+'</b><span class="st">★</span><b>'+C[k+'_nota']+'</b>'+(n?'<small>· '+n+' '+REV[l]+'</small>':'')+'</'+(link?'a':'span')+'>'}).join('');
+          return '<'+(link?'a href="'+link+'" target="_blank" rel="noopener"':'span')+' class="rating"><b>'+p[0]+'</b><span class="st">★</span><b>'+C[k+'_nota']+'</b><small>'+p[2]+'</small>'+(n?'<small>· '+n+' '+REV[l]+'</small>':'')+'</'+(link?'a':'span')+'>'}).join('');
         var bb=document.getElementById('bookingBtn'); if(C.booking_link){bb.href=C.booking_link;bb.style.display=''}
       }
       var q=new URLSearchParams(location.search).get('lang'), saved=null;
