@@ -71,6 +71,10 @@ ul.list li::before{content:"";position:absolute;left:4px;top:16px;width:8px;heig
 .badge.ok{background:#e8f3ec;color:#2e7d4f}
 .badge.live{background:#fdecea;color:#c0392b}
 .card .links{display:flex;gap:14px;flex-wrap:wrap}
+.card .nm{display:flex;align-items:flex-start;gap:10px}
+.ico{flex:none;width:38px;height:38px;border-radius:50%;background:var(--cream);border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;font-size:1.25rem;line-height:1;margin-top:-4px}
+.ico.ph{object-fit:cover;padding:0}
+.card .nm+small{margin-top:2px}
 .card.pic{padding:0;overflow:hidden;display:flex;flex-direction:column}
 .card.pic .cimg{width:100%;aspect-ratio:2/1;object-fit:cover;display:block;background:var(--cream)}
 .card.pic .cbody{padding:12px 14px 14px}
@@ -224,7 +228,7 @@ footer a{color:var(--muted)}
 window.startGuide=function(){
   var HOME=[37.125046,-8.399062];
   var CATS={beach:{c:'#2a9fd6',i:'🏖️'},food:{c:'#d9822b',i:'🍽️'},fun:{c:'#7b5bd6',i:'🎢'},see:{c:'#3c9a5f',i:'📍'},help:{c:'#c0392b',i:'🏥'},fest:{c:'#c2185b',i:'🎉'}};
-  var EVMAP={events:'fest',markets:'fest',water:'fun',indoor:'fun',nature:'see',sea:'see'};
+  var EVMAP={events:'fest',markets:'fest',water:'fun',indoor:'fun',nature:'see',sea:'see',outdoor:'fun'};
   var codes=LANGS.map(function(l){return l.code});
   var cur='en', T=TXT.en;
   function get(path){return path.split('.').reduce(function(o,k){return o&&o[k]},T)}
@@ -263,7 +267,7 @@ window.startGuide=function(){
     var groups={};
     all.forEach(function(x){var k=x.cat+'|'+x.o.lat.toFixed(4)+','+x.o.lng.toFixed(4);(groups[k]=groups[k]||[]).push(x)});
     Object.keys(groups).forEach(function(k){var g=groups[k],c=g[0].cat,o=g[0].o;
-      var m=L.marker([o.lat,o.lng],{icon:icon('',CATS[c].c,CATS[c].i)}).addTo(layers[c]); m._g=g; markers.push(m)});
+      var m=L.marker([o.lat,o.lng],{icon:icon('',CATS[c].c,(g.length===1&&o.icon)?o.icon:CATS[c].i)}).addTo(layers[c]); m._g=g; markers.push(m)});
     var pts=[HOME].concat(all.filter(function(x){return x.cat!=='help'&&x.o.lat<37.17&&x.o.lng>-8.56&&x.o.lng<-8.28}).map(function(x){return [x.o.lat,x.o.lng]}));
     map.fitBounds(pts,{padding:[20,20]});
     if(touch){
@@ -294,6 +298,7 @@ window.startGuide=function(){
   }
 
   var evCat='upcoming', evTag='';
+  function ico(o){return o.img?'<img class="ico ph" loading="lazy" alt="" src="'+esc(o.img)+'">':'<span class="ico">'+esc(o.icon||'📍')+'</span>'}
   function dt(s){var p=s.split('-');return new Date(+p[0],+p[1]-1,+p[2])}
   function fmtD(d,o){try{return new Intl.DateTimeFormat(cur==='en'?'en-GB':cur,o).format(d)}catch(e){return d.toDateString()}}
   function range(s,e){var a=dt(s),b=dt(e||s);
@@ -336,12 +341,12 @@ window.startGuide=function(){
       var dist=x.sub?'':T.km===0?U.inPorches[l]:(T.km?'≈ '+T.km+' km · '+T.min+' min '+U.fromHouse[l]:'');
       var place=(x.sub?x.sub:(T.name||''));
       var q=x.sub||(e.name+' '+(T.name||'Algarve'));
-      return '<div class="card pic">'+(e.img?'<img class="cimg" loading="lazy" alt="" src="'+esc(e.img)+'">':'')+'<div class="cbody"><div class="t"><span>'+esc(e.name)+badge+'</span></div>'
+      return '<div class="card"><div class="t"><span class="nm">'+ico(e)+'<span>'+esc(e.name)+badge+'</span></span></div>'
         +(when?'<div class="when">'+esc(when)+'</div>':'')
         +'<div class="loc">'+esc([place,dist].filter(Boolean).join(' · '))+'</div>'
         +'<p>'+esc(e.d[l]||e.d.en)+(e.price?' <b>'+esc(e.price)+'</b>':'')+'</p>'
         +'<div class="meta">'+(e.tags||[]).map(function(t){return '<span>'+esc(EV_TAGS[t][l])+'</span>'}).join('')+'</div>'
-        +'<div class="links"><a class="map" target="_blank" rel="noopener" href="'+gmaps(q)+'">Google Maps →</a>'+(e.url?'<a class="map" target="_blank" rel="noopener" href="'+esc(e.url)+'">'+U.website[l]+' →</a>':'')+'</div></div></div>';
+        +'<div class="links"><a class="map" target="_blank" rel="noopener" href="'+gmaps(q)+'">Google Maps →</a>'+(e.url?'<a class="map" target="_blank" rel="noopener" href="'+esc(e.url)+'">'+U.website[l]+' →</a>':'')+'</div></div>';
     }).join('');
     document.getElementById('evList').innerHTML=html||'<p class="note">'+U.none[l]+'</p>';
     document.getElementById('evNote').textContent=U.note[l];
@@ -357,7 +362,7 @@ window.startGuide=function(){
     var items=RESTAURANTS.filter(function(r){return restFilter==='all'||(restFilter==='near'?r.near:r.cat===restFilter)});
     if(restFilter==='all') items=items.slice().sort(function(a,b){return (b.near?1:0)-(a.near?1:0)});
     list.innerHTML=items.map(function(r){
-      return '<div class="card pic">'+(r.img?'<img class="cimg" loading="lazy" alt="" src="'+esc(r.img)+'">':'')+'<div class="cbody"><div class="t">'+esc(r.name)+'<small>'+esc(r.price)+'</small></div><div class="loc">'+esc(r.loc)+'</div><p>'+esc(r.d[l]||r.d.en)+'</p><div class="meta"><span>'+esc(REST_CATS[r.cat][l])+'</span>'+(r.near?'<span class="near">'+esc(REST_UI.near[l])+'</span>':'')+'</div><a class="map" target="_blank" rel="noopener" href="'+gmaps(r.q)+'">Google Maps →</a></div></div>'}).join('');
+      return '<div class="card"><div class="t"><span class="nm">'+ico(r)+'<span>'+esc(r.name)+'</span></span><small>'+esc(r.price)+'</small></div><div class="loc">'+esc(r.loc)+'</div><p>'+esc(r.d[l]||r.d.en)+'</p><div class="meta"><span>'+esc(REST_CATS[r.cat][l])+'</span>'+(r.near?'<span class="near">'+esc(REST_UI.near[l])+'</span>':'')+'</div><a class="map" target="_blank" rel="noopener" href="'+gmaps(r.q)+'">Google Maps →</a></div>'}).join('');
     document.getElementById('restNote').textContent='€ <20 € · €€ 20–40 € · €€€ 40–80 € · €€€€ >80 € — '+REST_UI.price[l];
   }
   function setLang(l){
