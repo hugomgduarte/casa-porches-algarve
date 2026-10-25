@@ -106,7 +106,8 @@
     "fun": "Atividades",
     "see": "Locais a visitar",
     "help": "Saúde",
-    "fest": "Festas e eventos"
+    "fest": "Festas e eventos",
+    "shop": "Compras"
    },
    "beachesTitle": "Praias perto",
    "beachTip": "Dica: o Percurso dos Sete Vales Suspensos liga a Marinha a Benagil pelas falésias — melhor de manhã cedo ou ao fim da tarde.",
@@ -137,10 +138,19 @@
    },
    "guide": {
     "ctaTitle": "Explorar a região",
-    "ctaText": "Mapa interativo, praias, 40 restaurantes recomendados, eventos e atividades ao ar livre.",
+    "ctaText": "Mapa interativo, praias, mais de 40 restaurantes recomendados, eventos e atividades ao ar livre.",
     "ctaBtn": "Abrir Explorar o Algarve →"
    },
-   "disclaimer": "Informação meramente indicativa, sem valor contratual. Não dispensa a leitura das condições da plataforma de reserva (Airbnb, Booking, etc.) e das regras da HostWise, que prevalecem em caso de diferença."
+   "disclaimer": "Informação meramente indicativa, sem valor contratual. Não dispensa a leitura das condições da plataforma de reserva (Airbnb, Booking, etc.) e das regras da HostWise, que prevalecem em caso de diferença.",
+   "hcPorches": "Centro de Saúde de Porches",
+   "hcPorchesDesc": "Extensão do centro de saúde (SNS), na Rua da Escola, a poucos minutos a pé. Confirme o horário de atendimento.",
+   "walk": "a pé",
+   "pharmPorches": "Farmácia em Porches, no centro da vila. Para farmácias de serviço à noite e ao fim de semana, use o Google Maps.",
+   "hospSns": "Hospital público com urgência 24 horas.",
+   "hospPrivate": "Hospitais privados",
+   "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) e Hospital Particular do Algarve – Alvor (~30 min). Atendimento pago; confirme horários e seguro.",
+   "shopsWalk": "Mercearias a pé",
+   "shopsWalkDesc": "Minimercado da Vila e supermercado Laginha, a 2 minutos a pé, no centro de Porches — práticos para pão, fruta e o essencial. Para compras maiores há supermercados em Lagoa e Armação de Pêra (10 min de carro)."
   },
   "en": {
    "title": "Guest Guide | Casa Porches",
@@ -212,7 +222,8 @@
     "fun": "Activities",
     "see": "Places to visit",
     "help": "Health",
-    "fest": "Festivals & events"
+    "fest": "Festivals & events",
+    "shop": "Shopping"
    },
    "beachesTitle": "Beaches nearby",
    "beachTip": "Tip: the Seven Hanging Valleys trail (Percurso dos Sete Vales Suspensos) links Marinha and Benagil along the clifftops — best early morning or late afternoon.",
@@ -243,10 +254,19 @@
    },
    "guide": {
     "ctaTitle": "Explore the area",
-    "ctaText": "Interactive map, beaches, 40 recommended restaurants, events and outdoor activities.",
+    "ctaText": "Interactive map, beaches, 40+ recommended restaurants, events and outdoor activities.",
     "ctaBtn": "Open Explore the Algarve →"
    },
-   "disclaimer": "For information only, with no contractual value. It does not replace the terms of the booking platform (Airbnb, Booking, etc.) or HostWise’s house rules, which prevail in case of any difference."
+   "disclaimer": "For information only, with no contractual value. It does not replace the terms of the booking platform (Airbnb, Booking, etc.) or HostWise’s house rules, which prevail in case of any difference.",
+   "hcPorches": "Porches Health Centre",
+   "hcPorchesDesc": "Public health centre branch (SNS) on Rua da Escola, a few minutes’ walk away. Please check opening hours.",
+   "walk": "on foot",
+   "pharmPorches": "Pharmacy in the centre of Porches. For on-duty pharmacies at night and at weekends, use Google Maps.",
+   "hospSns": "Public hospital with a 24-hour emergency department.",
+   "hospPrivate": "Private hospitals",
+   "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) and Hospital Particular do Algarve – Alvor (~30 min). Paid care; check hours and insurance.",
+   "shopsWalk": "Grocery shops on foot",
+   "shopsWalkDesc": "Minimercado da Vila and Laginha supermarket, a 2-minute walk away in the centre of Porches — handy for bread, fruit and essentials. For a big shop there are supermarkets in Lagoa and Armação de Pêra (10 min by car)."
   },
   "es": {
    "title": "Guía del huésped | Casa Porches",
@@ -318,7 +338,8 @@
     "fun": "Actividades",
     "see": "Lugares que visitar",
     "help": "Salud",
-    "fest": "Fiestas y eventos"
+    "fest": "Fiestas y eventos",
+    "shop": "Compras"
    },
    "beachesTitle": "Playas cercanas",
    "beachTip": "Consejo: la ruta de los Siete Valles Colgantes (Percurso dos Sete Vales Suspensos) une Marinha y Benagil por los acantilados; mejor a primera hora o al final de la tarde.",
@@ -349,10 +370,19 @@
    },
    "guide": {
     "ctaTitle": "Explorar la zona",
-    "ctaText": "Mapa interactivo, playas, 40 restaurantes recomendados, eventos y actividades al aire libre.",
+    "ctaText": "Mapa interactivo, playas, más de 40 restaurantes recomendados, eventos y actividades al aire libre.",
     "ctaBtn": "Abrir Explorar el Algarve →"
    },
-   "disclaimer": "Información meramente orientativa y sin valor contractual. No sustituye las condiciones de la plataforma de reserva (Airbnb, Booking, etc.) ni las normas de HostWise, que prevalecen en caso de diferencia."
+   "disclaimer": "Información meramente orientativa y sin valor contractual. No sustituye las condiciones de la plataforma de reserva (Airbnb, Booking, etc.) ni las normas de HostWise, que prevalecen en caso de diferencia.",
+   "hcPorches": "Centro de Salud de Porches",
+   "hcPorchesDesc": "Consultorio del centro de salud público (SNS) en la Rua da Escola, a pocos minutos a pie. Consulte el horario.",
+   "walk": "a pie",
+   "pharmPorches": "Farmacia en el centro de Porches. Para farmacias de guardia por la noche y los fines de semana, use Google Maps.",
+   "hospSns": "Hospital público con urgencias 24 horas.",
+   "hospPrivate": "Hospitales privados",
+   "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) y Hospital Particular do Algarve – Alvor (~30 min). Atención de pago; consulte horarios y seguro.",
+   "shopsWalk": "Tiendas a pie",
+   "shopsWalkDesc": "Minimercado da Vila y el supermercado Laginha, a 2 minutos a pie en el centro de Porches: prácticos para pan, fruta y lo básico. Para compras grandes hay supermercados en Lagoa y Armação de Pêra (10 min en coche)."
   },
   "fr": {
    "title": "Guide du voyageur | Casa Porches",
@@ -424,7 +454,8 @@
     "fun": "Activités",
     "see": "À visiter",
     "help": "Santé",
-    "fest": "Fêtes & événements"
+    "fest": "Fêtes & événements",
+    "shop": "Courses"
    },
    "beachesTitle": "Plages à proximité",
    "beachTip": "Astuce : le sentier des Sept Vallées Suspendues (Percurso dos Sete Vales Suspensos) relie Marinha à Benagil par les falaises — idéal tôt le matin ou en fin d’après-midi.",
@@ -455,10 +486,19 @@
    },
    "guide": {
     "ctaTitle": "Explorer la région",
-    "ctaText": "Carte interactive, plages, 40 restaurants recommandés, événements et activités de plein air.",
+    "ctaText": "Carte interactive, plages, plus de 40 restaurants recommandés, événements et activités de plein air.",
     "ctaBtn": "Ouvrir Explorer l’Algarve →"
    },
-   "disclaimer": "Informations purement indicatives, sans valeur contractuelle. Elles ne remplacent pas les conditions de la plateforme de réservation (Airbnb, Booking, etc.) ni le règlement de HostWise, qui prévalent en cas de divergence."
+   "disclaimer": "Informations purement indicatives, sans valeur contractuelle. Elles ne remplacent pas les conditions de la plateforme de réservation (Airbnb, Booking, etc.) ni le règlement de HostWise, qui prévalent en cas de divergence.",
+   "hcPorches": "Centre de santé de Porches",
+   "hcPorchesDesc": "Antenne du centre de santé public (SNS), Rua da Escola, à quelques minutes à pied. Vérifiez les horaires.",
+   "walk": "à pied",
+   "pharmPorches": "Pharmacie au centre de Porches. Pour les pharmacies de garde la nuit et le week-end, utilisez Google Maps.",
+   "hospSns": "Hôpital public avec urgences 24h/24.",
+   "hospPrivate": "Hôpitaux privés",
+   "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) et Hospital Particular do Algarve – Alvor (~30 min). Soins payants ; vérifiez horaires et assurance.",
+   "shopsWalk": "Épiceries à pied",
+   "shopsWalkDesc": "Minimercado da Vila et le supermarché Laginha, à 2 minutes à pied au centre de Porches — pratiques pour le pain, les fruits et l’essentiel. Pour les grosses courses, supermarchés à Lagoa et Armação de Pêra (10 min en voiture)."
   },
   "de": {
    "title": "Gästeinformation | Casa Porches",
@@ -530,7 +570,8 @@
     "fun": "Aktivitäten",
     "see": "Sehenswürdigkeiten",
     "help": "Gesundheit",
-    "fest": "Feste & Events"
+    "fest": "Feste & Events",
+    "shop": "Einkaufen"
    },
    "beachesTitle": "Strände in der Nähe",
    "beachTip": "Tipp: Der Wanderweg der Sieben Hängenden Täler (Percurso dos Sete Vales Suspensos) verbindet Marinha und Benagil entlang der Klippen – am schönsten früh morgens oder am späten Nachmittag.",
@@ -561,10 +602,19 @@
    },
    "guide": {
     "ctaTitle": "Die Umgebung entdecken",
-    "ctaText": "Interaktive Karte, Strände, 40 Restaurant-Tipps, Events und Outdoor-Aktivitäten.",
+    "ctaText": "Interaktive Karte, Strände, über 40 Restaurant-Tipps, Events und Outdoor-Aktivitäten.",
     "ctaBtn": "Algarve entdecken öffnen →"
    },
-   "disclaimer": "Nur zur Information, ohne vertragliche Bindung. Ersetzt nicht die Bedingungen der Buchungsplattform (Airbnb, Booking usw.) oder die Hausregeln von HostWise, die im Zweifel Vorrang haben."
+   "disclaimer": "Nur zur Information, ohne vertragliche Bindung. Ersetzt nicht die Bedingungen der Buchungsplattform (Airbnb, Booking usw.) oder die Hausregeln von HostWise, die im Zweifel Vorrang haben.",
+   "hcPorches": "Gesundheitszentrum Porches",
+   "hcPorchesDesc": "Außenstelle des öffentlichen Gesundheitszentrums (SNS) in der Rua da Escola, wenige Gehminuten entfernt. Bitte Öffnungszeiten prüfen.",
+   "walk": "zu Fuß",
+   "pharmPorches": "Apotheke im Ortszentrum von Porches. Notdienst-Apotheken nachts und am Wochenende über Google Maps.",
+   "hospSns": "Öffentliches Krankenhaus mit 24-Stunden-Notaufnahme.",
+   "hospPrivate": "Privatkliniken",
+   "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 Min.) und Hospital Particular do Algarve – Alvor (~30 Min.). Kostenpflichtig; Zeiten und Versicherung prüfen.",
+   "shopsWalk": "Lebensmittel zu Fuß",
+   "shopsWalkDesc": "Minimercado da Vila und Supermarkt Laginha, 2 Gehminuten entfernt im Ortszentrum – praktisch für Brot, Obst und das Nötigste. Für größere Einkäufe gibt es Supermärkte in Lagoa und Armação de Pêra (10 Min. mit dem Auto)."
   },
   "it": {
    "title": "Guida per gli ospiti | Casa Porches",
@@ -636,7 +686,8 @@
     "fun": "Attività",
     "see": "Da visitare",
     "help": "Salute",
-    "fest": "Feste ed eventi"
+    "fest": "Feste ed eventi",
+    "shop": "Spesa"
    },
    "beachesTitle": "Spiagge vicine",
    "beachTip": "Consiglio: il sentiero delle Sette Valli Sospese (Percurso dos Sete Vales Suspensos) collega Marinha e Benagil lungo le scogliere — ideale al mattino presto o nel tardo pomeriggio.",
@@ -667,10 +718,19 @@
    },
    "guide": {
     "ctaTitle": "Esplora la zona",
-    "ctaText": "Mappa interattiva, spiagge, 40 ristoranti consigliati, eventi e attività all’aperto.",
+    "ctaText": "Mappa interattiva, spiagge, oltre 40 ristoranti consigliati, eventi e attività all’aperto.",
     "ctaBtn": "Apri Esplora l’Algarve →"
    },
-   "disclaimer": "Informazioni puramente indicative, senza valore contrattuale. Non sostituiscono le condizioni della piattaforma di prenotazione (Airbnb, Booking, ecc.) né le regole di HostWise, che prevalgono in caso di differenze."
+   "disclaimer": "Informazioni puramente indicative, senza valore contrattuale. Non sostituiscono le condizioni della piattaforma di prenotazione (Airbnb, Booking, ecc.) né le regole di HostWise, che prevalgono in caso di differenze.",
+   "hcPorches": "Centro sanitario di Porches",
+   "hcPorchesDesc": "Sede distaccata del centro sanitario pubblico (SNS) in Rua da Escola, a pochi minuti a piedi. Verificate gli orari.",
+   "walk": "a piedi",
+   "pharmPorches": "Farmacia nel centro di Porches. Per le farmacie di turno di notte e nel fine settimana, usate Google Maps.",
+   "hospSns": "Ospedale pubblico con pronto soccorso 24 ore.",
+   "hospPrivate": "Ospedali privati",
+   "hospPrivateDesc": "Hospital Lusíadas Albufeira (~20 min) e Hospital Particular do Algarve – Alvor (~30 min). A pagamento; verificate orari e assicurazione.",
+   "shopsWalk": "Alimentari a piedi",
+   "shopsWalkDesc": "Minimercado da Vila e il supermercato Laginha, a 2 minuti a piedi nel centro di Porches: comodi per pane, frutta e l’essenziale. Per la spesa grande ci sono supermercati a Lagoa e Armação de Pêra (10 min in auto)."
   }
  },
  "REST_CATS": {
@@ -789,6 +849,14 @@
    "fr": "Nature & plages",
    "de": "Natur & Strände",
    "it": "Natura e spiagge"
+  },
+  "cities": {
+   "pt": "Vilas e cidades",
+   "en": "Towns & sightseeing",
+   "es": "Pueblos y ciudades",
+   "fr": "Villes & villages",
+   "de": "Orte & Sehenswertes",
+   "it": "Paesi e città"
   },
   "sea": {
    "pt": "Mar e aventura",
@@ -1349,30 +1417,12 @@
    }
   },
   {
-   "cat": "see",
-   "list": "",
-   "name": "Ferragudo",
-   "dist": "",
-   "lat": 37.124,
-   "lng": -8.519,
-   "q": "Ferragudo",
-   "img": null,
-   "d": {
-    "pt": "Vila piscatória junto ao rio.",
-    "en": "Charming fishing village by the river.",
-    "es": "Encantador pueblo pesquero junto al río.",
-    "fr": "Charmant village de pêcheurs au bord de la rivière.",
-    "de": "Malerisches Fischerdorf am Fluss.",
-    "it": "Grazioso villaggio di pescatori sul fiume."
-   }
-  },
-  {
    "cat": "help",
    "list": "",
    "name": "Hospital de Portimão",
    "dist": "~25 min",
-   "lat": 37.145,
-   "lng": -8.547,
+   "lat": 37.15545,
+   "lng": -8.5393,
    "q": "Hospital de Portimão",
    "img": null,
    "d": {
@@ -1382,6 +1432,240 @@
     "fr": "Hôpital (urgences).",
     "de": "Krankenhaus (Notaufnahme).",
     "it": "Ospedale (pronto soccorso)."
+   }
+  },
+  {
+   "cat": "help",
+   "list": "",
+   "name": "Centro de Saúde de Porches",
+   "dist": "",
+   "lat": 37.12709,
+   "lng": -8.39761,
+   "q": "Centro de Saúde de Porches",
+   "img": null,
+   "d": {
+    "pt": "Extensão do centro de saúde (SNS), na Rua da Escola, a poucos minutos a pé. Confirme o horário de atendimento.",
+    "en": "Public health centre branch (SNS) on Rua da Escola, a few minutes’ walk away. Please check opening hours.",
+    "es": "Consultorio del centro de salud público (SNS) en la Rua da Escola, a pocos minutos a pie. Consulte el horario.",
+    "fr": "Antenne du centre de santé public (SNS), Rua da Escola, à quelques minutes à pied. Vérifiez les horaires.",
+    "de": "Außenstelle des öffentlichen Gesundheitszentrums (SNS) in der Rua da Escola, wenige Gehminuten entfernt. Bitte Öffnungszeiten prüfen.",
+    "it": "Sede distaccata del centro sanitario pubblico (SNS) in Rua da Escola, a pochi minuti a piedi. Verificate gli orari."
+   }
+  },
+  {
+   "cat": "help",
+   "list": "",
+   "name": "Farmácia de Porches",
+   "dist": "",
+   "lat": 37.12672,
+   "lng": -8.40067,
+   "q": "Farmácia Porches",
+   "img": null,
+   "d": {
+    "pt": "Farmácia no centro de Porches.",
+    "en": "Pharmacy in the centre of Porches.",
+    "es": "Farmacia en el centro de Porches.",
+    "fr": "Pharmacie au centre de Porches.",
+    "de": "Apotheke im Ortszentrum.",
+    "it": "Farmacia nel centro di Porches."
+   }
+  },
+  {
+   "cat": "help",
+   "list": "",
+   "name": "Hospital Lusíadas Albufeira",
+   "dist": "",
+   "lat": 37.10287,
+   "lng": -8.23329,
+   "q": "Hospital Lusíadas Albufeira",
+   "img": null,
+   "d": {
+    "pt": "Hospital privado (atendimento pago).",
+    "en": "Private hospital (paid care).",
+    "es": "Hospital privado (de pago).",
+    "fr": "Hôpital privé (payant).",
+    "de": "Privatklinik (kostenpflichtig).",
+    "it": "Ospedale privato (a pagamento)."
+   }
+  },
+  {
+   "cat": "help",
+   "list": "",
+   "name": "Hospital Particular do Algarve – Alvor",
+   "dist": "",
+   "lat": 37.13069,
+   "lng": -8.58195,
+   "q": "Hospital Particular do Algarve Alvor",
+   "img": null,
+   "d": {
+    "pt": "Hospital privado (atendimento pago).",
+    "en": "Private hospital (paid care).",
+    "es": "Hospital privado (de pago).",
+    "fr": "Hôpital privé (payant).",
+    "de": "Privatklinik (kostenpflichtig).",
+    "it": "Ospedale privato (a pagamento)."
+   }
+  },
+  {
+   "cat": "help",
+   "list": "",
+   "name": "Extensão de Saúde de Armação de Pêra",
+   "dist": "",
+   "lat": 37.10605,
+   "lng": -8.35777,
+   "q": "Extensão de Saúde Armação de Pêra",
+   "img": null,
+   "d": {
+    "pt": "Extensão do centro de saúde (SNS). Confirme o horário.",
+    "en": "Public health centre branch (SNS). Check opening hours.",
+    "es": "Consultorio público (SNS). Consulte el horario.",
+    "fr": "Antenne de santé publique (SNS). Vérifiez les horaires.",
+    "de": "Öffentliche Gesundheitsstelle (SNS). Öffnungszeiten prüfen.",
+    "it": "Presidio sanitario pubblico (SNS). Verificate gli orari."
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Minimercado da Vila",
+   "dist": "",
+   "lat": 37.12606,
+   "lng": -8.39953,
+   "q": "Minimercado da Vila Porches",
+   "img": null,
+   "d": {
+    "pt": "Mercearia no centro de Porches, a 2 min a pé.",
+    "en": "Grocery shop in the centre of Porches, 2 min on foot.",
+    "es": "Tienda de comestibles en el centro, a 2 min a pie.",
+    "fr": "Épicerie au centre de Porches, à 2 min à pied.",
+    "de": "Lebensmittelladen im Ortszentrum, 2 Gehminuten.",
+    "it": "Alimentari nel centro di Porches, a 2 min a piedi."
+   }
+  },
+  {
+   "cat": "shop",
+   "list": "",
+   "name": "Supermercado Laginha",
+   "dist": "",
+   "lat": 37.12624,
+   "lng": -8.39875,
+   "q": "Laginha Porches",
+   "img": null,
+   "d": {
+    "pt": "Pequeno supermercado no centro de Porches, a 2 min a pé.",
+    "en": "Small supermarket in the centre of Porches, 2 min on foot.",
+    "es": "Pequeño supermercado en el centro, a 2 min a pie.",
+    "fr": "Petit supermarché au centre de Porches, à 2 min à pied.",
+    "de": "Kleiner Supermarkt im Ortszentrum, 2 Gehminuten.",
+    "it": "Piccolo supermercato nel centro di Porches, a 2 min a piedi."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Praia da Galé",
+   "dist": "Albufeira · ~15 min",
+   "lat": 37.08186,
+   "lng": -8.31788,
+   "q": "Praia da Galé",
+   "img": null,
+   "d": {
+    "pt": "Longo areal com rochedos, a nascente de Armação de Pêra. Considerada uma das melhores praias do país.",
+    "en": "Long sandy beach with rock formations, east of Armação de Pêra. Rated among Portugal’s best beaches.",
+    "es": "Larga playa de arena con rocas, al este de Armação de Pêra. Considerada una de las mejores del país.",
+    "fr": "Longue plage de sable et rochers, à l’est d’Armação de Pêra. Classée parmi les meilleures du pays.",
+    "de": "Langer Sandstrand mit Felsen, östlich von Armação de Pêra. Gilt als einer der besten Strände Portugals.",
+    "it": "Lunga spiaggia sabbiosa con rocce, a est di Armação de Pêra. Tra le migliori del Paese."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Praia de São Rafael",
+   "dist": "Albufeira · ~20 min",
+   "lat": 37.07479,
+   "lng": -8.28067,
+   "q": "Praia de São Rafael",
+   "img": null,
+   "d": {
+    "pt": "Pequena enseada de água transparente entre rochas douradas; ótima para snorkeling.",
+    "en": "Small cove with clear water between golden rocks; great for snorkelling.",
+    "es": "Pequeña cala de agua cristalina entre rocas doradas; ideal para snorkel.",
+    "fr": "Petite crique aux eaux limpides entre rochers dorés ; idéale pour le snorkeling.",
+    "de": "Kleine Bucht mit klarem Wasser zwischen goldenen Felsen; ideal zum Schnorcheln.",
+    "it": "Piccola caletta di acqua limpida tra rocce dorate; ottima per lo snorkeling."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Praia da Falésia",
+   "dist": "Albufeira · ~30 min",
+   "lat": 37.0805,
+   "lng": -8.14946,
+   "q": "Praia da Falésia",
+   "img": null,
+   "d": {
+    "pt": "Areal de vários quilómetros junto a falésias vermelhas e brancas. Eleita várias vezes a melhor praia de Portugal.",
+    "en": "Several kilometres of sand below red and white cliffs. Repeatedly voted Portugal’s best beach.",
+    "es": "Varios kilómetros de arena bajo acantilados rojos y blancos. Elegida varias veces la mejor playa de Portugal.",
+    "fr": "Plusieurs kilomètres de sable au pied de falaises rouges et blanches. Souvent élue meilleure plage du Portugal.",
+    "de": "Kilometerlanger Sandstrand unter roten und weißen Klippen. Mehrfach zum besten Strand Portugals gewählt.",
+    "it": "Chilometri di sabbia sotto falesie rosse e bianche. Più volte eletta la miglior spiaggia del Portogallo."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Praia da Rocha",
+   "dist": "Portimão · ~25 min",
+   "lat": 37.11551,
+   "lng": -8.53208,
+   "q": "Praia da Rocha",
+   "img": null,
+   "d": {
+    "pt": "Grande praia com marginal animada, restaurantes e a Fortaleza de Santa Catarina com vista sobre o mar.",
+    "en": "Big beach with a lively promenade, restaurants and the Santa Catarina fortress overlooking the sea.",
+    "es": "Gran playa con un animado paseo, restaurantes y la Fortaleza de Santa Catarina con vistas al mar.",
+    "fr": "Grande plage avec promenade animée, restaurants et la forteresse de Santa Catarina face à la mer.",
+    "de": "Großer Strand mit belebter Promenade, Restaurants und der Festung Santa Catarina mit Meerblick.",
+    "it": "Grande spiaggia con lungomare animato, ristoranti e la Fortezza di Santa Catarina sul mare."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Praia do João de Arens",
+   "dist": "Portimão · ~25 min",
+   "lat": 37.11621,
+   "lng": -8.56783,
+   "q": "Praia do João de Arens",
+   "img": null,
+   "d": {
+    "pt": "Pequena praia escondida entre falésias, acessível por escadaria; mais sossegada.",
+    "en": "Small hidden beach between cliffs, reached by steps; quieter.",
+    "es": "Pequeña playa escondida entre acantilados, con acceso por escaleras; más tranquila.",
+    "fr": "Petite plage cachée entre falaises, accessible par un escalier ; plus calme.",
+    "de": "Kleiner versteckter Strand zwischen Klippen, über Treppen erreichbar; ruhiger.",
+    "it": "Piccola spiaggia nascosta tra le falesie, raggiungibile con una scalinata; più tranquilla."
+   }
+  },
+  {
+   "cat": "beach",
+   "list": "beaches",
+   "name": "Praia dos Três Irmãos",
+   "dist": "Alvor · ~30 min",
+   "lat": 37.11971,
+   "lng": -8.58129,
+   "q": "Praia dos Três Irmãos",
+   "img": null,
+   "d": {
+    "pt": "Rochedos, grutas e arcos naturais junto ao extenso areal de Alvor.",
+    "en": "Rocks, caves and natural arches next to the long Alvor beach.",
+    "es": "Rocas, cuevas y arcos naturales junto a la extensa playa de Alvor.",
+    "fr": "Rochers, grottes et arches naturelles près de la longue plage d’Alvor.",
+    "de": "Felsen, Grotten und Felsbögen am langen Strand von Alvor.",
+    "it": "Scogli, grotte e archi naturali accanto alla lunga spiaggia di Alvor."
    }
   }
  ],
@@ -2157,6 +2441,120 @@
     "de": "Frühstück, Pancakes, Burger, Wraps und Cocktails. Familienfreundlich.",
     "it": "Colazioni, pancake, hamburger, wrap e cocktail. Adatto alle famiglie."
    }
+  },
+  {
+   "lat": 37.07967,
+   "lng": -8.29176,
+   "cat": "trad",
+   "name": "O Marinheiro",
+   "loc": "Sesmarias (Praia da Coelha), Albufeira",
+   "price": "€€–€€€",
+   "near": false,
+   "q": "O Marinheiro Albufeira",
+   "img": null,
+   "icon": "🐟",
+   "d": {
+    "pt": "Cozinha tradicional portuguesa perto da Praia da Coelha. Muito bem avaliado (Google 4,7 · 2 mil opiniões).",
+    "en": "Traditional Portuguese cooking near Praia da Coelha. Very highly rated (Google 4.7 · 2,000 reviews).",
+    "es": "Cocina tradicional portuguesa cerca de la Praia da Coelha. Muy bien valorado (Google 4,7 · 2.000 opiniones).",
+    "fr": "Cuisine portugaise traditionnelle près de la Praia da Coelha. Très bien noté (Google 4,7 · 2 000 avis).",
+    "de": "Traditionelle portugiesische Küche nahe der Praia da Coelha. Sehr gut bewertet (Google 4,7 · 2.000 Bewertungen).",
+    "it": "Cucina tradizionale portoghese vicino alla Praia da Coelha. Ottime recensioni (Google 4,7 · 2.000)."
+   }
+  },
+  {
+   "lat": 37.09379,
+   "lng": -8.19254,
+   "cat": "fine",
+   "name": "Versatile",
+   "loc": "Olhos de Água, Albufeira",
+   "price": "€€€",
+   "near": false,
+   "q": "Versatile Restaurante Olhos de Água",
+   "img": null,
+   "icon": "🥂",
+   "d": {
+    "pt": "Cozinha de autor portuguesa contemporânea. Excelente avaliação (Google 4,8). Reserva obrigatória.",
+    "en": "Contemporary Portuguese signature cuisine. Excellent rating (Google 4.8). Booking required.",
+    "es": "Cocina de autor portuguesa contemporánea. Valoración excelente (Google 4,8). Reserva obligatoria.",
+    "fr": "Cuisine d’auteur portugaise contemporaine. Excellente note (Google 4,8). Réservation obligatoire.",
+    "de": "Moderne portugiesische Autorenküche. Hervorragend bewertet (Google 4,8). Reservierung erforderlich.",
+    "it": "Cucina d’autore portoghese contemporanea. Valutazione eccellente (Google 4,8). Prenotazione obbligatoria."
+   }
+  },
+  {
+   "cat": "fine",
+   "name": "Windmill (só adultos)",
+   "loc": "Albufeira (cidade)",
+   "price": "€€€",
+   "near": false,
+   "q": "Windmill Adults Only Albufeira",
+   "img": null,
+   "icon": "🌬️",
+   "d": {
+    "pt": "Jantar num antigo moinho de vento com vista sobre Albufeira. Só para adultos; reserva obrigatória (Google 4,7).",
+    "en": "Dinner in an old windmill overlooking Albufeira. Adults only; booking required (Google 4.7).",
+    "es": "Cena en un antiguo molino con vistas a Albufeira. Solo adultos; reserva obligatoria (Google 4,7).",
+    "fr": "Dîner dans un ancien moulin à vent dominant Albufeira. Adultes uniquement ; réservation obligatoire (Google 4,7).",
+    "de": "Dinner in einer alten Windmühle über Albufeira. Nur für Erwachsene; Reservierung erforderlich (Google 4,7).",
+    "it": "Cena in un antico mulino a vento con vista su Albufeira. Solo adulti; prenotazione obbligatoria (Google 4,7)."
+   }
+  },
+  {
+   "cat": "sea",
+   "name": "Jardim Rústico",
+   "loc": "Oura, Albufeira",
+   "price": "€€–€€€",
+   "near": false,
+   "q": "Jardim Rústico Albufeira",
+   "img": null,
+   "icon": "🐟",
+   "d": {
+    "pt": "Marisco, peixe grelhado e cataplanas, com esplanada e noites de fado. Travellers’ Choice 2026 (Google 4,6).",
+    "en": "Seafood, grilled fish and cataplanas, with a terrace and fado nights. Travellers’ Choice 2026 (Google 4.6).",
+    "es": "Marisco, pescado a la parrilla y cataplanas, con terraza y noches de fado. Travellers’ Choice 2026 (Google 4,6).",
+    "fr": "Fruits de mer, poisson grillé et cataplanas, terrasse et soirées fado. Travellers’ Choice 2026 (Google 4,6).",
+    "de": "Meeresfrüchte, gegrillter Fisch und Cataplanas, mit Terrasse und Fado-Abenden. Travellers’ Choice 2026 (Google 4,6).",
+    "it": "Frutti di mare, pesce alla griglia e cataplane, con terrazza e serate di fado. Travellers’ Choice 2026 (Google 4,6)."
+   }
+  },
+  {
+   "cat": "wine",
+   "name": "Taberna Vicentina",
+   "loc": "Centro histórico, Albufeira",
+   "price": "€€",
+   "near": false,
+   "q": "Taberna Vicentina Albufeira",
+   "img": null,
+   "icon": "🍷",
+   "d": {
+    "pt": "Petiscos portugueses no centro histórico, junto à Praia dos Pescadores (Google 4,6 · 1,5 mil opiniões).",
+    "en": "Portuguese small plates in the old town, by Praia dos Pescadores (Google 4.6 · 1,500 reviews).",
+    "es": "Tapas portuguesas en el casco antiguo, junto a la Praia dos Pescadores (Google 4,6 · 1.500 opiniones).",
+    "fr": "Petites assiettes portugaises dans la vieille ville, près de la Praia dos Pescadores (Google 4,6 · 1 500 avis).",
+    "de": "Portugiesische Tapas in der Altstadt bei der Praia dos Pescadores (Google 4,6 · 1.500 Bewertungen).",
+    "it": "Stuzzichini portoghesi nel centro storico, vicino alla Praia dos Pescadores (Google 4,6 · 1.500 recensioni)."
+   }
+  },
+  {
+   "lat": 37.1944,
+   "lng": -8.22239,
+   "cat": "trad",
+   "name": "Mato à Vista",
+   "loc": "Cabanita, Paderne (Albufeira)",
+   "price": "€€€",
+   "near": false,
+   "q": "Mato à Vista Paderne",
+   "img": null,
+   "icon": "🌳",
+   "d": {
+    "pt": "Restaurante no campo, com lareira e esplanada, cozinha portuguesa (Google 4,5 · 2,2 mil opiniões). Reserve.",
+    "en": "Countryside restaurant with fireplace and terrace, Portuguese cooking (Google 4.5 · 2,200 reviews). Book ahead.",
+    "es": "Restaurante de campo con chimenea y terraza, cocina portuguesa (Google 4,5 · 2.200 opiniones). Reserve.",
+    "fr": "Restaurant à la campagne avec cheminée et terrasse, cuisine portugaise (Google 4,5 · 2 200 avis). Réservez.",
+    "de": "Landrestaurant mit Kamin und Terrasse, portugiesische Küche (Google 4,5 · 2.200 Bewertungen). Reservieren.",
+    "it": "Ristorante in campagna con camino e terrazza, cucina portoghese (Google 4,5 · 2.200 recensioni). Prenotate."
+   }
   }
  ],
  "EVENTS": [
@@ -2408,6 +2806,8 @@
    }
   },
   {
+   "lat": 37.11658,
+   "lng": -8.52964,
    "cat": "events",
    "town": "portimao",
    "name": "Portimão World Beer Groove",
@@ -4345,6 +4745,183 @@
     "de": "Frühling bis Frühherbst, je nach Seegang",
     "it": "Dalla primavera all’inizio dell’autunno, mare permettendo"
    }
+  },
+  {
+   "lat": 37.08698,
+   "lng": -8.24823,
+   "cat": "cities",
+   "town": "albufeira",
+   "name": "Centro histórico de Albufeira e Praia dos Pescadores",
+   "tags": [
+    "couple",
+    "fam",
+    "free"
+   ],
+   "d": {
+    "pt": "Ruas brancas, a Praia dos Pescadores e o miradouro do Pau da Bandeira, com vista sobre a baía. Animado à noite.",
+    "en": "White streets, Fishermen’s Beach and the Pau da Bandeira viewpoint over the bay. Lively at night.",
+    "es": "Calles blancas, la Playa de los Pescadores y el mirador de Pau da Bandeira sobre la bahía. Animado de noche.",
+    "fr": "Ruelles blanches, la plage des Pêcheurs et le belvédère de Pau da Bandeira sur la baie. Animé le soir.",
+    "de": "Weiße Gassen, der Fischerstrand und der Aussichtspunkt Pau da Bandeira über der Bucht. Abends lebhaft.",
+    "it": "Vicoli bianchi, la spiaggia dei Pescatori e il belvedere di Pau da Bandeira sulla baia. Vivace la sera."
+   },
+   "img": null,
+   "icon": "🏘️",
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "lat": 37.08649,
+   "lng": -8.26701,
+   "cat": "cities",
+   "town": "albufeira",
+   "name": "Marina de Albufeira",
+   "tags": [
+    "fam",
+    "couple"
+   ],
+   "d": {
+    "pt": "Marina colorida com restaurantes e esplanadas; ponto de partida de passeios de barco e golfinhos.",
+    "en": "Colourful marina with restaurants and terraces; departure point for boat and dolphin trips.",
+    "es": "Puerto deportivo colorido con restaurantes y terrazas; salida de paseos en barco y avistamiento de delfines.",
+    "fr": "Marina colorée avec restaurants et terrasses ; départ des sorties en bateau et dauphins.",
+    "de": "Bunte Marina mit Restaurants und Terrassen; Start für Boots- und Delfintouren.",
+    "it": "Marina colorata con ristoranti e terrazze; partenza di gite in barca e delfini."
+   },
+   "img": null,
+   "icon": "⛵",
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "lat": 37.11658,
+   "lng": -8.52964,
+   "cat": "cities",
+   "town": "portimao",
+   "name": "Praia da Rocha e Fortaleza de Santa Catarina",
+   "tags": [
+    "couple",
+    "free"
+   ],
+   "d": {
+    "pt": "Miradouro da fortaleza sobre a praia e a foz do Arade; marginal com bares e restaurantes.",
+    "en": "Fortress viewpoint over the beach and the Arade estuary; promenade with bars and restaurants.",
+    "es": "Mirador de la fortaleza sobre la playa y la desembocadura del Arade; paseo con bares y restaurantes.",
+    "fr": "Belvédère de la forteresse sur la plage et l’estuaire de l’Arade ; promenade avec bars et restaurants.",
+    "de": "Aussicht von der Festung über Strand und Arade-Mündung; Promenade mit Bars und Restaurants.",
+    "it": "Belvedere della fortezza sulla spiaggia e la foce dell’Arade; lungomare con bar e ristoranti."
+   },
+   "img": null,
+   "icon": "🏰",
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "lat": 37.124,
+   "lng": -8.519,
+   "cat": "cities",
+   "town": "ferragudo",
+   "name": "Ferragudo",
+   "tags": [
+    "couple",
+    "fam",
+    "free"
+   ],
+   "d": {
+    "pt": "Vila piscatória à beira do rio Arade, com ruas estreitas e peixe grelhado junto ao cais.",
+    "en": "Fishing village on the Arade river, with narrow streets and grilled fish by the quay.",
+    "es": "Pueblo pesquero junto al río Arade, con calles estrechas y pescado a la parrilla junto al muelle.",
+    "fr": "Village de pêcheurs au bord de l’Arade, ruelles et poisson grillé sur le quai.",
+    "de": "Fischerdorf am Arade mit engen Gassen und gegrilltem Fisch am Kai.",
+    "it": "Borgo di pescatori sul fiume Arade, vicoli stretti e pesce alla griglia sul molo."
+   },
+   "img": null,
+   "icon": "🎣",
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "lat": 37.0966,
+   "lng": -8.4717,
+   "cat": "cities",
+   "town": "carvoeiro",
+   "name": "Carvoeiro",
+   "tags": [
+    "couple",
+    "fam",
+    "free"
+   ],
+   "d": {
+    "pt": "Vila de casas brancas à volta de uma pequena praia, com passadiço nas falésias até ao Algar Seco.",
+    "en": "Village of white houses around a small beach, with a clifftop boardwalk to Algar Seco.",
+    "es": "Pueblo de casas blancas alrededor de una pequeña playa, con pasarela sobre los acantilados hasta Algar Seco.",
+    "fr": "Village de maisons blanches autour d’une petite plage, avec promenade sur les falaises jusqu’à Algar Seco.",
+    "de": "Ort mit weißen Häusern um einen kleinen Strand, mit Klippenweg nach Algar Seco.",
+    "it": "Paese di case bianche intorno a una piccola spiaggia, con passerella sulle falesie fino ad Algar Seco."
+   },
+   "img": null,
+   "icon": "🏖️",
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
+  },
+  {
+   "lat": 37.13067,
+   "lng": -8.53457,
+   "cat": "indoor",
+   "town": "portimao",
+   "name": "Museu de Portimão",
+   "tags": [
+    "fam",
+    "winter"
+   ],
+   "d": {
+    "pt": "Antiga fábrica de conservas transformada em museu premiado sobre a história e a pesca da região. Ótimo em dias de chuva.",
+    "en": "Former fish cannery turned award-winning museum on the region’s history and fishing. Great on rainy days.",
+    "es": "Antigua conservera convertida en museo premiado sobre la historia y la pesca de la región. Ideal en días de lluvia.",
+    "fr": "Ancienne conserverie devenue musée primé sur l’histoire et la pêche de la région. Idéal par temps de pluie.",
+    "de": "Ehemalige Fischkonservenfabrik, heute preisgekröntes Museum über Geschichte und Fischerei. Ideal bei Regen.",
+    "it": "Ex conservificio diventato museo premiato sulla storia e la pesca della regione. Ottimo nei giorni di pioggia."
+   },
+   "img": null,
+   "icon": "🏛️",
+   "season": {
+    "pt": "Todo o ano",
+    "en": "All year round",
+    "es": "Todo el año",
+    "fr": "Toute l’année",
+    "de": "Ganzjährig",
+    "it": "Tutto l’anno"
+   }
   }
  ],
  "SITE_LANGS": [
@@ -5445,12 +6022,12 @@
    "Le più belle, a pochi minuti"
   ],
   [
-   "40 sugestões, de tascas a estrelas Michelin",
-   "40 picks, from taverns to Michelin stars",
-   "40 sugerencias, de tabernas a estrellas Michelin",
-   "40 adresses, des tavernes aux étoilés Michelin",
-   "40 Tipps, von Tavernen bis Michelin-Sterne",
-   "40 consigli, dalle taverne alle stelle Michelin"
+   "Mais de 40 sugestões, de tascas a estrelas Michelin",
+   "40+ picks, from taverns to Michelin stars",
+   "Más de 40 sugerencias, de tabernas a estrellas Michelin",
+   "Plus de 40 adresses, des tavernes aux étoilés Michelin",
+   "Über 40 Tipps, von Tavernen bis Michelin-Sterne",
+   "Oltre 40 consigli, dalle taverne alle stelle Michelin"
   ],
   [
    "Eventos e Experiências",
@@ -5512,5 +6089,5 @@
   "vrbo_avaliacoes": "",
   "vrbo_link": ""
  },
- "_gerado": "2026-10-25T16:00:11"
+ "_gerado": "2026-10-25T16:21:32"
 }
